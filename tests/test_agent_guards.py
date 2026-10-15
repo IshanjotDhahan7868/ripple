@@ -1,7 +1,7 @@
 """Guards that keep the agent honest, exercised without any LLM."""
 
-from api import agent
-from api.db import TracedGraph
+from ripple import agent
+from ripple.db import TracedGraph
 
 
 def make_run(g, events=None):

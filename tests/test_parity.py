@@ -5,7 +5,7 @@ from collections import defaultdict
 import pytest
 import yaml
 
-from api import engine
+from ripple import engine
 from tests.conftest import ROOT
 from tests.reference_orion_propagate import propagate_impact
 
