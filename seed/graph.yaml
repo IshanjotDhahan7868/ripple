@@ -5,9 +5,11 @@
 # - Edges = causal pressure (not correlation), with weights (0.1–1.0) and lag (immediate/months/years)
 # - Asset mapping = top, liquid, global equities/ETFs/commodities per node
 # - Versioned, expandable, explainable
+# - v1.1 (2026-10-15): polarity (+1 same direction / -1 opposite) and a one-line `why` on every edge;
+#   `aliases` (headline keywords) on every node; +35 macro, energy, geopolitical, agriculture nodes
 
-version: 1.0
-last_updated: 2026-01-12
+version: 1.1
+last_updated: 2026-10-15
 
 themes:
   - AI
@@ -21,6 +23,8 @@ themes:
   - Consumer
   - Commodities
   - Geopolitics
+  - Macro
+  - Agriculture
 
 nodes:
   - id: AI_Compute_Demand
@@ -31,6 +35,7 @@ nodes:
       - Model scaling trends
       - AI adoption across industries
       - Cost/performance of compute
+    aliases: ["ai capex", "hyperscaler spending", "gpu demand", "ai infrastructure spending", "data center capex", "ai training compute", "inference demand", "compute shortage"]
     assets:
       equities: []
       etfs: []
@@ -44,6 +49,7 @@ nodes:
       - Compute availability
       - Data availability
       - Regulation and IP rules
+    aliases: ["openai", "anthropic", "large language model", "llm", "generative ai", "chatgpt", "ai model release", "ai startup"]
     assets:
       equities: []
       etfs: []
@@ -57,8 +63,9 @@ nodes:
       - AI compute demand
       - Power availability
       - CapEx budgets
+    aliases: ["data center", "data centre", "colocation", "hyperscale campus", "server farm", "data center reit", "stargate"]
     assets:
-      equities: [EQIX, DLR, CONE, QTS, AMT]
+      equities: [EQIX, DLR, AMT, IRM]
       etfs: [SRVR, VPN]
       commodities: []
 
@@ -70,8 +77,9 @@ nodes:
       - Cluster scale
       - Data center architecture
       - Throughput requirements
+    aliases: ["ai networking", "infiniband", "ethernet switches", "optical interconnect", "co-packaged optics", "networking chips", "800g transceivers"]
     assets:
-      equities: [CSCO, ANET, INFN]
+      equities: [CSCO, ANET, CIEN]
       etfs: [IGN, IYW]
       commodities: []
 
@@ -83,6 +91,7 @@ nodes:
       - Power density
       - Chip efficiency
       - Data center design
+    aliases: ["liquid cooling", "data center cooling", "immersion cooling", "thermal management", "chillers", "direct-to-chip cooling"]
     assets:
       equities: [CARR, JCI, TT]
       etfs: [PAVE]
@@ -96,6 +105,7 @@ nodes:
       - AI compute demand
       - Manufacturing capacity
       - Process technology
+    aliases: ["ai chips", "gpu", "nvidia blackwell", "ai accelerators", "cpu", "leading-edge chips", "custom asic", "chip sales"]
     assets:
       equities: [NVDA, AMD, INTC, AVGO, ARM]
       etfs: [SOXX, SMH]
@@ -109,8 +119,9 @@ nodes:
       - Model size
       - Data throughput needs
       - Supply cycles
+    aliases: ["memory chips", "hbm", "high bandwidth memory", "dram", "nand", "memory prices", "flash storage"]
     assets:
-      equities: [MU, SK Hynix, Samsung]
+      equities: [MU, 000660.KS, 005930.KS]
       etfs: [SOXX, SMH]
       commodities: []
 
@@ -122,6 +133,7 @@ nodes:
       - CapEx investment
       - Government policy
       - Equipment availability
+    aliases: ["foundry", "chip fab", "fab capacity", "tsmc", "wafer starts", "chip production", "2nm", "chip fabrication"]
     assets:
       equities: [TSM, ASML, UMC, GFS, INTC]
       etfs: [SOXX, SMH]
@@ -135,6 +147,7 @@ nodes:
       - Fab expansion plans
       - Technology transitions
       - Export controls
+    aliases: ["chip equipment", "lithography", "euv", "wafer fab equipment", "chipmaking tools", "asml orders", "etch and deposition"]
     assets:
       equities: [ASML, AMAT, LRCX, KLAC, TER]
       etfs: [SOXX, SMH]
@@ -148,8 +161,9 @@ nodes:
       - Fab utilization
       - Process complexity
       - Supply constraints
+    aliases: ["silicon wafers", "photoresist", "specialty gases", "neon gas", "chip materials", "gallium", "germanium"]
     assets:
-      equities: [CCMP, ENTG, 4063.T]
+      equities: [ENTG, 4063.T]
       etfs: [SOXX]
       commodities: []
 
@@ -161,6 +175,7 @@ nodes:
       - Data centers
       - Industrial activity
       - Electrification trends
+    aliases: ["electricity demand", "power demand", "load growth", "power consumption", "grid load", "peak demand", "power shortage"]
     assets:
       equities: []
       etfs: []
@@ -174,6 +189,7 @@ nodes:
       - Fuel availability
       - Policy incentives
       - Capacity investment
+    aliases: ["power plants", "utilities", "electricity generation", "gas-fired plants", "power capacity", "independent power producers", "solar farms", "wind farms"]
     assets:
       equities: [NEE, DUK, SO, ENEL, FORTUM]
       etfs: [XLU, ICLN]
@@ -187,6 +203,7 @@ nodes:
       - Load growth
       - Aging infrastructure
       - Regulatory approval
+    aliases: ["power grid", "transmission lines", "grid upgrade", "interconnection queue", "grid investment", "distribution network", "blackout"]
     assets:
       equities: [PWR, BGC, AEP, NEE]
       etfs: [XLU, PAVE]
@@ -200,6 +217,7 @@ nodes:
       - Renewable penetration
       - Grid stability needs
       - Technology cost curves
+    aliases: ["battery storage", "grid batteries", "energy storage", "megapack", "bess", "solar plus storage"]
     assets:
       equities: [TSLA, ENPH, SEDG, STEM]
       etfs: [BATT, LIT]
@@ -213,6 +231,7 @@ nodes:
       - Policy stance
       - Energy security concerns
       - Capital intensity
+    aliases: ["nuclear power", "nuclear reactor", "small modular reactor", "smr", "nuclear restart", "nuclear plant", "nrc approval"]
     assets:
       equities: [EXC, DNN, NRG]
       etfs: [URA, URNM]
@@ -226,6 +245,7 @@ nodes:
       - CapEx cycles
       - Permitting timelines
       - Labor availability
+    aliases: ["industrial construction", "factory construction", "megaprojects", "epc contractor", "construction spending", "plant buildout", "manufacturing construction"]
     assets:
       equities: [J, FLR, ACM, BLD, PWR]
       etfs: [PKB, IFRA]
@@ -239,8 +259,9 @@ nodes:
       - Grid expansion
       - Electrification
       - Supply bottlenecks
+    aliases: ["transformers", "switchgear", "transformer shortage", "electrical equipment", "gas turbines", "turbine orders", "circuit breakers"]
     assets:
-      equities: [ABB, GE, EATON, SCHN.PA]
+      equities: [ABB, GE, ETN, SCHN.PA]
       etfs: [XLI, PAVE]
       commodities: []
 
@@ -252,6 +273,7 @@ nodes:
       - Trade volumes
       - Government spending
       - Commodity flows
+    aliases: ["road and bridge spending", "highway funding", "railroads", "ports", "bridges", "rail network", "freight rail"]
     assets:
       equities: [CSX, NSC, UNP, CNI]
       etfs: [IYT, IFRA]
@@ -265,6 +287,7 @@ nodes:
       - Geopolitical tension
       - Conflict escalation
       - Political priorities
+    aliases: ["defense budget", "military spending", "pentagon budget", "nato spending", "rearmament", "defense appropriations", "military aid"]
     assets:
       equities: []
       etfs: []
@@ -278,6 +301,7 @@ nodes:
       - Defense budgets
       - Technology requirements
       - Supply chain resilience
+    aliases: ["defense contractors", "fighter jets", "missiles", "munitions", "boeing", "aircraft orders", "weapons production", "f-35"]
     assets:
       equities: [LMT, RTX, NOC, GD, BA]
       etfs: [ITA, XAR]
@@ -291,6 +315,7 @@ nodes:
       - Technology sophistication
       - Semiconductor access
       - Export restrictions
+    aliases: ["radar", "defense electronics", "military sensors", "electronic warfare", "military drones", "satellite communications", "c4isr"]
     assets:
       equities: [LMT, RTX, LHX]
       etfs: [ITA, XAR]
@@ -304,6 +329,7 @@ nodes:
       - Grid build-out
       - EVs and data centers
       - Mine supply
+    aliases: ["copper", "copper prices", "copper mine", "copper shortage", "red metal", "lme copper", "copper tariff"]
     assets:
       equities: [FCX, SCCO, RIO, GLEN.L, BHP]
       etfs: [COPX, PICK]
@@ -312,11 +338,12 @@ nodes:
   - id: Oil_and_Gas
     theme: Commodities
     type: commodity
-    what_is_this: Fossil fuels used for energy and petrochemicals.
+    what_is_this: Oil and gas producers (integrated and upstream) supplying fossil fuels for energy and petrochemicals.
     what_affects_it:
       - Global demand
       - Geopolitical disruptions
       - Investment cycles
+    aliases: ["oil majors", "big oil", "exxon", "chevron", "upstream", "oil and gas producers", "energy stocks", "oil company earnings"]
     assets:
       equities: [XOM, CVX, SHEL, CNQ, BP]
       etfs: [XLE, IXC]
@@ -330,6 +357,7 @@ nodes:
       - Nuclear build-out
       - Inventory levels
       - Mining capacity
+    aliases: ["uranium", "uranium prices", "u3o8", "nuclear fuel", "enrichment", "uranium mine", "kazatomprom"]
     assets:
       equities: [CCJ, UUUU, NXE, KAP.L]
       etfs: [URA, URNM]
@@ -343,6 +371,7 @@ nodes:
       - Strategic competition
       - Supply chain risk
       - Political agendas
+    aliases: ["industrial policy", "chips act", "subsidies", "inflation reduction act", "ira tax credits", "reshoring incentives", "state aid"]
     assets:
       equities: []
       etfs: []
@@ -351,10 +380,11 @@ nodes:
   - id: Trade_Restrictions
     theme: Geopolitics
     type: policy
-    what_is_this: Tariffs, export controls, and sanctions affecting trade.
+    what_is_this: Tariffs, export controls, and trade barriers on goods and technology (commodity-exporter sanctions are modeled in Sanctions).
     what_affects_it:
       - Geopolitical conflict
       - Technology leadership concerns
+    aliases: ["tariffs", "tariff", "export controls", "trade war", "import duties", "entity list", "section 232", "reciprocal tariffs", "trade deal"]
     assets:
       equities: []
       etfs: []
@@ -368,26 +398,43 @@ nodes:
       - Past disruptions
       - National security concerns
       - Policy incentives
+    aliases: ["reshoring", "nearshoring", "friend-shoring", "supply chain diversification", "china plus one", "onshoring", "supply chain security"]
     assets:
       equities: []
       etfs: []
       commodities: []
+
   - id: Lithium
     theme: Energy
     type: commodity
     what_is_this: Lithium raw material for batteries.
+    what_affects_it:
+      - EV and grid-storage battery demand
+      - Mine and brine supply additions
+      - Chinese refining capacity
+    aliases: ["lithium", "lithium prices", "lithium carbonate", "lithium mine", "spodumene", "lithium hydroxide"]
     assets: {equities: [], etfs: [], commodities: []}
 
   - id: Cathode_Materials
     theme: Energy
     type: sub-industry
     what_is_this: Cathode active materials and precursors (NMC, LFP).
+    what_affects_it:
+      - Battery cell production
+      - Chemistry mix (LFP vs NMC)
+      - Chinese export controls
+    aliases: ["cathode", "battery materials", "lfp", "nmc", "precursor cathode", "battery supply chain"]
     assets: {equities: [], etfs: [], commodities: []}
 
   - id: Cobalt
     theme: Energy
     type: commodity
     what_is_this: Cobalt used in some cathode chemistries.
+    what_affects_it:
+      - NMC battery demand
+      - DRC mine supply and export policy
+      - Shift to cobalt-free chemistries
+    aliases: ["cobalt", "cobalt prices", "drc cobalt", "cobalt export ban", "cobalt mining"]
     assets: {equities: [], etfs: [], commodities: []}
 
   - id: Cloud_Infrastructure
@@ -398,6 +445,7 @@ nodes:
       - Data center capacity
       - Enterprise software demand
       - AI workload growth
+    aliases: ["cloud computing", "aws", "azure", "google cloud", "cloud revenue", "cloud growth", "oracle cloud"]
     assets:
       equities: [AMZN, MSFT, GOOGL, ORCL]
       etfs: [QQQ, XLK]
@@ -411,6 +459,7 @@ nodes:
       - Cloud adoption
       - Threat activity
       - Regulatory pressure
+    aliases: ["cybersecurity", "cyber defense", "endpoint security", "zero trust", "security software", "firewall"]
     assets:
       equities: [PANW, CRWD, FTNT, ZS]
       etfs: [HACK, CIBR]
@@ -424,6 +473,7 @@ nodes:
       - Cloud infrastructure
       - IT budgets
       - Productivity initiatives
+    aliases: ["saas", "enterprise software", "software stocks", "ai agents", "seat-based pricing", "it budgets", "crm software"]
     assets:
       equities: [CRM, NOW, INTU, ADBE, HUBS]
       etfs: [IGV, WCLD]
@@ -437,6 +487,7 @@ nodes:
       - Consumer demand
       - Commerce activity
       - AI optimization tools
+    aliases: ["digital advertising", "ad spending", "online ads", "ad revenue", "search advertising", "social media ads", "ad market"]
     assets:
       equities: [META, GOOGL, AMZN, PINS, SNAP]
       etfs: [XLC, FDN]
@@ -450,8 +501,9 @@ nodes:
       - Consumer spending
       - Cross-border flows
       - E-commerce activity
+    aliases: ["payments", "card spending", "visa", "mastercard", "interchange fees", "digital wallets", "cross-border payments"]
     assets:
-      equities: [V, MA, PYPL, AXP, SQ]
+      equities: [V, MA, PYPL, AXP, XYZ]
       etfs: [IPAY, XLF]
       commodities: []
 
@@ -463,6 +515,7 @@ nodes:
       - Volatility
       - Asset prices
       - Corporate activity
+    aliases: ["investment banking", "ipo market", "m&a activity", "trading revenue", "dealmaking", "market volatility", "wall street banks"]
     assets:
       equities: [JPM, GS, MS, SCHW, BLK]
       etfs: [IAI, XLF]
@@ -476,6 +529,7 @@ nodes:
       - Rate cycles
       - Credit quality
       - Consumer demand
+    aliases: ["banks", "bank earnings", "net interest margin", "deposits", "loan growth", "regional banks", "bank lending"]
     assets:
       equities: [JPM, BAC, WFC, C, TD]
       etfs: [KBE, XLF]
@@ -489,6 +543,7 @@ nodes:
       - Capital markets
       - Institutional allocations
       - Deal activity
+    aliases: ["private equity", "private credit", "alternative asset managers", "buyout", "fundraising", "private markets", "blackstone"]
     assets:
       equities: [BLK, BX, KKR, APO, BAM]
       etfs: [XLF]
@@ -502,6 +557,7 @@ nodes:
       - Industrial capex
       - Reshoring
       - Labor constraints
+    aliases: ["automation", "industrial robots", "factory automation", "robotics", "humanoid robots", "plc", "machine vision"]
     assets:
       equities: [ROK, HON, ABB, ETN, EMR]
       etfs: [XLI, BOTZ]
@@ -515,6 +571,7 @@ nodes:
       - Trade volumes
       - Infrastructure quality
       - E-commerce demand
+    aliases: ["parcel volumes", "freight", "trucking", "logistics", "package delivery", "freight recession", "rail volumes"]
     assets:
       equities: [UPS, FDX, UNP, CNI, UBER]
       etfs: [IYT, XLI]
@@ -528,6 +585,7 @@ nodes:
       - Export controls
       - EV demand
       - Supply concentration
+    aliases: ["rare earths", "rare earth magnets", "critical minerals", "neodymium", "rare earth export", "magnet supply"]
     assets:
       equities: [MP, LYC.AX]
       etfs: [REMX]
@@ -541,6 +599,7 @@ nodes:
       - Gas supply
       - Geopolitical energy demand
       - Export capacity
+    aliases: ["lng", "lng exports", "liquefied natural gas", "lng terminal", "gas exports", "lng cargoes", "export permits"]
     assets:
       equities: [LNG, EQT, WMB, KMI]
       etfs: [UNG, XLE]
@@ -554,6 +613,7 @@ nodes:
       - Payments adoption
       - Logistics capacity
       - Consumer demand
+    aliases: ["e-commerce", "online shopping", "online retail", "marketplace", "amazon sales", "de minimis", "temu"]
     assets:
       equities: [AMZN, MELI, SHOP, BABA]
       etfs: [XLY, FDN]
@@ -567,103 +627,722 @@ nodes:
       - Battery materials
       - Consumer confidence
       - Autonomy progress
+    aliases: ["electric vehicles", "ev sales", "ev tax credit", "robotaxi", "self-driving", "autonomous driving", "tesla deliveries", "ev demand"]
     assets:
       equities: [TSLA, RIVN, GM, F, NVDA]
       etfs: [DRIV, IDRV]
       commodities: [Lithium, Copper]
 
+  # ===== v1.1 additions: macro, energy, transport, geopolitics, commodities, agriculture =====
+
+  - id: Interest_Rates
+    theme: Macro
+    type: policy
+    what_is_this: Central bank policy rates and the level of government bond yields (Fed, ECB, Treasury curve).
+    what_affects_it:
+      - Inflation trend
+      - Labor market strength
+      - Fiscal deficits and Treasury issuance
+    aliases: ["federal reserve", "fed", "fomc", "rate cut", "rate hike", "interest rates", "powell", "treasury yields", "10-year yield", "central bank"]
+    assets:
+      equities: [SCHW, IBKR]
+      etfs: [TBT, TBF]
+      commodities: []
+
+  - id: Inflation
+    theme: Macro
+    type: macro
+    what_is_this: The pace of consumer and producer price increases (CPI, PCE, PPI).
+    what_affects_it:
+      - Energy and food prices
+      - Wage growth
+      - Tariffs and import costs
+    aliases: ["inflation", "cpi", "consumer prices", "pce", "core inflation", "price pressures", "ppi", "sticky inflation"]
+    assets:
+      equities: []
+      etfs: []
+      commodities: []
+
+  - id: USD_Strength
+    theme: Macro
+    type: macro
+    what_is_this: Trade-weighted value of the US dollar against major currencies (DXY).
+    what_affects_it:
+      - US rate differentials
+      - Global risk appetite
+      - Trade and capital flows
+    aliases: ["dollar", "us dollar", "dxy", "dollar index", "greenback", "strong dollar", "weak dollar", "currency"]
+    assets:
+      equities: []
+      etfs: [UUP]
+      commodities: []
+
+  - id: Credit_Conditions
+    theme: Macro
+    type: macro
+    what_is_this: Availability and ease of credit; high = loose lending and tight spreads, low = credit stress and tightening.
+    what_affects_it:
+      - Policy rates
+      - Bank and commercial real estate losses
+      - Default rates
+    aliases: ["credit spreads", "credit crunch", "lending standards", "high yield", "junk bonds", "defaults", "credit tightening", "bank failure"]
+    assets:
+      equities: [COF, SYF, ALLY, ARCC]
+      etfs: [HYG, JNK]
+      commodities: []
+
+  - id: Labor_Market
+    theme: Macro
+    type: macro
+    what_is_this: Strength of employment and wage growth (payrolls, unemployment, claims).
+    what_affects_it:
+      - Corporate hiring plans
+      - Labor supply and immigration
+      - Economic demand
+    aliases: ["jobs report", "nonfarm payrolls", "unemployment", "jobless claims", "layoffs", "hiring", "wage growth", "recession"]
+    assets:
+      equities: [ADP, PAYX, RHI, MAN]
+      etfs: []
+      commodities: []
+
+  - id: Consumer_Spending
+    theme: Consumer
+    type: macro
+    what_is_this: Household spending on goods and services (retail sales, personal consumption).
+    what_affects_it:
+      - Jobs and wages
+      - Inflation and real incomes
+      - Borrowing costs
+    aliases: ["consumer spending", "retail sales", "consumer confidence", "holiday sales", "shoppers", "household spending", "consumer sentiment"]
+    assets:
+      equities: [WMT, COST, TGT, HD, NKE, MCD]
+      etfs: [XRT, XLY]
+      commodities: []
+
+  - id: China_Economy
+    theme: Macro
+    type: macro
+    what_is_this: Chinese economic activity including property, industrial output, and stimulus.
+    what_affects_it:
+      - Beijing stimulus and PBOC policy
+      - Property sector health
+      - Export demand and tariffs
+    aliases: ["china economy", "china stimulus", "chinese gdp", "china property", "evergrande", "pboc", "china pmi", "yuan"]
+    assets:
+      equities: [BABA, PDD, JD, BIDU, YUMC]
+      etfs: [FXI, MCHI, KWEB]
+      commodities: []
+
+  - id: Fiscal_Policy
+    theme: Macro
+    type: policy
+    what_is_this: Level of government spending and stimulus (budgets, deficits, shutdowns, tax cuts).
+    what_affects_it:
+      - Congressional budget deals
+      - Election outcomes
+      - Debt ceiling and deficit politics
+    aliases: ["government spending", "budget deficit", "stimulus package", "government shutdown", "debt ceiling", "tax cuts", "spending bill", "fiscal"]
+    assets:
+      equities: [BAH, LDOS, SAIC, CACI]
+      etfs: [PAVE]
+      commodities: []
+
+  - id: Oil_Supply
+    theme: Energy
+    type: driver
+    what_is_this: Global crude production available to the market (OPEC+ quotas, US shale, outages).
+    what_affects_it:
+      - OPEC+ quota decisions
+      - Sanctions and conflict outages
+      - Shale drilling activity
+    aliases: ["opec", "opec plus", "oil output", "production cut", "oil production", "shale output", "saudi aramco", "oil supply"]
+    assets:
+      equities: []
+      etfs: []
+      commodities: []
+
+  - id: Oil_Price
+    theme: Commodities
+    type: commodity
+    what_is_this: Benchmark crude oil prices (Brent, WTI).
+    what_affects_it:
+      - Oil supply and OPEC+ policy
+      - Global demand, especially China
+      - Geopolitical risk premium
+    aliases: ["oil prices", "crude oil", "brent", "wti", "crude prices", "oil price spike", "barrel"]
+    assets:
+      equities: [OXY, COP, EOG, DVN, FANG, APA]
+      etfs: [USO, BNO, XOP]
+      commodities: [WTI, Brent]
+
+  - id: Natural_Gas_Price
+    theme: Commodities
+    type: commodity
+    what_is_this: Benchmark natural gas prices (Henry Hub, European TTF, Asian LNG).
+    what_affects_it:
+      - Power-sector gas burn
+      - Weather
+      - Russian supply and LNG flows
+    aliases: ["natural gas prices", "henry hub", "ttf", "natgas", "european gas", "gas shortage", "heating costs"]
+    assets:
+      equities: [EQT, AR, RRC, EXE, CTRA]
+      etfs: [UNG, FCG]
+      commodities: [NatGas]
+
+  - id: Refining
+    theme: Energy
+    type: sub-industry
+    what_is_this: "Refined product tightness: gasoline, diesel and jet fuel prices and refiner margins (crack spreads)."
+    what_affects_it:
+      - Refinery outages and capacity
+      - Sanctions on fuel exports
+      - Seasonal fuel demand
+    aliases: ["refinery", "refining margins", "gasoline prices", "diesel", "jet fuel", "crack spread", "refinery outage", "pump prices"]
+    assets:
+      equities: [VLO, MPC, PSX, PBF, DINO, DK]
+      etfs: [CRAK]
+      commodities: [RBOB, ULSD]
+
+  - id: Airlines
+    theme: Industrials
+    type: industry
+    what_is_this: Commercial passenger airlines.
+    what_affects_it:
+      - Jet fuel costs
+      - Travel demand
+      - Capacity and aircraft availability
+    aliases: ["airlines", "airfares", "air travel", "flight cancellations", "airline capacity", "passenger traffic", "tsa checkpoint"]
+    assets:
+      equities: [DAL, UAL, AAL, LUV, ALK]
+      etfs: [JETS]
+      commodities: []
+
+  - id: Tourism_and_Travel
+    theme: Consumer
+    type: industry
+    what_is_this: "Leisure and business travel: hotels, cruise lines, online travel agencies."
+    what_affects_it:
+      - Consumer spending
+      - Exchange rates
+      - Safety and geopolitical events
+    aliases: ["travel demand", "tourism", "hotels", "cruise", "bookings", "vacation", "international arrivals"]
+    assets:
+      equities: [BKNG, EXPE, MAR, HLT, RCL, ABNB]
+      etfs: [PEJ]
+      commodities: []
+
+  - id: Shipping_Rates
+    theme: Industrials
+    type: commodity
+    what_is_this: Ocean freight rates for containers, tankers and dry bulk.
+    what_affects_it:
+      - Chokepoint disruptions and rerouting
+      - Trade volumes
+      - Fleet supply
+    aliases: ["freight rates", "container rates", "shipping costs", "tanker rates", "baltic dry index", "charter rates", "ocean freight"]
+    assets:
+      equities: [ZIM, MATX, FRO, DHT, INSW, SBLK]
+      etfs: [BDRY]
+      commodities: []
+
+  - id: Maritime_Chokepoint_Disruption
+    theme: Geopolitics
+    type: geopolitical
+    what_is_this: "Disruption at shipping chokepoints: Red Sea / Bab el-Mandeb, Suez, Strait of Hormuz, Panama Canal."
+    what_affects_it:
+      - Houthi and Iranian attacks
+      - Canal drought and water levels
+      - Naval escalation
+    aliases: ["red sea", "houthi", "suez canal", "panama canal", "strait of hormuz", "shipping disruption", "bab el-mandeb", "rerouted vessels"]
+    assets:
+      equities: []
+      etfs: []
+      commodities: []
+
+  - id: Middle_East_Conflict
+    theme: Geopolitics
+    type: geopolitical
+    what_is_this: Intensity of military conflict in the Middle East (Israel, Iran, Gaza, Lebanon, Yemen).
+    what_affects_it:
+      - Israel-Iran escalation
+      - Proxy militia activity
+      - Ceasefire diplomacy
+    aliases: ["israel", "iran", "gaza", "hezbollah", "middle east", "iran strike", "missile attack", "israel-iran"]
+    assets:
+      equities: []
+      etfs: []
+      commodities: []
+
+  - id: Taiwan_Strait_Risk
+    theme: Geopolitics
+    type: geopolitical
+    what_is_this: Risk of Chinese military pressure, blockade or conflict over Taiwan.
+    what_affects_it:
+      - PLA military exercises
+      - US-China relations
+      - Taiwanese politics
+    aliases: ["taiwan", "taiwan strait", "blockade", "pla drills", "china taiwan", "cross-strait", "invasion of taiwan"]
+    assets:
+      equities: []
+      etfs: []
+      commodities: []
+
+  - id: Russia_Ukraine_War
+    theme: Geopolitics
+    type: geopolitical
+    what_is_this: Intensity of the Russia-Ukraine war (escalation up, ceasefire down).
+    what_affects_it:
+      - Battlefield developments
+      - Peace negotiations
+      - Western military aid
+    aliases: ["russia", "ukraine", "kremlin", "putin", "zelensky", "ceasefire", "black sea", "drone strikes"]
+    assets:
+      equities: []
+      etfs: []
+      commodities: []
+
+  - id: Sanctions
+    theme: Geopolitics
+    type: policy
+    what_is_this: Breadth and enforcement of sanctions on commodity exporters (Russia, Iran, Venezuela).
+    what_affects_it:
+      - Conflict escalation
+      - Enforcement on shadow fleets
+      - Diplomatic deals
+    aliases: ["sanctions", "oil sanctions", "price cap", "shadow fleet", "ofac", "secondary sanctions", "asset freeze", "embargo"]
+    assets:
+      equities: []
+      etfs: []
+      commodities: []
+
+  - id: Gold
+    theme: Commodities
+    type: commodity
+    what_is_this: Gold price as safe haven and monetary hedge.
+    what_affects_it:
+      - Real interest rates
+      - US dollar
+      - Geopolitical risk and central bank buying
+    aliases: ["gold", "gold price", "bullion", "safe haven", "precious metals", "central bank gold buying", "gold record"]
+    assets:
+      equities: [NEM, AEM, WPM, FNV, KGC]
+      etfs: [GLD, IAU, GDX]
+      commodities: [Gold]
+
+  - id: Wheat_and_Grains
+    theme: Agriculture
+    type: commodity
+    what_is_this: Prices of wheat, corn and soybeans.
+    what_affects_it:
+      - Weather and harvests
+      - Black Sea exports
+      - Trade disputes and Chinese buying
+    aliases: ["wheat", "corn", "soybeans", "grain prices", "crop", "harvest", "grain exports", "usda"]
+    assets:
+      equities: [ADM, BG, ANDE]
+      etfs: [WEAT, CORN, DBA]
+      commodities: [Wheat, Corn, Soybeans]
+
+  - id: Fertilizer
+    theme: Agriculture
+    type: commodity
+    what_is_this: Nitrogen, potash and phosphate fertilizer prices and producers.
+    what_affects_it:
+      - Natural gas feedstock costs
+      - Russia/Belarus export flows
+      - Crop planting economics
+    aliases: ["fertilizer", "potash", "urea", "ammonia", "nitrogen fertilizer", "phosphate"]
+    assets:
+      equities: [CF, NTR, MOS, LXU, IPI]
+      etfs: [MOO]
+      commodities: [Urea, Potash]
+
+  - id: Farm_Economy
+    theme: Agriculture
+    type: industry
+    what_is_this: US farm income and spending on equipment, seed and crop inputs.
+    what_affects_it:
+      - Crop prices
+      - Input costs
+      - Export demand
+    aliases: ["farmers", "farm income", "farm equipment", "tractor sales", "agriculture", "farm bailout", "crop exports"]
+    assets:
+      equities: [DE, AGCO, CNH, CTVA, FMC, LNN]
+      etfs: [MOO, VEGI]
+      commodities: []
+
+  - id: Steel_and_Aluminum
+    theme: Commodities
+    type: commodity
+    what_is_this: Steel and aluminum prices and producers.
+    what_affects_it:
+      - Tariffs and trade protection
+      - Chinese output and demand
+      - Construction and auto demand
+    aliases: ["steel", "aluminum", "aluminium", "steel tariffs", "steel prices", "smelter", "metal tariffs"]
+    assets:
+      equities: [NUE, STLD, CLF, AA, CENX, MT]
+      etfs: [SLX]
+      commodities: [Aluminum, Steel_HRC]
+
+  - id: Housing_and_Homebuilders
+    theme: Consumer
+    type: industry
+    what_is_this: "Residential housing activity: home sales, starts and homebuilders."
+    what_affects_it:
+      - Mortgage rates
+      - Credit availability
+      - Housing supply
+    aliases: ["housing market", "home sales", "housing starts", "mortgage rates", "homebuilders", "home prices", "existing home sales", "housing affordability"]
+    assets:
+      equities: [DHI, LEN, PHM, NVR, TOL]
+      etfs: [XHB, ITB]
+      commodities: []
+
+  - id: Commercial_Real_Estate
+    theme: Financials
+    type: industry
+    what_is_this: Commercial property values and activity (office, retail, industrial).
+    what_affects_it:
+      - Interest rates and cap rates
+      - Office occupancy
+      - Refinancing wall
+    aliases: ["commercial real estate", "office vacancies", "cre loans", "office buildings", "cre distress", "reits", "office market"]
+    assets:
+      equities: [BXP, VNO, SLG, CBRE, JLL]
+      etfs: [VNQ, IYR]
+      commodities: []
+
+  - id: Autos_and_Auto_Parts
+    theme: Consumer
+    type: industry
+    what_is_this: Traditional automakers and auto parts suppliers (mostly ICE and hybrid vehicles).
+    what_affects_it:
+      - Consumer demand and auto loan rates
+      - Tariffs on vehicles and parts
+      - Steel and component costs
+    aliases: ["automakers", "auto sales", "car sales", "auto tariffs", "auto parts", "car prices", "uaw", "vehicle production"]
+    assets:
+      equities: [GM, F, TM, STLA, APTV, BWA]
+      etfs: [CARZ]
+      commodities: []
+
+  - id: Insurance_and_Reinsurance
+    theme: Financials
+    type: industry
+    what_is_this: Property and casualty insurers and reinsurers.
+    what_affects_it:
+      - Catastrophe losses
+      - Pricing cycle
+      - Investment yields
+    aliases: ["insurers", "reinsurance", "insured losses", "catastrophe losses", "insurance premiums", "property insurance", "cat bonds"]
+    assets:
+      equities: [TRV, ALL, CB, PGR, RNR, EG]
+      etfs: [KIE, IAK]
+      commodities: []
+
+  - id: Natural_Disasters
+    theme: Macro
+    type: driver
+    what_is_this: Severity of natural catastrophes and extreme weather (hurricanes, wildfires, droughts, floods).
+    what_affects_it:
+      - Climate and seasonal patterns
+      - El Nino / La Nina cycles
+      - Exposure in disaster-prone regions
+    aliases: ["hurricane", "wildfire", "earthquake", "flooding", "drought", "extreme weather", "heatwave", "storm"]
+    assets:
+      equities: [GNRC, HD, LOW]
+      etfs: []
+      commodities: []
+
+  - id: Pharma_and_Biotech
+    theme: Consumer
+    type: industry
+    what_is_this: Drug makers and biotechnology, including GLP-1 obesity drugs.
+    what_affects_it:
+      - Drug pricing policy
+      - Pharma tariffs
+      - Clinical and FDA outcomes
+    aliases: ["pharma", "drugmakers", "biotech", "glp-1", "weight-loss drugs", "drug pricing", "fda approval", "pharmaceutical tariffs"]
+    assets:
+      equities: [LLY, NVO, MRK, PFE, ABBV, JNJ]
+      etfs: [XLV, XBI, IBB]
+      commodities: []
+
+  - id: Crypto_Assets
+    theme: Financials
+    type: commodity
+    what_is_this: Bitcoin and crypto asset prices and the companies leveraged to them.
+    what_affects_it:
+      - Liquidity and interest rates
+      - ETF flows
+      - Regulation
+    aliases: ["bitcoin", "crypto", "ethereum", "cryptocurrency", "bitcoin etf", "stablecoin", "crypto regulation"]
+    assets:
+      equities: [COIN, MSTR, MARA, HOOD, RIOT]
+      etfs: [IBIT, FBTC]
+      commodities: [Bitcoin]
+
+  - id: Consumer_Electronics
+    theme: Consumer
+    type: industry
+    what_is_this: Smartphones, PCs and consumer devices.
+    what_affects_it:
+      - Consumer demand and upgrade cycles
+      - Tariffs on devices
+      - Taiwan and China supply chains
+    aliases: ["smartphones", "iphone", "pc shipments", "consumer electronics", "laptops", "smartphone sales", "ai pc"]
+    assets:
+      equities: [AAPL, DELL, HPQ, SONY, QCOM]
+      etfs: [XLK]
+      commodities: []
+
+  - id: Cyber_Threats
+    theme: Software
+    type: driver
+    what_is_this: Frequency and severity of cyberattacks, ransomware and data breaches.
+    what_affects_it:
+      - State-sponsored hacking
+      - Ransomware economics
+      - Digital attack surface
+    aliases: ["cyberattack", "ransomware", "data breach", "hack", "hackers", "cyber incident", "malware"]
+    assets:
+      equities: []
+      etfs: []
+      commodities: []
+
+  - id: Tech_Antitrust_and_Regulation
+    theme: Software
+    type: policy
+    what_is_this: Intensity of antitrust and platform regulation against large tech companies.
+    what_affects_it:
+      - DOJ and FTC cases
+      - EU Digital Markets Act
+      - Political stance on big tech
+    aliases: ["antitrust", "doj lawsuit", "ftc", "monopoly ruling", "digital markets act", "big tech regulation", "breakup", "eu fine"]
+    assets:
+      equities: []
+      etfs: []
+      commodities: []
+
 edges:
   # === AI demand → DC buildout ===
-  - { from: AI_Compute_Demand, to: Data_Centers,              weight: 0.75, lag_months: 6,  confidence: 0.9 }
-  - { from: AI_Compute_Demand, to: Advanced_Logic_Chips,      weight: 1.00, lag_months: 3,  confidence: 0.9 }
-  - { from: AI_Compute_Demand, to: Memory_Chips,              weight: 0.80, lag_months: 6,  confidence: 0.8 }
-  - { from: AI_Compute_Demand, to: AI_Networking,             weight: 0.70, lag_months: 6,  confidence: 0.8 }
-  - { from: AI_Compute_Demand, to: AI_Cooling_and_Thermal,    weight: 0.60, lag_months: 6,  confidence: 0.8 }
+  - { from: AI_Compute_Demand, to: Data_Centers,              weight: 0.75, lag_months: 6,  confidence: 0.9, polarity:  1, why: "AI training and inference workloads require new data center capacity." }
+  - { from: AI_Compute_Demand, to: Advanced_Logic_Chips,      weight: 1.00, lag_months: 3,  confidence: 0.9, polarity:  1, why: "AI workloads run on GPUs and accelerators, so compute demand drives chip sales directly." }
+  - { from: AI_Compute_Demand, to: Memory_Chips,              weight: 0.80, lag_months: 6,  confidence: 0.8, polarity:  1, why: "AI accelerators need large amounts of high-bandwidth memory." }
+  - { from: AI_Compute_Demand, to: AI_Networking,             weight: 0.70, lag_months: 6,  confidence: 0.8, polarity:  1, why: "Larger AI clusters need more high-speed switches and optical interconnects." }
+  - { from: AI_Compute_Demand, to: AI_Cooling_and_Thermal,    weight: 0.60, lag_months: 6,  confidence: 0.8, polarity:  1, why: "Dense AI racks generate heat that requires liquid and advanced cooling." }
 
   # Data centers → power & kit
-  - { from: Data_Centers,      to: Electricity_Demand,        weight: 0.90, lag_months: 3,  confidence: 0.9 }
-  - { from: Data_Centers,      to: Industrial_Construction,   weight: 0.80, lag_months: 6,  confidence: 0.8 }
-  - { from: Data_Centers,      to: Electrical_Equipment,      weight: 0.60, lag_months: 6,  confidence: 0.8 }
-  - { from: Data_Centers,      to: Power_Grid_Infrastructure, weight: 0.60, lag_months: 9,  confidence: 0.8 }
-  - { from: Data_Centers,      to: Copper,                    weight: 0.50, lag_months: 6,  confidence: 0.7 }
-  - { from: Data_Centers,      to: AI_Cooling_and_Thermal,    weight: 0.70, lag_months: 3,  confidence: 0.9 }
-  - { from: Data_Centers,      to: AI_Networking,             weight: 0.60, lag_months: 6,  confidence: 0.8 }
-  - { from: Data_Centers,      to: Memory_Chips,              weight: 0.50, lag_months: 6,  confidence: 0.7 }
+  - { from: Data_Centers,      to: Electricity_Demand,        weight: 0.90, lag_months: 3,  confidence: 0.9, polarity:  1, why: "Each new data center adds large, always-on electrical load." }
+  - { from: Data_Centers,      to: Industrial_Construction,   weight: 0.80, lag_months: 6,  confidence: 0.8, polarity:  1, why: "Data center campuses are large construction projects." }
+  - { from: Data_Centers,      to: Electrical_Equipment,      weight: 0.60, lag_months: 6,  confidence: 0.8, polarity:  1, why: "New facilities need transformers, switchgear and backup power equipment." }
+  - { from: Data_Centers,      to: Power_Grid_Infrastructure, weight: 0.60, lag_months: 9,  confidence: 0.8, polarity:  1, why: "Data center load requires new transmission and interconnection capacity." }
+  - { from: Data_Centers,      to: Copper,                    weight: 0.50, lag_months: 6,  confidence: 0.7, polarity:  1, why: "Data centers use copper heavily in power distribution and cabling." }
+  - { from: Data_Centers,      to: AI_Cooling_and_Thermal,    weight: 0.70, lag_months: 3,  confidence: 0.9, polarity:  1, why: "Every new facility's thermal load must be removed by cooling systems." }
+  - { from: Data_Centers,      to: AI_Networking,             weight: 0.60, lag_months: 6,  confidence: 0.8, polarity:  1, why: "New facilities are fitted out with switching and networking gear." }
+  - { from: Data_Centers,      to: Memory_Chips,              weight: 0.50, lag_months: 6,  confidence: 0.7, polarity:  1, why: "Servers in new data centers are populated with DRAM and flash storage." }
 
   # === Semiconductors core ===
-  - { from: Advanced_Logic_Chips,   to: Semiconductor_Manufacturing, weight: 1.00, lag_months: 6, confidence: 0.9 }
-  - { from: Memory_Chips,           to: Semiconductor_Manufacturing, weight: 0.70, lag_months: 6, confidence: 0.8 }
+  - { from: Advanced_Logic_Chips,   to: Semiconductor_Manufacturing, weight: 1.00, lag_months: 6, confidence: 0.9, polarity:  1, why: "Chip designers' orders fill leading-edge foundry capacity." }
+  - { from: Memory_Chips,           to: Semiconductor_Manufacturing, weight: 0.70, lag_months: 6, confidence: 0.8, polarity:  1, why: "Memory demand drives memory fab utilization and expansion." }
 
-  - { from: Semiconductor_Manufacturing, to: Semiconductor_Equipment,  weight: 0.82, lag_months: 9, confidence: 0.9 }
-  - { from: Semiconductor_Manufacturing, to: Semiconductor_Materials,  weight: 0.70, lag_months: 4, confidence: 0.9 }
-  - { from: Semiconductor_Manufacturing, to: Industrial_Construction,  weight: 0.40, lag_months: 9, confidence: 0.7 }
-  - { from: Semiconductor_Manufacturing, to: Power_Grid_Infrastructure,weight: 0.20, lag_months: 12, confidence: 0.6 }
+  - { from: Semiconductor_Manufacturing, to: Semiconductor_Equipment,  weight: 0.82, lag_months: 9, confidence: 0.9, polarity:  1, why: "Fab expansions and node transitions require new tool purchases." }
+  - { from: Semiconductor_Manufacturing, to: Semiconductor_Materials,  weight: 0.70, lag_months: 4, confidence: 0.9, polarity:  1, why: "More wafer starts consume more wafers, chemicals and gases." }
+  - { from: Semiconductor_Manufacturing, to: Industrial_Construction,  weight: 0.40, lag_months: 9, confidence: 0.7, polarity:  1, why: "New fabs are multi-billion-dollar construction projects." }
+  - { from: Semiconductor_Manufacturing, to: Power_Grid_Infrastructure,weight: 0.20, lag_months: 12, confidence: 0.6, polarity:  1, why: "Fabs are large, steady power users that need grid upgrades." }
 
-  - { from: Advanced_Logic_Chips,   to: Semiconductor_Equipment,      weight: 0.75, lag_months: 6, confidence: 0.85 }
+  - { from: Advanced_Logic_Chips,   to: Semiconductor_Equipment,      weight: 0.75, lag_months: 6, confidence: 0.85, polarity:  1, why: "Leading-edge chip demand pulls forward advanced lithography and etch purchases." }
 
   # === Energy chain ===
-  - { from: Electricity_Demand,     to: Power_Generation,             weight: 0.55, lag_months: 18, confidence: 0.7 }
-  - { from: Electricity_Demand,     to: Power_Grid_Infrastructure,    weight: 0.70, lag_months: 12, confidence: 0.8 }
-  - { from: Power_Generation,       to: Oil_and_Gas,                  weight: 0.50, lag_months: 3,  confidence: 0.6 }
-  - { from: Power_Generation,       to: Uranium,                      weight: 0.30, lag_months: 24, confidence: 0.6 }
-  - { from: Power_Generation,       to: Nuclear_Energy,               weight: 0.60, lag_months: 30, confidence: 0.7 }
-  - { from: Power_Generation,       to: Energy_Storage,               weight: 0.50, lag_months: 12, confidence: 0.7 }
-  - { from: Power_Generation,       to: Copper,                       weight: 0.60, lag_months: 9,  confidence: 0.6 }
+  - { from: Electricity_Demand,     to: Power_Generation,             weight: 0.55, lag_months: 18, confidence: 0.7, polarity:  1, why: "Rising load requires new generation capacity." }
+  - { from: Electricity_Demand,     to: Power_Grid_Infrastructure,    weight: 0.70, lag_months: 12, confidence: 0.8, polarity:  1, why: "Load growth requires transmission and distribution upgrades." }
+  - { from: Power_Generation,       to: Oil_and_Gas,                  weight: 0.50, lag_months: 3,  confidence: 0.6, polarity:  1, why: "Gas-fired plants burn more fuel as generation output rises." }
+  - { from: Power_Generation,       to: Uranium,                      weight: 0.30, lag_months: 24, confidence: 0.6, polarity:  1, why: "More nuclear generation raises long-term uranium fuel demand." }
+  - { from: Power_Generation,       to: Nuclear_Energy,               weight: 0.60, lag_months: 30, confidence: 0.7, polarity:  1, why: "Need for firm, carbon-free capacity drives nuclear restarts and new reactors." }
+  - { from: Power_Generation,       to: Energy_Storage,               weight: 0.50, lag_months: 12, confidence: 0.7, polarity:  1, why: "Adding renewable generation requires batteries to firm intermittent output." }
+  - { from: Power_Generation,       to: Copper,                       weight: 0.60, lag_months: 9,  confidence: 0.6, polarity:  1, why: "Generation build-out uses copper in generators, wiring and interconnects." }
 
-  - { from: Power_Grid_Infrastructure, to: Electrical_Equipment,      weight: 1.00, lag_months: 9, confidence: 0.9 }
-  - { from: Power_Grid_Infrastructure, to: Industrial_Construction,   weight: 0.50, lag_months: 9, confidence: 0.7 }
-  - { from: Power_Grid_Infrastructure, to: Copper,                    weight: 0.80, lag_months: 9, confidence: 0.8 }
+  - { from: Power_Grid_Infrastructure, to: Electrical_Equipment,      weight: 1.00, lag_months: 9, confidence: 0.9, polarity:  1, why: "Grid buildout requires transformers, switchgear and cable." }
+  - { from: Power_Grid_Infrastructure, to: Industrial_Construction,   weight: 0.50, lag_months: 9, confidence: 0.7, polarity:  1, why: "Transmission lines and substations are heavy construction projects." }
+  - { from: Power_Grid_Infrastructure, to: Copper,                    weight: 0.80, lag_months: 9, confidence: 0.8, polarity:  1, why: "Transmission lines and transformers are copper-intensive." }
 
   # === Infrastructure → materials ===
-  - { from: Industrial_Construction, to: Copper,                      weight: 0.60, lag_months: 6, confidence: 0.8 }
-  - { from: Industrial_Construction, to: Oil_and_Gas,                 weight: 0.30, lag_months: 3, confidence: 0.6 }
-  - { from: Industrial_Construction, to: Transportation_Infrastructure, weight: 0.50, lag_months: 24, confidence: 0.6 }
-  - { from: Electrical_Equipment,    to: Copper,                      weight: 0.70, lag_months: 6, confidence: 0.7 }
+  - { from: Industrial_Construction, to: Copper,                      weight: 0.60, lag_months: 6, confidence: 0.8, polarity:  1, why: "Industrial buildings consume copper in wiring, plumbing and equipment." }
+  - { from: Industrial_Construction, to: Oil_and_Gas,                 weight: 0.30, lag_months: 3, confidence: 0.6, polarity:  1, why: "Construction activity consumes diesel and petrochemical products." }
+  - { from: Industrial_Construction, to: Transportation_Infrastructure, weight: 0.50, lag_months: 24, confidence: 0.6, polarity:  1, why: "New industrial sites require supporting road, rail and port access." }
+  - { from: Electrical_Equipment,    to: Copper,                      weight: 0.70, lag_months: 6, confidence: 0.7, polarity:  1, why: "Transformers, motors and switchgear are copper-intensive." }
 
   # === Defense ===
-  - { from: Defense_Spending,                 to: Aerospace_and_Defense_Manufacturing, weight: 1.00, lag_months: 9, confidence: 0.9 }
-  - { from: Defense_Spending,                 to: Defense_Electronics,                 weight: 0.70, lag_months: 9, confidence: 0.8 }
-  - { from: Aerospace_and_Defense_Manufacturing, to: Advanced_Logic_Chips,            weight: 0.60, lag_months: 9, confidence: 0.7 }
-  - { from: Aerospace_and_Defense_Manufacturing, to: Industrial_Construction,         weight: 0.30, lag_months: 9, confidence: 0.6 }
-  - { from: Defense_Electronics,              to: Semiconductor_Manufacturing,        weight: 0.20, lag_months: 6, confidence: 0.5 }
+  - { from: Defense_Spending,                 to: Aerospace_and_Defense_Manufacturing, weight: 1.00, lag_months: 9, confidence: 0.9, polarity:  1, why: "Larger defense budgets fund procurement of aircraft, missiles and munitions." }
+  - { from: Defense_Spending,                 to: Defense_Electronics,                 weight: 0.70, lag_months: 9, confidence: 0.8, polarity:  1, why: "Defense budgets fund sensors, radar and communications systems." }
+  - { from: Aerospace_and_Defense_Manufacturing, to: Advanced_Logic_Chips,            weight: 0.30, lag_months: 9, confidence: 0.7, polarity:  1, why: "Modern weapons systems embed advanced processors, a small but growing chip end-market." }
+  - { from: Aerospace_and_Defense_Manufacturing, to: Industrial_Construction,         weight: 0.30, lag_months: 9, confidence: 0.6, polarity:  1, why: "Ramping defense production requires new and expanded plants." }
+  - { from: Defense_Electronics,              to: Semiconductor_Manufacturing,        weight: 0.20, lag_months: 6, confidence: 0.5, polarity:  1, why: "Defense electronics require trusted domestic chip production." }
 
   # === Policy / Trade / Reshoring ===
-  - { from: Industrial_Policy,         to: Semiconductor_Manufacturing, weight: 0.70, lag_months: 12, confidence: 0.8 }
-  - { from: Industrial_Policy,         to: Power_Generation,            weight: 0.50, lag_months: 18, confidence: 0.6 }
-  - { from: Industrial_Policy,         to: Industrial_Construction,     weight: 0.70, lag_months: 12, confidence: 0.8 }
+  - { from: Industrial_Policy,         to: Semiconductor_Manufacturing, weight: 0.70, lag_months: 12, confidence: 0.8, polarity:  1, why: "Subsidies such as the CHIPS Act fund new domestic fabs." }
+  - { from: Industrial_Policy,         to: Power_Generation,            weight: 0.50, lag_months: 18, confidence: 0.6, polarity:  1, why: "Tax credits and policy support fund new generation capacity." }
+  - { from: Industrial_Policy,         to: Industrial_Construction,     weight: 0.70, lag_months: 12, confidence: 0.8, polarity:  1, why: "Industrial subsidies trigger construction of new factories." }
 
-  - { from: Trade_Restrictions,        to: Semiconductor_Equipment,     weight: 0.70, lag_months: 2,  confidence: 0.7 }
-  - { from: Trade_Restrictions,        to: Defense_Electronics,         weight: 0.50, lag_months: 2,  confidence: 0.6 }
+  - { from: Trade_Restrictions,        to: Semiconductor_Equipment,     weight: 0.70, lag_months: 2,  confidence: 0.7, polarity: -1, why: "Export controls block tool sales to Chinese fabs, a major customer for equipment makers." }
+  - { from: Trade_Restrictions,        to: Defense_Electronics,         weight: 0.50, lag_months: 2,  confidence: 0.6, polarity: -1, why: "Export controls and Chinese counter-controls on gallium, germanium and rare earths constrain defense electronics supply." }
 
-  - { from: Supply_Chain_Resilience,   to: Semiconductor_Manufacturing, weight: 0.60, lag_months: 12, confidence: 0.7 }
-  - { from: Supply_Chain_Resilience,   to: Industrial_Construction,     weight: 0.50, lag_months: 12, confidence: 0.7 }
+  - { from: Supply_Chain_Resilience,   to: Semiconductor_Manufacturing, weight: 0.60, lag_months: 12, confidence: 0.7, polarity:  1, why: "Reshoring pushes chipmakers to build fabs outside concentrated regions." }
+  - { from: Supply_Chain_Resilience,   to: Industrial_Construction,     weight: 0.50, lag_months: 12, confidence: 0.7, polarity:  1, why: "Relocating supply chains requires building new factories." }
 
   # === Software / cloud / apps ===
-  - { from: AI_Models_and_Software,    to: Cloud_Infrastructure,        weight: 0.70, lag_months: 6,  confidence: 0.8 }
-  - { from: AI_Models_and_Software,    to: Enterprise_SaaS,             weight: 0.45, lag_months: 9,  confidence: 0.7 }
-  - { from: AI_Models_and_Software,    to: Digital_Advertising,         weight: 0.30, lag_months: 6,  confidence: 0.6 }
-  - { from: Data_Centers,              to: Cloud_Infrastructure,        weight: 0.65, lag_months: 6,  confidence: 0.8 }
-  - { from: Cloud_Infrastructure,      to: Cybersecurity,               weight: 0.60, lag_months: 6,  confidence: 0.8 }
-  - { from: Cloud_Infrastructure,      to: Enterprise_SaaS,             weight: 0.70, lag_months: 6,  confidence: 0.8 }
+  - { from: AI_Models_and_Software,    to: Cloud_Infrastructure,        weight: 0.70, lag_months: 6,  confidence: 0.8, polarity:  1, why: "Model training and serving run on cloud platforms, driving cloud consumption." }
+  - { from: AI_Models_and_Software,    to: Enterprise_SaaS,             weight: 0.45, lag_months: 9,  confidence: 0.7, polarity:  1, why: "AI features create new enterprise software products and upsell." }
+  - { from: AI_Models_and_Software,    to: Digital_Advertising,         weight: 0.30, lag_months: 6,  confidence: 0.6, polarity:  1, why: "AI improves ad targeting and creative, lifting returns on ad spend." }
+  - { from: Data_Centers,              to: Cloud_Infrastructure,        weight: 0.65, lag_months: 6,  confidence: 0.8, polarity:  1, why: "More data center capacity lets cloud providers grow revenue." }
+  - { from: Cloud_Infrastructure,      to: Cybersecurity,               weight: 0.60, lag_months: 6,  confidence: 0.8, polarity:  1, why: "More workloads in the cloud expand the attack surface and security spend." }
+  - { from: Cloud_Infrastructure,      to: Enterprise_SaaS,             weight: 0.70, lag_months: 6,  confidence: 0.8, polarity:  1, why: "Cloud platforms are the delivery layer for SaaS applications." }
 
   # === Financial / consumer rails ===
-  - { from: E_Commerce_and_Marketplaces, to: Payments_Networks,         weight: 0.75, lag_months: 3,  confidence: 0.8 }
-  - { from: Digital_Advertising,         to: E_Commerce_and_Marketplaces, weight: 0.45, lag_months: 3, confidence: 0.7 }
-  - { from: Capital_Markets,             to: Alternative_Asset_Managers, weight: 0.65, lag_months: 3, confidence: 0.8 }
-  - { from: Capital_Markets,             to: Retail_Banking,             weight: 0.40, lag_months: 3, confidence: 0.6 }
+  - { from: E_Commerce_and_Marketplaces, to: Payments_Networks,         weight: 0.75, lag_months: 3,  confidence: 0.8, polarity:  1, why: "Online purchases run over card and digital payment rails." }
+  - { from: Digital_Advertising,         to: E_Commerce_and_Marketplaces, weight: 0.45, lag_months: 3, confidence: 0.7, polarity:  1, why: "Ad spending drives traffic and conversion for online retailers." }
+  - { from: Capital_Markets,             to: Alternative_Asset_Managers, weight: 0.65, lag_months: 3, confidence: 0.8, polarity:  1, why: "Healthy capital markets enable exits, fundraising and deal financing." }
+  - { from: Capital_Markets,             to: Retail_Banking,             weight: 0.40, lag_months: 3, confidence: 0.6, polarity:  1, why: "Market activity supports universal banks' trading and fee income." }
 
   # === Industrials / logistics ===
-  - { from: Industrial_Construction,   to: Industrial_Automation,       weight: 0.55, lag_months: 9,  confidence: 0.7 }
-  - { from: Transportation_Infrastructure, to: Logistics_and_Shipping,  weight: 0.80, lag_months: 6,  confidence: 0.8 }
-  - { from: Supply_Chain_Resilience,   to: Logistics_and_Shipping,      weight: 0.55, lag_months: 6,  confidence: 0.7 }
+  - { from: Industrial_Construction,   to: Industrial_Automation,       weight: 0.55, lag_months: 9,  confidence: 0.7, polarity:  1, why: "New factories install automation and control systems." }
+  - { from: Transportation_Infrastructure, to: Logistics_and_Shipping,  weight: 0.80, lag_months: 6,  confidence: 0.8, polarity:  1, why: "Better roads, rail and ports raise freight network capacity and volumes." }
+  - { from: Supply_Chain_Resilience,   to: Logistics_and_Shipping,      weight: 0.55, lag_months: 6,  confidence: 0.7, polarity:  1, why: "Supply chain reconfiguration creates new freight flows and warehousing demand." }
 
   # === Materials / energy breadth ===
-  - { from: Trade_Restrictions,        to: Rare_Earths,                 weight: 0.80, lag_months: 1,  confidence: 0.8 }
-  - { from: Supply_Chain_Resilience,   to: Rare_Earths,                 weight: 0.45, lag_months: 12, confidence: 0.7 }
-  - { from: Oil_and_Gas,               to: LNG_and_Gas_Export,          weight: 0.70, lag_months: 3,  confidence: 0.8 }
-  - { from: Power_Generation,          to: LNG_and_Gas_Export,          weight: 0.35, lag_months: 12, confidence: 0.6 }
+  - { from: Trade_Restrictions,        to: Rare_Earths,                 weight: 0.80, lag_months: 1,  confidence: 0.8, polarity:  1, why: "Chinese export curbs and Western tariffs raise rare earth prices and favor non-China producers." }
+  - { from: Supply_Chain_Resilience,   to: Rare_Earths,                 weight: 0.45, lag_months: 12, confidence: 0.7, polarity:  1, why: "Governments fund non-China rare earth mining and magnet capacity." }
+  - { from: Oil_and_Gas,               to: LNG_and_Gas_Export,          weight: 0.70, lag_months: 3,  confidence: 0.8, polarity:  1, why: "Strong producer activity supports gas output available for LNG export." }
+  - { from: Power_Generation,          to: LNG_and_Gas_Export,          weight: 0.35, lag_months: 12, confidence: 0.6, polarity:  1, why: "Gas-fired generation growth raises demand for gas supply and infrastructure." }
 
   # === Consumer / mobility ===
-  - { from: Lithium,                   to: EVs_and_Autonomy,            weight: 0.50, lag_months: 6,  confidence: 0.7 }
-  - { from: Copper,                    to: EVs_and_Autonomy,            weight: 0.40, lag_months: 6,  confidence: 0.6 }
-  - { from: AI_Compute_Demand,         to: EVs_and_Autonomy,            weight: 0.25, lag_months: 12, confidence: 0.5 }
+  - { from: Lithium,                   to: EVs_and_Autonomy,            weight: 0.50, lag_months: 6,  confidence: 0.7, polarity: -1, why: "Higher lithium prices raise battery costs and squeeze EV margins." }
+  - { from: Copper,                    to: EVs_and_Autonomy,            weight: 0.40, lag_months: 6,  confidence: 0.6, polarity: -1, why: "Higher copper prices raise EV motor and wiring costs." }
+  - { from: AI_Compute_Demand,         to: EVs_and_Autonomy,            weight: 0.25, lag_months: 12, confidence: 0.5, polarity:  1, why: "AI advances accelerate autonomy and robotaxi development." }
+
+  # === Macro: inflation, labor, fiscal -> rates & consumer ===
+  - { from: Inflation,                      to: Interest_Rates,                       weight: 0.80, lag_months: 3,  confidence: 0.85, polarity:  1, why: "Hotter inflation pushes the central bank to hold or hike and lifts bond yields." }
+  - { from: Labor_Market,                   to: Interest_Rates,                       weight: 0.50, lag_months: 1,  confidence: 0.75, polarity:  1, why: "A tight labor market leaves less room for cuts and lifts rate expectations." }
+  - { from: Labor_Market,                   to: Inflation,                            weight: 0.40, lag_months: 6,  confidence: 0.70, polarity:  1, why: "Strong hiring drives wage growth that feeds services inflation." }
+  - { from: Labor_Market,                   to: Consumer_Spending,                    weight: 0.70, lag_months: 2,  confidence: 0.85, polarity:  1, why: "More jobs and higher wages raise household income and spending." }
+  - { from: Inflation,                      to: Consumer_Spending,                    weight: 0.40, lag_months: 3,  confidence: 0.70, polarity: -1, why: "Rising prices erode real incomes and squeeze discretionary spending." }
+  - { from: Inflation,                      to: Gold,                                 weight: 0.35, lag_months: 3,  confidence: 0.65, polarity:  1, why: "Investors buy gold as a hedge when inflation runs hot." }
+  - { from: Fiscal_Policy,                  to: Interest_Rates,                       weight: 0.35, lag_months: 3,  confidence: 0.60, polarity:  1, why: "Larger deficits increase Treasury issuance and push up long-term yields." }
+  - { from: Fiscal_Policy,                  to: Consumer_Spending,                    weight: 0.40, lag_months: 3,  confidence: 0.70, polarity:  1, why: "Tax cuts and transfers add to household disposable income." }
+  - { from: Fiscal_Policy,                  to: Defense_Spending,                     weight: 0.50, lag_months: 6,  confidence: 0.70, polarity:  1, why: "Bigger appropriations bills fund larger defense budgets." }
+  - { from: Fiscal_Policy,                  to: Transportation_Infrastructure,        weight: 0.50, lag_months: 12, confidence: 0.75, polarity:  1, why: "Federal infrastructure appropriations fund road, rail and port projects." }
+  - { from: Fiscal_Policy,                  to: Industrial_Policy,                    weight: 0.40, lag_months: 6,  confidence: 0.65, polarity:  1, why: "Expansive budgets fund subsidies and tax credits for strategic industries." }
+
+  # === Rates & dollar transmission ===
+  - { from: Interest_Rates,                 to: Housing_and_Homebuilders,             weight: 0.85, lag_months: 3,  confidence: 0.90, polarity: -1, why: "Higher rates raise mortgage costs, cutting home sales and builder orders." }
+  - { from: Interest_Rates,                 to: Commercial_Real_Estate,               weight: 0.70, lag_months: 3,  confidence: 0.85, polarity: -1, why: "Higher rates lift cap rates and refinancing costs, lowering property values." }
+  - { from: Interest_Rates,                 to: Credit_Conditions,                    weight: 0.60, lag_months: 3,  confidence: 0.80, polarity: -1, why: "Higher policy rates tighten lending standards and widen credit spreads." }
+  - { from: Interest_Rates,                 to: USD_Strength,                         weight: 0.70, lag_months: 0,  confidence: 0.80, polarity:  1, why: "Higher US yields attract capital inflows that strengthen the dollar." }
+  - { from: Interest_Rates,                 to: Gold,                                 weight: 0.45, lag_months: 0,  confidence: 0.70, polarity: -1, why: "Higher real yields raise the opportunity cost of holding non-yielding gold." }
+  - { from: Interest_Rates,                 to: Crypto_Assets,                        weight: 0.45, lag_months: 0,  confidence: 0.65, polarity: -1, why: "Tighter liquidity and higher yields reduce appetite for speculative assets like bitcoin." }
+  - { from: Interest_Rates,                 to: Retail_Banking,                       weight: 0.35, lag_months: 3,  confidence: 0.60, polarity:  1, why: "Higher rates widen bank net interest margins on loans versus deposits." }
+  - { from: Interest_Rates,                 to: Capital_Markets,                      weight: 0.50, lag_months: 1,  confidence: 0.70, polarity: -1, why: "Higher rates depress asset prices and the financing of IPOs and M&A." }
+  - { from: Interest_Rates,                 to: Consumer_Spending,                    weight: 0.35, lag_months: 6,  confidence: 0.70, polarity: -1, why: "Higher borrowing costs on cards and loans dampen consumer spending." }
+  - { from: Interest_Rates,                 to: Autos_and_Auto_Parts,                 weight: 0.35, lag_months: 3,  confidence: 0.70, polarity: -1, why: "Higher auto-loan rates reduce vehicle affordability and sales." }
+  - { from: Interest_Rates,                 to: Data_Centers,                         weight: 0.30, lag_months: 6,  confidence: 0.60, polarity: -1, why: "Higher financing costs raise the hurdle rate for debt-funded data center builds." }
+  - { from: Interest_Rates,                 to: Energy_Storage,                       weight: 0.35, lag_months: 6,  confidence: 0.65, polarity: -1, why: "Storage and solar projects are capital-intensive, so higher rates hurt project economics." }
+  - { from: USD_Strength,                   to: Gold,                                 weight: 0.50, lag_months: 0,  confidence: 0.75, polarity: -1, why: "A stronger dollar makes dollar-priced gold more expensive for foreign buyers." }
+  - { from: USD_Strength,                   to: Copper,                               weight: 0.30, lag_months: 1,  confidence: 0.60, polarity: -1, why: "A stronger dollar raises the local-currency cost of copper and damps demand." }
+  - { from: USD_Strength,                   to: Farm_Economy,                         weight: 0.30, lag_months: 6,  confidence: 0.60, polarity: -1, why: "A stronger dollar makes US crop exports less competitive, hurting farm income." }
+
+  # === Credit & real estate ===
+  - { from: Credit_Conditions,              to: Housing_and_Homebuilders,             weight: 0.50, lag_months: 3,  confidence: 0.75, polarity:  1, why: "Easier mortgage credit expands the pool of qualified homebuyers." }
+  - { from: Credit_Conditions,              to: Alternative_Asset_Managers,           weight: 0.45, lag_months: 3,  confidence: 0.70, polarity:  1, why: "Loose credit fuels leveraged buyouts and private credit deployment." }
+  - { from: Credit_Conditions,              to: Retail_Banking,                       weight: 0.50, lag_months: 3,  confidence: 0.75, polarity:  1, why: "Benign credit means loan growth and lower loan-loss provisions." }
+  - { from: Credit_Conditions,              to: Data_Centers,                         weight: 0.25, lag_months: 6,  confidence: 0.60, polarity:  1, why: "Data center buildouts increasingly rely on debt and private credit financing." }
+  - { from: Commercial_Real_Estate,         to: Credit_Conditions,                    weight: 0.35, lag_months: 3,  confidence: 0.65, polarity:  1, why: "Falling commercial property values create loan losses that make lenders tighten credit." }
+  - { from: Commercial_Real_Estate,         to: Retail_Banking,                       weight: 0.40, lag_months: 3,  confidence: 0.70, polarity:  1, why: "Regional banks hold large CRE loan books, so CRE values drive their credit losses." }
+
+  # === Consumer demand ===
+  - { from: Consumer_Spending,              to: E_Commerce_and_Marketplaces,          weight: 0.60, lag_months: 1,  confidence: 0.85, polarity:  1, why: "A growing share of household spending flows through online retail." }
+  - { from: Consumer_Spending,              to: Payments_Networks,                    weight: 0.55, lag_months: 0,  confidence: 0.85, polarity:  1, why: "Card networks earn fees on every dollar of consumer purchase volume." }
+  - { from: Consumer_Spending,              to: Digital_Advertising,                  weight: 0.45, lag_months: 3,  confidence: 0.75, polarity:  1, why: "Brands raise ad budgets when consumer demand is strong." }
+  - { from: Consumer_Spending,              to: Tourism_and_Travel,                   weight: 0.55, lag_months: 3,  confidence: 0.80, polarity:  1, why: "Travel is a discretionary purchase that rises with household spending." }
+  - { from: Consumer_Spending,              to: Autos_and_Auto_Parts,                 weight: 0.50, lag_months: 3,  confidence: 0.75, polarity:  1, why: "Vehicle purchases rise with consumer confidence and spending." }
+  - { from: Consumer_Spending,              to: Consumer_Electronics,                 weight: 0.45, lag_months: 3,  confidence: 0.75, polarity:  1, why: "Phone and PC upgrades are discretionary and track consumer spending." }
+  - { from: Tourism_and_Travel,             to: Airlines,                             weight: 0.70, lag_months: 0,  confidence: 0.85, polarity:  1, why: "More trips mean more airline passengers and stronger fares." }
+  - { from: Airlines,                       to: Aerospace_and_Defense_Manufacturing,  weight: 0.30, lag_months: 12, confidence: 0.60, polarity:  1, why: "Profitable airlines order more commercial aircraft and engines." }
+  - { from: Consumer_Electronics,           to: Advanced_Logic_Chips,                 weight: 0.40, lag_months: 3,  confidence: 0.75, polarity:  1, why: "Phone and PC unit volumes drive demand for application processors and CPUs." }
+  - { from: Consumer_Electronics,           to: Memory_Chips,                         weight: 0.50, lag_months: 3,  confidence: 0.80, polarity:  1, why: "Phones and PCs are major consumers of DRAM and NAND." }
+
+  # === Oil, gas & refining ===
+  - { from: Oil_Supply,                     to: Oil_Price,                            weight: 0.90, lag_months: 0,  confidence: 0.90, polarity: -1, why: "More barrels on the market push crude prices down; supply cuts push them up." }
+  - { from: Oil_Supply,                     to: Shipping_Rates,                       weight: 0.30, lag_months: 1,  confidence: 0.60, polarity:  1, why: "More crude exports mean more tanker voyages and firmer tanker rates." }
+  - { from: Oil_Price,                      to: Oil_and_Gas,                          weight: 0.85, lag_months: 0,  confidence: 0.90, polarity:  1, why: "Higher crude prices lift producer revenues, cash flow and drilling budgets." }
+  - { from: Oil_Price,                      to: Airlines,                             weight: 0.70, lag_months: 1,  confidence: 0.85, polarity: -1, why: "Jet fuel is airlines' second-largest cost, so higher crude squeezes margins." }
+  - { from: Oil_Price,                      to: Inflation,                            weight: 0.60, lag_months: 1,  confidence: 0.85, polarity:  1, why: "Energy prices feed directly into headline CPI via gasoline and transport." }
+  - { from: Oil_Price,                      to: Consumer_Spending,                    weight: 0.35, lag_months: 2,  confidence: 0.70, polarity: -1, why: "Higher pump prices divert household budgets away from discretionary spending." }
+  - { from: Oil_Price,                      to: EVs_and_Autonomy,                     weight: 0.25, lag_months: 6,  confidence: 0.55, polarity:  1, why: "Expensive gasoline improves the relative economics of electric vehicles." }
+  - { from: Natural_Gas_Price,              to: LNG_and_Gas_Export,                   weight: 0.60, lag_months: 1,  confidence: 0.80, polarity:  1, why: "Higher global gas prices lift revenue for gas producers and LNG exporters." }
+  - { from: Natural_Gas_Price,              to: Fertilizer,                           weight: 0.60, lag_months: 1,  confidence: 0.80, polarity:  1, why: "Natural gas is the main feedstock for nitrogen fertilizer, so gas spikes raise fertilizer prices." }
+  - { from: Natural_Gas_Price,              to: Nuclear_Energy,                       weight: 0.35, lag_months: 6,  confidence: 0.60, polarity:  1, why: "Pricier gas sets higher power prices, improving nuclear economics and margins." }
+  - { from: Electricity_Demand,             to: Natural_Gas_Price,                    weight: 0.50, lag_months: 3,  confidence: 0.75, polarity:  1, why: "Gas-fired plants meet marginal power demand, so load growth raises gas burn and prices." }
+  - { from: Sanctions,                      to: Refining,                             weight: 0.45, lag_months: 1,  confidence: 0.70, polarity:  1, why: "Sanctions on Russian fuel exports tighten diesel and product markets, widening crack spreads." }
+  - { from: Natural_Disasters,              to: Refining,                             weight: 0.30, lag_months: 0,  confidence: 0.60, polarity:  1, why: "Gulf Coast storms knock refineries offline, tightening product supply and margins." }
+  - { from: Refining,                       to: Inflation,                            weight: 0.20, lag_months: 1,  confidence: 0.65, polarity:  1, why: "Higher gasoline and diesel prices feed directly into consumer prices." }
+  - { from: Refining,                       to: Airlines,                             weight: 0.30, lag_months: 1,  confidence: 0.65, polarity: -1, why: "Wider jet fuel cracks raise airline fuel costs beyond the move in crude." }
+
+  # === Battery materials (connects previously isolated nodes) ===
+  - { from: Energy_Storage,                 to: Lithium,                              weight: 0.50, lag_months: 6,  confidence: 0.70, polarity:  1, why: "Grid battery deployments consume lithium carbonate and hydroxide." }
+  - { from: Energy_Storage,                 to: Cathode_Materials,                    weight: 0.60, lag_months: 6,  confidence: 0.75, polarity:  1, why: "Battery cell production requires cathode active materials." }
+  - { from: Cathode_Materials,              to: Cobalt,                               weight: 0.35, lag_months: 6,  confidence: 0.60, polarity:  1, why: "NMC cathode output consumes cobalt." }
+
+  # === Geopolitics: Middle East, Russia-Ukraine, sanctions ===
+  - { from: Middle_East_Conflict,           to: Oil_Supply,                           weight: 0.60, lag_months: 1,  confidence: 0.70, polarity: -1, why: "Attacks on Gulf producers, pipelines or tankers can remove barrels from the market." }
+  - { from: Middle_East_Conflict,           to: Oil_Price,                            weight: 0.50, lag_months: 0,  confidence: 0.80, polarity:  1, why: "Escalation adds a geopolitical risk premium to crude before any barrels are lost." }
+  - { from: Middle_East_Conflict,           to: Maritime_Chokepoint_Disruption,       weight: 0.70, lag_months: 0,  confidence: 0.80, polarity:  1, why: "Regional conflict raises attacks and threats against Red Sea and Hormuz shipping." }
+  - { from: Middle_East_Conflict,           to: Defense_Spending,                     weight: 0.50, lag_months: 6,  confidence: 0.75, polarity:  1, why: "Conflict drives munitions replenishment and higher defense budgets." }
+  - { from: Middle_East_Conflict,           to: Gold,                                 weight: 0.50, lag_months: 0,  confidence: 0.80, polarity:  1, why: "Escalation drives safe-haven buying of gold." }
+  - { from: Russia_Ukraine_War,             to: Sanctions,                            weight: 0.70, lag_months: 1,  confidence: 0.85, polarity:  1, why: "Escalation brings new rounds of Western sanctions on Russia." }
+  - { from: Russia_Ukraine_War,             to: Natural_Gas_Price,                    weight: 0.60, lag_months: 0,  confidence: 0.75, polarity:  1, why: "The war cut Russian pipeline gas to Europe and keeps gas prices sensitive to escalation." }
+  - { from: Russia_Ukraine_War,             to: Wheat_and_Grains,                     weight: 0.60, lag_months: 0,  confidence: 0.80, polarity:  1, why: "Russia and Ukraine are top grain exporters, and fighting disrupts Black Sea shipments." }
+  - { from: Russia_Ukraine_War,             to: Fertilizer,                           weight: 0.40, lag_months: 1,  confidence: 0.70, polarity:  1, why: "Russia is a leading exporter of potash, nitrogen and phosphate fertilizers." }
+  - { from: Russia_Ukraine_War,             to: Defense_Spending,                     weight: 0.70, lag_months: 6,  confidence: 0.85, polarity:  1, why: "The war drives European rearmament and ammunition orders." }
+  - { from: Sanctions,                      to: Oil_Supply,                           weight: 0.50, lag_months: 1,  confidence: 0.70, polarity: -1, why: "Sanctions on Russian, Iranian or Venezuelan crude reduce exportable barrels." }
+  - { from: Sanctions,                      to: Fertilizer,                           weight: 0.35, lag_months: 1,  confidence: 0.65, polarity:  1, why: "Sanctions on Russia and Belarus restrict potash and nitrogen exports." }
+
+  # === Geopolitics: Taiwan & chokepoints ===
+  - { from: Taiwan_Strait_Risk,             to: Semiconductor_Manufacturing,          weight: 0.80, lag_months: 0,  confidence: 0.85, polarity: -1, why: "Taiwan hosts most leading-edge foundry capacity, so a blockade or conflict halts chip output." }
+  - { from: Taiwan_Strait_Risk,             to: Advanced_Logic_Chips,                 weight: 0.70, lag_months: 0,  confidence: 0.80, polarity: -1, why: "Nvidia, AMD and Apple chips are fabbed in Taiwan, so disruption cuts their supply." }
+  - { from: Taiwan_Strait_Risk,             to: Consumer_Electronics,                 weight: 0.60, lag_months: 1,  confidence: 0.75, polarity: -1, why: "Phone and PC supply chains depend on Taiwanese chips and assembly." }
+  - { from: Taiwan_Strait_Risk,             to: Defense_Spending,                     weight: 0.60, lag_months: 6,  confidence: 0.80, polarity:  1, why: "Cross-strait tension drives Indo-Pacific military spending." }
+  - { from: Taiwan_Strait_Risk,             to: Supply_Chain_Resilience,              weight: 0.70, lag_months: 6,  confidence: 0.80, polarity:  1, why: "Taiwan risk accelerates moving chip and electronics production elsewhere." }
+  - { from: Taiwan_Strait_Risk,             to: Trade_Restrictions,                   weight: 0.50, lag_months: 1,  confidence: 0.70, polarity:  1, why: "Cross-strait tension prompts tighter export controls and tariffs on China." }
+  - { from: Taiwan_Strait_Risk,             to: Gold,                                 weight: 0.40, lag_months: 0,  confidence: 0.70, polarity:  1, why: "Great-power conflict risk drives safe-haven buying of gold." }
+  - { from: Maritime_Chokepoint_Disruption, to: Shipping_Rates,                       weight: 0.85, lag_months: 0,  confidence: 0.90, polarity:  1, why: "Rerouting around chokepoints lengthens voyages, absorbs vessel capacity and lifts freight rates." }
+  - { from: Maritime_Chokepoint_Disruption, to: Oil_Price,                            weight: 0.35, lag_months: 0,  confidence: 0.70, polarity:  1, why: "Threats to Hormuz and Red Sea tanker traffic add a supply-risk premium to crude." }
+  - { from: Shipping_Rates,                 to: Inflation,                            weight: 0.25, lag_months: 3,  confidence: 0.70, polarity:  1, why: "Higher freight costs pass through into imported goods prices." }
+
+  # === Tariffs & trade (extends Trade_Restrictions) ===
+  - { from: Trade_Restrictions,             to: Inflation,                            weight: 0.35, lag_months: 3,  confidence: 0.75, polarity:  1, why: "Tariffs are paid by importers and passed through to consumer prices." }
+  - { from: Trade_Restrictions,             to: Supply_Chain_Resilience,              weight: 0.60, lag_months: 6,  confidence: 0.80, polarity:  1, why: "Tariffs push companies to relocate sourcing and production." }
+  - { from: Trade_Restrictions,             to: China_Economy,                        weight: 0.45, lag_months: 3,  confidence: 0.70, polarity: -1, why: "US tariffs and export controls weigh on Chinese exports and growth." }
+  - { from: Trade_Restrictions,             to: Autos_and_Auto_Parts,                 weight: 0.40, lag_months: 3,  confidence: 0.70, polarity: -1, why: "Auto tariffs raise the cost of imported vehicles and parts, hurting automaker margins." }
+  - { from: Trade_Restrictions,             to: Consumer_Electronics,                 weight: 0.40, lag_months: 3,  confidence: 0.70, polarity: -1, why: "Tariffs on phones, PCs and components raise device prices and cut margins." }
+  - { from: Trade_Restrictions,             to: Steel_and_Aluminum,                   weight: 0.55, lag_months: 1,  confidence: 0.75, polarity:  1, why: "Steel and aluminum tariffs shield domestic producers and raise US metal prices." }
+  - { from: Trade_Restrictions,             to: Wheat_and_Grains,                     weight: 0.35, lag_months: 1,  confidence: 0.60, polarity: -1, why: "Retaliatory tariffs from China cut US soybean and grain exports, depressing prices." }
+  - { from: Trade_Restrictions,             to: Pharma_and_Biotech,                   weight: 0.25, lag_months: 3,  confidence: 0.55, polarity: -1, why: "Pharmaceutical tariffs raise costs for drugmakers with overseas manufacturing." }
+
+  # === China demand, metals & agriculture ===
+  - { from: China_Economy,                  to: Copper,                               weight: 0.60, lag_months: 3,  confidence: 0.80, polarity:  1, why: "China consumes about half the world's copper, so its growth drives copper demand." }
+  - { from: China_Economy,                  to: Oil_Price,                            weight: 0.45, lag_months: 1,  confidence: 0.75, polarity:  1, why: "China is the largest crude importer, so its growth moves global oil demand." }
+  - { from: China_Economy,                  to: Steel_and_Aluminum,                   weight: 0.55, lag_months: 3,  confidence: 0.75, polarity:  1, why: "Chinese construction and stimulus drive global steel and aluminum demand." }
+  - { from: Industrial_Construction,        to: Steel_and_Aluminum,                   weight: 0.40, lag_months: 3,  confidence: 0.70, polarity:  1, why: "Factory and infrastructure construction consumes structural steel and aluminum." }
+  - { from: Steel_and_Aluminum,             to: Autos_and_Auto_Parts,                 weight: 0.35, lag_months: 3,  confidence: 0.70, polarity: -1, why: "Higher steel and aluminum prices raise automakers' input costs." }
+  - { from: Wheat_and_Grains,               to: Farm_Economy,                         weight: 0.60, lag_months: 3,  confidence: 0.80, polarity:  1, why: "Higher crop prices raise farm income and equipment purchases." }
+  - { from: Wheat_and_Grains,               to: Inflation,                            weight: 0.30, lag_months: 3,  confidence: 0.70, polarity:  1, why: "Grain prices feed food inflation." }
+  - { from: Fertilizer,                     to: Farm_Economy,                         weight: 0.35, lag_months: 3,  confidence: 0.70, polarity: -1, why: "Higher fertilizer costs squeeze farm margins." }
+
+  # === Catastrophes, cyber & tech regulation ===
+  - { from: Natural_Disasters,              to: Insurance_and_Reinsurance,            weight: 0.70, lag_months: 0,  confidence: 0.85, polarity: -1, why: "Catastrophes trigger insured losses that hit insurer and reinsurer earnings." }
+  - { from: Natural_Disasters,              to: Oil_Supply,                           weight: 0.25, lag_months: 0,  confidence: 0.60, polarity: -1, why: "Gulf of Mexico hurricanes shut in offshore oil production." }
+  - { from: Natural_Disasters,              to: Wheat_and_Grains,                     weight: 0.35, lag_months: 1,  confidence: 0.60, polarity:  1, why: "Droughts and floods cut crop yields and lift grain prices." }
+  - { from: Cyber_Threats,                  to: Cybersecurity,                        weight: 0.70, lag_months: 1,  confidence: 0.85, polarity:  1, why: "High-profile attacks push companies and governments to raise security budgets." }
+  - { from: Tech_Antitrust_and_Regulation,  to: Digital_Advertising,                  weight: 0.45, lag_months: 6,  confidence: 0.65, polarity: -1, why: "Antitrust remedies against search and social platforms threaten ad business models." }
+  - { from: Tech_Antitrust_and_Regulation,  to: E_Commerce_and_Marketplaces,          weight: 0.25, lag_months: 6,  confidence: 0.55, polarity: -1, why: "Marketplace antitrust cases can restrict fees, self-preferencing and bundling." }

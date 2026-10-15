@@ -46,6 +46,8 @@ def load_yaml(graph_path: Path, assets_path: Path):
     for n in graph["nodes"]:
         for kind, atype in ASSET_KINDS.items():
             for t in (n.get("assets") or {}).get(kind) or []:
+                if atype == "commodity":  # "Copper" and "COPPER" are the same asset
+                    t = t.upper().replace(" ", "_")
                 a = assets.setdefault(t, {"type": atype, "nodes": set()})
                 a["nodes"].add(n["id"])
     for t, meta in (assets_cfg or {}).items():

@@ -309,7 +309,7 @@ PYPL:
   type: equity
   nodes: [Payments_Networks, E_Commerce_and_Marketplaces]
 
-SQ:
+XYZ:
   type: equity
   nodes: [Payments_Networks]
 
