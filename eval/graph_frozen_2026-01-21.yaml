@@ -1,0 +1,453 @@
+# ORION Macro-Signal Investing Graph v1.0
+# Built: 2026-01-12
+# Graph Rules:
+# - Nodes = persistent economic actors (drivers, industries, commodities)
+# - Edges = causal pressure (not correlation), with weights (0.1–1.0) and lag (immediate/months/years)
+# - Asset mapping = top, liquid, global equities/ETFs/commodities per node
+# - Versioned, expandable, explainable
+
+version: 1.0
+last_updated: 2026-01-12
+
+themes:
+  - AI
+  - Semiconductors
+  - Energy
+  - Infrastructure
+  - Defense
+  - Commodities
+  - Geopolitics
+
+nodes:
+  - id: AI_Compute_Demand
+    theme: AI
+    type: driver
+    what_is_this: Demand for computational power driven by AI model training and inference.
+    what_affects_it:
+      - Model scaling trends
+      - AI adoption across industries
+      - Cost/performance of compute
+    assets:
+      equities: []
+      etfs: []
+      commodities: []
+
+  - id: AI_Models_and_Software
+    theme: AI
+    type: sub-industry
+    what_is_this: Foundational and applied AI models, frameworks, and inference software.
+    what_affects_it:
+      - Compute availability
+      - Data availability
+      - Regulation and IP rules
+    assets:
+      equities: []
+      etfs: []
+      commodities: []
+
+  - id: Data_Centers
+    theme: AI
+    type: industry
+    what_is_this: Physical facilities that house compute, storage, and networking hardware.
+    what_affects_it:
+      - AI compute demand
+      - Power availability
+      - CapEx budgets
+    assets:
+      equities: [EQIX, DLR, CONE, QTS, AMT]
+      etfs: [SRVR, VPN]
+      commodities: []
+
+  - id: AI_Networking
+    theme: AI
+    type: sub-industry
+    what_is_this: High-speed networking hardware enabling AI cluster communication.
+    what_affects_it:
+      - Cluster scale
+      - Data center architecture
+      - Throughput requirements
+    assets:
+      equities: [CSCO, ANET, INFN]
+      etfs: [IGN, IYW]
+      commodities: []
+
+  - id: AI_Cooling_and_Thermal
+    theme: AI
+    type: sub-industry
+    what_is_this: Cooling systems required to dissipate heat from dense AI compute.
+    what_affects_it:
+      - Power density
+      - Chip efficiency
+      - Data center design
+    assets:
+      equities: [CARR, JCI, TT]
+      etfs: [PAVE]
+      commodities: []
+
+  - id: Advanced_Logic_Chips
+    theme: Semiconductors
+    type: sub-industry
+    what_is_this: Leading-edge processors used in AI, data centers, and high-performance compute.
+    what_affects_it:
+      - AI compute demand
+      - Manufacturing capacity
+      - Process technology
+    assets:
+      equities: [NVDA, AMD, INTC, AVGO, ARM]
+      etfs: [SOXX, SMH]
+      commodities: [Silicon]
+
+  - id: Memory_Chips
+    theme: Semiconductors
+    type: sub-industry
+    what_is_this: High-bandwidth and storage memory required for AI workloads.
+    what_affects_it:
+      - Model size
+      - Data throughput needs
+      - Supply cycles
+    assets:
+      equities: [MU, SK Hynix, Samsung]
+      etfs: [SOXX, SMH]
+      commodities: []
+
+  - id: Semiconductor_Manufacturing
+    theme: Semiconductors
+    type: industry
+    what_is_this: Fabrication of chips using advanced and legacy processes.
+    what_affects_it:
+      - CapEx investment
+      - Government policy
+      - Equipment availability
+    assets:
+      equities: [TSM, ASML, UMC, GFS, INTC]
+      etfs: [SOXX, SMH]
+      commodities: []
+
+  - id: Semiconductor_Equipment
+    theme: Semiconductors
+    type: sub-industry
+    what_is_this: Tools used to manufacture semiconductors (lithography, etching, deposition).
+    what_affects_it:
+      - Fab expansion plans
+      - Technology transitions
+      - Export controls
+    assets:
+      equities: [ASML, AMAT, LRCX, KLAC, TER]
+      etfs: [SOXX, SMH]
+      commodities: []
+
+  - id: Semiconductor_Materials
+    theme: Semiconductors
+    type: sub-industry
+    what_is_this: Chemicals, wafers, gases, and inputs required for chip fabrication.
+    what_affects_it:
+      - Fab utilization
+      - Process complexity
+      - Supply constraints
+    assets:
+      equities: [CCMP, ENTG, 4063.T]
+      etfs: [SOXX]
+      commodities: []
+
+  - id: Electricity_Demand
+    theme: Energy
+    type: driver
+    what_is_this: Total demand for electrical power across the economy.
+    what_affects_it:
+      - Data centers
+      - Industrial activity
+      - Electrification trends
+    assets:
+      equities: []
+      etfs: []
+      commodities: [Electricity_Futures]
+
+  - id: Power_Generation
+    theme: Energy
+    type: industry
+    what_is_this: Production of electricity from fossil, renewable, and nuclear sources.
+    what_affects_it:
+      - Fuel availability
+      - Policy incentives
+      - Capacity investment
+    assets:
+      equities: [NEE, DUK, SO, ENEL, FORTUM]
+      etfs: [XLU, ICLN]
+      commodities: [Oil_and_Gas, Uranium]
+
+  - id: Power_Grid_Infrastructure
+    theme: Energy
+    type: infrastructure
+    what_is_this: Transmission and distribution systems delivering electricity.
+    what_affects_it:
+      - Load growth
+      - Aging infrastructure
+      - Regulatory approval
+    assets:
+      equities: [PWR, BGC, AEP, NEE]
+      etfs: [XLU, PAVE]
+      commodities: []
+
+  - id: Energy_Storage
+    theme: Energy
+    type: sub-industry
+    what_is_this: Technologies that store energy to balance supply and demand.
+    what_affects_it:
+      - Renewable penetration
+      - Grid stability needs
+      - Technology cost curves
+    assets:
+      equities: [TSLA, ENPH, SEDG, STEM]
+      etfs: [BATT, LIT]
+      commodities: []
+
+  - id: Nuclear_Energy
+    theme: Energy
+    type: sub-industry
+    what_is_this: Baseload power generation using nuclear reactors.
+    what_affects_it:
+      - Policy stance
+      - Energy security concerns
+      - Capital intensity
+    assets:
+      equities: [EXC, DNN, NRG]
+      etfs: [URA, URNM]
+      commodities: [Uranium]
+
+  - id: Industrial_Construction
+    theme: Infrastructure
+    type: industry
+    what_is_this: Construction of large-scale industrial and technical facilities.
+    what_affects_it:
+      - CapEx cycles
+      - Permitting timelines
+      - Labor availability
+    assets:
+      equities: [J, FLR, ACM, BLD, PWR]
+      etfs: [PKB, IFRA]
+      commodities: []
+
+  - id: Electrical_Equipment
+    theme: Infrastructure
+    type: sub-industry
+    what_is_this: Transformers, switchgear, and grid hardware.
+    what_affects_it:
+      - Grid expansion
+      - Electrification
+      - Supply bottlenecks
+    assets:
+      equities: [ABB, GE, EATON, SCHN.PA]
+      etfs: [XLI, PAVE]
+      commodities: []
+
+  - id: Transportation_Infrastructure
+    theme: Infrastructure
+    type: infrastructure
+    what_is_this: Roads, rail, ports, and logistics systems.
+    what_affects_it:
+      - Trade volumes
+      - Government spending
+      - Commodity flows
+    assets:
+      equities: [CSX, NSC, UNP, CNI]
+      etfs: [IYT, IFRA]
+      commodities: []
+
+  - id: Defense_Spending
+    theme: Defense
+    type: driver
+    what_is_this: Government expenditures on military capabilities.
+    what_affects_it:
+      - Geopolitical tension
+      - Conflict escalation
+      - Political priorities
+    assets:
+      equities: []
+      etfs: []
+      commodities: []
+
+  - id: Aerospace_and_Defense_Manufacturing
+    theme: Defense
+    type: industry
+    what_is_this: Production of military aircraft, weapons, and defense systems.
+    what_affects_it:
+      - Defense budgets
+      - Technology requirements
+      - Supply chain resilience
+    assets:
+      equities: [LMT, RTX, NOC, GD, BA]
+      etfs: [ITA, XAR]
+      commodities: []
+
+  - id: Defense_Electronics
+    theme: Defense
+    type: sub-industry
+    what_is_this: Sensors, communications, and electronics used in defense systems.
+    what_affects_it:
+      - Technology sophistication
+      - Semiconductor access
+      - Export restrictions
+    assets:
+      equities: [LMT, RTX, LHX]
+      etfs: [ITA, XAR]
+      commodities: []
+
+  - id: Copper
+    theme: Commodities
+    type: commodity
+    what_is_this: Critical metal for electricity, grids, and electronics.
+    what_affects_it:
+      - Grid build-out
+      - EVs and data centers
+      - Mine supply
+    assets:
+      equities: [FCX, SCCO, RIO, GLEN.L, BHP]
+      etfs: [COPX, PICK]
+      commodities: [Copper]
+
+  - id: Oil_and_Gas
+    theme: Commodities
+    type: commodity
+    what_is_this: Fossil fuels used for energy and petrochemicals.
+    what_affects_it:
+      - Global demand
+      - Geopolitical disruptions
+      - Investment cycles
+    assets:
+      equities: [XOM, CVX, SHEL, CNQ, BP]
+      etfs: [XLE, IXC]
+      commodities: [WTI, Brent, NatGas]
+
+  - id: Uranium
+    theme: Commodities
+    type: commodity
+    what_is_this: Fuel for nuclear power generation.
+    what_affects_it:
+      - Nuclear build-out
+      - Inventory levels
+      - Mining capacity
+    assets:
+      equities: [CCJ, UUUU, NXE, KAP.L]
+      etfs: [URA, URNM]
+      commodities: [U3O8]
+
+  - id: Industrial_Policy
+    theme: Geopolitics
+    type: driver
+    what_is_this: Government intervention to support domestic industries.
+    what_affects_it:
+      - Strategic competition
+      - Supply chain risk
+      - Political agendas
+    assets:
+      equities: []
+      etfs: []
+      commodities: []
+
+  - id: Trade_Restrictions
+    theme: Geopolitics
+    type: policy
+    what_is_this: Tariffs, export controls, and sanctions affecting trade.
+    what_affects_it:
+      - Geopolitical conflict
+      - Technology leadership concerns
+    assets:
+      equities: []
+      etfs: []
+      commodities: []
+
+  - id: Supply_Chain_Resilience
+    theme: Geopolitics
+    type: driver
+    what_is_this: Efforts to reduce dependency on fragile or hostile supply chains.
+    what_affects_it:
+      - Past disruptions
+      - National security concerns
+      - Policy incentives
+    assets:
+      equities: []
+      etfs: []
+      commodities: []
+  - id: Lithium
+    theme: Energy
+    type: commodity
+    what_is_this: Lithium raw material for batteries.
+    assets: {equities: [], etfs: [], commodities: []}
+
+  - id: Cathode_Materials
+    theme: Energy
+    type: sub-industry
+    what_is_this: Cathode active materials and precursors (NMC, LFP).
+    assets: {equities: [], etfs: [], commodities: []}
+
+  - id: Cobalt
+    theme: Energy
+    type: commodity
+    what_is_this: Cobalt used in some cathode chemistries.
+    assets: {equities: [], etfs: [], commodities: []}
+
+edges:
+  # === AI demand → DC buildout ===
+  - { from: AI_Compute_Demand, to: Data_Centers,              weight: 0.75, lag_months: 6,  confidence: 0.9 }
+  - { from: AI_Compute_Demand, to: Advanced_Logic_Chips,      weight: 1.00, lag_months: 3,  confidence: 0.9 }
+  - { from: AI_Compute_Demand, to: Memory_Chips,              weight: 0.80, lag_months: 6,  confidence: 0.8 }
+  - { from: AI_Compute_Demand, to: AI_Networking,             weight: 0.70, lag_months: 6,  confidence: 0.8 }
+  - { from: AI_Compute_Demand, to: AI_Cooling_and_Thermal,    weight: 0.60, lag_months: 6,  confidence: 0.8 }
+
+  # Data centers → power & kit
+  - { from: Data_Centers,      to: Electricity_Demand,        weight: 0.90, lag_months: 3,  confidence: 0.9 }
+  - { from: Data_Centers,      to: Industrial_Construction,   weight: 0.80, lag_months: 6,  confidence: 0.8 }
+  - { from: Data_Centers,      to: Electrical_Equipment,      weight: 0.60, lag_months: 6,  confidence: 0.8 }
+  - { from: Data_Centers,      to: Power_Grid_Infrastructure, weight: 0.60, lag_months: 9,  confidence: 0.8 }
+  - { from: Data_Centers,      to: Copper,                    weight: 0.50, lag_months: 6,  confidence: 0.7 }
+  - { from: Data_Centers,      to: AI_Cooling_and_Thermal,    weight: 0.70, lag_months: 3,  confidence: 0.9 }
+  - { from: Data_Centers,      to: AI_Networking,             weight: 0.60, lag_months: 6,  confidence: 0.8 }
+  - { from: Data_Centers,      to: Memory_Chips,              weight: 0.50, lag_months: 6,  confidence: 0.7 }
+
+  # === Semiconductors core ===
+  - { from: Advanced_Logic_Chips,   to: Semiconductor_Manufacturing, weight: 1.00, lag_months: 6, confidence: 0.9 }
+  - { from: Memory_Chips,           to: Semiconductor_Manufacturing, weight: 0.70, lag_months: 6, confidence: 0.8 }
+
+  - { from: Semiconductor_Manufacturing, to: Semiconductor_Equipment,  weight: 0.82, lag_months: 9, confidence: 0.9 }
+  - { from: Semiconductor_Manufacturing, to: Semiconductor_Materials,  weight: 0.70, lag_months: 4, confidence: 0.9 }
+  - { from: Semiconductor_Manufacturing, to: Industrial_Construction,  weight: 0.40, lag_months: 9, confidence: 0.7 }
+  - { from: Semiconductor_Manufacturing, to: Power_Grid_Infrastructure,weight: 0.20, lag_months: 12, confidence: 0.6 }
+
+  - { from: Advanced_Logic_Chips,   to: Semiconductor_Equipment,      weight: 0.75, lag_months: 6, confidence: 0.85 }
+
+  # === Energy chain ===
+  - { from: Electricity_Demand,     to: Power_Generation,             weight: 0.55, lag_months: 18, confidence: 0.7 }
+  - { from: Electricity_Demand,     to: Power_Grid_Infrastructure,    weight: 0.70, lag_months: 12, confidence: 0.8 }
+  - { from: Power_Generation,       to: Oil_and_Gas,                  weight: 0.50, lag_months: 3,  confidence: 0.6 }
+  - { from: Power_Generation,       to: Uranium,                      weight: 0.30, lag_months: 24, confidence: 0.6 }
+  - { from: Power_Generation,       to: Nuclear_Energy,               weight: 0.60, lag_months: 30, confidence: 0.7 }
+  - { from: Power_Generation,       to: Energy_Storage,               weight: 0.50, lag_months: 12, confidence: 0.7 }
+  - { from: Power_Generation,       to: Copper,                       weight: 0.60, lag_months: 9,  confidence: 0.6 }
+
+  - { from: Power_Grid_Infrastructure, to: Electrical_Equipment,      weight: 1.00, lag_months: 9, confidence: 0.9 }
+  - { from: Power_Grid_Infrastructure, to: Industrial_Construction,   weight: 0.50, lag_months: 9, confidence: 0.7 }
+  - { from: Power_Grid_Infrastructure, to: Copper,                    weight: 0.80, lag_months: 9, confidence: 0.8 }
+
+  # === Infrastructure → materials ===
+  - { from: Industrial_Construction, to: Copper,                      weight: 0.60, lag_months: 6, confidence: 0.8 }
+  - { from: Industrial_Construction, to: Oil_and_Gas,                 weight: 0.30, lag_months: 3, confidence: 0.6 }
+  - { from: Industrial_Construction, to: Transportation_Infrastructure, weight: 0.50, lag_months: 24, confidence: 0.6 }
+  - { from: Electrical_Equipment,    to: Copper,                      weight: 0.70, lag_months: 6, confidence: 0.7 }
+
+  # === Defense ===
+  - { from: Defense_Spending,                 to: Aerospace_and_Defense_Manufacturing, weight: 1.00, lag_months: 9, confidence: 0.9 }
+  - { from: Defense_Spending,                 to: Defense_Electronics,                 weight: 0.70, lag_months: 9, confidence: 0.8 }
+  - { from: Aerospace_and_Defense_Manufacturing, to: Advanced_Logic_Chips,            weight: 0.60, lag_months: 9, confidence: 0.7 }
+  - { from: Aerospace_and_Defense_Manufacturing, to: Industrial_Construction,         weight: 0.30, lag_months: 9, confidence: 0.6 }
+  - { from: Defense_Electronics,              to: Semiconductor_Manufacturing,        weight: 0.20, lag_months: 6, confidence: 0.5 }
+
+  # === Policy / Trade / Reshoring ===
+  - { from: Industrial_Policy,         to: Semiconductor_Manufacturing, weight: 0.70, lag_months: 12, confidence: 0.8 }
+  - { from: Industrial_Policy,         to: Power_Generation,            weight: 0.50, lag_months: 18, confidence: 0.6 }
+  - { from: Industrial_Policy,         to: Industrial_Construction,     weight: 0.70, lag_months: 12, confidence: 0.8 }
+
+  - { from: Trade_Restrictions,        to: Semiconductor_Equipment,     weight: 0.70, lag_months: 2,  confidence: 0.7 }
+  - { from: Trade_Restrictions,        to: Defense_Electronics,         weight: 0.50, lag_months: 2,  confidence: 0.6 }
+
+  - { from: Supply_Chain_Resilience,   to: Semiconductor_Manufacturing, weight: 0.60, lag_months: 12, confidence: 0.7 }
+  - { from: Supply_Chain_Resilience,   to: Industrial_Construction,     weight: 0.50, lag_months: 12, confidence: 0.7 }

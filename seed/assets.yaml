@@ -1,0 +1,554 @@
+# ORION asset → node mapping with explicit types.
+# Types: equity | etf | commodity
+
+NVDA:
+  type: equity
+  nodes: [AI_Compute_Demand, AI_Models_and_Software, Advanced_Logic_Chips]
+
+AAPL:
+  type: equity
+  nodes: [AI_Models_and_Software, Advanced_Logic_Chips]
+
+AMZN:
+  type: equity
+  nodes: [AI_Models_and_Software, Data_Centers, Cloud_Infrastructure, E_Commerce_and_Marketplaces, Digital_Advertising]
+
+AMD:
+  type: equity
+  nodes: [AI_Compute_Demand, Advanced_Logic_Chips]
+
+AVGO:
+  type: equity
+  nodes: [AI_Networking, Advanced_Logic_Chips, Semiconductor_Materials]
+
+ARM:
+  type: equity
+  nodes: [Advanced_Logic_Chips, AI_Models_and_Software]
+
+TSM:
+  type: equity
+  nodes: [Semiconductor_Manufacturing, Advanced_Logic_Chips]
+
+ASML:
+  type: equity
+  nodes: [Semiconductor_Equipment, Semiconductor_Manufacturing]
+
+INTC:
+  type: equity
+  nodes: [Semiconductor_Manufacturing, Advanced_Logic_Chips]
+
+AMAT:
+  type: equity
+  nodes: [Semiconductor_Equipment, Semiconductor_Materials]
+
+LRCX:
+  type: equity
+  nodes: [Semiconductor_Equipment]
+
+MRVL:
+  type: equity
+  nodes: [AI_Networking, Advanced_Logic_Chips]
+
+QCOM:
+  type: equity
+  nodes: [Advanced_Logic_Chips]
+
+MU:
+  type: equity
+  nodes: [Memory_Chips, Semiconductor_Manufacturing]
+
+KLAC:
+  type: equity
+  nodes: [Semiconductor_Equipment]
+
+TER:
+  type: equity
+  nodes: [Semiconductor_Equipment]
+
+ENTG:
+  type: equity
+  nodes: [Semiconductor_Materials]
+
+WOLF:
+  type: equity
+  nodes: [Semiconductor_Materials]
+
+BIDU:
+  type: equity
+  nodes: [AI_Models_and_Software]
+
+MSFT:
+  type: equity
+  nodes: [AI_Models_and_Software, Data_Centers]
+
+GOOGL:
+  type: equity
+  nodes: [AI_Models_and_Software, Data_Centers]
+
+META:
+  type: equity
+  nodes: [AI_Models_and_Software, Data_Centers]
+
+ORCL:
+  type: equity
+  nodes: [Data_Centers]
+
+CRM:
+  type: equity
+  nodes: [Enterprise_SaaS]
+
+NOW:
+  type: equity
+  nodes: [Enterprise_SaaS]
+
+INTU:
+  type: equity
+  nodes: [Enterprise_SaaS]
+
+ADBE:
+  type: equity
+  nodes: [Enterprise_SaaS, Digital_Advertising]
+
+PANW:
+  type: equity
+  nodes: [Cybersecurity]
+
+CRWD:
+  type: equity
+  nodes: [Cybersecurity]
+
+FTNT:
+  type: equity
+  nodes: [Cybersecurity]
+
+ZS:
+  type: equity
+  nodes: [Cybersecurity]
+
+EQIX:
+  type: equity
+  nodes: [Data_Centers]
+
+DLR:
+  type: equity
+  nodes: [Data_Centers]
+
+AMT:
+  type: equity
+  nodes: [Data_Centers, AI_Networking]
+
+ANET:
+  type: equity
+  nodes: [AI_Networking, Data_Centers]
+
+CSCO:
+  type: equity
+  nodes: [AI_Networking]
+
+VRT:
+  type: equity
+  nodes: [AI_Cooling_and_Thermal, Data_Centers, Electrical_Equipment]
+
+CARR:
+  type: equity
+  nodes: [AI_Cooling_and_Thermal, Electrical_Equipment]
+
+TT:
+  type: equity
+  nodes: [AI_Cooling_and_Thermal, Industrial_Construction]
+
+NEE:
+  type: equity
+  nodes: [Power_Grid_Infrastructure, Power_Generation]
+
+DUK:
+  type: equity
+  nodes: [Power_Grid_Infrastructure, Power_Generation]
+
+XEL:
+  type: equity
+  nodes: [Power_Grid_Infrastructure, Power_Generation, Energy_Storage]
+
+ENPH:
+  type: equity
+  nodes: [Electrical_Equipment, Power_Generation, Energy_Storage]
+
+FSLR:
+  type: equity
+  nodes: [Power_Generation, Semiconductor_Materials]
+
+CEG:
+  type: equity
+  nodes: [Power_Generation, Nuclear_Energy]
+
+VST:
+  type: equity
+  nodes: [Power_Generation, Electricity_Demand]
+
+SO:
+  type: equity
+  nodes: [Power_Generation, Power_Grid_Infrastructure]
+
+AEP:
+  type: equity
+  nodes: [Power_Grid_Infrastructure]
+
+PWR:
+  type: equity
+  nodes: [Power_Grid_Infrastructure, Industrial_Construction, Electrical_Equipment]
+
+ETN:
+  type: equity
+  nodes: [Electrical_Equipment, Power_Grid_Infrastructure]
+
+HUBB:
+  type: equity
+  nodes: [Electrical_Equipment, Power_Grid_Infrastructure]
+
+ABB:
+  type: equity
+  nodes: [Electrical_Equipment, Power_Grid_Infrastructure]
+
+GEV:
+  type: equity
+  nodes: [Electrical_Equipment, Power_Generation]
+
+J:
+  type: equity
+  nodes: [Industrial_Construction, Data_Centers]
+
+FLR:
+  type: equity
+  nodes: [Industrial_Construction]
+
+ACM:
+  type: equity
+  nodes: [Industrial_Construction]
+
+CAT:
+  type: equity
+  nodes: [Industrial_Construction, Transportation_Infrastructure]
+
+DE:
+  type: equity
+  nodes: [Industrial_Construction, Transportation_Infrastructure]
+
+ROK:
+  type: equity
+  nodes: [Industrial_Automation]
+
+HON:
+  type: equity
+  nodes: [Industrial_Automation]
+
+EMR:
+  type: equity
+  nodes: [Industrial_Automation]
+
+UPS:
+  type: equity
+  nodes: [Logistics_and_Shipping]
+
+FDX:
+  type: equity
+  nodes: [Logistics_and_Shipping]
+
+UNP:
+  type: equity
+  nodes: [Transportation_Infrastructure, Logistics_and_Shipping]
+
+CNI:
+  type: equity
+  nodes: [Transportation_Infrastructure, Logistics_and_Shipping]
+
+UBER:
+  type: equity
+  nodes: [Logistics_and_Shipping, E_Commerce_and_Marketplaces]
+
+JPM:
+  type: equity
+  nodes: [Capital_Markets, Retail_Banking]
+
+GS:
+  type: equity
+  nodes: [Capital_Markets]
+
+MS:
+  type: equity
+  nodes: [Capital_Markets]
+
+BAC:
+  type: equity
+  nodes: [Retail_Banking, Capital_Markets]
+
+WFC:
+  type: equity
+  nodes: [Retail_Banking]
+
+BLK:
+  type: equity
+  nodes: [Alternative_Asset_Managers, Capital_Markets]
+
+BX:
+  type: equity
+  nodes: [Alternative_Asset_Managers]
+
+KKR:
+  type: equity
+  nodes: [Alternative_Asset_Managers]
+
+V:
+  type: equity
+  nodes: [Payments_Networks]
+
+MA:
+  type: equity
+  nodes: [Payments_Networks]
+
+PYPL:
+  type: equity
+  nodes: [Payments_Networks, E_Commerce_and_Marketplaces]
+
+SQ:
+  type: equity
+  nodes: [Payments_Networks]
+
+SHOP:
+  type: equity
+  nodes: [E_Commerce_and_Marketplaces, Payments_Networks]
+
+MELI:
+  type: equity
+  nodes: [E_Commerce_and_Marketplaces, Payments_Networks]
+
+BABA:
+  type: equity
+  nodes: [E_Commerce_and_Marketplaces, Cloud_Infrastructure]
+
+MP:
+  type: equity
+  nodes: [Rare_Earths]
+
+LNG:
+  type: equity
+  nodes: [LNG_and_Gas_Export]
+
+EQT:
+  type: equity
+  nodes: [LNG_and_Gas_Export, Oil_and_Gas]
+
+WMB:
+  type: equity
+  nodes: [LNG_and_Gas_Export]
+
+KMI:
+  type: equity
+  nodes: [LNG_and_Gas_Export]
+
+TSLA:
+  type: equity
+  nodes: [EVs_and_Autonomy, Energy_Storage]
+
+RIVN:
+  type: equity
+  nodes: [EVs_and_Autonomy]
+
+GM:
+  type: equity
+  nodes: [EVs_and_Autonomy]
+
+F:
+  type: equity
+  nodes: [EVs_and_Autonomy]
+
+LMT:
+  type: equity
+  nodes: [Aerospace_and_Defense_Manufacturing, Defense_Electronics]
+
+RTX:
+  type: equity
+  nodes: [Aerospace_and_Defense_Manufacturing, Defense_Electronics]
+
+NOC:
+  type: equity
+  nodes: [Aerospace_and_Defense_Manufacturing]
+
+GD:
+  type: equity
+  nodes: [Aerospace_and_Defense_Manufacturing]
+
+LHX:
+  type: equity
+  nodes: [Defense_Electronics]
+
+XOM:
+  type: equity
+  nodes: [Oil_and_Gas]
+
+CVX:
+  type: equity
+  nodes: [Oil_and_Gas]
+
+SHEL:
+  type: equity
+  nodes: [Oil_and_Gas]
+
+BP:
+  type: equity
+  nodes: [Oil_and_Gas]
+
+CNQ:
+  type: equity
+  nodes: [Oil_and_Gas]
+
+FCX:
+  type: equity
+  nodes: [Copper]
+
+SCCO:
+  type: equity
+  nodes: [Copper]
+
+RIO:
+  type: equity
+  nodes: [Copper, Uranium]
+
+BHP:
+  type: equity
+  nodes: [Copper, Uranium]
+
+CCJ:
+  type: equity
+  nodes: [Uranium, Nuclear_Energy]
+
+NXE:
+  type: equity
+  nodes: [Uranium]
+
+UUUU:
+  type: equity
+  nodes: [Uranium]
+
+SOXX:
+  type: etf
+  nodes: [Semiconductor_Manufacturing, Semiconductor_Equipment, Advanced_Logic_Chips]
+
+SMH:
+  type: etf
+  nodes: [Semiconductor_Manufacturing, Semiconductor_Equipment, Advanced_Logic_Chips]
+
+XLK:
+  type: etf
+  nodes: [AI_Models_and_Software, Data_Centers]
+
+XLU:
+  type: etf
+  nodes: [Power_Grid_Infrastructure, Power_Generation]
+
+ICLN:
+  type: etf
+  nodes: [Power_Generation]
+
+SRVR:
+  type: etf
+  nodes: [Data_Centers]
+
+PAVE:
+  type: etf
+  nodes: [Industrial_Construction, Electrical_Equipment, Power_Grid_Infrastructure]
+
+XLI:
+  type: etf
+  nodes: [Industrial_Construction, Electrical_Equipment, Transportation_Infrastructure]
+
+XLE:
+  type: etf
+  nodes: [Oil_and_Gas]
+
+ITA:
+  type: etf
+  nodes: [Aerospace_and_Defense_Manufacturing, Defense_Electronics]
+
+XAR:
+  type: etf
+  nodes: [Aerospace_and_Defense_Manufacturing, Defense_Electronics]
+
+URA:
+  type: etf
+  nodes: [Uranium, Nuclear_Energy]
+
+URNM:
+  type: etf
+  nodes: [Uranium, Nuclear_Energy]
+
+COPX:
+  type: etf
+  nodes: [Copper]
+
+PICK:
+  type: etf
+  nodes: [Copper, Oil_and_Gas]
+
+LIT:
+  type: etf
+  nodes: [Lithium, Energy_Storage]
+
+IGV:
+  type: etf
+  nodes: [Enterprise_SaaS, Cybersecurity]
+
+HACK:
+  type: etf
+  nodes: [Cybersecurity]
+
+CIBR:
+  type: etf
+  nodes: [Cybersecurity]
+
+XLF:
+  type: etf
+  nodes: [Capital_Markets, Retail_Banking, Alternative_Asset_Managers, Payments_Networks]
+
+KBE:
+  type: etf
+  nodes: [Retail_Banking]
+
+IAI:
+  type: etf
+  nodes: [Capital_Markets]
+
+BOTZ:
+  type: etf
+  nodes: [Industrial_Automation]
+
+IYT:
+  type: etf
+  nodes: [Logistics_and_Shipping, Transportation_Infrastructure]
+
+REMX:
+  type: etf
+  nodes: [Rare_Earths]
+
+XLY:
+  type: etf
+  nodes: [E_Commerce_and_Marketplaces, EVs_and_Autonomy]
+
+COPPER:
+  type: commodity
+  nodes: [Copper]
+
+SILICON:
+  type: commodity
+  nodes: [Semiconductor_Materials]
+
+LITHIUM:
+  type: commodity
+  nodes: [Lithium]
+
+CATHODE:
+  type: commodity
+  nodes: [Cathode_Materials]
+
+COBALT:
+  type: commodity
+  nodes: [Cobalt]
