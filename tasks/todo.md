@@ -29,7 +29,7 @@ Runtime LLM: Gemini free tier during build → Claude (Haiku 4.5 / Sonnet 5.5) f
 ## Sat (10h) — differentiation + polish
 - [ ] Compare mode (plain LLM vs Ripple)
 - [ ] Depth slider 1→4
-- [ ] Systemic map (pageRank / betweenness)
+- [ ] Systemic map (pageRank / betweenness) — use it as the idle view; the full 79-node graph is unreadable at fit zoom
 - [ ] MCP server (same tools)
 - [ ] Backtest (timebox 3h): frozen 2026-01-21 graph, ~10 post-Jan events, top-5 vs SPY 5d/20d, vs random + plain LLM
 - [ ] UI polish pass: empty/error/loading, dark/light, mobile, disclaimer
