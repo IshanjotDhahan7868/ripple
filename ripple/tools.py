@@ -41,14 +41,21 @@ def analyze_impact(g, sources: list[str], direction: int, depth: int = 4) -> dic
     direction = 1 if int(direction) >= 0 else -1
     impacts = engine.propagate(g, sources, direction=direction, depth=depth)
     assets = engine.exposed_assets(g, impacts, limit=12)
-    nodes = sorted(impacts.values(), key=lambda n: n.impact, reverse=True)
+    nodes = sorted(impacts.values(), key=lambda n: n.impact, reverse=True)[:20]
+    # keep every node on a shown path so the UI can always draw the full chain
+    shown = {n.node for n in nodes}
+    for path in [n.best_path for n in nodes] + [a["path"] for a in assets]:
+        for node in path:
+            if node not in shown and node in impacts:
+                shown.add(node)
+                nodes.append(impacts[node])
     return {
         "sources": sources,
         "direction": direction,
         "depth": depth,
         "drivers": [{"id": n.node, "impact": round(n.impact, 3), "direction": n.direction,
                      "hops": n.hops, "lag_months": n.lag_months, "path": n.best_path}
-                    for n in nodes[:20]],
+                    for n in nodes],
         "assets": [{**a, "score": round(a["score"], 3)} for a in assets],
         "reached": len(impacts),
     }

@@ -41,6 +41,17 @@ def full_graph():
     }
 
 
+@app.get("/api/ripple")
+def ripple(source: str, direction: int = 1, depth: int = Q.MAX_DEPTH):
+    """Engine mode: the deterministic propagation with no LLM in the loop."""
+    g = TracedGraph(graph())
+    try:
+        result = tools.analyze_impact(g, [source], direction, max(1, min(depth, Q.MAX_DEPTH)))
+    except tools.ToolError as e:
+        raise HTTPException(404, str(e))
+    return {**result, "queries": g.drain()}
+
+
 @app.get("/api/systemic")
 def systemic(limit: int = 10):
     return tools.systemic_drivers(graph(), max(3, min(limit, 15)))
