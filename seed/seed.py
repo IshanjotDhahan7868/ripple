@@ -38,6 +38,7 @@ def load_yaml(graph_path: Path, assets_path: Path):
         "confidence": float(e.get("confidence", 1.0)),
         "lag_months": int(e.get("lag_months", 0)),
         "polarity": int(e.get("polarity", 1)),
+        "why": e.get("why", ""),
     } for e in graph["edges"]]
 
     # ticker -> {type, nodes}; node-embedded lists and assets.yaml are unioned
@@ -74,7 +75,7 @@ def seed(db: FalkorDB, graph_name: str, graph_path: Path, assets_path: Path):
     g.query("CREATE INDEX FOR (d:Driver) ON (d.id)")
     g.query("UNWIND $rows AS r MATCH (a:Driver {id: r.src}), (b:Driver {id: r.dst}) "
             "CREATE (a)-[:DRIVES {weight: r.weight, confidence: r.confidence, "
-            "lag_months: r.lag_months, polarity: r.polarity}]->(b)", {"rows": edges})
+            "lag_months: r.lag_months, polarity: r.polarity, why: r.why}]->(b)", {"rows": edges})
     g.query("UNWIND $rows AS r CREATE (:Asset {ticker: r.ticker, type: r.type})", {"rows": assets})
     g.query("CREATE INDEX FOR (a:Asset) ON (a.ticker)")
     g.query("UNWIND $rows AS r MATCH (a:Asset {ticker: r.ticker}), (d:Driver {id: r.node}) "
