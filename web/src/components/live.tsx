@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { Ticker } from "@/components/ticker";
 import { ago, getLiveFeed, type LiveFeed as Feed, type LiveSummary } from "@/lib/live";
 
@@ -8,9 +9,9 @@ const SHOW = 6;
 
 function Status({ item }: { item: LiveSummary }) {
   const g = item.grade?.["5"];
-  if (!g) return <span className="rounded-full bg-panel-2 px-3 py-1 text-[13px] text-muted">Waiting for 5 trading days</span>;
+  if (!g) return <span className="border border-line bg-panel-2 px-2.5 py-1 font-mono text-[12px] text-muted">Waiting for 5 trading days</span>;
   return (
-    <span className={`rounded-full px-3 py-1 text-[13px] font-bold ${g.hit ? "bg-up-soft text-up" : "bg-down-soft text-down"}`}>
+    <span className={`border px-2.5 py-1 font-mono text-[12px] font-bold ${g.hit ? "bg-up-soft text-up" : "bg-down-soft text-down"}`}>
       {g.hit ? "Right" : "Wrong"} after 5 days
     </span>
   );
@@ -103,8 +104,8 @@ export function LiveFeed({ onOpen, active }: { onOpen: (item: LiveSummary) => vo
                 onClick={() => onOpen(it)}
                 onKeyDown={(e) => e.target === e.currentTarget && (e.key === "Enter" || e.key === " ") && (e.preventDefault(), onOpen(it))}
                 aria-pressed={active === it.id}
-                className={`flex h-full w-full flex-col gap-3 rounded-2xl border-2 p-4 text-left transition ${
-                  active === it.id ? "border-link bg-panel-2" : "border-transparent bg-panel hover:bg-panel-2"
+                className={`flex h-full w-full cursor-pointer flex-col gap-3 border-[1.5px] p-4 text-left shadow-[5px_5px_0_rgba(0,0,0,.4)] transition ${
+                  active === it.id ? "border-gold bg-panel-2" : "border-line bg-panel hover:border-gold"
                 }`}
               >
                 <span className="text-[14px] text-muted">
@@ -123,11 +124,16 @@ export function LiveFeed({ onOpen, active }: { onOpen: (item: LiveSummary) => vo
           ))}
         </ul>
       )}
-      {feed && feed.items.length > SHOW && (
-        <button onClick={() => setAll(!all)} className="self-start text-[15px] text-link hover:underline">
-          {all ? "Show fewer" : `Show all ${feed.items.length}`}
-        </button>
-      )}
+      <div className="flex flex-wrap gap-6 text-[15px]">
+        {feed && feed.items.length > SHOW && (
+          <button onClick={() => setAll(!all)} className="text-link hover:underline">
+            {all ? "Show fewer" : `Show all ${feed.items.length} here`}
+          </button>
+        )}
+        <Link href="/live" className="text-link hover:underline">
+          Open the full live tape, with grades and withdrawals
+        </Link>
+      </div>
     </section>
   );
 }

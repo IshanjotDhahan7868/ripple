@@ -7,6 +7,7 @@ import { Board, WhyCard } from "@/components/board";
 import { UnderTheHood, stepText, type TraceStep } from "@/components/hood";
 import { SiteHeader } from "@/components/chrome";
 import { LiveFeed } from "@/components/live";
+import { Pressure } from "@/components/tape";
 import { RippleGraph } from "@/components/ripple-graph";
 import { StoryView } from "@/components/story";
 import { FlowView } from "@/components/views/flow";
@@ -14,7 +15,6 @@ import { HeatView } from "@/components/views/heat";
 import { RingsView } from "@/components/views/rings";
 import {
   compare,
-  getEvents,
   getGraph,
   getRipple,
   getSystemic,
@@ -28,7 +28,7 @@ import {
   type Systemic,
 } from "@/lib/api";
 import { animate, guilloche, type Field } from "@/lib/guilloche";
-import { ago, getLiveItem, type LiveSummary } from "@/lib/live";
+import { ago, getLedger, getLiveItem, type LedgerItem, type LiveSummary } from "@/lib/live";
 import { groupAssets, makeLookup, tidy, verdict, type Selection, type ViewProps } from "@/lib/model";
 
 type Sample = { slug: string; headline: string; answer_type: AnswerType };
@@ -63,7 +63,7 @@ export default function Home() {
   const [graph, setGraph] = useState<{ nodes: GraphNode[]; edges: GraphEdge[] } | null>(null);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [samples, setSamples] = useState<Sample[]>([]);
-  const [events, setEvents] = useState<MemoryEvent[]>([]);
+  const [ledger, setLedger] = useState<LedgerItem[] | null>(null);
   const [systemic, setSystemic] = useState<Systemic | null>(null);
 
   const [headline, setHeadline] = useState("");
@@ -87,7 +87,7 @@ export default function Home() {
 
   useEffect(() => {
     getGraph().then(setGraph, (e) => setLoadError(String(e.message ?? e)));
-    getEvents().then(setEvents);
+    getLedger().then(setLedger, () => {});
     getSystemic().then(setSystemic, () => {});
     fetch("/samples/index.json")
       .then((r) => r.json())
@@ -202,7 +202,6 @@ export default function Home() {
     start(h.trim());
     try {
       await streamAnalyze(h.trim(), 4, apply);
-      getEvents().then(setEvents);
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
     } finally {
@@ -389,6 +388,22 @@ export default function Home() {
                 </button>
               </div>
             )}
+            {explore && systemic && (
+              <div className="grid gap-4 md:grid-cols-2">
+                <PressureList
+                  title="A shock here spreads the furthest"
+                  items={systemic.spreaders.map((s) => ({ id: s.id, value: s.reach, label: `reaches ${s.reach} other parts` }))}
+                  L={L}
+                  onPick={(id) => runForce(id, 1)}
+                />
+                <PressureList
+                  title="Shocks pile up here"
+                  items={systemic.drivers.map((s) => ({ id: s.id, value: s.pagerank, label: s.theme }))}
+                  L={L}
+                  onPick={(id) => runForce(id, 1)}
+                />
+              </div>
+            )}
           </div>
           {loadError && (
             <p className="rounded-2xl bg-down-soft p-4 text-down">
@@ -540,68 +555,12 @@ export default function Home() {
           )}
         </div>
 
+        {ledger && <Pressure items={ledger} L={L} />}
+
         <LiveFeed onOpen={runLive} active={live?.id ?? null} />
 
         <Trust />
 
-        {/* how it works */}
-        <section id="how" className="flex scroll-mt-6 flex-col gap-6">
-          <h2 className="font-display text-[34px] font-bold">How it works</h2>
-          <ol className="grid gap-4 md:grid-cols-3">
-            {[
-              ["Claude reads the headline", "It picks the parts of the economy the news moves, and in which direction. If nothing fits, it says so."],
-              ["FalkorDB follows the links", `Every cause-and-effect link is stored in a graph database. It follows them up to 4 steps out, weakening the push and adding up the delay at each step.`],
-              ["You see who's exposed", "Stocks likely to rise or fall, roughly when, and the chain behind each one. Every claim comes from the map, not from the AI's memory."],
-            ].map(([t, d], i) => (
-              <li key={t} className="flex flex-col gap-3 rounded-3xl bg-panel p-6">
-                <span className="grid size-10 place-items-center rounded-full bg-signal font-bold text-ground">{i + 1}</span>
-                <span className="font-display text-[22px] font-bold">{t}</span>
-                <span className="text-[16px] text-muted">{d}</span>
-              </li>
-            ))}
-          </ol>
-        </section>
-
-        {systemic && (
-          <section className="flex flex-col gap-6">
-            <div className="flex flex-col gap-2">
-              <h2 className="font-display text-[34px] font-bold">The economy&apos;s pressure points</h2>
-              <p className="max-w-[720px] text-[17px] text-muted">
-                Ranked live from the map. Click one to see what happens if it rises.
-              </p>
-            </div>
-            <div className="grid gap-4 md:grid-cols-2">
-              <PressureList
-                title="A shock here spreads the furthest"
-                items={systemic.spreaders.map((s) => ({ id: s.id, value: s.reach, label: `reaches ${s.reach} other parts` }))}
-                L={L}
-                onPick={(id) => runForce(id, 1)}
-              />
-              <PressureList
-                title="Shocks pile up here"
-                items={systemic.drivers.map((s) => ({ id: s.id, value: s.pagerank, label: s.theme }))}
-                L={L}
-                onPick={(id) => runForce(id, 1)}
-              />
-            </div>
-          </section>
-        )}
-
-        {events.length > 0 && (
-          <section className="flex flex-col gap-4">
-            <h2 className="font-display text-[26px] font-bold">Recently traced</h2>
-            <ul className="flex flex-col gap-2">
-              {events.slice(0, 6).map((e) => (
-                <li key={e.id} className="flex flex-wrap items-baseline justify-between gap-2 rounded-2xl bg-panel px-4 py-3">
-                  <span>{e.headline}</span>
-                  <span className="text-[14px] text-muted">
-                    {e.drivers.map((d) => L.name(d)).join(", ")} {e.direction > 0 ? "up" : "down"}
-                  </span>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
       </main>
 
       <footer className="border-t border-line px-5 py-8 text-center text-[14px] text-muted">
@@ -642,31 +601,22 @@ function Dot({ done }: { done: boolean }) {
 }
 
 function Trust() {
-  const dots = (n: number, on: string) =>
-    Array.from({ length: 10 }, (_, k) => <span key={k} className={`size-4 rounded-full ${k < n ? on : "bg-line"}`} />);
   return (
-    <section className="flex flex-wrap items-center gap-8 rounded-3xl bg-panel p-6 sm:p-8">
-      <div className="flex min-w-0 flex-[1_1_320px] flex-col gap-2">
-        <h2 className="font-display text-[28px] font-bold">Can you trust this?</h2>
-        <p className="text-[16px] text-muted">
-          We replayed 10 real past events and checked the 50 stocks Ripple named 20 trading days later, against the S&amp;P
-          500. Ten events is a small sample, so treat this as a sanity check, not proof.{" "}
-          <Link href="/casebook" className="text-link hover:underline">
-            See every call
-          </Link>
+    <section className="flex flex-wrap items-center justify-between gap-x-8 gap-y-4 border-[1.5px] border-line bg-panel px-6 py-5 shadow-[6px_6px_0_rgba(0,0,0,.45)]">
+      <div className="flex flex-col gap-1">
+        <h2 className="font-display text-[22px] font-extrabold">Can you trust this?</h2>
+        <p className="max-w-[620px] text-[16px] text-muted">
+          In a backtest on 10 past events, <b className="text-ink">35 of 50 calls were right</b> after 20 trading days
+          (random stocks: about 49%). Small sample, so it&apos;s a sanity check, not proof. Live calls are graded in public.
         </p>
       </div>
-      <div className="flex flex-[1_1_380px] flex-col gap-3">
-        <div className="flex flex-wrap items-center gap-3">
-          <span className="w-28 font-bold">Ripple</span>
-          <span className="flex gap-1.5">{dots(7, "bg-up")}</span>
-          <span className="font-bold">7 in 10 calls right</span>
-        </div>
-        <div className="flex flex-wrap items-center gap-3">
-          <span className="w-28 text-muted">Random picks</span>
-          <span className="flex gap-1.5">{dots(5, "bg-muted")}</span>
-          <span className="text-muted">about 5 in 10</span>
-        </div>
+      <div className="flex flex-wrap gap-3 font-bold">
+        <Link href="/casebook" className="border-[1.5px] border-gold px-4 py-2 hover:bg-gold hover:text-ground">
+          See every backtest call
+        </Link>
+        <Link href="/live" className="border-[1.5px] border-line px-4 py-2 hover:border-gold">
+          Open the live tape
+        </Link>
       </div>
     </section>
   );

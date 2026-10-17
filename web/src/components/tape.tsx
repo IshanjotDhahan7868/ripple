@@ -197,7 +197,7 @@ function Entry({ it, L }: { it: LedgerItem; L: Lookup }) {
 }
 
 // what the last week of news has been pushing, added up across every live call
-function Pressure({ items, L }: { items: LedgerItem[]; L: Lookup }) {
+export function Pressure({ items, L }: { items: LedgerItem[]; L: Lookup }) {
   const now = Math.max(...items.map((i) => i.traced_at));
   const recent = items.filter((i) => !i.withdrawn && now - i.traced_at < WEEK);
   const forces = new Map<string, { up: number; down: number }>();
@@ -237,8 +237,8 @@ function Pressure({ items, L }: { items: LedgerItem[]; L: Lookup }) {
             {F.map(([id, f]) => {
               const net = f.up - f.down;
               return (
-                <li key={id} className="grid grid-cols-[minmax(0,170px)_1fr_auto] items-center gap-3">
-                  <span className="truncate font-bold">{L.name(id)}</span>
+                <li key={id} className="grid grid-cols-[minmax(0,210px)_1fr_auto] items-center gap-3">
+                  <span className="font-bold leading-tight">{L.name(id)}</span>
                   <span className="flex h-6 bg-[#e6dcc8]">
                     <span className="h-full bg-money" style={{ width: `${(f.up / fmax) * 100}%` }} />
                     <span className="h-full bg-down-fill" style={{ width: `${(f.down / fmax) * 100}%` }} />
