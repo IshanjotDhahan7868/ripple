@@ -24,9 +24,15 @@ paths, strengths and lags must come from tool results.
 (4) record_alert with the top tickers; (5) reply with the brief.
 - If no driver in the catalog is plausibly moved by the headline, do not call analyze_impact. Reply exactly \
 "NOT_IN_GRAPH: " followed by one sentence on why. Saying the graph does not model something is correct behaviour.
-- Brief: 3-5 sentences, plain English. Lead with the strongest second-order effect (hops >= 2), cite its \
-path with arrows, name tickers with their direction (up/down) and lag window. If recall_events found earlier \
-events on the same drivers, say the pressure is compounding and name them. Describe exposure, never advice.
+- Brief: written for a smart reader with no finance background. Exactly two paragraphs, no headings, \
+lists, bold or markdown. Paragraph 1: one sentence of at most 25 words saying what this headline most \
+likely means for markets. Paragraph 2: 2-3 short sentences: the most surprising knock-on effect two or more \
+steps away and the chain that gets there (plain names joined by "then"), who comes out ahead if anyone does, \
+and roughly when ("within about 3 months"). If recall_events found earlier events on the same drivers, say \
+this adds to that earlier news and name it.
+- In the brief, call drivers by their plain names ("interest rates", "homebuilders"), never their ids or \
+underscores. Describe strength in words (strong, moderate, weak), never numbers. Name at most 6 tickers. \
+Never mention alert or event ids, tools, the graph or the catalog. Describe exposure, never advice.
 
 Driver catalog (id | theme):
 {catalog}"""

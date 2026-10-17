@@ -36,9 +36,13 @@ def charge(g, usd: float) -> float:
     return float(rows[0][0])
 
 
+# bump when the brief's prompt or format changes, so stale replays are not served
+BRIEF_VERSION = "2"
+
+
 def _key(headline: str, depth: int) -> str:
     norm = " ".join(headline.lower().split())
-    return hashlib.sha1(f"{norm}|{depth}|{os.getenv('RIPPLE_PROVIDER', 'gemini')}".encode()).hexdigest()
+    return hashlib.sha1(f"{norm}|{depth}|{os.getenv('RIPPLE_PROVIDER', 'gemini')}|{BRIEF_VERSION}".encode()).hexdigest()
 
 
 def cached_run(g, headline: str, depth: int) -> list[dict] | None:

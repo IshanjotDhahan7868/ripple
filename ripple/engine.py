@@ -40,7 +40,7 @@ def propagate(g, sources: list[str], direction: int = 1, depth: int = Q.MAX_DEPT
     return out
 
 
-def exposed_assets(g, impacts: dict[str, NodeImpact], limit: int = 15) -> list[dict]:
+def exposed_assets(g, impacts: dict[str, NodeImpact], limit: int = 15, per_side: int = 6) -> list[dict]:
     rows = g.ro_query(Q.EXPOSED_ASSETS, {"nodes": list(impacts)}).result_set
     scored = []
     for ticker, atype, hit, exposure_count in rows:
@@ -59,4 +59,10 @@ def exposed_assets(g, impacts: dict[str, NodeImpact], limit: int = 15) -> list[d
             "hops": best.hops,
         })
     scored.sort(key=lambda a: a["score"], reverse=True)
-    return scored[:limit]
+    # one strong side shouldn't hide the other: top up each side to a few names
+    keep = scored[:limit]
+    for up in (True, False):
+        side = [a for a in scored if (a["direction"] > 0) == up]
+        have = sum((a["direction"] > 0) == up for a in keep)
+        keep += [a for a in side if a not in keep][:max(0, per_side - have)]
+    return sorted(keep, key=lambda a: a["score"], reverse=True)

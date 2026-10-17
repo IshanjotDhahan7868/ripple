@@ -1,0 +1,32 @@
+[
+ {
+  "slug": "ai-capex",
+  "headline": "Microsoft, Google and Meta raise 2027 AI capex guidance by $120B",
+  "answer_type": "answered"
+ },
+ {
+  "slug": "fed-higher",
+  "headline": "Fed signals interest rates will stay higher for longer",
+  "answer_type": "answered"
+ },
+ {
+  "slug": "opec-cuts",
+  "headline": "OPEC+ agrees deeper oil production cuts through next year",
+  "answer_type": "compounding"
+ },
+ {
+  "slug": "grid-backlog",
+  "headline": "Grid interconnection backlog hits a record as utilities pause new hookups",
+  "answer_type": "answered"
+ },
+ {
+  "slug": "pentagon",
+  "headline": "Pentagon requests largest defense budget increase in a decade",
+  "answer_type": "compounding"
+ },
+ {
+  "slug": "octopus",
+  "headline": "Marine biologists discover a new species of deep-sea octopus",
+  "answer_type": "not_in_graph"
+ }
+]
