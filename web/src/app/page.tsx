@@ -23,7 +23,7 @@ const SAMPLES = [
   "Microsoft, Google and Meta raise 2027 AI capex guidance by $120B",
   "Grid interconnection backlog hits a record as utilities pause new hookups",
   "Pentagon requests largest defense budget increase in a decade",
-  "Taylor Swift announces a new world tour",
+  "Marine biologists discover a new species of deep-sea octopus",
 ];
 
 type Mode = "headline" | "driver";
@@ -60,7 +60,13 @@ export default function Home() {
   const [analysis, setAnalysis] = useState<Analysis | null>(null);
   const [revealed, setRevealed] = useState<Set<string>>(new Set());
   const [focusPath, setFocusPath] = useState<string[] | null>(null);
-  const [brief, setBrief] = useState<{ type: AnswerType; text: string; memory: MemoryEvent[] } | null>(null);
+  const [brief, setBrief] = useState<{
+    type: AnswerType;
+    text: string;
+    memory: MemoryEvent[];
+    usd?: number;
+    replayed?: boolean;
+  } | null>(null);
   const [plain, setPlain] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [events, setEvents] = useState<MemoryEvent[]>([]);
@@ -135,7 +141,7 @@ export default function Home() {
           });
           if (ev.name === "analyze_impact" && !ev.error) play(ev.result as unknown as Analysis);
         }
-        if (ev.type === "brief") setBrief({ type: ev.answer_type, text: ev.text, memory: ev.memory });
+        if (ev.type === "brief") setBrief({ type: ev.answer_type, text: ev.text, memory: ev.memory, usd: ev.usd, replayed: ev.replayed });
         if (ev.type === "error") setError(ev.message);
       });
       getEvents().then(setEvents);
@@ -370,6 +376,13 @@ export default function Home() {
                 {brief && <AnswerBadge type={brief.type} />}
               </div>
               {brief && <p className="text-[14px] leading-relaxed">{brief.text}</p>}
+              {brief && (brief.replayed || brief.usd) ? (
+                <p className="text-[12px] text-muted">
+                  {brief.replayed
+                    ? "Replayed from an earlier run of this headline, so no model call was made."
+                    : `This run cost about $${brief.usd?.toFixed(3)} in model calls.`}
+                </p>
+              ) : null}
               {brief?.memory.length ? (
                 <ul className="space-y-1 text-[12px] text-muted">
                   {brief.memory.map((m) => (

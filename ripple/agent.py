@@ -6,6 +6,7 @@ import os
 import re
 from typing import Callable
 
+from . import budget
 from . import queries as Q
 from . import tools as T
 
@@ -60,6 +61,7 @@ class Run:
         self.analysis: dict | None = None
         self.memory: list[dict] = []
         self.unknown_ids = False
+        self.usd = 0.0
 
     def call(self, name: str, args: dict) -> tuple[dict, bool]:
         if name not in T.FUNCS:
@@ -108,19 +110,33 @@ class Run:
 
 # ---------- providers ----------
 
+_UNSUPPORTED_IN_STRICT = {"maxItems", "minimum", "maximum", "minLength", "maxLength"}
+
+
+def _strict_schema(schema):
+    """Strict tool use rejects some bounds; drop them here. The tools enforce the same bounds themselves."""
+    if isinstance(schema, dict):
+        return {k: _strict_schema(v) for k, v in schema.items() if k not in _UNSUPPORTED_IN_STRICT}
+    if isinstance(schema, list):
+        return [_strict_schema(v) for v in schema]
+    return schema
+
+
 def _anthropic_loop(run: Run, system: str, user: str) -> str:
     import anthropic
 
     client = anthropic.Anthropic()
     model = os.getenv("RIPPLE_CLAUDE_MODEL", "claude-opus-5-5")
-    tool_spec = [{**t, "strict": True} for t in T.SPEC]
+    tool_spec = [{**t, "input_schema": _strict_schema(t["input_schema"]), "strict": True} for t in T.SPEC]
     messages = [{"role": "user", "content": user}]
     for _ in range(MAX_TURNS):
         resp = client.beta.messages.create(
             model=model, max_tokens=8000, system=system, tools=tool_spec, messages=messages,
             output_config={"effort": os.getenv("RIPPLE_EFFORT", "low")},
+            cache_control={"type": "ephemeral"},
             betas=["server-side-fallback-2026-07-01"], fallbacks="default",
         )
+        run.usd += budget.cost(resp.model, resp.usage)
         if resp.stop_reason == "refusal":
             return "NOT_IN_GRAPH: the request was declined."
         messages.append({"role": "assistant", "content": resp.content})
@@ -167,6 +183,7 @@ def _plain(system: str, user: str) -> str:
         resp = anthropic.Anthropic().messages.create(
             model=os.getenv("RIPPLE_CLAUDE_MODEL", "claude-opus-5-5"), max_tokens=2000, system=system,
             output_config={"effort": "low"}, messages=[{"role": "user", "content": user}])
+        _plain.usd = budget.cost(resp.model, resp.usage)
         return "".join(b.text for b in resp.content if b.type == "text").strip()
     from google import genai
     from google.genai import types
@@ -196,7 +213,7 @@ def analyze(g, headline: str, depth: int, emit: Emit) -> dict:
         text = text.removeprefix("NOT_IN_GRAPH:").strip()
 
     result = {"type": "brief", "answer_type": run.answer_type(text), "text": text,
-              "analysis": run.analysis, "memory": run.memory}
+              "analysis": run.analysis, "memory": run.memory, "usd": round(run.usd, 4)}
     emit(result)
     return result
 

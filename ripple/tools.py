@@ -71,6 +71,7 @@ def explain_link(g, src: str, dst: str) -> dict:
 
 def systemic_drivers(g, limit: int = 8) -> dict:
     """`drivers`: where shocks pool (PageRank). `spreaders`: how many drivers each one reaches within 4 hops."""
+    limit = max(3, min(int(limit), 15))
     rows = g.ro_query(Q.SYSTEMIC_PAGERANK, {"limit": int(limit)}).result_set
     reach = g.ro_query(Q.SYSTEMIC_REACH, {"limit": int(limit)}).result_set
     return {"drivers": [{"id": r[0], "theme": r[1], "pagerank": round(r[2], 4)} for r in rows],
@@ -79,7 +80,7 @@ def systemic_drivers(g, limit: int = 8) -> dict:
 
 def recall_events(g, driver_ids: list[str], days: int = 30) -> dict:
     driver_ids = _require_drivers(g, driver_ids)
-    since = int(time.time()) - int(days) * 86400
+    since = int(time.time()) - max(1, min(int(days), 365)) * 86400
     rows = g.ro_query(Q.RECALL_EVENTS, {"nodes": driver_ids, "since": since, "limit": 5}).result_set
     return {"events": [{"id": r[0], "headline": r[1], "at": r[2], "direction": r[3], "drivers": r[4]}
                        for r in rows]}
@@ -88,6 +89,7 @@ def recall_events(g, driver_ids: list[str], days: int = 30) -> dict:
 def record_alert(g, headline: str, sources: list[str], direction: int, summary: str,
                  tickers: list[str], answer_type: str = "answered") -> dict:
     sources = _require_drivers(g, sources)
+    tickers = list(tickers)[:12]
     now = int(time.time())
     event_id = f"evt_{uuid.uuid4().hex[:10]}"
     g.query(Q.RECORD_EVENT, {"id": event_id, "headline": headline[:300], "at": now,

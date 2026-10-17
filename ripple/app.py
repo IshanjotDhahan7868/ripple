@@ -11,7 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field
 
-from . import agent, tools
+from . import agent, budget, tools
 from . import queries as Q
 from .db import TracedGraph, client, graph
 
@@ -44,8 +44,9 @@ def _llm_error(e: Exception) -> str:
 
 @app.get("/api/health")
 def health():
-    n = graph().ro_query("MATCH (d:Driver) RETURN count(d)").result_set[0][0]
-    return {"ok": True, "drivers": n}
+    g = graph()
+    n = g.ro_query("MATCH (d:Driver) RETURN count(d)").result_set[0][0]
+    return {"ok": True, "drivers": n, "llm_spent_usd": round(budget.spent(g), 3), "llm_budget_usd": budget.limit()}
 
 
 @app.get("/api/graph")
@@ -86,13 +87,39 @@ def events(limit: int = 20):
     return {"events": [dict(zip(("id", "headline", "at", "direction", "drivers", "answer_type"), r)) for r in rows]}
 
 
+def _over_budget() -> bool:
+    return os.getenv("RIPPLE_PROVIDER", "gemini") == "anthropic" and budget.spent(graph()) >= budget.limit()
+
+
+BUDGET_MESSAGE = ("The demo's language-model budget is used up. Sample headlines still replay from earlier runs, "
+                  "and tracing from a driver works without a model.")
+
+
 @app.post("/api/analyze")
 def analyze(body: AnalyzeIn):
+    """Streams a live agent run. A headline seen before replays its stored run instead of calling the model again."""
     q: queue.Queue = queue.Queue()
+    cached = budget.cached_run(graph(), body.headline, body.depth)
 
     def work():
+        events: list[dict] = []
+
+        def emit(ev):
+            events.append(ev)
+            q.put(ev)
+
         try:
-            agent.analyze(TracedGraph(graph()), body.headline, body.depth, q.put)
+            if cached is not None:
+                for ev in cached:
+                    q.put({**ev, "replayed": True} if ev.get("type") == "brief" else ev)
+                return
+            if _over_budget():
+                q.put({"type": "error", "message": BUDGET_MESSAGE})
+                return
+            result = agent.analyze(TracedGraph(graph()), body.headline, body.depth, emit)
+            if os.getenv("RIPPLE_PROVIDER", "gemini") == "anthropic":
+                budget.charge(graph(), result.get("usd", 0.0))
+            budget.store_run(graph(), body.headline, body.depth, events)
         except Exception as e:  # surfaced to the UI as a stream event
             q.put({"type": "error", "message": _llm_error(e)})
         finally:
@@ -111,7 +138,12 @@ def analyze(body: AnalyzeIn):
 
 @app.post("/api/compare")
 def compare(body: AnalyzeIn):
+    if _over_budget():
+        raise HTTPException(429, BUDGET_MESSAGE)
     try:
-        return {"plain": agent.plain_answer(body.headline)}
+        text = agent.plain_answer(body.headline)
+        if os.getenv("RIPPLE_PROVIDER", "gemini") == "anthropic":
+            budget.charge(graph(), getattr(agent._plain, "usd", 0.0))
+        return {"plain": text}
     except Exception as e:
         raise HTTPException(502, f"LLM error: {type(e).__name__}")

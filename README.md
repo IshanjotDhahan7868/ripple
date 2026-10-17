@@ -41,7 +41,7 @@ At depth 1, `Nuclear_Energy` is not reached. This is asserted in `tests/test_par
 | Memory as graph nodes | `Event` and `Alert` nodes with `HIT`, `FROM` and `FLAGS` edges. `recall_events` reads them back to detect compounding pressure. |
 | Graph algorithms as tools | `systemic_drivers` calls `algo.pageRank`; `explain_link` calls `algo.SPpaths`. |
 | Depth-1 vs depth-4 demo | See above. |
-| Honest "not in graph" | A headline with no plausible driver gets `not_in_graph`, not a guess. Try the sample "Taylor Swift announces a new world tour". |
+| Honest "not in graph" | A headline with no plausible driver gets `not_in_graph`, not a guess. Try the sample "Marine biologists discover a new species of deep-sea octopus". |
 | MCP | `python -m ripple.mcp_server` exposes the same tool catalog to any MCP client. See [docs/mcp.md](docs/mcp.md). |
 | FalkorDB Cloud deploy | The live API runs against FalkorDB Cloud (AWS us-east-1). |
 

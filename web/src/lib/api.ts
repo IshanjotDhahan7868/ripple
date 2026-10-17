@@ -44,7 +44,15 @@ export type StreamEvent =
   | { type: "tool_call"; name: string; input: Record<string, unknown> }
   | { type: "tool_result"; name: string; error: boolean; result: Record<string, unknown>; queries: QueryTrace[] }
   | { type: "guard"; invented: string[]; action: string }
-  | { type: "brief"; answer_type: AnswerType; text: string; analysis: Analysis | null; memory: MemoryEvent[] }
+  | {
+      type: "brief";
+      answer_type: AnswerType;
+      text: string;
+      analysis: Analysis | null;
+      memory: MemoryEvent[];
+      usd?: number;
+      replayed?: boolean;
+    }
   | { type: "error"; message: string }
   | { type: "done" };
 
