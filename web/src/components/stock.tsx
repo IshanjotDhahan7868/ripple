@@ -133,7 +133,7 @@ export function StockView() {
                             <span className="font-bold leading-snug">{c.headline}</span>
                             <span className="font-mono text-[13px] font-bold">
                               <span className={d > 0 ? "text-money" : "text-down-fill"}>{d > 0 ? "▲ called up" : "▼ called down"}</span>
-                              <span className="opacity-60"> · {g ? `${g.hit ? "right" : "wrong"}, ${pct(g.excess)} vs S&P` : "waiting for 5 days"}</span>
+                              <span className="opacity-60"> · {g ? `call ${g.hit ? "right" : "wrong"} by ${pct(Math.abs(g.excess)).replace("+", "")}` : "waiting for 5 days"}</span>
                             </span>
                           </Link>
                         </li>
@@ -154,7 +154,9 @@ export function StockView() {
                         </Link>
                         <span className="font-mono text-[13px] text-muted">
                           {e.date} · called {x.direction > 0 ? "▲" : "▼"} ·{" "}
-                          <b className={x.excess_20d > 0 ? "text-up" : "text-down"}>{pct(x.excess_20d)} vs S&amp;P after 20 days</b>
+                          <b className={x.excess_20d > 0 ? "text-up" : "text-down"}>
+                            {x.excess_20d > 0 ? "right" : "wrong"} by {pct(Math.abs(x.excess_20d)).replace("+", "")} after 20 days
+                          </b>
                         </span>
                       </li>
                     ))}
