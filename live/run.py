@@ -37,9 +37,13 @@ def summary(item: dict) -> dict:
     }
 
 
-def trace(g, matcher: Matcher, fresh: list[dict], history: list[dict]) -> list[dict]:
-    out = []
+def trace(g, matcher: Matcher, fresh: list[dict], history: list[dict]) -> tuple[list[dict], set[str]]:
+    """Returns the new calls and the ids looked at; headlines past the per-run cap wait for the next run."""
+    out, looked = [], set()
     for it in fresh:
+        if len(out) >= PER_RUN:
+            break
+        looked.add(it["id"])
         p = matcher.pick(it["headline"])
         if not p:
             continue
@@ -54,9 +58,7 @@ def trace(g, matcher: Matcher, fresh: list[dict], history: list[dict]) -> list[d
         earlier = [{"id": h["id"], "headline": h["headline"]} for h in history
                    if not h.get("withdrawn") and (h.get("traced_at") or 0) >= since and set(h["pick"]["sources"]) & set(p["sources"])][:3]
         out.append(it | {"pick": p, "analysis": analysis, "earlier": earlier, "traced_at": int(time.time()), "grade": {}})
-        if len(out) >= PER_RUN:
-            break
-    return out
+    return out, looked
 
 
 def main():
@@ -75,8 +77,8 @@ def main():
     if not args.no_fetch:
         headlines = feeds.fetch(counts=counts)
         fresh = [h for h in headlines if h["id"] not in seen]
-        new = trace(db.graph(), Matcher(), fresh, history)
-        seen |= {h["id"] for h in headlines}
+        new, looked = trace(db.graph(), Matcher(), fresh, history)
+        seen |= looked
         print(f"{len(headlines)} headlines, {len(fresh)} unseen, {len(new)} traced")
         for item in new:
             (out / "items" / f"{item['id']}.json").write_text(json.dumps(item))
