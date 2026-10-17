@@ -9,21 +9,22 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 UP = set("""rise rises rising rose surge surges surged soar soars soared jump jumps jumped climb climbs climbed gain gains
 gained raise raises raised hike hikes hiked increase increases increased boost boosts boosted expand expands expanded
-rally rallies rallied spike spikes spiked accelerate accelerates strengthen strengthens strong stronger higher high
+rally rallies rallied spike spikes spiked accelerate accelerates strengthen strengthens strong stronger higher
 record beat beats tops grow grows grew growth booms boom ramp ramps add adds added escalate escalates escalation
-attack attacks strike strikes approve approves approved launch launches wins win tighten tightens shortage""".split())
+attack attacks strike strikes approve approves approved wins win tighten tightens shortage""".split())
 DOWN = set("""fall falls falling fell drop drops dropped decline declines declined plunge plunges plunged slump slumps
 slumped cut cuts slash slashes slashed lower lowers lowered reduce reduces reduced shrink shrinks shrank slow slows
 slowed slowdown weaken weakens weak weaker halt halts halted pause pauses paused ban bans banned miss misses missed
 tumble tumbles tumbled sink sinks sank ease eases eased cool cools cooled contraction contracts slide slides slid
 low lows loses lose lost retreat retreats crash crashes curb curbs delay delays scrap scraps cancel cancels
-ceasefire truce peace deescalate temper tempers tempered hit""".split())
+ceasefire truce peace deescalate temper tempers tempered hit end demise phase-out phaseout""".split())
 NEGATE = {"not", "no", "never", "won't", "wont", "doesn't", "didn't", "isn't", "without", "unlikely", "rules", "against"}
 # defaults only fire when the headline actually describes trouble, not a mere mention of the place
 TROUBLE = set("""attack attacks strike strikes war missile missiles drills blockade sanctions tension tensions threat threatens
 violent violence clash clashes invade invasion seize seized hack hacked breach outage disrupts disrupted escalate
 escalation conflict fighting bombing shelling drone drones storm fire flood quake lawsuit sues probe fine fined""".split())
 WORD = re.compile(r"[a-z0-9][a-z0-9'\-+&.]*")
+BREAK = re.compile(r"[,;:|]|\b(and|but|while|as|after|despite|amid|though|even as)\b")
 
 
 class Matcher:
@@ -60,6 +61,8 @@ class Matcher:
         for rx in self.ignore:  # phrases that look like an alias but aren't ("fiscal 2026")
             text = rx.sub(lambda m: " " * len(m.group()), text)
         words = [(m.group(), m.start()) for m in WORD.finditer(text)]
+        cuts = [m.start() for m in BREAK.finditer(text)]
+        clause = lambda pos: sum(c <= pos for c in cuts)  # noqa: E731
         trouble = any(w in TROUBLE for w, _ in words)
         hits, taken = [], []
         for alias, driver, polarity in self.aliases:
@@ -74,20 +77,8 @@ class Matcher:
 
         picks = []
         for driver, polarity, (a, b), alias in hits:
-            # nearest rise/fall word anywhere in the headline, outside the alias itself
-            best = None
-            for k, (w, pos) in enumerate(words):
-                if a <= pos < b:
-                    continue
-                sign = 1 if w in UP else -1 if w in DOWN else 0
-                if not sign:
-                    continue
-                if k + 1 < len(words) and (words[k + 1][0] in UP or words[k + 1][0] in DOWN):
-                    continue  # "growth slowdown": the last word of the pair carries the meaning
-                if any(x in NEGATE for x, _ in words[max(0, k - 3):k]):
-                    sign = -sign
-                if best is None or abs(pos - a) < best[0]:
-                    best = (abs(pos - a), sign)
+            # nearest rise/fall word in the alias's own clause; the whole headline only if the clause has none
+            best = self._nearest(words, a, b, lambda pos: clause(pos) == clause(a)) or self._nearest(words, a, b, lambda pos: True)
             if best:
                 picks.append((driver, best[1] * polarity, alias))
             elif driver in self.default and trouble:
@@ -98,3 +89,20 @@ class Matcher:
         sources = list(dict.fromkeys(d for d, s, _ in picks if s == sign))[:3]
         return {"sources": sources, "direction": sign, "how": "keywords",
                 "matched": [al for d, s, al in picks if s == sign]}
+
+    @staticmethod
+    def _nearest(words, a, b, keep):
+        best = None
+        for k, (w, pos) in enumerate(words):
+            if a <= pos < b or not keep(pos):
+                continue
+            sign = 1 if w in UP else -1 if w in DOWN else 0
+            if not sign:
+                continue
+            if k + 1 < len(words) and (words[k + 1][0] in UP or words[k + 1][0] in DOWN):
+                continue  # "growth slowdown": the last word of the pair carries the meaning
+            if any(x in NEGATE for x, _ in words[max(0, k - 3):k]):
+                sign = -sign
+            if best is None or abs(pos - a) < best[0]:
+                best = (abs(pos - a), sign)
+        return best

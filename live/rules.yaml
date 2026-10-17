@@ -47,9 +47,13 @@ default:
   Trade_Restrictions: 1
 
 ignore:
+  # company names alone make single-company stories look like market-wide shocks (checkup 2026-10-17)
+  - "\\b(openai|anthropic)\\b"
   - "fiscal (year |q[1-4] |first |second |third |fourth )?(quarter |20\\d\\d|\\d{2}\\b)"
 
 skip:
+  # foreign central banks: the map's rates driver is the Fed (checkup 2026-10-17)
+  - "\\b(boj|ecb|boe|bank of (japan|england|canada)|european central bank|rba|rbi|snb|pboc)\\b"
   - "\\b(stocks? to (buy|watch)|best .* to buy|how to|what to know|explained|opinion|podcast|quiz|review:)"
   - "\\?$"
   - "\\b(dies|obituary|wedding|recipe|celebrity)\\b"
