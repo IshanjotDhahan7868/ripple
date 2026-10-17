@@ -15,8 +15,9 @@ NY = ZoneInfo("America/New_York")
 
 
 def entry_day(published: int | None, traced_at: int):
-    """The session whose close is the entry price: same day if the news came out before the 4pm close."""
-    t = datetime.fromtimestamp(published or traced_at, NY)
+    """The session whose close is the entry price: the first close after the call was made (same day if made
+    before the 4pm close). Never the publish date when that's earlier: that would grade moves the call came after."""
+    t = datetime.fromtimestamp(max(published or 0, traced_at), NY)
     return t.date() if t.hour < 16 else (t.date().fromordinal(t.date().toordinal() + 1))
 
 

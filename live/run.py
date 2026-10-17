@@ -19,6 +19,7 @@ from .pick import Matcher
 PER_RUN = 8        # new traces per run; keeps the feed readable and the run short
 KEEP = 80          # items shown in feed.json
 MEMORY_DAYS = 30
+MAX_AGE_H = 48     # older headlines are no longer news; feeds sometimes carry week-old items
 
 
 def load(path: Path, default):
@@ -44,6 +45,8 @@ def trace(g, matcher: Matcher, fresh: list[dict], history: list[dict]) -> tuple[
         if len(out) >= PER_RUN:
             break
         looked.add(it["id"])
+        if it.get("published") and time.time() - it["published"] > MAX_AGE_H * 3600:
+            continue
         p = matcher.pick(it["headline"])
         if not p:
             continue

@@ -108,9 +108,11 @@ export function verdict(downs: Group[], ups: Group[]): string {
   const d = downs[0];
   const u = ups[0];
   if (!d && !u) return "Nothing in the map is pushed hard enough to call.";
+  const subject = (g: Group) =>
+    g.name.startsWith("Tied directly") ? `stocks ${g.name.toLowerCase()} are` : `${g.name} ${g.tickers.length > 1 ? "stocks are" : "is"}`;
   const parts: string[] = [];
-  if (d) parts.push(`${d.name} ${d.tickers.length > 1 ? "stocks are" : "is"} the most likely to fall`);
-  if (u) parts.push(`${u.name} ${u.tickers.length > 1 ? "stocks are" : "is"} the most likely to rise`);
+  if (d) parts.push(`${subject(d)} the most likely to fall`);
+  if (u) parts.push(`${subject(u)} the most likely to rise`);
   const lead = parts.join(", while ");
   return `${lead[0].toUpperCase()}${lead.slice(1)}. The first effects land ${when(first.months)}.`;
 }
