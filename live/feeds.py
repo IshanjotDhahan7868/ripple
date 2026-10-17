@@ -28,9 +28,11 @@ def key(headline: str) -> str:
     return hashlib.sha1(" ".join(norm.split()).encode()).hexdigest()[:12]
 
 
-def fetch(timeout: int = 20) -> list[dict]:
+def fetch(timeout: int = 20, counts: dict | None = None) -> list[dict]:
     items, seen = [], set()
     for name, url in FEEDS.items():
+        if counts is not None:
+            counts[name] = 0
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA})
             root = ET.fromstring(urllib.request.urlopen(req, timeout=timeout).read())
@@ -46,6 +48,8 @@ def fetch(timeout: int = 20) -> list[dict]:
                 at = int(parsedate_to_datetime(it.findtext("pubDate")).timestamp())
             except Exception:
                 at = None
+            if counts is not None:
+                counts[name] += 1
             items.append({"id": key(title), "headline": title, "source": source,
                           "url": (it.findtext("link") or "").strip(), "published": at})
     return items

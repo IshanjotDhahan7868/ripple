@@ -21,7 +21,7 @@ def entry_day(published: int | None, traced_at: int):
 
 
 def update(items: list[dict], items_dir: Path) -> list[dict]:
-    todo = [i for i in items if any(str(h) not in (i.get("grade") or {}) for h in HORIZONS)]
+    todo = [i for i in items if not i.get("withdrawn") and any(str(h) not in (i.get("grade") or {}) for h in HORIZONS)]
     if not todo:
         return items
     try:

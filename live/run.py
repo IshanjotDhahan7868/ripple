@@ -52,7 +52,7 @@ def trace(g, matcher: Matcher, fresh: list[dict], history: list[dict]) -> list[d
             continue
         since = time.time() - MEMORY_DAYS * 86400
         earlier = [{"id": h["id"], "headline": h["headline"]} for h in history
-                   if (h.get("traced_at") or 0) >= since and set(h["pick"]["sources"]) & set(p["sources"])][:3]
+                   if not h.get("withdrawn") and (h.get("traced_at") or 0) >= since and set(h["pick"]["sources"]) & set(p["sources"])][:3]
         out.append(it | {"pick": p, "analysis": analysis, "earlier": earlier, "traced_at": int(time.time()), "grade": {}})
         if len(out) >= PER_RUN:
             break
@@ -71,9 +71,9 @@ def main():
     history = load(out / "ledger.json", [])  # every traced headline, ever; feed.json shows the newest
     seen = set(state["seen"])
 
-    new = []
+    new, counts = [], {}
     if not args.no_fetch:
-        headlines = feeds.fetch()
+        headlines = feeds.fetch(counts=counts)
         fresh = [h for h in headlines if h["id"] not in seen]
         new = trace(db.graph(), Matcher(), fresh, history)
         seen |= {h["id"] for h in headlines}
@@ -83,13 +83,19 @@ def main():
 
     items = [summary(i) for i in new] + history
     items = grade.update(items, out / "items")
+    write(out, items, checkup=load(out / "feed.json", {}).get("checkup"))
+    state = {"seen": sorted(seen)[-5000:], "runs": state["runs"] + 1, "last_run": int(time.time()),
+             "last_new": len(new), "feeds": counts or state.get("feeds", {})}
+    (out / "state.json").write_text(json.dumps(state))
 
-    feed = {"updated": int(time.time()), "items": items[:KEEP], "total": len(items), "score": grade.scoreboard(items)}
-    state = {"seen": sorted(seen)[-5000:], "runs": state["runs"] + 1, "last_run": feed["updated"],
-             "last_new": len(new)}
+
+def write(out: Path, items: list[dict], checkup: dict | None = None):
+    """feed.json shows live calls only; withdrawn ones stay in the ledger and are counted, never hidden."""
+    shown = [i for i in items if not i.get("withdrawn")]
+    feed = {"updated": int(time.time()), "items": shown[:KEEP], "total": len(shown),
+            "withdrawn": len(items) - len(shown), "score": grade.scoreboard(shown), "checkup": checkup}
     (out / "ledger.json").write_text(json.dumps(items))
     (out / "feed.json").write_text(json.dumps(feed, indent=1))
-    (out / "state.json").write_text(json.dumps(state))
     print("score:", feed["score"])
 
 

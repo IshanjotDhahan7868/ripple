@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Board, WhyCard } from "@/components/board";
 import { UnderTheHood, stepText, type TraceStep } from "@/components/hood";
+import { LiveFeed } from "@/components/live";
 import { RippleGraph } from "@/components/ripple-graph";
 import { StoryView } from "@/components/story";
 import { FlowView } from "@/components/views/flow";
@@ -23,6 +24,7 @@ import {
   type StreamEvent,
   type Systemic,
 } from "@/lib/api";
+import { ago, getLiveItem, type LiveSummary } from "@/lib/live";
 import { groupAssets, makeLookup, tidy, verdict, type Selection, type ViewProps } from "@/lib/model";
 
 type Sample = { slug: string; headline: string; answer_type: AnswerType };
@@ -75,6 +77,7 @@ export default function Home() {
   const [selected, setSelected] = useState<Selection | null>(null);
   const [tab, setTab] = useState<Tab>("story");
   const [plain, setPlain] = useState<string | null>(null);
+  const [live, setLive] = useState<LiveSummary | null>(null);
   const results = useRef<HTMLDivElement>(null);
   const run = useRef(0);
 
@@ -95,13 +98,19 @@ export default function Home() {
     const q = new URLSearchParams(window.location.search);
     const v = q.get("view") as Tab | null;
     const s = samples.find((x) => x.slug === q.get("example"));
-    if (s) runSample(s).then(() => v && TABS.some((t) => t.id === v) && setTab(v));
+    const show = () => v && TABS.some((t) => t.id === v) && setTab(v);
+    if (s) runSample(s).then(show);
+    const l = q.get("live");
+    if (l && /^[0-9a-f]{12}$/.test(l))
+      getLiveItem(l).then((it) => runLive(it).then(show), () => {});
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [samples, graph]);
 
   const shareUrl = (() => {
+    if (typeof window === "undefined") return null;
+    if (live) return `${window.location.origin}/?live=${live.id}&view=${tab}`;
     const s = samples.find((x) => x.headline === asked);
-    if (!s || typeof window === "undefined") return null;
+    if (!s) return null;
     return `${window.location.origin}/?example=${s.slug}&view=${tab}`;
   })();
   const [copied, setCopied] = useState(false);
@@ -125,6 +134,7 @@ export default function Home() {
     setError(null);
     setSelected(null);
     setPlain(null);
+    setLive(null);
     setTab("story");
     setTimeout(() => results.current?.scrollIntoView({ behavior: "smooth", block: "start" }), 50);
     return run.current;
@@ -172,6 +182,20 @@ export default function Home() {
         apply(ev);
       }
       setSaved(true);
+    } catch (e) {
+      setError(e instanceof Error ? e.message : String(e));
+    } finally {
+      if (run.current === id) setRunning(false);
+    }
+  }
+
+  async function runLive(item: LiveSummary) {
+    setHeadline(item.headline);
+    const id = start(item.headline);
+    setLive(item);
+    try {
+      const full = await getLiveItem(item.id);
+      if (run.current === id) setAnalysis(full.analysis);
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
     } finally {
@@ -344,6 +368,21 @@ export default function Home() {
               <div className="flex max-w-[940px] flex-col gap-3">
                 <p className="text-[15px] text-muted">You asked about</p>
                 <p className="font-display text-[24px] font-bold leading-snug">“{asked}”</p>
+                {live && (
+                  <p className="text-[15px] text-muted">
+                    {live.source}, {ago(live.published ?? live.traced_at)}.{" "}
+                    {live.url && (
+                      <a href={live.url} target="_blank" rel="noreferrer" className="text-link hover:underline">
+                        Read the article
+                      </a>
+                    )}
+                    <br />
+                    Picked up by the robot, which read this as {live.pick.sources.map((d) => L.name(d).toLowerCase()).join(" and ")}{" "}
+                    going {live.pick.direction > 0 ? "up" : "down"}
+                    {live.pick.how === "rule" ? " using a saved rule." : ` from the words “${live.pick.matched.join("”, “")}”.`} No AI was involved, so
+                    the answer below is built straight from the map.
+                  </p>
+                )}
                 {shareUrl && !running && (
                   <button
                     onClick={() => {
@@ -459,6 +498,8 @@ export default function Home() {
             </section>
           )}
         </div>
+
+        <LiveFeed onOpen={runLive} active={live?.id ?? null} />
 
         <Trust />
 
