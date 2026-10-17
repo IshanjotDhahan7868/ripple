@@ -67,6 +67,19 @@ flowchart LR
 - `ripple/mcp_server.py`: MCP server generated from the same `SPEC` and `FUNCS`.
 - `web/`: Next.js UI with the graph drawn using React Flow and ELK layout.
 
+## Live loop
+
+Ripple also runs on its own. Every 2 hours, `.github/workflows/live.yml` reads free business news feeds, matches
+headlines to drivers with the graph's own aliases plus a small rulebook (`live/rules.yaml`), traces them through a
+throwaway FalkorDB container seeded from this repo, and grades older calls against SPY after 5 and 20 trading days,
+the same way the backtest does. Results are committed to the [`live` branch](../../tree/live), which the site reads
+directly. It costs nothing to run and makes no AI calls.
+
+The keyword robot misreads some headlines. Every so often a Claude Code session does a checkup
+([docs/checkup.md](docs/checkup.md)): it reads the robot's recent calls, turns each misread into a new rule and a
+test, re-reads ungraded calls, and leaves a note the site shows. Graded calls can never be withdrawn or edited, and
+the withdrawn count is public.
+
 ## Graph schema
 
 ```mermaid
