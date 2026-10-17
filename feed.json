@@ -1,6 +1,159 @@
 {
- "updated": 1792255806,
+ "updated": 1792269010,
  "items": [
+  {
+   "id": "75e5a4b7804e",
+   "headline": "The Iran war has cost the average U.S. household the equivalent of almost $2,000, top economist says",
+   "source": "Fortune",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNX3FaOUhvc3NETDNHNTJ1TS1STUVOT09LeGFtdFh0eG5IUG05blVqTHJnMjdVTk1tV3puRUYtcTZqLS1GQzBIX3psdnZSOG9aOVIxMGpNdGZsbnRYbVMxdjdEcFhxaWpMM0VweVlUSWJCRGx2TXZhd3JBcGZ0RjZuQ2NLNDhCUGZHWHBRVU9RTFg5Sm01Zzd3TzVxSjJCTTdEcE1xeXBaVUljY2RleHBv?oc=5",
+   "published": 1792246920,
+   "traced_at": 1792269004,
+   "pick": {
+    "sources": [
+     "Middle_East_Conflict"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "iran"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": 1
+    },
+    {
+     "ticker": "OXY",
+     "direction": 1
+    },
+    {
+     "ticker": "COP",
+     "direction": 1
+    },
+    {
+     "ticker": "DVN",
+     "direction": 1
+    },
+    {
+     "ticker": "FANG",
+     "direction": 1
+    },
+    {
+     "ticker": "EOG",
+     "direction": 1
+    }
+   ],
+   "reached": 23
+  },
+  {
+   "id": "54dffc4c8a1d",
+   "headline": "The disturbing \u2018new normal\u2019 in the Strait of Hormuz: Attacks on ships at a record high and oil at $100 a barrel",
+   "source": "Yahoo News UK",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOHU5bGVzZkNURkx4SGh3aE1zeDRXMzNWV1NodWoyb0p4TVRDV2tDeEtvYWRSMWJoQnRqRGpRVU12VWlVd1hDeVI5bFUtM0xseTEtNmdDVklHM3BRczNDVURvbFpWYU1iRk9OQ0Z6Nk9UVThKT1ZKcTYxUVFIVE5fZWc0Y1VIa3M?oc=5",
+   "published": 1792228251,
+   "traced_at": 1792269005,
+   "pick": {
+    "sources": [
+     "Maritime_Chokepoint_Disruption",
+     "Oil_Price"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "strait of hormuz",
+     "barrel"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "9adfea12ab3b",
+     "headline": "There is a violent \u2018new normal\u2019 in the Strait of Hormuz. Here\u2019s why we should worry"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": 1
+    },
+    {
+     "ticker": "OXY",
+     "direction": 1
+    },
+    {
+     "ticker": "COP",
+     "direction": 1
+    },
+    {
+     "ticker": "DVN",
+     "direction": 1
+    },
+    {
+     "ticker": "FANG",
+     "direction": 1
+    },
+    {
+     "ticker": "EOG",
+     "direction": 1
+    }
+   ],
+   "reached": 29
+  },
+  {
+   "id": "319077016fa1",
+   "headline": "Hackers steal personal data of millions of California students in massive breach",
+   "source": "Los Angeles Times",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVkJhQlRoWUNLRDhBOGgxeWpPN25kOFRHQ0ZVSnFiaHM0S2w3aUhVTHVwTGtCWFUyWUtKRnI3QUFJTTNNVmZZNTV6VzZKaGVTTUtsMTdFdjR0azNJRWlqTmlCUWJvS0N0M2ZRVVJjUzdPQjRHOWduN0ZFM3pSOG1TLURQWW5TMDJyVUh3?oc=5",
+   "published": 1792198080,
+   "traced_at": 1792269005,
+   "pick": {
+    "sources": [
+     "Cyber_Threats"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "hackers"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "361175ffd6c4",
+     "headline": "BAE Systems cyberattack disrupts US federal court operations"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "FTNT",
+     "direction": 1
+    },
+    {
+     "ticker": "CRWD",
+     "direction": 1
+    },
+    {
+     "ticker": "PANW",
+     "direction": 1
+    },
+    {
+     "ticker": "ZS",
+     "direction": 1
+    },
+    {
+     "ticker": "HACK",
+     "direction": 1
+    },
+    {
+     "ticker": "CIBR",
+     "direction": 1
+    }
+   ],
+   "reached": 2
+  },
   {
    "id": "361175ffd6c4",
    "headline": "BAE Systems cyberattack disrupts US federal court operations",
@@ -426,7 +579,7 @@
    "reached": 12
   }
  ],
- "total": 9,
+ "total": 12,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -439,7 +592,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 9
+  "waiting": 12
  },
  "checkup": {
   "at": 1792255747,
