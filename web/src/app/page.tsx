@@ -28,6 +28,20 @@ const SAMPLES = [
 
 type Mode = "headline" | "driver";
 
+const PER_HOP = 10;
+
+// keep the strongest drivers per hop column, plus every driver on a path the user can hover
+function shown(a: Analysis) {
+  const keep = new Set<string>();
+  const byHop = new Map<number, typeof a.drivers>();
+  for (const d of a.drivers) byHop.set(d.hops, [...(byHop.get(d.hops) ?? []), d]);
+  for (const col of byHop.values())
+    col.sort((x, y) => y.impact - x.impact).slice(0, PER_HOP).forEach((d) => keep.add(d.id));
+  const kept = a.drivers.filter((d) => keep.has(d.id));
+  for (const path of [...kept.map((d) => d.path), ...a.assets.map((x) => x.path)]) path.forEach((id) => keep.add(id));
+  return a.drivers.filter((d) => keep.has(d.id));
+}
+
 function schedule(a: Analysis) {
   // reveal each driver after a delay set by its hop count and its real lag
   return a.drivers.map((d) => ({ id: d.id, at: d.hops === 0 ? 0 : d.hops * 420 + d.lag_months * 9 }));
@@ -145,7 +159,7 @@ export default function Home() {
     if (!analysis) return null;
     return {
       sources: analysis.sources,
-      impacts: new Map(analysis.drivers.map((d) => [d.id, d])),
+      impacts: new Map(shown(analysis).map((d) => [d.id, d])),
       revealed,
       focusPath,
     };
@@ -333,7 +347,8 @@ export default function Home() {
           )}
           {analysis && (
             <p className="pointer-events-none absolute left-3 top-3 rounded-md bg-panel/90 px-2.5 py-1.5 text-[12px] text-muted">
-              {analysis.reached} drivers reached within {analysis.depth} {analysis.depth === 1 ? "hop" : "hops"}. Dashed
+              {analysis.reached} drivers reached within {analysis.depth} {analysis.depth === 1 ? "hop" : "hops"}
+              {ripple && ripple.impacts.size < analysis.reached ? `, strongest ${ripple.impacts.size} shown` : ""}. Dashed
               edges push the other way.
             </p>
           )}
