@@ -2,21 +2,26 @@
 
 :root,
 :root[data-theme="dark"] {
-  --ground: #1b2129;
-  --panel: #252c36;
-  --panel-2: #2e3642;
-  --line: #3a4453;
-  --ink: #e6eaf0;
-  --muted: #a3aebd;
-  --signal: #ffd166;
-  --signal-soft: rgba(255, 209, 102, 0.16);
-  --link: #8cc8ff;
-  --up: #5fd08a;
-  --down: #ff7a7a;
-  --up-fill: #1f7a47;
-  --down-fill: #b3262b;
-  --up-soft: rgba(95, 208, 138, 0.14);
-  --down-soft: rgba(255, 122, 122, 0.14);
+  /* money: navy print ground, amber signal, engraved gold, market green/red */
+  --ground: #10141f;
+  --panel: #1a2133;
+  --panel-2: #232c42;
+  --line: #313c57;
+  --ink: #f6efe2;
+  --muted: #a9b1c4;
+  --signal: #ffab1f;
+  --signal-soft: rgba(255, 171, 31, 0.14);
+  --link: #f2c86b;
+  --up: #3fd18f;
+  --down: #ff6a55;
+  --up-fill: #0d6b45;
+  --down-fill: #c8321f;
+  --up-soft: rgba(63, 209, 143, 0.14);
+  --down-soft: rgba(255, 106, 85, 0.14);
+  --gold: #d8b25a;
+  --paper: #f3ebdd;
+  --salmon: #f8dcc7;
+  --money: #0d6b45;
   color-scheme: dark;
 }
 
@@ -38,7 +43,18 @@
   --color-down-soft: var(--down-soft);
   --font-sans: var(--font-body);
   --font-display: var(--font-display);
-  --font-note: var(--font-note);
+  --font-note: var(--font-serif);
+  --font-serif: var(--font-serif);
+  --color-gold: var(--gold);
+  --color-paper: var(--paper);
+  --color-salmon: var(--salmon);
+  --color-money: var(--money);
+  /* printed, not pillowy: squared corners everywhere */
+  --radius-md: 2px;
+  --radius-lg: 3px;
+  --radius-xl: 3px;
+  --radius-2xl: 4px;
+  --radius-3xl: 4px;
   --font-mono: var(--font-code);
 }
 
@@ -71,6 +87,51 @@ body {
   }
 }
 
+.font-note {
+  font-style: italic;
+}
+
+/* cards look printed: a hairline edge and a hard offset shadow */
+.rounded-3xl.bg-panel,
+.rounded-2xl.bg-panel {
+  border: 1px solid var(--line);
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.45);
+}
+
+/* paper grain over the app, like the landing page */
+.grain::after {
+  content: "";
+  position: fixed;
+  inset: -50%;
+  z-index: 100;
+  pointer-events: none;
+  opacity: 0.12;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.2 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.halftone {
+  position: relative;
+}
+.halftone::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  opacity: 0.45;
+  background: radial-gradient(circle, #bfae8b 1px, transparent 1.4px) 0 0 / 6px 6px;
+}
+
+@keyframes tape {
+  to {
+    transform: translateX(-50%);
+  }
+}
+.tape-run {
+  animation: tape 60s linear infinite;
+}
+
 .ripple-ring {
   position: absolute;
   top: 50%;
@@ -97,12 +158,60 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .ripple-ring {
+  .font-note {
+  font-style: italic;
+}
+
+/* cards look printed: a hairline edge and a hard offset shadow */
+.rounded-3xl.bg-panel,
+.rounded-2xl.bg-panel {
+  border: 1px solid var(--line);
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.45);
+}
+
+/* paper grain over the app, like the landing page */
+.grain::after {
+  content: "";
+  position: fixed;
+  inset: -50%;
+  z-index: 100;
+  pointer-events: none;
+  opacity: 0.12;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.2 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.halftone {
+  position: relative;
+}
+.halftone::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  opacity: 0.45;
+  background: radial-gradient(circle, #bfae8b 1px, transparent 1.4px) 0 0 / 6px 6px;
+}
+
+@keyframes tape {
+  to {
+    transform: translateX(-50%);
+  }
+}
+.tape-run {
+  animation: tape 60s linear infinite;
+}
+
+.ripple-ring {
     animation: none;
     display: none;
   }
   .react-flow__edge-path {
     transition: none;
+  }
+  .tape-run {
+    animation: none;
   }
 }
 

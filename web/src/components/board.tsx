@@ -74,7 +74,11 @@ function Side({ title, tone, groups, selected, onSelect }: {
 
 export function Board(props: { downs: Group[]; ups: Group[]; selected: Selection | null; onSelect: (s: Selection) => void }) {
   return (
-    <div className="flex flex-col gap-6 rounded-3xl bg-panel p-5">
+    <div className="flex flex-col gap-6 rounded-3xl bg-panel p-5 pt-0">
+      <div className="-mx-5 flex justify-between bg-signal px-4 py-1.5 font-mono text-[13px] font-bold text-ground">
+        <span>EXPOSURE BOARD</span>
+        <span>{props.downs.length + props.ups.length} groups</span>
+      </div>
       <Side title="Likely to fall" tone="text-down" groups={props.downs} {...props} />
       <Side title="Likely to rise" tone="text-up" groups={props.ups} {...props} />
     </div>
@@ -88,7 +92,7 @@ export function WhyCard({ a, L, selected }: { a: Analysis; L: Lookup; selected: 
   const last = steps[steps.length - 1];
   const target = selected.tickers.length ? selected.tickers.slice(0, 3).join(", ") : last.label;
   return (
-    <section className="flex flex-col gap-4 rounded-3xl bg-ink p-5 text-ground">
+    <section className="halftone flex flex-col gap-4 rounded-3xl bg-ink p-5 text-ground shadow-[6px_6px_0_var(--money)]">
       <h2 className="font-display text-[22px] font-bold">Why {target}?</h2>
       <ol className="flex flex-col gap-3">
         {steps.map((s, i) => (
