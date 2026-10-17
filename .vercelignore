@@ -1,0 +1,10 @@
+web/
+tests/
+eval/
+docs/
+tasks/
+.venv/
+**/__pycache__/
+.pytest_cache/
+.env
+.env.*

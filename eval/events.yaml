@@ -1,0 +1,58 @@
+# Selection rule (fixed BEFORE looking at any post-event price): scan 2026-01-22..2026-09-15 for widely reported
+# macro / geopolitical / commodity-policy / mega-cap-AI-fundamentals events that map cleanly to ONE driver in the
+# frozen graph with an unambiguous direction of the DRIVER (not of any stock). Events whose driver direction was
+# ambiguous (e.g. Trump-Xi Beijing summit, NATO Ankara summit) were skipped. Pure price-move headlines were not used
+# as events (the event is the news, the driver direction is the news's implication). No returns were consulted.
+# `date` = first US trading session in which the news was tradable: weekend/after-close news is dated the NEXT
+# session (so the entry close already includes day-1 reaction on those; see RESULTS.md).
+# Driver direction is the event's implied effect on the driver node (+1 rises / -1 falls).
+- date: 2026-01-29
+  headline: Copper hits all-time high on LME (three-month ~$14,527/t intraday), biggest one-day rise since 2008
+  driver: Copper
+  direction: 1
+  source_url: https://www.bloomberg.com/news/videos/2026-01-29/copper-spikes-to-record-high-video
+- date: 2026-02-20
+  headline: US Supreme Court rules 6-3 that IEEPA does not authorize tariffs
+  driver: Trade_Restrictions
+  direction: -1
+  source_url: https://economics.td.com/us-supreme-court-ruling-trump-tariffs
+- date: 2026-03-02
+  headline: US and Israel launch strikes on Iran (Sat 2026-02-28); first trading session is Mon 03-02
+  driver: Oil_and_Gas
+  direction: 1
+  source_url: https://egyptianstreets.com/2026/02/28/united-states-and-israel-strike-iran-commencing-major-operations/
+- date: 2026-04-08
+  headline: Trump announces two-week US-Iran ceasefire conditional on reopening Strait of Hormuz (announced evening 04-07 US time)
+  driver: Oil_and_Gas
+  direction: -1
+  source_url: https://news.bloomberglaw.com/bloomberg-government-news/oil-and-gas-prices-plunge-after-us-and-iran-agree-to-a-ceasefire
+- date: 2026-04-30
+  headline: Alphabet, Microsoft, Meta report Q1 after close 04-29 and raise 2026 AI capex guidance
+  driver: AI_Compute_Demand
+  direction: 1
+  source_url: https://thenextweb.com/news/alphabet-amazon-meta-q1-2026-earnings-ai-cloud
+- date: 2026-05-21
+  headline: Nvidia Q1 FY27 results (after close 05-20) - record $75.2B data center revenue, +92% y/y
+  driver: AI_Compute_Demand
+  direction: 1
+  source_url: https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000051/q1fy27pr.htm
+- date: 2026-06-15
+  headline: US-Iran initial deal to end war and reopen Strait of Hormuz announced Sun 06-14
+  driver: Oil_and_Gas
+  direction: -1
+  source_url: https://worldoil.com/news/2026/6/14/u-s-iran-strike-deal-to-reopen-strait-of-hormuz-sending-oil-lower/
+- date: 2026-06-24
+  headline: White House sends $87.6B Iran-war supplemental to Congress incl. $67.1B for defense
+  driver: Defense_Spending
+  direction: 1
+  source_url: https://breakingdefense.com/2026/06/white-house-sends-87-6b-supplemental-to-congress-with-67b-for-defense/
+- date: 2026-06-25
+  headline: Micron reports after close 06-24, revenue +346% y/y on AI-driven memory shortage; outlook strong
+  driver: Memory_Chips
+  direction: 1
+  source_url: https://english.sse.com.cn/news/newsrelease/voice/c/c_20260629_10823787.shtml
+- date: 2026-08-06
+  headline: DR Congo bans exports of copper and cobalt concentrates (order dated 06-29 reported by Reuters 08-06)
+  driver: Copper
+  direction: 1
+  source_url: https://news.metal.com/en/newscontent/104046596-congo-bans-exports-of-copper-cobalt-concentrates-official-order-says

@@ -1,0 +1,1134 @@
+{
+ "graph": "ripple_frozen (2026-01-21)",
+ "depth": 4,
+ "top_n": 5,
+ "seeds": [
+  0,
+  199
+ ],
+ "unpriceable_tickers": [
+  "ABB",
+  "BLD",
+  "CATHODE",
+  "CCMP",
+  "COBALT",
+  "CONE",
+  "ELECTRICITY_FUTURES",
+  "IGN",
+  "INFN",
+  "KAP.L",
+  "LITHIUM",
+  "OIL_AND_GAS",
+  "QTS",
+  "SCHN.PA",
+  "SILICON",
+  "U3O8",
+  "URANIUM",
+  "VPN"
+ ],
+ "symbol_map": {
+  "COPPER": "HG=F",
+  "BRENT": "BZ=F",
+  "WTI": "CL=F",
+  "NATGAS": "NG=F",
+  "EATON": "ETN",
+  "SK Hynix": "000660.KS",
+  "Samsung": "005930.KS",
+  "FORTUM": "FORTUM.HE",
+  "ENEL": "ENEL.MI"
+ },
+ "universe_priceable": 116,
+ "universe_total": 134,
+ "events": [
+  {
+   "date": "2026-01-29",
+   "headline": "Copper hits all-time high on LME (three-month ~$14,527/t intraday), biggest one-day rise since 2008",
+   "driver": "Copper",
+   "dir": 1,
+   "n_exposed": 8,
+   "skipped_in_top": [],
+   "picks": [
+    {
+     "ticker": "GLEN.L",
+     "symbol": "GLEN.L",
+     "dir": 1,
+     "score": 1.0,
+     "5d": {
+      "ret": -0.06428432042414323,
+      "spy": -0.02365855320865695,
+      "excess": -0.040625767215486275,
+      "excess_literal": -0.040625767215486275
+     },
+     "20d": {
+      "ret": 0.05138809166236302,
+      "spy": -0.011598753277379692,
+      "excess": 0.06298684493974271,
+      "excess_literal": 0.06298684493974271
+     }
+    },
+    {
+     "ticker": "FCX",
+     "symbol": "FCX",
+     "dir": 1,
+     "score": 1.0,
+     "5d": {
+      "ret": -0.09074151170593803,
+      "spy": -0.02365855320865695,
+      "excess": -0.06708295849728108,
+      "excess_literal": -0.06708295849728108
+     },
+     "20d": {
+      "ret": 0.045294096140714224,
+      "spy": -0.011598753277379692,
+      "excess": 0.056892849418093916,
+      "excess_literal": 0.056892849418093916
+     }
+    },
+    {
+     "ticker": "SCCO",
+     "symbol": "SCCO",
+     "dir": 1,
+     "score": 1.0,
+     "5d": {
+      "ret": -0.08882796667503712,
+      "spy": -0.02365855320865695,
+      "excess": -0.06516941346638017,
+      "excess_literal": -0.06516941346638017
+     },
+     "20d": {
+      "ret": 0.06337671353325547,
+      "spy": -0.011598753277379692,
+      "excess": 0.07497546681063516,
+      "excess_literal": 0.07497546681063516
+     }
+    },
+    {
+     "ticker": "COPPER",
+     "symbol": "HG=F",
+     "dir": 1,
+     "score": 0.9,
+     "5d": {
+      "ret": -0.06096674517306122,
+      "spy": -0.02365855320865695,
+      "excess": -0.03730819196440427,
+      "excess_literal": -0.03730819196440427
+     },
+     "20d": {
+      "ret": -0.02769006657574935,
+      "spy": -0.011598753277379692,
+      "excess": -0.01609131329836966,
+      "excess_literal": -0.01609131329836966
+     }
+    },
+    {
+     "ticker": "COPX",
+     "symbol": "COPX",
+     "dir": 1,
+     "score": 0.6,
+     "5d": {
+      "ret": -0.13711139884797297,
+      "spy": -0.02365855320865695,
+      "excess": -0.11345284563931601,
+      "excess_literal": -0.11345284563931601
+     },
+     "20d": {
+      "ret": 0.01560002099262281,
+      "spy": -0.011598753277379692,
+      "excess": 0.0271987742700025,
+      "excess_literal": 0.0271987742700025
+     }
+    }
+   ],
+   "ripple_5d_mean_excess": -0.06472783535657356,
+   "ripple_5d_hit_rate": 0.0,
+   "ripple_20d_mean_excess": 0.041192524428020925,
+   "ripple_20d_hit_rate": 0.8,
+   "random_5d_mean_excess": -0.0016486533673892218,
+   "random_20d_mean_excess": 0.005522563435450925
+  },
+  {
+   "date": "2026-02-20",
+   "headline": "US Supreme Court rules 6-3 that IEEPA does not authorize tariffs",
+   "driver": "Trade_Restrictions",
+   "dir": -1,
+   "n_exposed": 12,
+   "skipped_in_top": [],
+   "picks": [
+    {
+     "ticker": "TER",
+     "symbol": "TER",
+     "dir": -1,
+     "score": 0.49,
+     "5d": {
+      "ret": -0.01483756997079888,
+      "spy": -0.004989704301691655,
+      "excess": 0.009847865669107225,
+      "excess_literal": 0.019827274272490536
+     },
+     "20d": {
+      "ret": -0.10472529704096623,
+      "spy": -0.05669722706272862,
+      "excess": 0.04802806997823761,
+      "excess_literal": 0.16142252410369484
+     }
+    },
+    {
+     "ticker": "KLAC",
+     "symbol": "KLAC",
+     "dir": -1,
+     "score": 0.49,
+     "5d": {
+      "ret": 0.019084141171216595,
+      "spy": -0.004989704301691655,
+      "excess": -0.02407384547290825,
+      "excess_literal": -0.01409443686952494
+     },
+     "20d": {
+      "ret": 0.0017847513770579138,
+      "spy": -0.05669722706272862,
+      "excess": -0.05848197843978653,
+      "excess_literal": 0.0549124756856707
+     }
+    },
+    {
+     "ticker": "LRCX",
+     "symbol": "LRCX",
+     "dir": -1,
+     "score": 0.49,
+     "5d": {
+      "ret": -0.045035164937751726,
+      "spy": -0.004989704301691655,
+      "excess": 0.04004546063606007,
+      "excess_literal": 0.05002486923944338
+     },
+     "20d": {
+      "ret": -0.06649685885966916,
+      "spy": -0.05669722706272862,
+      "excess": 0.009799631796940544,
+      "excess_literal": 0.12319408592239778
+     }
+    },
+    {
+     "ticker": "LHX",
+     "symbol": "LHX",
+     "dir": -1,
+     "score": 0.3,
+     "5d": {
+      "ret": 0.023586209780253498,
+      "spy": -0.004989704301691655,
+      "excess": -0.028575914081945153,
+      "excess_literal": -0.018596505478561842
+     },
+     "20d": {
+      "ret": -0.005786769857961005,
+      "spy": -0.05669722706272862,
+      "excess": -0.05091045720476761,
+      "excess_literal": 0.06248399692068962
+     }
+    },
+    {
+     "ticker": "AMAT",
+     "symbol": "AMAT",
+     "dir": -1,
+     "score": 0.245,
+     "5d": {
+      "ret": -0.008204982115466275,
+      "spy": -0.004989704301691655,
+      "excess": 0.0032152778137746196,
+      "excess_literal": 0.01319468641715793
+     },
+     "20d": {
+      "ret": -0.048803802720587375,
+      "spy": -0.05669722706272862,
+      "excess": -0.007893424342141242,
+      "excess_literal": 0.10550102978331599
+     }
+    }
+   ],
+   "ripple_5d_mean_excess": 9.176891281770239e-05,
+   "ripple_5d_hit_rate": 0.6,
+   "ripple_20d_mean_excess": -0.011891631642303446,
+   "ripple_20d_hit_rate": 0.4,
+   "random_5d_mean_excess": -0.0005832398916024446,
+   "random_20d_mean_excess": 0.0004095373070026321
+  },
+  {
+   "date": "2026-03-02",
+   "headline": "US and Israel launch strikes on Iran (Sat 2026-02-28); first trading session is Mon 03-02",
+   "driver": "Oil_and_Gas",
+   "dir": 1,
+   "n_exposed": 12,
+   "skipped_in_top": [],
+   "picks": [
+    {
+     "ticker": "XOM",
+     "symbol": "XOM",
+     "dir": 1,
+     "score": 1.0,
+     "5d": {
+      "ret": -0.024510441347956435,
+      "spy": -0.011815572961727638,
+      "excess": -0.012694868386228797,
+      "excess_literal": -0.012694868386228797
+     },
+     "20d": {
+      "ret": 0.1118531448865423,
+      "spy": -0.0767564153370518,
+      "excess": 0.1886095602235941,
+      "excess_literal": 0.1886095602235941
+     }
+    },
+    {
+     "ticker": "BP",
+     "symbol": "BP",
+     "dir": 1,
+     "score": 1.0,
+     "5d": {
+      "ret": 0.029896094255057237,
+      "spy": -0.011815572961727638,
+      "excess": 0.041711667216784876,
+      "excess_literal": 0.041711667216784876
+     },
+     "20d": {
+      "ret": 0.19964512748920127,
+      "spy": -0.0767564153370518,
+      "excess": 0.27640154282625307,
+      "excess_literal": 0.27640154282625307
+     }
+    },
+    {
+     "ticker": "EQT",
+     "symbol": "EQT",
+     "dir": 1,
+     "score": 1.0,
+     "5d": {
+      "ret": 0.009571762475807377,
+      "spy": -0.011815572961727638,
+      "excess": 0.021387335437535016,
+      "excess_literal": 0.021387335437535016
+     },
+     "20d": {
+      "ret": 0.04542504753850651,
+      "spy": -0.0767564153370518,
+      "excess": 0.12218146287555831,
+      "excess_literal": 0.12218146287555831
+     }
+    },
+    {
+     "ticker": "CNQ",
+     "symbol": "CNQ",
+     "dir": 1,
+     "score": 1.0,
+     "5d": {
+      "ret": 0.042615645692821724,
+      "spy": -0.011815572961727638,
+      "excess": 0.05443121865454936,
+      "excess_literal": 0.05443121865454936
+     },
+     "20d": {
+      "ret": 0.12330141454119348,
+      "spy": -0.0767564153370518,
+      "excess": 0.20005782987824527,
+      "excess_literal": 0.20005782987824527
+     }
+    },
+    {
+     "ticker": "CVX",
+     "symbol": "CVX",
+     "dir": 1,
+     "score": 1.0,
+     "5d": {
+      "ret": -0.0008439068833423491,
+      "spy": -0.011815572961727638,
+      "excess": 0.01097166607838529,
+      "excess_literal": 0.01097166607838529
+     },
+     "20d": {
+      "ret": 0.11133975399471252,
+      "spy": -0.0767564153370518,
+      "excess": 0.18809616933176432,
+      "excess_literal": 0.18809616933176432
+     }
+    }
+   ],
+   "ripple_5d_mean_excess": 0.02316140380020515,
+   "ripple_5d_hit_rate": 0.8,
+   "ripple_20d_mean_excess": 0.19506931302708302,
+   "ripple_20d_hit_rate": 1.0,
+   "random_5d_mean_excess": -0.0031226032459566273,
+   "random_20d_mean_excess": -0.008073712409699825
+  },
+  {
+   "date": "2026-04-08",
+   "headline": "Trump announces two-week US-Iran ceasefire conditional on reopening Strait of Hormuz (announced evening 04-07 US time)",
+   "driver": "Oil_and_Gas",
+   "dir": -1,
+   "n_exposed": 12,
+   "skipped_in_top": [],
+   "picks": [
+    {
+     "ticker": "XOM",
+     "symbol": "XOM",
+     "dir": -1,
+     "score": 1.0,
+     "5d": {
+      "ret": -0.04615290208727785,
+      "spy": 0.035398886180965095,
+      "excess": 0.08155178826824294,
+      "excess_literal": 0.010754015906312753
+     },
+     "20d": {
+      "ret": -0.04820128291033188,
+      "spy": 0.08553126913863185,
+      "excess": 0.13373255204896373,
+      "excess_literal": -0.03732998622829997
+     }
+    },
+    {
+     "ticker": "BP",
+     "symbol": "BP",
+     "dir": -1,
+     "score": 1.0,
+     "5d": {
+      "ret": 0.0050120313263872784,
+      "spy": 0.035398886180965095,
+      "excess": 0.030386854854577816,
+      "excess_literal": -0.04041091750735237
+     },
+     "20d": {
+      "ret": -0.027456889449336996,
+      "spy": 0.08553126913863185,
+      "excess": 0.11298815858796885,
+      "excess_literal": -0.05807437968929485
+     }
+    },
+    {
+     "ticker": "EQT",
+     "symbol": "EQT",
+     "dir": -1,
+     "score": 1.0,
+     "5d": {
+      "ret": -0.05682958146211636,
+      "spy": 0.035398886180965095,
+      "excess": 0.09222846764308146,
+      "excess_literal": 0.02143069528115127
+     },
+     "20d": {
+      "ret": -0.04417359995735326,
+      "spy": 0.08553126913863185,
+      "excess": 0.1297048690959851,
+      "excess_literal": -0.04135766918127859
+     }
+    },
+    {
+     "ticker": "CNQ",
+     "symbol": "CNQ",
+     "dir": -1,
+     "score": 1.0,
+     "5d": {
+      "ret": -0.014214949181275971,
+      "spy": 0.035398886180965095,
+      "excess": 0.049613835362241065,
+      "excess_literal": -0.021183936999689124
+     },
+     "20d": {
+      "ret": -0.017230249048570623,
+      "spy": 0.08553126913863185,
+      "excess": 0.10276151818720247,
+      "excess_literal": -0.06830102009006123
+     }
+    },
+    {
+     "ticker": "CVX",
+     "symbol": "CVX",
+     "dir": -1,
+     "score": 1.0,
+     "5d": {
+      "ret": -0.041370718347229496,
+      "spy": 0.035398886180965095,
+      "excess": 0.07676960452819459,
+      "excess_literal": 0.005971832166264401
+     },
+     "20d": {
+      "ret": -0.04007462958797903,
+      "spy": 0.08553126913863185,
+      "excess": 0.12560589872661088,
+      "excess_literal": -0.04545663955065282
+     }
+    }
+   ],
+   "ripple_5d_mean_excess": 0.06611011013126758,
+   "ripple_5d_hit_rate": 1.0,
+   "ripple_20d_mean_excess": 0.1209585993293462,
+   "ripple_20d_hit_rate": 1.0,
+   "random_5d_mean_excess": -0.00026667634047748933,
+   "random_20d_mean_excess": -0.010424830016928661
+  },
+  {
+   "date": "2026-04-30",
+   "headline": "Alphabet, Microsoft, Meta report Q1 after close 04-29 and raise 2026 AI capex guidance",
+   "driver": "AI_Compute_Demand",
+   "dir": 1,
+   "n_exposed": 118,
+   "skipped_in_top": [],
+   "picks": [
+    {
+     "ticker": "TER",
+     "symbol": "TER",
+     "dir": 1,
+     "score": 1.5337,
+     "5d": {
+      "ret": 0.030977864989023995,
+      "spy": 0.017977959873934468,
+      "excess": 0.012999905115089527,
+      "excess_literal": 0.012999905115089527
+     },
+     "20d": {
+      "ret": 0.09020104112870975,
+      "spy": 0.05262574755586291,
+      "excess": 0.037575293572846835,
+      "excess_literal": 0.037575293572846835
+     }
+    },
+    {
+     "ticker": "KLAC",
+     "symbol": "KLAC",
+     "dir": 1,
+     "score": 1.5337,
+     "5d": {
+      "ret": 0.007370011561984802,
+      "spy": 0.017977959873934468,
+      "excess": -0.010607948311949666,
+      "excess_literal": -0.010607948311949666
+     },
+     "20d": {
+      "ret": 0.0993018155138572,
+      "spy": 0.05262574755586291,
+      "excess": 0.04667606795799428,
+      "excess_literal": 0.04667606795799428
+     }
+    },
+    {
+     "ticker": "LRCX",
+     "symbol": "LRCX",
+     "dir": 1,
+     "score": 1.5337,
+     "5d": {
+      "ret": 0.11114559848852013,
+      "spy": 0.017977959873934468,
+      "excess": 0.09316763861458566,
+      "excess_literal": 0.09316763861458566
+     },
+     "20d": {
+      "ret": 0.23392547027451527,
+      "spy": 0.05262574755586291,
+      "excess": 0.18129972271865236,
+      "excess_literal": 0.18129972271865236
+     }
+    },
+    {
+     "ticker": "GLEN.L",
+     "symbol": "GLEN.L",
+     "dir": 1,
+     "score": 1.4499,
+     "5d": {
+      "ret": -0.005878076283928113,
+      "spy": 0.017977959873934468,
+      "excess": -0.02385603615786258,
+      "excess_literal": -0.02385603615786258
+     },
+     "20d": {
+      "ret": 0.0001105277463349097,
+      "spy": 0.05262574755586291,
+      "excess": -0.052515219809528,
+      "excess_literal": -0.052515219809528
+     }
+    },
+    {
+     "ticker": "FCX",
+     "symbol": "FCX",
+     "dir": 1,
+     "score": 1.4499,
+     "5d": {
+      "ret": 0.04897897190837974,
+      "spy": 0.017977959873934468,
+      "excess": 0.031001012034445274,
+      "excess_literal": 0.031001012034445274
+     },
+     "20d": {
+      "ret": 0.13724482588236064,
+      "spy": 0.05262574755586291,
+      "excess": 0.08461907832649773,
+      "excess_literal": 0.08461907832649773
+     }
+    }
+   ],
+   "ripple_5d_mean_excess": 0.02054091425886164,
+   "ripple_5d_hit_rate": 0.6,
+   "ripple_20d_mean_excess": 0.05953098855329264,
+   "ripple_20d_hit_rate": 0.8,
+   "random_5d_mean_excess": -0.004265024452084396,
+   "random_20d_mean_excess": -0.007809450512822658
+  },
+  {
+   "date": "2026-05-21",
+   "headline": "Nvidia Q1 FY27 results (after close 05-20) - record $75.2B data center revenue, +92% y/y",
+   "driver": "AI_Compute_Demand",
+   "dir": 1,
+   "n_exposed": 118,
+   "skipped_in_top": [],
+   "picks": [
+    {
+     "ticker": "TER",
+     "symbol": "TER",
+     "dir": 1,
+     "score": 1.5337,
+     "5d": {
+      "ret": 0.05904816199255847,
+      "spy": 0.018526536272474914,
+      "excess": 0.040521625720083554,
+      "excess_literal": 0.040521625720083554
+     },
+     "20d": {
+      "ret": 0.29300587583651305,
+      "spy": 0.004830603457888216,
+      "excess": 0.28817527237862484,
+      "excess_literal": 0.28817527237862484
+     }
+    },
+    {
+     "ticker": "KLAC",
+     "symbol": "KLAC",
+     "dir": 1,
+     "score": 1.5337,
+     "5d": {
+      "ret": 0.043171728065711346,
+      "spy": 0.018526536272474914,
+      "excess": 0.02464519179323643,
+      "excess_literal": 0.02464519179323643
+     },
+     "20d": {
+      "ret": 0.46109506860317784,
+      "spy": 0.004830603457888216,
+      "excess": 0.4562644651452896,
+      "excess_literal": 0.4562644651452896
+     }
+    },
+    {
+     "ticker": "LRCX",
+     "symbol": "LRCX",
+     "dir": 1,
+     "score": 1.5337,
+     "5d": {
+      "ret": 0.052739718752923936,
+      "spy": 0.018526536272474914,
+      "excess": 0.03421318248044902,
+      "excess_literal": 0.03421318248044902
+     },
+     "20d": {
+      "ret": 0.3559705957471557,
+      "spy": 0.004830603457888216,
+      "excess": 0.3511399922892675,
+      "excess_literal": 0.3511399922892675
+     }
+    },
+    {
+     "ticker": "GLEN.L",
+     "symbol": "GLEN.L",
+     "dir": 1,
+     "score": 1.4499,
+     "5d": {
+      "ret": -0.010801482990623335,
+      "spy": 0.018526536272474914,
+      "excess": -0.02932801926309825,
+      "excess_literal": -0.02932801926309825
+     },
+     "20d": {
+      "ret": -0.02630667465949399,
+      "spy": 0.004830603457888216,
+      "excess": -0.031137278117382206,
+      "excess_literal": -0.031137278117382206
+     }
+    },
+    {
+     "ticker": "FCX",
+     "symbol": "FCX",
+     "dir": 1,
+     "score": 1.4499,
+     "5d": {
+      "ret": 0.05456588675101193,
+      "spy": 0.018526536272474914,
+      "excess": 0.03603935047853701,
+      "excess_literal": 0.03603935047853701
+     },
+     "20d": {
+      "ret": 0.11073649334150737,
+      "spy": 0.004830603457888216,
+      "excess": 0.10590588988361915,
+      "excess_literal": 0.10590588988361915
+     }
+    }
+   ],
+   "ripple_5d_mean_excess": 0.021218266241841553,
+   "ripple_5d_hit_rate": 0.8,
+   "ripple_20d_mean_excess": 0.23406966831588377,
+   "ripple_20d_hit_rate": 0.8,
+   "random_5d_mean_excess": 0.003621828712333828,
+   "random_20d_mean_excess": 0.0024458771830608767
+  },
+  {
+   "date": "2026-06-15",
+   "headline": "US-Iran initial deal to end war and reopen Strait of Hormuz announced Sun 06-14",
+   "driver": "Oil_and_Gas",
+   "dir": -1,
+   "n_exposed": 12,
+   "skipped_in_top": [],
+   "picks": [
+    {
+     "ticker": "XOM",
+     "symbol": "XOM",
+     "dir": -1,
+     "score": 1.0,
+     "5d": {
+      "ret": -0.00844460467061714,
+      "spy": -0.025648362781324097,
+      "excess": -0.017203758110706957,
+      "excess_literal": 0.034092967451941236
+     },
+     "20d": {
+      "ret": 0.025475380228986433,
+      "spy": 0.0025496552118153826,
+      "excess": -0.02292572501717105,
+      "excess_literal": -0.028025035440801815
+     }
+    },
+    {
+     "ticker": "BP",
+     "symbol": "BP",
+     "dir": -1,
+     "score": 1.0,
+     "5d": {
+      "ret": -0.054339937977010644,
+      "spy": -0.025648362781324097,
+      "excess": 0.028691575195686547,
+      "excess_literal": 0.07998830075833474
+     },
+     "20d": {
+      "ret": -0.006251415943993588,
+      "spy": 0.0025496552118153826,
+      "excess": 0.00880107115580897,
+      "excess_literal": 0.0037017607321782053
+     }
+    },
+    {
+     "ticker": "EQT",
+     "symbol": "EQT",
+     "dir": -1,
+     "score": 1.0,
+     "5d": {
+      "ret": 0.01793102356243792,
+      "spy": -0.025648362781324097,
+      "excess": -0.04357938634376202,
+      "excess_literal": 0.007717339218886177
+     },
+     "20d": {
+      "ret": -0.029556687761692846,
+      "spy": 0.0025496552118153826,
+      "excess": 0.03210634297350823,
+      "excess_literal": 0.027007032549877463
+     }
+    },
+    {
+     "ticker": "CNQ",
+     "symbol": "CNQ",
+     "dir": -1,
+     "score": 1.0,
+     "5d": {
+      "ret": -0.05797557367531936,
+      "spy": -0.025648362781324097,
+      "excess": 0.03232721089399526,
+      "excess_literal": 0.08362393645664346
+     },
+     "20d": {
+      "ret": -0.018705393477875032,
+      "spy": 0.0025496552118153826,
+      "excess": 0.021255048689690414,
+      "excess_literal": 0.01615573826605965
+     }
+    },
+    {
+     "ticker": "CVX",
+     "symbol": "CVX",
+     "dir": -1,
+     "score": 1.0,
+     "5d": {
+      "ret": -0.024501109517689135,
+      "spy": -0.025648362781324097,
+      "excess": -0.001147253263634962,
+      "excess_literal": 0.05014947229901323
+     },
+     "20d": {
+      "ret": 0.006651986859160575,
+      "spy": 0.0025496552118153826,
+      "excess": -0.004102331647345192,
+      "excess_literal": -0.009201642070975957
+     }
+    }
+   ],
+   "ripple_5d_mean_excess": -0.0001823223256844253,
+   "ripple_5d_hit_rate": 0.4,
+   "ripple_20d_mean_excess": 0.007026881230898274,
+   "ripple_20d_hit_rate": 0.6,
+   "random_5d_mean_excess": -0.0019602243888859343,
+   "random_20d_mean_excess": -0.001995391564070648
+  },
+  {
+   "date": "2026-06-24",
+   "headline": "White House sends $87.6B Iran-war supplemental to Congress incl. $67.1B for defense",
+   "driver": "Defense_Spending",
+   "dir": 1,
+   "n_exposed": 53,
+   "skipped_in_top": [],
+   "picks": [
+    {
+     "ticker": "NOC",
+     "symbol": "NOC",
+     "dir": 1,
+     "score": 0.9,
+     "5d": {
+      "ret": 0.03367727309267088,
+      "spy": 0.01707493695992013,
+      "excess": 0.01660233613275075,
+      "excess_literal": 0.01660233613275075
+     },
+     "20d": {
+      "ret": 0.06057523493557326,
+      "spy": 0.006737265102790824,
+      "excess": 0.05383796983278244,
+      "excess_literal": 0.05383796983278244
+     }
+    },
+    {
+     "ticker": "GD",
+     "symbol": "GD",
+     "dir": 1,
+     "score": 0.9,
+     "5d": {
+      "ret": 0.05384521596955172,
+      "spy": 0.01707493695992013,
+      "excess": 0.03677027900963159,
+      "excess_literal": 0.03677027900963159
+     },
+     "20d": {
+      "ret": 0.1137032599854424,
+      "spy": 0.006737265102790824,
+      "excess": 0.10696599488265157,
+      "excess_literal": 0.10696599488265157
+     }
+    },
+    {
+     "ticker": "BA",
+     "symbol": "BA",
+     "dir": 1,
+     "score": 0.9,
+     "5d": {
+      "ret": -0.007582284535506578,
+      "spy": 0.01707493695992013,
+      "excess": -0.024657221495426707,
+      "excess_literal": -0.024657221495426707
+     },
+     "20d": {
+      "ret": -0.05003407161162743,
+      "spy": 0.006737265102790824,
+      "excess": -0.05677133671441825,
+      "excess_literal": -0.05677133671441825
+     }
+    },
+    {
+     "ticker": "RTX",
+     "symbol": "RTX",
+     "dir": 1,
+     "score": 0.73,
+     "5d": {
+      "ret": 0.036312568167137904,
+      "spy": 0.01707493695992013,
+      "excess": 0.019237631207217776,
+      "excess_literal": 0.019237631207217776
+     },
+     "20d": {
+      "ret": 0.13022810511240301,
+      "spy": 0.006737265102790824,
+      "excess": 0.12349084000961219,
+      "excess_literal": 0.12349084000961219
+     }
+    },
+    {
+     "ticker": "LMT",
+     "symbol": "LMT",
+     "dir": 1,
+     "score": 0.73,
+     "5d": {
+      "ret": 0.06138631448274268,
+      "spy": 0.01707493695992013,
+      "excess": 0.04431137752282255,
+      "excess_literal": 0.04431137752282255
+     },
+     "20d": {
+      "ret": 0.15651699566074084,
+      "spy": 0.006737265102790824,
+      "excess": 0.14977973055795002,
+      "excess_literal": 0.14977973055795002
+     }
+    }
+   ],
+   "ripple_5d_mean_excess": 0.01845288047539919,
+   "ripple_5d_hit_rate": 0.8,
+   "ripple_20d_mean_excess": 0.0754606397137156,
+   "ripple_20d_hit_rate": 0.8,
+   "random_5d_mean_excess": -0.000965748722345303,
+   "random_20d_mean_excess": -0.006691370425703936
+  },
+  {
+   "date": "2026-06-25",
+   "headline": "Micron reports after close 06-24, revenue +346% y/y on AI-driven memory shortage; outlook strong",
+   "driver": "Memory_Chips",
+   "dir": 1,
+   "n_exposed": 58,
+   "skipped_in_top": [],
+   "picks": [
+    {
+     "ticker": "Samsung",
+     "symbol": "005930.KS",
+     "dir": 1,
+     "score": 1.0,
+     "5d": {
+      "ret": -0.20135169828826427,
+      "spy": 0.014272179665477003,
+      "excess": -0.21562387795374127,
+      "excess_literal": -0.21562387795374127
+     },
+     "20d": {
+      "ret": -0.30327709343679,
+      "spy": 0.006305323653004624,
+      "excess": -0.3095824170897946,
+      "excess_literal": -0.3095824170897946
+     }
+    },
+    {
+     "ticker": "SK Hynix",
+     "symbol": "000660.KS",
+     "dir": 1,
+     "score": 1.0,
+     "5d": {
+      "ret": -0.25025710492101005,
+      "spy": 0.014272179665477003,
+      "excess": -0.26452928458648706,
+      "excess_literal": -0.26452928458648706
+     },
+     "20d": {
+      "ret": -0.39698324225399906,
+      "spy": 0.006305323653004624,
+      "excess": -0.4032885659070037,
+      "excess_literal": -0.4032885659070037
+     }
+    },
+    {
+     "ticker": "MU",
+     "symbol": "MU",
+     "dir": 1,
+     "score": 0.78,
+     "5d": {
+      "ret": -0.1961172588198633,
+      "spy": 0.014272179665477003,
+      "excess": -0.2103894384853403,
+      "excess_literal": -0.2103894384853403
+     },
+     "20d": {
+      "ret": -0.24100032892648315,
+      "spy": 0.006305323653004624,
+      "excess": -0.24730565257948778,
+      "excess_literal": -0.24730565257948778
+     }
+    },
+    {
+     "ticker": "GFS",
+     "symbol": "GFS",
+     "dir": 1,
+     "score": 0.56,
+     "5d": {
+      "ret": -0.18903863274169974,
+      "spy": 0.014272179665477003,
+      "excess": -0.20331081240717674,
+      "excess_literal": -0.20331081240717674
+     },
+     "20d": {
+      "ret": -0.37842549942840253,
+      "spy": 0.006305323653004624,
+      "excess": -0.38473082308140716,
+      "excess_literal": -0.38473082308140716
+     }
+    },
+    {
+     "ticker": "UMC",
+     "symbol": "UMC",
+     "dir": 1,
+     "score": 0.56,
+     "5d": {
+      "ret": -0.11503780285875131,
+      "spy": 0.014272179665477003,
+      "excess": -0.12930998252422832,
+      "excess_literal": -0.12930998252422832
+     },
+     "20d": {
+      "ret": -0.28515259204654364,
+      "spy": 0.006305323653004624,
+      "excess": -0.29145791569954826,
+      "excess_literal": -0.29145791569954826
+     }
+    }
+   ],
+   "ripple_5d_mean_excess": -0.20463267919139475,
+   "ripple_5d_hit_rate": 0.0,
+   "ripple_20d_mean_excess": -0.3272730748714483,
+   "ripple_20d_hit_rate": 0.0,
+   "random_5d_mean_excess": -0.003334449850268932,
+   "random_20d_mean_excess": -0.007820634439735482
+  },
+  {
+   "date": "2026-08-06",
+   "headline": "DR Congo bans exports of copper and cobalt concentrates (order dated 06-29 reported by Reuters 08-06)",
+   "driver": "Copper",
+   "dir": 1,
+   "n_exposed": 8,
+   "skipped_in_top": [],
+   "picks": [
+    {
+     "ticker": "GLEN.L",
+     "symbol": "GLEN.L",
+     "dir": 1,
+     "score": 1.0,
+     "5d": {
+      "ret": -0.009010531501540298,
+      "spy": 0.01212660307035418,
+      "excess": -0.021137134571894478,
+      "excess_literal": -0.021137134571894478
+     },
+     "20d": {
+      "ret": 0.07043019844328935,
+      "spy": 0.0059982185984184255,
+      "excess": 0.06443197984487092,
+      "excess_literal": 0.06443197984487092
+     }
+    },
+    {
+     "ticker": "FCX",
+     "symbol": "FCX",
+     "dir": 1,
+     "score": 1.0,
+     "5d": {
+      "ret": -0.01980053233990131,
+      "spy": 0.01212660307035418,
+      "excess": -0.03192713541025549,
+      "excess_literal": -0.03192713541025549
+     },
+     "20d": {
+      "ret": 0.06424166235385753,
+      "spy": 0.0059982185984184255,
+      "excess": 0.058243443755439106,
+      "excess_literal": 0.058243443755439106
+     }
+    },
+    {
+     "ticker": "SCCO",
+     "symbol": "SCCO",
+     "dir": 1,
+     "score": 1.0,
+     "5d": {
+      "ret": -0.011084090564663307,
+      "spy": 0.01212660307035418,
+      "excess": -0.023210693635017488,
+      "excess_literal": -0.023210693635017488
+     },
+     "20d": {
+      "ret": 0.05185987555032745,
+      "spy": 0.0059982185984184255,
+      "excess": 0.045861656951909024,
+      "excess_literal": 0.045861656951909024
+     }
+    },
+    {
+     "ticker": "COPPER",
+     "symbol": "HG=F",
+     "dir": 1,
+     "score": 0.9,
+     "5d": {
+      "ret": -0.01413183652906469,
+      "spy": 0.01212660307035418,
+      "excess": -0.02625843959941887,
+      "excess_literal": -0.02625843959941887
+     },
+     "20d": {
+      "ret": -0.01644977718005758,
+      "spy": 0.0059982185984184255,
+      "excess": -0.022447995778476004,
+      "excess_literal": -0.022447995778476004
+     }
+    },
+    {
+     "ticker": "COPX",
+     "symbol": "COPX",
+     "dir": 1,
+     "score": 0.6,
+     "5d": {
+      "ret": -0.00662097478302881,
+      "spy": 0.01212660307035418,
+      "excess": -0.01874757785338299,
+      "excess_literal": -0.01874757785338299
+     },
+     "20d": {
+      "ret": 0.05993732003259833,
+      "spy": 0.0059982185984184255,
+      "excess": 0.053939101434179904,
+      "excess_literal": 0.053939101434179904
+     }
+    }
+   ],
+   "ripple_5d_mean_excess": -0.024256196213993865,
+   "ripple_5d_hit_rate": 0.0,
+   "ripple_20d_mean_excess": 0.04000563724158459,
+   "ripple_20d_hit_rate": 0.8,
+   "random_5d_mean_excess": -0.0014152484842293507,
+   "random_20d_mean_excess": -0.002562922270652954
+  }
+ ],
+ "aggregate": {
+  "5d": {
+   "n_events": 10,
+   "n_picks": 50,
+   "ripple_pick_hit_rate": 0.5,
+   "ripple_mean_signed_excess_per_pick": -0.014422368926725377,
+   "ripple_mean_signed_excess_event_avg": -0.014422368926725378,
+   "ripple_events_positive": 6,
+   "ripple_literal_mean_excess_per_pick": -0.015374532746315245,
+   "random_hit_rate_mean": 0.5009,
+   "random_mean_signed_excess": -0.001394004003090587,
+   "random_mean_signed_excess_sd_across_seeds": 0.009566379662718675,
+   "random_literal_mean_excess": -0.0065872985079242575,
+   "frac_random_seeds_ge_ripple": 0.915
+  },
+  "20d": {
+   "n_events": 10,
+   "n_picks": 50,
+   "ripple_pick_hit_rate": 0.7,
+   "ripple_mean_signed_excess_per_pick": 0.04341495453260733,
+   "ripple_mean_signed_excess_event_avg": 0.04341495453260733,
+   "ripple_events_positive": 8,
+   "ripple_literal_mean_excess_per_pick": 0.03713821507506361,
+   "random_hit_rate_mean": 0.4888,
+   "random_mean_signed_excess": -0.0037000333714099732,
+   "random_mean_signed_excess_sd_across_seeds": 0.02296147516653264,
+   "random_literal_mean_excess": -0.005909047581947202,
+   "frac_random_seeds_ge_ripple": 0.02
+  }
+ }
+}
