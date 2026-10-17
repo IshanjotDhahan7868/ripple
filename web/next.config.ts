@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   partialPrefetching: true,
   // old share links pointed at the home page; the tool now lives at /app
   async redirects() {
-    return ["example", "live", "q"].map((key) => ({
+    return ["example", "live", "q", "force"].map((key) => ({
       source: "/",
       has: [{ type: "query" as const, key }],
       destination: "/app",

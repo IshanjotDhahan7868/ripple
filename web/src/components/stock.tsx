@@ -230,11 +230,16 @@ function Mover({ m, max, ticker, L, open, onToggle }: {
               </li>
             );
           })}
-          <li className="flex gap-3">
-            <span className="mt-1.5 size-2.5 shrink-0 rounded-full bg-signal" />
-            <span className="font-bold">
-              {ticker} {up ? "tends to rise" : "tends to fall"}
+          <li className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
+            <span className="flex gap-3">
+              <span className="mt-1.5 size-2.5 shrink-0 rounded-full bg-signal" />
+              <span className="font-bold">
+                {ticker} {up ? "tends to rise" : "tends to fall"}
+              </span>
             </span>
+            <Link href={`/app?force=${m.source}`} className="text-[14px] font-bold text-link hover:underline">
+              Everything else {L.name(m.source).toLowerCase()} moves
+            </Link>
           </li>
         </ol>
       )}

@@ -238,7 +238,9 @@ export function Pressure({ items, L }: { items: LedgerItem[]; L: Lookup }) {
               const net = f.up - f.down;
               return (
                 <li key={id} className="grid grid-cols-[minmax(0,210px)_1fr_auto] items-center gap-3">
-                  <span className="font-bold leading-tight">{L.name(id)}</span>
+                  <Link href={`/app?force=${id}&dir=${net < 0 ? -1 : 1}`} className="font-bold leading-tight hover:underline">
+                    {L.name(id)}
+                  </Link>
                   <span className="flex h-6 bg-[#e6dcc8]">
                     <span className="h-full bg-money" style={{ width: `${(f.up / fmax) * 100}%` }} />
                     <span className="h-full bg-down-fill" style={{ width: `${(f.down / fmax) * 100}%` }} />

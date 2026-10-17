@@ -106,6 +106,23 @@ export default function Home() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  // other pages link a force here as ?force=Interest_Rates&dir=-1; run it once the map has loaded
+  const forced = useRef(false);
+  useEffect(() => {
+    const f = new URLSearchParams(window.location.search).get("force");
+    if (!graph || !f || forced.current) return;
+    forced.current = true;
+    const dir = new URLSearchParams(window.location.search).get("dir") === "-1" ? -1 : 1;
+    const t = setTimeout(() => {
+      setExplore(true);
+      setSource(f);
+      setDirection(dir);
+      runForce(f, dir);
+    }, 0);
+    return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [graph]);
+
   // engraved rings behind the ask; they pulse when an answer lands
   const engraving = useRef<HTMLCanvasElement>(null);
   const field = useRef<Field | null>(null);
