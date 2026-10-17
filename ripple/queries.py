@@ -32,6 +32,30 @@ MATCH (a)-[:EXPOSED_TO]->(all:Driver)
 RETURN a.ticker AS ticker, a.type AS type, hit, count(all) AS exposure_count
 """
 
+ASSET_EXPOSURE = """
+MATCH (a:Asset {ticker: $ticker})-[:EXPOSED_TO]->(d:Driver)
+RETURN a.type AS type, d.id AS id
+"""
+
+# the reverse of PROPAGATE: every part of the economy that reaches this asset, and how
+ASSET_UPSTREAM = """
+MATCH (a:Asset {ticker: $ticker})-[:EXPOSED_TO]->(d:Driver)
+MATCH p = (s:Driver)-[:DRIVES*1..3]->(d)
+WITH p, s,
+     reduce(x = 1.0, r IN relationships(p) | x * r.weight * r.confidence) AS strength,
+     reduce(l = 0, r IN relationships(p) | l + r.lag_months) AS lag,
+     reduce(sg = 1, r IN relationships(p) | sg * r.polarity) AS sign
+WHERE strength >= $min_strength
+RETURN s.id AS source, strength, lag, sign, [n IN nodes(p) | n.id] AS path
+"""
+
+ASSET_PEERS = """
+MATCH (a:Asset {ticker: $ticker})-[:EXPOSED_TO]->(d:Driver)<-[:EXPOSED_TO]-(b:Asset)
+WHERE b.ticker <> $ticker
+RETURN b.ticker AS ticker, b.type AS type, count(d) AS shared
+ORDER BY shared DESC, ticker LIMIT 10
+"""
+
 EXPLAIN_LINK = """
 MATCH (a:Driver {id: $src}), (b:Driver {id: $dst})
 CALL algo.SPpaths({sourceNode: a, targetNode: b, relTypes: ['DRIVES'],

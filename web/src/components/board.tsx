@@ -1,16 +1,21 @@
 "use client";
 
 import { useState } from "react";
+import { Ticker } from "@/components/ticker";
 import type { Analysis } from "@/lib/api";
-import { chain, company, when, type Group, type Lookup, type Selection } from "@/lib/model";
+import { chain, when, type Group, type Lookup, type Selection } from "@/lib/model";
 
 const SHOW = 4;
 
 function GroupCard({ g, active, onSelect }: { g: Group; active: boolean; onSelect: (s: Selection) => void }) {
   const extra = g.tickers.length - 5;
+  const select = () => onSelect({ path: g.path, tickers: g.tickers.map((t) => t.ticker), up: g.up });
   return (
-    <button
-      onClick={() => onSelect({ path: g.path, tickers: g.tickers.map((t) => t.ticker), up: g.up })}
+    <div
+      role="button"
+      tabIndex={0}
+      onClick={select}
+      onKeyDown={(e) => e.target === e.currentTarget && (e.key === "Enter" || e.key === " ") && (e.preventDefault(), select())}
       aria-pressed={active}
       className={`flex w-full flex-col gap-2 rounded-xl border-2 p-3.5 text-left transition ${
         active ? "border-ink bg-panel-2" : "border-transparent bg-panel-2/60 hover:bg-panel-2"
@@ -22,13 +27,7 @@ function GroupCard({ g, active, onSelect }: { g: Group; active: boolean; onSelec
       </span>
       <span className="flex flex-wrap gap-1.5">
         {g.tickers.slice(0, 5).map((t) => (
-          <span
-            key={t.ticker}
-            title={company(t.ticker)}
-            className={`rounded-md px-2 py-0.5 text-[14px] font-bold ${g.up ? "bg-up-soft text-up" : "bg-down-soft text-down"}`}
-          >
-            {t.ticker}
-          </span>
+          <Ticker key={t.ticker} t={t.ticker} dir={g.up ? 1 : -1} />
         ))}
         {extra > 0 && <span className="px-1 py-0.5 text-[14px] text-muted">+{extra} more</span>}
       </span>
@@ -41,7 +40,7 @@ function GroupCard({ g, active, onSelect }: { g: Group; active: boolean; onSelec
         </span>
         <span className="w-16 text-[14px] text-muted">{g.strength}</span>
       </span>
-    </button>
+    </div>
   );
 }
 

@@ -56,6 +56,23 @@ export type StreamEvent =
   | { type: "error"; message: string }
   | { type: "done" };
 
+export type AssetMover = { source: string; strength: number; lag_months: number; sign: number; path: string[] };
+export type AssetProfile = {
+  ticker: string;
+  type: string;
+  exposed_to: string[];
+  movers: AssetMover[];
+  peers: { ticker: string; type: string; shared: number }[];
+  queries: { name: string; cypher: string; params: Record<string, unknown>; rows: number; ms: number }[];
+};
+
+export async function getAsset(ticker: string): Promise<AssetProfile> {
+  const r = await fetch(`${API}/api/asset/${encodeURIComponent(ticker)}`);
+  if (r.status === 404) throw new Error(`${ticker} isn't on the map.`);
+  if (!r.ok) throw new Error(`Stock request failed (${r.status})`);
+  return r.json();
+}
+
 export async function getGraph(): Promise<{ nodes: GraphNode[]; edges: GraphEdge[] }> {
   const r = await fetch(`${API}/api/graph`);
   if (!r.ok) throw new Error(`Graph request failed (${r.status})`);

@@ -37,6 +37,15 @@ export async function getLiveFeed(): Promise<LiveFeed> {
   return r.json();
 }
 
+// every call ever made, including withdrawn ones (kept public on purpose)
+export type LedgerItem = LiveSummary & { withdrawn?: { at: number; reason: string }; revises?: string; reached?: number };
+
+export async function getLedger(): Promise<LedgerItem[]> {
+  const r = await fetch(`${LIVE_BASE}/ledger.json`, { cache: "no-store" });
+  if (!r.ok) throw new Error(`live ledger ${r.status}`);
+  return r.json();
+}
+
 export async function getLiveItem(id: string): Promise<LiveItem> {
   const r = await fetch(`${LIVE_BASE}/items/${id}.json`);
   if (!r.ok) throw new Error(`live item ${r.status}`);

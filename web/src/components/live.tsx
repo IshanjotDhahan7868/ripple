@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { Ticker } from "@/components/ticker";
 import { ago, getLiveFeed, type LiveFeed as Feed, type LiveSummary } from "@/lib/live";
 
 const SHOW = 6;
@@ -22,9 +23,7 @@ function Tickers({ item, up }: { item: LiveSummary; up: boolean }) {
     <span className="flex flex-wrap items-center gap-1.5">
       <span className="text-[14px] text-muted">{up ? "Rise" : "Fall"}</span>
       {list.map((t) => (
-        <span key={t.ticker} className={`rounded-md px-2 py-0.5 text-[13px] font-bold ${up ? "bg-up-soft text-up" : "bg-down-soft text-down"}`}>
-          {t.ticker}
-        </span>
+        <Ticker key={t.ticker} t={t.ticker} dir={t.direction} />
       ))}
     </span>
   );
@@ -98,8 +97,11 @@ export function LiveFeed({ onOpen, active }: { onOpen: (item: LiveSummary) => vo
         <ul className="grid gap-3 md:grid-cols-2">
           {items.map((it) => (
             <li key={it.id}>
-              <button
+              <div
+                role="button"
+                tabIndex={0}
                 onClick={() => onOpen(it)}
+                onKeyDown={(e) => e.target === e.currentTarget && (e.key === "Enter" || e.key === " ") && (e.preventDefault(), onOpen(it))}
                 aria-pressed={active === it.id}
                 className={`flex h-full w-full flex-col gap-3 rounded-2xl border-2 p-4 text-left transition ${
                   active === it.id ? "border-link bg-panel-2" : "border-transparent bg-panel hover:bg-panel-2"
@@ -116,7 +118,7 @@ export function LiveFeed({ onOpen, active }: { onOpen: (item: LiveSummary) => vo
                 <span className="mt-auto pt-1">
                   <Status item={it} />
                 </span>
-              </button>
+              </div>
             </li>
           ))}
         </ul>

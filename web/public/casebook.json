@@ -1,0 +1,563 @@
+{
+ "graph": "ripple_frozen (2026-01-21)",
+ "aggregate": {
+  "5d": {
+   "n_events": 10,
+   "n_picks": 50,
+   "ripple_pick_hit_rate": 0.5,
+   "ripple_events_positive": 6,
+   "ripple_mean_signed_excess_per_pick": -0.014422368926725377,
+   "random_hit_rate_mean": 0.5009
+  },
+  "20d": {
+   "n_events": 10,
+   "n_picks": 50,
+   "ripple_pick_hit_rate": 0.7,
+   "ripple_events_positive": 8,
+   "ripple_mean_signed_excess_per_pick": 0.04341495453260733,
+   "random_hit_rate_mean": 0.4888
+  }
+ },
+ "events": [
+  {
+   "date": "2026-01-29",
+   "headline": "Copper hits all-time high on LME (three-month ~$14,527/t intraday), biggest one-day rise since 2008",
+   "driver": "Copper",
+   "direction": 1,
+   "url": "https://www.bloomberg.com/news/videos/2026-01-29/copper-spikes-to-record-high-video",
+   "hit_rate_20d": 0.8,
+   "mean_excess_20d": 0.041192524428020925,
+   "hit_rate_5d": 0.0,
+   "mean_excess_5d": -0.06472783535657356,
+   "random_excess_20d": 0.005522563435450925,
+   "picks": [
+    {
+     "ticker": "GLEN.L",
+     "direction": 1,
+     "ret_20d": 0.05138809166236302,
+     "spy_20d": -0.011598753277379692,
+     "excess_20d": 0.06298684493974271,
+     "excess_5d": -0.040625767215486275
+    },
+    {
+     "ticker": "FCX",
+     "direction": 1,
+     "ret_20d": 0.045294096140714224,
+     "spy_20d": -0.011598753277379692,
+     "excess_20d": 0.056892849418093916,
+     "excess_5d": -0.06708295849728108
+    },
+    {
+     "ticker": "SCCO",
+     "direction": 1,
+     "ret_20d": 0.06337671353325547,
+     "spy_20d": -0.011598753277379692,
+     "excess_20d": 0.07497546681063516,
+     "excess_5d": -0.06516941346638017
+    },
+    {
+     "ticker": "COPPER",
+     "direction": 1,
+     "ret_20d": -0.02769006657574935,
+     "spy_20d": -0.011598753277379692,
+     "excess_20d": -0.01609131329836966,
+     "excess_5d": -0.03730819196440427
+    },
+    {
+     "ticker": "COPX",
+     "direction": 1,
+     "ret_20d": 0.01560002099262281,
+     "spy_20d": -0.011598753277379692,
+     "excess_20d": 0.0271987742700025,
+     "excess_5d": -0.11345284563931601
+    }
+   ]
+  },
+  {
+   "date": "2026-02-20",
+   "headline": "US Supreme Court rules 6-3 that IEEPA does not authorize tariffs",
+   "driver": "Trade_Restrictions",
+   "direction": -1,
+   "url": "https://economics.td.com/us-supreme-court-ruling-trump-tariffs",
+   "hit_rate_20d": 0.4,
+   "mean_excess_20d": -0.011891631642303446,
+   "hit_rate_5d": 0.6,
+   "mean_excess_5d": 9.176891281770239e-05,
+   "random_excess_20d": 0.0004095373070026321,
+   "picks": [
+    {
+     "ticker": "TER",
+     "direction": -1,
+     "ret_20d": -0.10472529704096623,
+     "spy_20d": -0.05669722706272862,
+     "excess_20d": 0.04802806997823761,
+     "excess_5d": 0.009847865669107225
+    },
+    {
+     "ticker": "KLAC",
+     "direction": -1,
+     "ret_20d": 0.0017847513770579138,
+     "spy_20d": -0.05669722706272862,
+     "excess_20d": -0.05848197843978653,
+     "excess_5d": -0.02407384547290825
+    },
+    {
+     "ticker": "LRCX",
+     "direction": -1,
+     "ret_20d": -0.06649685885966916,
+     "spy_20d": -0.05669722706272862,
+     "excess_20d": 0.009799631796940544,
+     "excess_5d": 0.04004546063606007
+    },
+    {
+     "ticker": "LHX",
+     "direction": -1,
+     "ret_20d": -0.005786769857961005,
+     "spy_20d": -0.05669722706272862,
+     "excess_20d": -0.05091045720476761,
+     "excess_5d": -0.028575914081945153
+    },
+    {
+     "ticker": "AMAT",
+     "direction": -1,
+     "ret_20d": -0.048803802720587375,
+     "spy_20d": -0.05669722706272862,
+     "excess_20d": -0.007893424342141242,
+     "excess_5d": 0.0032152778137746196
+    }
+   ]
+  },
+  {
+   "date": "2026-03-02",
+   "headline": "US and Israel launch strikes on Iran (Sat 2026-02-28); first trading session is Mon 03-02",
+   "driver": "Oil_and_Gas",
+   "direction": 1,
+   "url": "https://egyptianstreets.com/2026/02/28/united-states-and-israel-strike-iran-commencing-major-operations/",
+   "hit_rate_20d": 1.0,
+   "mean_excess_20d": 0.19506931302708302,
+   "hit_rate_5d": 0.8,
+   "mean_excess_5d": 0.02316140380020515,
+   "random_excess_20d": -0.008073712409699825,
+   "picks": [
+    {
+     "ticker": "XOM",
+     "direction": 1,
+     "ret_20d": 0.1118531448865423,
+     "spy_20d": -0.0767564153370518,
+     "excess_20d": 0.1886095602235941,
+     "excess_5d": -0.012694868386228797
+    },
+    {
+     "ticker": "BP",
+     "direction": 1,
+     "ret_20d": 0.19964512748920127,
+     "spy_20d": -0.0767564153370518,
+     "excess_20d": 0.27640154282625307,
+     "excess_5d": 0.041711667216784876
+    },
+    {
+     "ticker": "EQT",
+     "direction": 1,
+     "ret_20d": 0.04542504753850651,
+     "spy_20d": -0.0767564153370518,
+     "excess_20d": 0.12218146287555831,
+     "excess_5d": 0.021387335437535016
+    },
+    {
+     "ticker": "CNQ",
+     "direction": 1,
+     "ret_20d": 0.12330141454119348,
+     "spy_20d": -0.0767564153370518,
+     "excess_20d": 0.20005782987824527,
+     "excess_5d": 0.05443121865454936
+    },
+    {
+     "ticker": "CVX",
+     "direction": 1,
+     "ret_20d": 0.11133975399471252,
+     "spy_20d": -0.0767564153370518,
+     "excess_20d": 0.18809616933176432,
+     "excess_5d": 0.01097166607838529
+    }
+   ]
+  },
+  {
+   "date": "2026-04-08",
+   "headline": "Trump announces two-week US-Iran ceasefire conditional on reopening Strait of Hormuz (announced evening 04-07 US time)",
+   "driver": "Oil_and_Gas",
+   "direction": -1,
+   "url": "https://news.bloomberglaw.com/bloomberg-government-news/oil-and-gas-prices-plunge-after-us-and-iran-agree-to-a-ceasefire",
+   "hit_rate_20d": 1.0,
+   "mean_excess_20d": 0.1209585993293462,
+   "hit_rate_5d": 1.0,
+   "mean_excess_5d": 0.06611011013126758,
+   "random_excess_20d": -0.010424830016928661,
+   "picks": [
+    {
+     "ticker": "XOM",
+     "direction": -1,
+     "ret_20d": -0.04820128291033188,
+     "spy_20d": 0.08553126913863185,
+     "excess_20d": 0.13373255204896373,
+     "excess_5d": 0.08155178826824294
+    },
+    {
+     "ticker": "BP",
+     "direction": -1,
+     "ret_20d": -0.027456889449336996,
+     "spy_20d": 0.08553126913863185,
+     "excess_20d": 0.11298815858796885,
+     "excess_5d": 0.030386854854577816
+    },
+    {
+     "ticker": "EQT",
+     "direction": -1,
+     "ret_20d": -0.04417359995735326,
+     "spy_20d": 0.08553126913863185,
+     "excess_20d": 0.1297048690959851,
+     "excess_5d": 0.09222846764308146
+    },
+    {
+     "ticker": "CNQ",
+     "direction": -1,
+     "ret_20d": -0.017230249048570623,
+     "spy_20d": 0.08553126913863185,
+     "excess_20d": 0.10276151818720247,
+     "excess_5d": 0.049613835362241065
+    },
+    {
+     "ticker": "CVX",
+     "direction": -1,
+     "ret_20d": -0.04007462958797903,
+     "spy_20d": 0.08553126913863185,
+     "excess_20d": 0.12560589872661088,
+     "excess_5d": 0.07676960452819459
+    }
+   ]
+  },
+  {
+   "date": "2026-04-30",
+   "headline": "Alphabet, Microsoft, Meta report Q1 after close 04-29 and raise 2026 AI capex guidance",
+   "driver": "AI_Compute_Demand",
+   "direction": 1,
+   "url": "https://thenextweb.com/news/alphabet-amazon-meta-q1-2026-earnings-ai-cloud",
+   "hit_rate_20d": 0.8,
+   "mean_excess_20d": 0.05953098855329264,
+   "hit_rate_5d": 0.6,
+   "mean_excess_5d": 0.02054091425886164,
+   "random_excess_20d": -0.007809450512822658,
+   "picks": [
+    {
+     "ticker": "TER",
+     "direction": 1,
+     "ret_20d": 0.09020104112870975,
+     "spy_20d": 0.05262574755586291,
+     "excess_20d": 0.037575293572846835,
+     "excess_5d": 0.012999905115089527
+    },
+    {
+     "ticker": "KLAC",
+     "direction": 1,
+     "ret_20d": 0.0993018155138572,
+     "spy_20d": 0.05262574755586291,
+     "excess_20d": 0.04667606795799428,
+     "excess_5d": -0.010607948311949666
+    },
+    {
+     "ticker": "LRCX",
+     "direction": 1,
+     "ret_20d": 0.23392547027451527,
+     "spy_20d": 0.05262574755586291,
+     "excess_20d": 0.18129972271865236,
+     "excess_5d": 0.09316763861458566
+    },
+    {
+     "ticker": "GLEN.L",
+     "direction": 1,
+     "ret_20d": 0.0001105277463349097,
+     "spy_20d": 0.05262574755586291,
+     "excess_20d": -0.052515219809528,
+     "excess_5d": -0.02385603615786258
+    },
+    {
+     "ticker": "FCX",
+     "direction": 1,
+     "ret_20d": 0.13724482588236064,
+     "spy_20d": 0.05262574755586291,
+     "excess_20d": 0.08461907832649773,
+     "excess_5d": 0.031001012034445274
+    }
+   ]
+  },
+  {
+   "date": "2026-05-21",
+   "headline": "Nvidia Q1 FY27 results (after close 05-20) - record $75.2B data center revenue, +92% y/y",
+   "driver": "AI_Compute_Demand",
+   "direction": 1,
+   "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000051/q1fy27pr.htm",
+   "hit_rate_20d": 0.8,
+   "mean_excess_20d": 0.23406966831588377,
+   "hit_rate_5d": 0.8,
+   "mean_excess_5d": 0.021218266241841553,
+   "random_excess_20d": 0.0024458771830608767,
+   "picks": [
+    {
+     "ticker": "TER",
+     "direction": 1,
+     "ret_20d": 0.29300587583651305,
+     "spy_20d": 0.004830603457888216,
+     "excess_20d": 0.28817527237862484,
+     "excess_5d": 0.040521625720083554
+    },
+    {
+     "ticker": "KLAC",
+     "direction": 1,
+     "ret_20d": 0.46109506860317784,
+     "spy_20d": 0.004830603457888216,
+     "excess_20d": 0.4562644651452896,
+     "excess_5d": 0.02464519179323643
+    },
+    {
+     "ticker": "LRCX",
+     "direction": 1,
+     "ret_20d": 0.3559705957471557,
+     "spy_20d": 0.004830603457888216,
+     "excess_20d": 0.3511399922892675,
+     "excess_5d": 0.03421318248044902
+    },
+    {
+     "ticker": "GLEN.L",
+     "direction": 1,
+     "ret_20d": -0.02630667465949399,
+     "spy_20d": 0.004830603457888216,
+     "excess_20d": -0.031137278117382206,
+     "excess_5d": -0.02932801926309825
+    },
+    {
+     "ticker": "FCX",
+     "direction": 1,
+     "ret_20d": 0.11073649334150737,
+     "spy_20d": 0.004830603457888216,
+     "excess_20d": 0.10590588988361915,
+     "excess_5d": 0.03603935047853701
+    }
+   ]
+  },
+  {
+   "date": "2026-06-15",
+   "headline": "US-Iran initial deal to end war and reopen Strait of Hormuz announced Sun 06-14",
+   "driver": "Oil_and_Gas",
+   "direction": -1,
+   "url": "https://worldoil.com/news/2026/6/14/u-s-iran-strike-deal-to-reopen-strait-of-hormuz-sending-oil-lower/",
+   "hit_rate_20d": 0.6,
+   "mean_excess_20d": 0.007026881230898274,
+   "hit_rate_5d": 0.4,
+   "mean_excess_5d": -0.0001823223256844253,
+   "random_excess_20d": -0.001995391564070648,
+   "picks": [
+    {
+     "ticker": "XOM",
+     "direction": -1,
+     "ret_20d": 0.025475380228986433,
+     "spy_20d": 0.0025496552118153826,
+     "excess_20d": -0.02292572501717105,
+     "excess_5d": -0.017203758110706957
+    },
+    {
+     "ticker": "BP",
+     "direction": -1,
+     "ret_20d": -0.006251415943993588,
+     "spy_20d": 0.0025496552118153826,
+     "excess_20d": 0.00880107115580897,
+     "excess_5d": 0.028691575195686547
+    },
+    {
+     "ticker": "EQT",
+     "direction": -1,
+     "ret_20d": -0.029556687761692846,
+     "spy_20d": 0.0025496552118153826,
+     "excess_20d": 0.03210634297350823,
+     "excess_5d": -0.04357938634376202
+    },
+    {
+     "ticker": "CNQ",
+     "direction": -1,
+     "ret_20d": -0.018705393477875032,
+     "spy_20d": 0.0025496552118153826,
+     "excess_20d": 0.021255048689690414,
+     "excess_5d": 0.03232721089399526
+    },
+    {
+     "ticker": "CVX",
+     "direction": -1,
+     "ret_20d": 0.006651986859160575,
+     "spy_20d": 0.0025496552118153826,
+     "excess_20d": -0.004102331647345192,
+     "excess_5d": -0.001147253263634962
+    }
+   ]
+  },
+  {
+   "date": "2026-06-24",
+   "headline": "White House sends $87.6B Iran-war supplemental to Congress incl. $67.1B for defense",
+   "driver": "Defense_Spending",
+   "direction": 1,
+   "url": "https://breakingdefense.com/2026/06/white-house-sends-87-6b-supplemental-to-congress-with-67b-for-defense/",
+   "hit_rate_20d": 0.8,
+   "mean_excess_20d": 0.0754606397137156,
+   "hit_rate_5d": 0.8,
+   "mean_excess_5d": 0.01845288047539919,
+   "random_excess_20d": -0.006691370425703936,
+   "picks": [
+    {
+     "ticker": "NOC",
+     "direction": 1,
+     "ret_20d": 0.06057523493557326,
+     "spy_20d": 0.006737265102790824,
+     "excess_20d": 0.05383796983278244,
+     "excess_5d": 0.01660233613275075
+    },
+    {
+     "ticker": "GD",
+     "direction": 1,
+     "ret_20d": 0.1137032599854424,
+     "spy_20d": 0.006737265102790824,
+     "excess_20d": 0.10696599488265157,
+     "excess_5d": 0.03677027900963159
+    },
+    {
+     "ticker": "BA",
+     "direction": 1,
+     "ret_20d": -0.05003407161162743,
+     "spy_20d": 0.006737265102790824,
+     "excess_20d": -0.05677133671441825,
+     "excess_5d": -0.024657221495426707
+    },
+    {
+     "ticker": "RTX",
+     "direction": 1,
+     "ret_20d": 0.13022810511240301,
+     "spy_20d": 0.006737265102790824,
+     "excess_20d": 0.12349084000961219,
+     "excess_5d": 0.019237631207217776
+    },
+    {
+     "ticker": "LMT",
+     "direction": 1,
+     "ret_20d": 0.15651699566074084,
+     "spy_20d": 0.006737265102790824,
+     "excess_20d": 0.14977973055795002,
+     "excess_5d": 0.04431137752282255
+    }
+   ]
+  },
+  {
+   "date": "2026-06-25",
+   "headline": "Micron reports after close 06-24, revenue +346% y/y on AI-driven memory shortage; outlook strong",
+   "driver": "Memory_Chips",
+   "direction": 1,
+   "url": "https://english.sse.com.cn/news/newsrelease/voice/c/c_20260629_10823787.shtml",
+   "hit_rate_20d": 0.0,
+   "mean_excess_20d": -0.3272730748714483,
+   "hit_rate_5d": 0.0,
+   "mean_excess_5d": -0.20463267919139475,
+   "random_excess_20d": -0.007820634439735482,
+   "picks": [
+    {
+     "ticker": "Samsung",
+     "direction": 1,
+     "ret_20d": -0.30327709343679,
+     "spy_20d": 0.006305323653004624,
+     "excess_20d": -0.3095824170897946,
+     "excess_5d": -0.21562387795374127
+    },
+    {
+     "ticker": "SK Hynix",
+     "direction": 1,
+     "ret_20d": -0.39698324225399906,
+     "spy_20d": 0.006305323653004624,
+     "excess_20d": -0.4032885659070037,
+     "excess_5d": -0.26452928458648706
+    },
+    {
+     "ticker": "MU",
+     "direction": 1,
+     "ret_20d": -0.24100032892648315,
+     "spy_20d": 0.006305323653004624,
+     "excess_20d": -0.24730565257948778,
+     "excess_5d": -0.2103894384853403
+    },
+    {
+     "ticker": "GFS",
+     "direction": 1,
+     "ret_20d": -0.37842549942840253,
+     "spy_20d": 0.006305323653004624,
+     "excess_20d": -0.38473082308140716,
+     "excess_5d": -0.20331081240717674
+    },
+    {
+     "ticker": "UMC",
+     "direction": 1,
+     "ret_20d": -0.28515259204654364,
+     "spy_20d": 0.006305323653004624,
+     "excess_20d": -0.29145791569954826,
+     "excess_5d": -0.12930998252422832
+    }
+   ]
+  },
+  {
+   "date": "2026-08-06",
+   "headline": "DR Congo bans exports of copper and cobalt concentrates (order dated 06-29 reported by Reuters 08-06)",
+   "driver": "Copper",
+   "direction": 1,
+   "url": "https://news.metal.com/en/newscontent/104046596-congo-bans-exports-of-copper-cobalt-concentrates-official-order-says",
+   "hit_rate_20d": 0.8,
+   "mean_excess_20d": 0.04000563724158459,
+   "hit_rate_5d": 0.0,
+   "mean_excess_5d": -0.024256196213993865,
+   "random_excess_20d": -0.002562922270652954,
+   "picks": [
+    {
+     "ticker": "GLEN.L",
+     "direction": 1,
+     "ret_20d": 0.07043019844328935,
+     "spy_20d": 0.0059982185984184255,
+     "excess_20d": 0.06443197984487092,
+     "excess_5d": -0.021137134571894478
+    },
+    {
+     "ticker": "FCX",
+     "direction": 1,
+     "ret_20d": 0.06424166235385753,
+     "spy_20d": 0.0059982185984184255,
+     "excess_20d": 0.058243443755439106,
+     "excess_5d": -0.03192713541025549
+    },
+    {
+     "ticker": "SCCO",
+     "direction": 1,
+     "ret_20d": 0.05185987555032745,
+     "spy_20d": 0.0059982185984184255,
+     "excess_20d": 0.045861656951909024,
+     "excess_5d": -0.023210693635017488
+    },
+    {
+     "ticker": "COPPER",
+     "direction": 1,
+     "ret_20d": -0.01644977718005758,
+     "spy_20d": 0.0059982185984184255,
+     "excess_20d": -0.022447995778476004,
+     "excess_5d": -0.02625843959941887
+    },
+    {
+     "ticker": "COPX",
+     "direction": 1,
+     "ret_20d": 0.05993732003259833,
+     "spy_20d": 0.0059982185984184255,
+     "excess_20d": 0.053939101434179904,
+     "excess_5d": -0.01874757785338299
+    }
+   ]
+  }
+ ]
+}

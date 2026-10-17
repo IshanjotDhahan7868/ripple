@@ -118,7 +118,7 @@ export const TICKER_NAMES: Record<string, string> = {
   EXE: "Expand Energy",
   EXPE: "Expedia",
   F: "Ford",
-  FANG: "Technology Giants ETF",
+  FANG: "Diamondback Energy",
   FBTC: "Bitcoin ETF",
   FCG: "Utilities Select Sector SPDR",
   FCX: "Freeport-McMoran",

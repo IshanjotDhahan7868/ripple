@@ -92,10 +92,10 @@ function Seal() {
         <textPath href="#sealPath">GRADED AGAINST REAL PRICES ✦ GRADED AGAINST REAL PRICES ✦</textPath>
       </text>
       <text x="100" y="98" textAnchor="middle" fill="#f6efe2" fontWeight="800" fontSize="30" style={{ fontFamily: "var(--font-display)" }}>
-        7/10
+        70%
       </text>
       <text x="100" y="118" textAnchor="middle" fill="#d8b25a" fontWeight="700" fontSize="11" style={{ fontFamily: "var(--font-body)" }}>
-        past events right
+        of calls right
       </text>
     </svg>
   );
@@ -281,7 +281,7 @@ export function Landing() {
         trigger: "#bt", start: "top 80%", once: true,
         onEnter: () => {
           gsap.to("#bt .fl", { width: (_: number, e: HTMLElement) => e.dataset.w + "%", duration: 1.2, ease: "power3.out", stagger: 0.2 });
-          gsap.to("#events i", { background: (i: number) => (i < 7 ? "#0d6b45" : "#e8412c"), stagger: 0.07, delay: 0.5 });
+          gsap.to("#events i", { background: (i: number) => (i < 8 ? "#0d6b45" : "#e8412c"), stagger: 0.07, delay: 0.5 });
         },
       });
       gsap.from("#bt", { scrollTrigger: { trigger: "#bt", start: "top 85%" }, y: 80, rotate: -6, opacity: 0, duration: 0.8, ease: "back.out(1.4)" });
@@ -344,8 +344,9 @@ export function Landing() {
         <Link href="/" className="logo"><i />ripple</Link>
         <div className="links">
           <a href="#story" className="t">How it works</a>
-          <a href="#live" className="t">Live calls</a>
-          <a className="btn" href="/app">Open Ripple</a>
+          <Link href="/live" className="t">Live tape</Link>
+          <Link href="/casebook" className="t">Casebook</Link>
+          <Link className="btn" href="/app">Open Ripple</Link>
         </div>
       </nav>
 
@@ -461,10 +462,11 @@ export function Landing() {
           <h2 className="display">Built so you can check it.</h2>
           <div className="proofgrid">
             <div className="bt" id="bt">
-              <h3>Backtest: 10 past market events</h3>
-              <p className="sub">Was the top call right 20 trading days later, against the S&amp;P 500?</p>
-              <div className="bar"><span>Ripple</span><div className="tr"><div className="fl" data-w="70" style={{ background: "var(--money)" }} /></div><span className="v">7/10</span></div>
-              <div className="bar"><span>Random picks</span><div className="tr"><div className="fl" data-w="50" style={{ background: "#b9ae98" }} /></div><span className="v">~5/10</span></div>
+              <h3>Backtest: 50 calls on 10 past events</h3>
+              <p className="sub">Did each stock Ripple named beat the S&amp;P 500 in the called direction, 20 trading days later?</p>
+              <div className="bar"><span>Ripple</span><div className="tr"><div className="fl" data-w="70" style={{ background: "var(--money)" }} /></div><span className="v">35/50</span></div>
+              <div className="bar"><span>Random picks</span><div className="tr"><div className="fl" data-w="49" style={{ background: "#b9ae98" }} /></div><span className="v">~49%</span></div>
+              <p className="sub">Each square is one event: green means its calls beat the S&amp;P on average (8 of 10). <a href="/casebook" style={{ color: "inherit" }}>See every call</a></p>
               <div className="events" id="events">{Array.from({ length: 10 }, (_, i) => <i key={i} />)}</div>
             </div>
             <div className="stats">

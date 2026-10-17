@@ -18,6 +18,7 @@ export const STEP_TEXT: Record<string, string> = {
   record_alert: "Saved the result as an alert",
   systemic_drivers: "Ranked the economy's pressure points",
   explain_link: "Read how two parts of the economy are linked",
+  asset_profile: "Walked the map backwards from this stock",
 };
 
 export const stepText = (name: string) => STEP_TEXT[name] ?? name;
@@ -25,11 +26,13 @@ export const stepText = (name: string) => STEP_TEXT[name] ?? name;
 export function UnderTheHood({
   steps,
   note,
+  lead = "Claude picked each step from a fixed menu of tools and never wrote a database query itself.",
   onCompare,
   compareText,
 }: {
   steps: TraceStep[];
   note?: string;
+  lead?: string;
   onCompare?: () => void;
   compareText?: string | null;
 }) {
@@ -42,7 +45,7 @@ export function UnderTheHood({
         <span className="flex flex-col gap-0.5">
           <span className="font-display text-[20px] font-bold">Show how this was worked out</span>
           <span className="text-[15px] text-muted">
-            Claude picked each step from a fixed menu of tools and never wrote a database query itself.
+            {lead}
             {queries.length > 0 && ` FalkorDB ran ${queries.length} queries in ${ms.toFixed(1)} ms.`}
           </span>
         </span>

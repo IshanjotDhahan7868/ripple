@@ -73,6 +73,28 @@ def ripple(source: str, direction: int = 1, depth: int = Q.MAX_DEPTH):
     return {**result, "queries": g.drain()}
 
 
+@app.get("/api/asset/{ticker}")
+def asset(ticker: str, limit: int = 12):
+    """Everything the map says moves one stock: its direct exposures, the parts of the economy upstream, and peers."""
+    g = TracedGraph(graph())
+    rows = g.ro_query(Q.ASSET_EXPOSURE, {"ticker": ticker}).result_set
+    if not rows:
+        raise HTTPException(404, f"{ticker} isn't on the map.")
+    movers = {d: {"source": d, "strength": 1.0, "lag_months": 0, "sign": 1, "path": [d]} for _, d in rows}
+    for src, strength, lag, sign, path in g.ro_query(Q.ASSET_UPSTREAM, {"ticker": ticker, "min_strength": 0.08}).result_set:
+        if src not in movers or strength > movers[src]["strength"]:
+            movers[src] = {"source": src, "strength": strength, "lag_months": lag, "sign": sign, "path": path}
+    peers = g.ro_query(Q.ASSET_PEERS, {"ticker": ticker}).result_set
+    return {
+        "ticker": ticker,
+        "type": rows[0][0],
+        "exposed_to": [d for _, d in rows],
+        "movers": sorted(movers.values(), key=lambda m: -m["strength"])[:max(3, min(limit, 30))],
+        "peers": [dict(zip(("ticker", "type", "shared"), r)) for r in peers],
+        "queries": g.drain(),
+    }
+
+
 @app.get("/api/systemic")
 def systemic(limit: int = 10):
     return tools.systemic_drivers(graph(), max(3, min(limit, 15)))
