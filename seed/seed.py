@@ -87,12 +87,21 @@ def seed(db: FalkorDB, graph_name: str, graph_path: Path, assets_path: Path):
     return {"drivers": len(drivers), "edges": len(edges), "assets": len(assets), "exposures": len(exposures)}
 
 
+def ensure_seeded(db: FalkorDB, graph_name: str) -> dict | None:
+    """Rebuild the graph if it is missing or empty (FalkorDB Cloud's free tier does not persist data)."""
+    if graph_name in db.list_graphs():
+        if db.select_graph(graph_name).ro_query("MATCH (d:Driver) RETURN count(d)").result_set[0][0]:
+            return None
+    return seed(db, graph_name, ROOT / "graph.yaml", ROOT / "assets.yaml")
+
+
 def connect() -> FalkorDB:
     return FalkorDB(
         host=os.getenv("FALKORDB_HOST", "localhost"),
         port=int(os.getenv("FALKORDB_PORT", "6380")),
         username=os.getenv("FALKORDB_USERNAME") or None,
         password=os.getenv("FALKORDB_PASSWORD") or None,
+        ssl=os.getenv("FALKORDB_SSL", "").lower() in ("1", "true"),
     )
 
 

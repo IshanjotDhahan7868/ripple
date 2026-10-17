@@ -18,6 +18,7 @@ def client() -> FalkorDB:
         port=int(os.getenv("FALKORDB_PORT", "6380")),
         username=os.getenv("FALKORDB_USERNAME") or None,
         password=os.getenv("FALKORDB_PASSWORD") or None,
+        ssl=os.getenv("FALKORDB_SSL", "").lower() in ("1", "true"),
     )
 
 

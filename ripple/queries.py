@@ -46,6 +46,12 @@ RETURN node.id AS id, node.theme AS theme, score
 ORDER BY score DESC LIMIT $limit
 """
 
+SYSTEMIC_REACH = """
+MATCH (s:Driver)-[:DRIVES*1..4]->(t:Driver)
+RETURN s.id AS id, s.theme AS theme, count(DISTINCT t) AS reach
+ORDER BY reach DESC LIMIT $limit
+"""
+
 RECALL_EVENTS = """
 MATCH (e:Event)-[:HIT]->(d:Driver) WHERE d.id IN $nodes AND e.at >= $since
 RETURN e.id AS id, e.headline AS headline, e.at AS at, e.direction AS direction, collect(d.id) AS nodes

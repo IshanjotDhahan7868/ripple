@@ -8,6 +8,7 @@ import {
   getEvents,
   getGraph,
   getRipple,
+  getSystemic,
   pretty,
   streamAnalyze,
   type Analysis,
@@ -15,6 +16,7 @@ import {
   type GraphEdge,
   type GraphNode,
   type MemoryEvent,
+  type Systemic,
 } from "@/lib/api";
 
 const SAMPLES = [
@@ -48,12 +50,14 @@ export default function Home() {
   const [plain, setPlain] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [events, setEvents] = useState<MemoryEvent[]>([]);
+  const [systemic, setSystemic] = useState<Systemic | null>(null);
   const [theme, setTheme] = useState<"dark" | "light">("dark");
   const timers = useRef<ReturnType<typeof setTimeout>[]>([]);
 
   useEffect(() => {
     getGraph().then(setGraph, (e) => setLoadError(String(e.message ?? e)));
     getEvents().then(setEvents);
+    getSystemic().then(setSystemic, () => {});
   }, []);
 
   useEffect(() => {
@@ -83,13 +87,14 @@ export default function Home() {
     setFocusPath(null);
   };
 
-  async function runDriver() {
+  async function runDriver(src = source, dir = direction) {
     reset();
     setRunning(true);
-    setSteps([{ name: "analyze_impact", input: { sources: [source], direction, depth }, queries: [], pending: true }]);
+    const input = { sources: [src], direction: dir, depth };
+    setSteps([{ name: "analyze_impact", input, queries: [], pending: true }]);
     try {
-      const r = await getRipple(source, direction, depth);
-      setSteps([{ name: "analyze_impact", input: { sources: [source], direction, depth }, queries: r.queries }]);
+      const r = await getRipple(src, dir, depth);
+      setSteps([{ name: "analyze_impact", input, queries: r.queries }]);
       play(r);
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
@@ -270,7 +275,7 @@ export default function Home() {
           </div>
 
           <button
-            onClick={mode === "headline" ? runHeadline : runDriver}
+            onClick={() => (mode === "headline" ? runHeadline() : runDriver())}
             disabled={running || !graph}
             className="rounded-md bg-signal px-3 py-2 text-[14px] font-semibold text-[#1a1406] disabled:opacity-50"
           >
@@ -312,6 +317,19 @@ export default function Home() {
             <RippleGraph graph={graph} ripple={ripple} theme={theme} />
           ) : (
             <div className="grid h-full place-items-center text-muted">Loading the graph…</div>
+          )}
+          {graph && !analysis && !running && (
+            <IdleMap
+              systemic={systemic}
+              drivers={graph.nodes.length}
+              links={graph.edges.length}
+              onPick={(id) => {
+                setMode("driver");
+                setSource(id);
+                setDirection(1);
+                runDriver(id, 1);
+              }}
+            />
           )}
           {analysis && (
             <p className="pointer-events-none absolute left-3 top-3 rounded-md bg-panel/90 px-2.5 py-1.5 text-[12px] text-muted">
@@ -357,6 +375,76 @@ export default function Home() {
           )}
         </aside>
       </main>
+    </div>
+  );
+}
+
+function IdleMap({
+  systemic,
+  drivers,
+  links,
+  onPick,
+}: {
+  systemic: Systemic | null;
+  drivers: number;
+  links: number;
+  onPick: (id: string) => void;
+}) {
+  const max = Math.max(...(systemic?.spreaders.map((s) => s.reach) ?? [1]));
+  return (
+    <div className="absolute inset-0 grid place-items-center overflow-y-auto bg-ground/80 p-4 backdrop-blur-[2px]">
+      <div className="w-full max-w-[640px] rounded-lg border border-line bg-panel p-5">
+        <h2 className="text-[20px] font-semibold leading-snug text-ink">
+          {drivers} economic drivers, {links} cause-and-effect links
+        </h2>
+        <p className="mt-1 text-[14px] text-muted">
+          Start from a headline or a driver on the left, or trace one of these.
+        </p>
+        {systemic ? (
+          <div className="mt-5 grid gap-5 sm:grid-cols-2">
+            <div>
+              <h3 className="text-[13px] text-muted">Spread the furthest</h3>
+              <ul className="mt-2 space-y-1">
+                {systemic.spreaders.map((s) => (
+                  <li key={s.id}>
+                    <button
+                      onClick={() => onPick(s.id)}
+                      className="w-full rounded-md px-2 py-1.5 text-left hover:bg-panel-2 focus-visible:bg-panel-2"
+                    >
+                      <span className="flex items-baseline justify-between gap-2 text-[14px] text-ink">
+                        {pretty(s.id)}
+                        <span className="shrink-0 text-[12px] text-muted">reaches {s.reach}</span>
+                      </span>
+                      <span className="mt-1 block h-1 rounded-full bg-line">
+                        <span className="block h-1 rounded-full bg-signal" style={{ width: `${(s.reach / max) * 100}%` }} />
+                      </span>
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-[13px] text-muted">Where shocks pool</h3>
+              <ul className="mt-2 space-y-1">
+                {systemic.drivers.map((s) => (
+                  <li key={s.id}>
+                    <button
+                      onClick={() => onPick(s.id)}
+                      className="w-full rounded-md px-2 py-1.5 text-left text-[14px] text-ink hover:bg-panel-2 focus-visible:bg-panel-2"
+                    >
+                      {pretty(s.id)}
+                      <span className="block text-[12px] text-muted">{s.theme}</span>
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        ) : null}
+        <p className="mt-5 text-[12px] text-muted">
+          Ranked live in FalkorDB: reach counts drivers within 4 hops, pooling is PageRank over the causal links.
+        </p>
+      </div>
     </div>
   );
 }

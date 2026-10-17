@@ -1,8 +1,10 @@
 """HTTP API. /api/analyze streams the agent's tool calls, Cypher trace and final brief as server-sent events."""
 
 import json
+import os
 import queue
 import threading
+from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -11,9 +13,18 @@ from pydantic import BaseModel, Field
 
 from . import agent, tools
 from . import queries as Q
-from .db import TracedGraph, graph
+from .db import TracedGraph, client, graph
 
-app = FastAPI(title="Ripple")
+
+@asynccontextmanager
+async def lifespan(_app):
+    from seed.seed import ensure_seeded
+
+    ensure_seeded(client(), os.getenv("RIPPLE_GRAPH", "ripple"))
+    yield
+
+
+app = FastAPI(title="Ripple", lifespan=lifespan)
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
 

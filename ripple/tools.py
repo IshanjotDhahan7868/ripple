@@ -70,8 +70,11 @@ def explain_link(g, src: str, dst: str) -> dict:
 
 
 def systemic_drivers(g, limit: int = 8) -> dict:
+    """`drivers`: where shocks pool (PageRank). `spreaders`: how many drivers each one reaches within 4 hops."""
     rows = g.ro_query(Q.SYSTEMIC_PAGERANK, {"limit": int(limit)}).result_set
-    return {"drivers": [{"id": r[0], "theme": r[1], "pagerank": round(r[2], 4)} for r in rows]}
+    reach = g.ro_query(Q.SYSTEMIC_REACH, {"limit": int(limit)}).result_set
+    return {"drivers": [{"id": r[0], "theme": r[1], "pagerank": round(r[2], 4)} for r in rows],
+            "spreaders": [{"id": r[0], "theme": r[1], "reach": r[2]} for r in reach]}
 
 
 def recall_events(g, driver_ids: list[str], days: int = 30) -> dict:
@@ -131,7 +134,7 @@ SPEC = [
     },
     {
         "name": "systemic_drivers",
-        "description": "Most load-bearing drivers in the economy graph by PageRank.",
+        "description": "Systemic view of the graph: drivers where shocks pool (PageRank) and drivers that spread furthest (count reached within 4 hops).",
         "input_schema": {"type": "object", "additionalProperties": False, "required": ["limit"],
                          "properties": {"limit": {"type": "integer", "minimum": 3, "maximum": 15}}},
     },

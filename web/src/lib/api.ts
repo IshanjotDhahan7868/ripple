@@ -65,6 +65,16 @@ export async function getRipple(
   return r.json();
 }
 
+export type Systemic = {
+  drivers: { id: string; theme: string; pagerank: number }[];
+  spreaders: { id: string; theme: string; reach: number }[];
+};
+
+export async function getSystemic(): Promise<Systemic | null> {
+  const r = await fetch(`${API}/api/systemic?limit=6`);
+  return r.ok ? r.json() : null;
+}
+
 export async function getEvents(): Promise<MemoryEvent[]> {
   const r = await fetch(`${API}/api/events`);
   if (!r.ok) return [];
