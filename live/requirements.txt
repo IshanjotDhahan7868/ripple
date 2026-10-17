@@ -1,0 +1,4 @@
+falkordb>=1.0
+pyyaml>=6
+yfinance>=0.2
+pandas

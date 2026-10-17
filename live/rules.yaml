@@ -1,0 +1,55 @@
+# The free matcher's rulebook. Read top to bottom before plain keyword matching.
+# Claude Code checkups review the live feed and add to this file; see docs/checkup.md.
+#
+# rules:    a headline matching `match` (a regex, case-insensitive) is traced from these drivers.
+#           1 = the driver's level goes up, -1 = it goes down.
+# inverse:  aliases that mean the opposite of the driver's level ("layoffs rise" = labour market weakens).
+# default:  direction to use when an alias matches but no rise/fall word is found
+#           (only used when the headline describes trouble: an attack, a strike, drills, a lawsuit...)
+# ignore:   phrases blanked out before keyword matching (they look like an alias but aren't).
+# skip:     headlines to ignore (lists, explainers, opinion).
+
+rules:
+  - match: "opec\\+?.*\\b(cut|curb|reduc|lower)"
+    drivers: {Oil_Supply: -1}
+  - match: "opec\\+?.*\\b(raise|boost|increase|hike|unwind|add)"
+    drivers: {Oil_Supply: 1}
+  - match: "\\bfed\\b.*\\b(cuts?|lowers?)\\b.*\\brates?\\b|\\brate cut"
+    drivers: {Interest_Rates: -1}
+  - match: "\\bfed\\b.*\\b(hikes?|raises?)\\b.*\\brates?\\b|\\brate hike|higher for longer"
+    drivers: {Interest_Rates: 1}
+  - match: "\\btariffs?\\b.*\\b(paus|delay|lift|remov|exempt|lower|cut)"
+    drivers: {Trade_Restrictions: -1}
+  - match: "\\b(new|impose|raise|hike|threaten|announce)s?\\b.*\\btariffs?\\b|\\btariffs?\\b.*\\b(on|against)\\b"
+    drivers: {Trade_Restrictions: 1}
+  - match: "\\brefinery\\b.*\\b(outage|fire|shut|explosion|halt)"
+    drivers: {Refining: -1}
+  - match: "\\b(hurricane|wildfire|earthquake|flood|drought|heatwave)\\b"
+    drivers: {Natural_Disasters: 1}
+
+inverse:
+  Labor_Market: [unemployment, jobless claims, layoffs, recession]
+  Credit_Conditions: [credit crunch, defaults, credit tightening, bank failure, credit spreads]
+  USD_Strength: [weak dollar]
+  Oil_Supply: [production cut]
+  Power_Grid_Infrastructure: [blackout]
+  Russia_Ukraine_War: [ceasefire]
+
+default:
+  Middle_East_Conflict: 1
+  Russia_Ukraine_War: 1
+  Taiwan_Strait_Risk: 1
+  Maritime_Chokepoint_Disruption: 1
+  Natural_Disasters: 1
+  Cyber_Threats: 1
+  Sanctions: 1
+  Tech_Antitrust_and_Regulation: 1
+  Trade_Restrictions: 1
+
+ignore:
+  - "fiscal (year |q[1-4] |first |second |third |fourth )?(quarter |20\\d\\d|\\d{2}\\b)"
+
+skip:
+  - "\\b(stocks? to (buy|watch)|best .* to buy|how to|what to know|explained|opinion|podcast|quiz|review:)"
+  - "\\?$"
+  - "\\b(dies|obituary|wedding|recipe|celebrity)\\b"

@@ -1,0 +1,50 @@
+# The live loop. Every 2 hours: read business news, trace the headlines the map covers, grade older calls
+# against real prices, and commit the results to the `live` branch, which the website reads directly.
+# Free: no AI calls, a throwaway FalkorDB container seeded from the repo, and public price data.
+name: live
+on:
+  schedule:
+    - cron: "23 */2 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: live
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    services:
+      falkordb:
+        image: falkordb/falkordb:latest
+        ports: ["6379:6379"]
+    env:
+      FALKORDB_HOST: localhost
+      FALKORDB_PORT: "6379"
+      RIPPLE_GRAPH: ripple
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: live
+          path: data/live
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: live/requirements.txt
+      - run: pip install -r live/requirements.txt
+      - run: python seed/seed.py
+      - run: python -m live.run --out data/live
+      - name: Commit results
+        working-directory: data/live
+        run: |
+          git config user.name "ripple-live"
+          git config user.email "ripple-live@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -q -m "live: $(python -c "import json;s=json.load(open('state.json'));print(s['last_new'],'new, run',s['runs'])")"
+          git push -q
+      - name: Keep the demo database awake
+        run: curl -fsS --retry 3 https://ripple-api.vercel.app/api/health || true
