@@ -33,6 +33,15 @@ class AnalyzeIn(BaseModel):
     depth: int = Field(default=Q.MAX_DEPTH, ge=1, le=Q.MAX_DEPTH)
 
 
+def _llm_error(e: Exception) -> str:
+    text = str(e)
+    if any(k in text for k in ("429", "RESOURCE_EXHAUSTED", "rate_limit", "overloaded")):
+        return "The language model is rate limited right now. Wait a minute and try again, or trace from a driver, which needs no model."
+    if any(k in text for k in ("401", "403", "API key", "api_key", "PERMISSION_DENIED")):
+        return "The language model rejected the API key. Check the key in the server's environment."
+    return f"The agent stopped: {type(e).__name__}. Driver mode still works."
+
+
 @app.get("/api/health")
 def health():
     n = graph().ro_query("MATCH (d:Driver) RETURN count(d)").result_set[0][0]
@@ -85,7 +94,7 @@ def analyze(body: AnalyzeIn):
         try:
             agent.analyze(TracedGraph(graph()), body.headline, body.depth, q.put)
         except Exception as e:  # surfaced to the UI as a stream event
-            q.put({"type": "error", "message": f"{type(e).__name__}: {e}"})
+            q.put({"type": "error", "message": _llm_error(e)})
         finally:
             q.put(None)
 
