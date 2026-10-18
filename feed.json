@@ -1,6 +1,118 @@
 {
- "updated": 1792298890,
+ "updated": 1792322744,
  "items": [
+  {
+   "id": "0ffe17943aed",
+   "headline": "How Israeli firm\u2019s \u2018zero-click\u2019 malware attack poses global security risk",
+   "source": "Al Jazeera",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaHdyWnczUE9tRTFtMGh5SE1qMkhHbG5pZTdYSGh5ZndPRkdTX1d5X255bXRvMHBXYVJhTUJtRHNKVUV4QmZhMFo2bDBsTkxUbGNrZXdJMF83Zm0xWWJOWVJsMU82cnRrMFJsYXF3WVgtMHNsc29sR0x3WkVpeVdVeUprTVZwY0NwekNaRGRpQVdkU1hfdm5DU09sNmcxbHAtUlFwOVY2YmE1MEdSOFh0N3BB0gG3AUFVX3lxTE9rRnpPLVRjRVBlWmU0Wkt2UWZMdm1CWnJMbHlCeWlDZ0RtWDJJX3pMc3FXNzQxUGc1YU9JbGdKcXpPNDlYNG9MVzU1dTdYclAtRnlSZUxzTGx0ZkNzSy1RT005T2tBMVA5XzZQemFLblUwVWFvZUZiZ0lHbDlVOXFsY0QtMXhIbDZ3RTF4NzU5RjI3TXZEX181LWRTOHJ5VUhmdFJHMElpUFN1VExxcEVFUlE4T3gtdw?oc=5",
+   "published": 1792160407,
+   "traced_at": 1792322737,
+   "pick": {
+    "sources": [
+     "Cyber_Threats"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "malware"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "2f03ba7ec94a",
+     "headline": "Hack exposes data on millions of California students"
+    },
+    {
+     "id": "319077016fa1",
+     "headline": "Hackers steal personal data of millions of California students in massive breach"
+    },
+    {
+     "id": "361175ffd6c4",
+     "headline": "BAE Systems cyberattack disrupts US federal court operations"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "FTNT",
+     "direction": 1
+    },
+    {
+     "ticker": "CRWD",
+     "direction": 1
+    },
+    {
+     "ticker": "PANW",
+     "direction": 1
+    },
+    {
+     "ticker": "ZS",
+     "direction": 1
+    },
+    {
+     "ticker": "HACK",
+     "direction": 1
+    },
+    {
+     "ticker": "CIBR",
+     "direction": 1
+    }
+   ],
+   "reached": 2
+  },
+  {
+   "id": "a46f1492cd3b",
+   "headline": "ICE Vehicle Sales Crash 49%(!) While EV Share Jumps to 67%(!) \u2014 China EV Sales Report for September",
+   "source": "CleanTechnica",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZGpTLUJIbHJGX2RrRDZtNDJfbTZpbnFld2V3bURMaHZtVHVqSjVlYnpKdkdYUlo4WDFPVElsMzBRSm5LZHV4emVibGktcEs5T0NSY09GMmluZk1sN21xaVY4cUpjbE1kXzQxX05ZNW9tbldud2IzRzUzdjFsZlRIVDlTUVZQLWY1QUpvaVRXT2Vfcm51Y2g2TFdDOGhoQ1l3V0wwblBpd3Bna2d4NUsxOHVqSFBoak04ZGt4VkFnRGR4ZURtdGc?oc=5",
+   "published": 1792271528,
+   "traced_at": 1792322737,
+   "pick": {
+    "sources": [
+     "EVs_and_Autonomy"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "ev sales"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "a9cde5862acf",
+     "headline": "Fuel-price surge turbocharges global EV sales and spells end for diesel in Europe"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "RIVN",
+     "direction": 1
+    },
+    {
+     "ticker": "IDRV",
+     "direction": 1
+    },
+    {
+     "ticker": "DRIV",
+     "direction": 1
+    },
+    {
+     "ticker": "F",
+     "direction": 1
+    },
+    {
+     "ticker": "GM",
+     "direction": 1
+    },
+    {
+     "ticker": "TSLA",
+     "direction": 1
+    }
+   ],
+   "reached": 1
+  },
   {
    "id": "f22794dce12a",
    "headline": "Retail price impacts from the Iran war are uneven but add up for US households before midterms",
@@ -687,7 +799,7 @@
    "reached": 12
   }
  ],
- "total": 14,
+ "total": 16,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -700,7 +812,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 14
+  "waiting": 16
  },
  "checkup": {
   "at": 1792255747,
