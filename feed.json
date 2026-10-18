@@ -1,6 +1,218 @@
 {
- "updated": 1792349055,
+ "updated": 1792362572,
  "items": [
+  {
+   "id": "899e9dbf729d",
+   "headline": "Microsoft Scraps UK Data Center Deal With Nscale, Telegraph Says",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYXhlWkpqYnAwNVVYQjBLWTdQdi1HYm50VjhBQ3UwTkNhc0gtTGhoMnluWGxuMVdmZWM3eFRjVFA5dWZ0STlFRVJ6S090WVFveFF1RVNjcHFpd2ZNTFJfamxDNGl6YTNrSmkta2pteXpnMElHVXVjcUI5WDNlemltdVRSZURQUXBmcTFrV0NyY2R0a3J1clFlOGU2RjRTbVRnbzRnU3NvRktJR3g3RUw4Zm9vTnE?oc=5",
+   "published": 1792335614,
+   "traced_at": 1792362567,
+   "pick": {
+    "sources": [
+     "Data_Centers"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "data center"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "GLEN.L",
+     "direction": -1
+    },
+    {
+     "ticker": "FCX",
+     "direction": -1
+    },
+    {
+     "ticker": "SCCO",
+     "direction": -1
+    },
+    {
+     "ticker": "GE",
+     "direction": -1
+    },
+    {
+     "ticker": "SCHN.PA",
+     "direction": -1
+    },
+    {
+     "ticker": "COPX",
+     "direction": -1
+    }
+   ],
+   "reached": 28
+  },
+  {
+   "id": "93fe9678c29a",
+   "headline": "Wright says Trump administration has not broken promise to lower gas prices amid Iran war",
+   "source": "The Hill",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYndPRzM1RHY1Vk9vQXdMaEJJa0phMGpyaWhWZlNqTDlvTUVxbXNhZW12WG9tR3dMYno5dkdnb18tOEktd2d4QXdqeUZ0QW5kSHlHTXhTSFBzajVlVVRaZUJMeXdTemJHdEhrZUJIY3l2bmlyQjFab3pGYnlQenVoelUwNEViQTTSAYwBQVVfeXFMT0FrYlJuVkNFRDhseTBIa3dKbnNMZmk2aVY5WG5fYmZDRnNFVUFzSXd2eFNhLTd3dlctd1F6Z2kwTmZ5SmRoUVFMQ3VUVlNaUzVzMkJYZkZtOGpDVDZJSDRJNzFJV3FWdVhkNTBDTnVMRXlid0cwTlNaYk1mb281dkEyb3ZpYkxRZ0Zvb3g?oc=5",
+   "published": 1792343880,
+   "traced_at": 1792362567,
+   "pick": {
+    "sources": [
+     "Middle_East_Conflict"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "iran"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "f22794dce12a",
+     "headline": "Retail price impacts from the Iran war are uneven but add up for US households before midterms"
+    },
+    {
+     "id": "75e5a4b7804e",
+     "headline": "The Iran war has cost the average U.S. household the equivalent of almost $2,000, top economist says"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": -1
+    },
+    {
+     "ticker": "OXY",
+     "direction": -1
+    },
+    {
+     "ticker": "COP",
+     "direction": -1
+    },
+    {
+     "ticker": "DVN",
+     "direction": -1
+    },
+    {
+     "ticker": "FANG",
+     "direction": -1
+    },
+    {
+     "ticker": "EOG",
+     "direction": -1
+    }
+   ],
+   "reached": 23
+  },
+  {
+   "id": "b20fd6ddd316",
+   "headline": "President Donald Trump Claims Gasoline Prices Will \"Drop Like a Rock\" When the Iran War Ends, but He's Completely Missed the Bigger Picture",
+   "source": "The Motley Fool",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQb1ItYUFpX19VOW9qb0IwWkhiVDhZcGdPUHRtVENBcWxXWDVGZTFxMG9vT2ZIcXdxS1E1eEh1dHc2R2lTM3QxbVJTU0ZKLUtqOURESWE1YWpkZ01iaGhBSWtPNDAtNGVNQ2Q5R3JxbkhwaE8xbTlLMzFuSlJ1SVRlYW5GcENicE13RkNvSEQtdDFQM29ZTk5pc0t3ZVg4bF9qbGRkVl9RRU1tdklWTjRBY2lTX1ZLeXUwWTEzVmFoeHdiS2tETVVMaHZKczNNak9MN0ZtZmFKZw?oc=5",
+   "published": 1792227960,
+   "traced_at": 1792362568,
+   "pick": {
+    "sources": [
+     "Refining",
+     "Middle_East_Conflict"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "gasoline prices",
+     "iran"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "f22794dce12a",
+     "headline": "Retail price impacts from the Iran war are uneven but add up for US households before midterms"
+    },
+    {
+     "id": "75e5a4b7804e",
+     "headline": "The Iran war has cost the average U.S. household the equivalent of almost $2,000, top economist says"
+    },
+    {
+     "id": "26604a401075",
+     "headline": "Exclusive | Diesel Prices Hold High Despite Efforts to Boost Global Supplies"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "MPC",
+     "direction": -1
+    },
+    {
+     "ticker": "PSX",
+     "direction": -1
+    },
+    {
+     "ticker": "DINO",
+     "direction": -1
+    },
+    {
+     "ticker": "VLO",
+     "direction": -1
+    },
+    {
+     "ticker": "PBF",
+     "direction": -1
+    },
+    {
+     "ticker": "DK",
+     "direction": -1
+    }
+   ],
+   "reached": 24
+  },
+  {
+   "id": "81121d812e03",
+   "headline": "I\u2019ll bet my bottom dollar stocks are about to rally",
+   "source": "The Telegraph",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZ2R1S1NKNklNSm9Td1MxZDh3MFcwaE5hSS0xV2NVay0xaklvOGhObW16TDF5MV81OFNUU3d1R0oxTG1jV0pVbHVPTTNkRVYxamRvV3RZZE1tSzNqR3ktWFZuMkY0TUNSeE9wZ3lmeWQ0YWlRS2RIcTBGbmZfQUM2TTFVQXJpU0pudFdRci1pX1dNdjJDVFBkX2ZfWkh4Z2M?oc=5",
+   "published": 1792234800,
+   "traced_at": 1792362568,
+   "pick": {
+    "sources": [
+     "USD_Strength"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "dollar"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "UUP",
+     "direction": 1
+    },
+    {
+     "ticker": "AEM",
+     "direction": -1
+    },
+    {
+     "ticker": "NEM",
+     "direction": -1
+    },
+    {
+     "ticker": "KGC",
+     "direction": -1
+    },
+    {
+     "ticker": "WPM",
+     "direction": -1
+    },
+    {
+     "ticker": "FNV",
+     "direction": -1
+    }
+   ],
+   "reached": 4
+  },
   {
    "id": "0ffe17943aed",
    "headline": "How Israeli firm\u2019s \u2018zero-click\u2019 malware attack poses global security risk",
@@ -799,7 +1011,7 @@
    "reached": 12
   }
  ],
- "total": 16,
+ "total": 20,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -812,7 +1024,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 16
+  "waiting": 20
  },
  "checkup": {
   "at": 1792255747,
