@@ -1,0 +1,82 @@
+[
+ [
+  5.53,
+  5.0,
+  "This is Ripple. One news story can move many stocks. Ripple shows which ones, and why."
+ ],
+ [
+  18.0,
+  4.5,
+  "It runs on a map of the economy: 79 parts and 170 cause-and-effect links, stored in FalkorDB."
+ ],
+ [
+  25.82,
+  3.5,
+  "Let's try it. Paste a headline, or pick an example."
+ ],
+ [
+  30.32,
+  5.0,
+  "Headline: the Fed will keep interest rates high."
+ ],
+ [
+  35.38,
+  5.0,
+  "Ripple gives a plain answer first: which stocks are likely to rise or fall, and when."
+ ],
+ [
+  41.95,
+  5.5,
+  "Click through the chain step by step. Every step has a written reason. Nothing is made up."
+ ],
+ [
+  48.74,
+  4.0,
+  "Every stock name is clickable. Let's open Toll Brothers, a home builder."
+ ],
+ [
+  55.75,
+  5.0,
+  "This page shows everything that can push this one stock up or down."
+ ],
+ [
+  61.39,
+  6.0,
+  "Open a row to see the chain: higher rates make mortgages cost more, so fewer homes sell."
+ ],
+ [
+  68.98,
+  4.0,
+  "It also shows past calls on this stock, and similar stocks."
+ ],
+ [
+  75.95,
+  5.0,
+  "Can you trust it? We tested it on 10 real news events from 2026."
+ ],
+ [
+  81.01,
+  5.5,
+  "35 of 50 calls were right after 20 trading days. Random picks: about half."
+ ],
+ [
+  88.28,
+  5.0,
+  "Every single call is listed here, right or wrong. Small test, so we say so."
+ ],
+ [
+  97.82,
+  5.5,
+  "And it runs by itself. Every 2 hours, a free robot reads the news and makes new calls."
+ ],
+ [
+  104.95,
+  5.5,
+  "Each call gets graded against the real market, in public. Mistakes stay on the record."
+ ],
+ [
+  115.04,
+  6.0,
+  "Ripple: see where the news lands. Try it at ripple-beta-five.vercel.app"
+ ]
+]
