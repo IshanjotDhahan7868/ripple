@@ -1,6 +1,55 @@
 {
- "updated": 1792362572,
+ "updated": 1792385810,
  "items": [
+  {
+   "id": "b4ea96698396",
+   "headline": "Oil tumbles as Trump's Russia sanctions waiver may lead to more fuel supplies",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMmVLc19hd0VSYXIydVNTWENKZ2J5WVNvVDRQUjRfTUJXWGhjOGxGZkFHVm9SNnZzeU9TWUhrYnJTRU1sVFRnX1BwZVd3NHB5a0NLdThkbDRldlg2eHdhTll2b3RnQTJ4U3dHVGczM25FdjJHRGQ5WGJDV2Qxd1hzLV9EcjNWaUQ4cXEzbWVHRzNuS1dGVVNBSmdXWGR6THN1dXhvSUdFS0dMMTJZTnBBZEFfZ2JoYVVFSWNMZw?oc=5",
+   "published": 1792362180,
+   "traced_at": 1792385803,
+   "pick": {
+    "sources": [
+     "Sanctions",
+     "Russia_Ukraine_War"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "sanctions",
+     "russia"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "LXU",
+     "direction": -1
+    },
+    {
+     "ticker": "MOS",
+     "direction": -1
+    },
+    {
+     "ticker": "IPI",
+     "direction": -1
+    },
+    {
+     "ticker": "NTR",
+     "direction": -1
+    },
+    {
+     "ticker": "CF",
+     "direction": -1
+    },
+    {
+     "ticker": "UREA",
+     "direction": -1
+    }
+   ],
+   "reached": 25
+  },
   {
    "id": "899e9dbf729d",
    "headline": "Microsoft Scraps UK Data Center Deal With Nscale, Telegraph Says",
@@ -1011,7 +1060,7 @@
    "reached": 12
   }
  ],
- "total": 20,
+ "total": 21,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -1024,7 +1073,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 20
+  "waiting": 21
  },
  "checkup": {
   "at": 1792255747,
