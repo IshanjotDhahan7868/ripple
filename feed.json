@@ -1,6 +1,244 @@
 {
- "updated": 1792440110,
+ "updated": 1792453772,
  "items": [
+  {
+   "id": "9c3d35f5aa00",
+   "headline": "Saudi Arabia Postpones Its Marquee Investment Event After Houthi Attacks",
+   "source": "The New York Times",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdWxSYW5DN0dmY1FZeU1qUmhBbERZNTVGb3ZGdGh0clVUeUpEQ05lRy02TXplRDRIangtempxS1pWa0QtX3I0emFNZ0pmYlFTbHNHR3ZPTVRCcUJQNzVEQ2k1Q3VZbklES2RFbVFhb2xyY3I3S1djeDlfZ3hFNG1TaWc0TQ?oc=5",
+   "published": 1792434061,
+   "traced_at": 1792453760,
+   "pick": {
+    "sources": [
+     "Maritime_Chokepoint_Disruption"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "houthi"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "54dffc4c8a1d",
+     "headline": "The disturbing \u2018new normal\u2019 in the Strait of Hormuz: Attacks on ships at a record high and oil at $100 a barrel"
+    },
+    {
+     "id": "9adfea12ab3b",
+     "headline": "There is a violent \u2018new normal\u2019 in the Strait of Hormuz. Here\u2019s why we should worry"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "ZIM",
+     "direction": 1
+    },
+    {
+     "ticker": "FRO",
+     "direction": 1
+    },
+    {
+     "ticker": "SBLK",
+     "direction": 1
+    },
+    {
+     "ticker": "INSW",
+     "direction": 1
+    },
+    {
+     "ticker": "MATX",
+     "direction": 1
+    },
+    {
+     "ticker": "DHT",
+     "direction": 1
+    }
+   ],
+   "reached": 12
+  },
+  {
+   "id": "1a661e21343c",
+   "headline": "Brent oil tops $109 after Houthi militants claim they attacked Saudi airports and Aramco facilities",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUUdqTmNWUUFKcWcydVFMaU5uUkthdnpkZ3Z1Y0FaTU54UjdfZDlfYnNJcTU0WTNGU1hRa0Etc3pFNjNPQjBXcjB5S3pFbGMyRUlLTjVoTzdNQjNWVTJsZTNVUER4NDdDQWZMdWdhWnBGR1NkWDJQYnlVT3lJUGsyZmlMY1BKQXliNUZMVHZXWdIBlAFBVV95cUxQMnMyZDFwdWNxYnZScnhQRUlrUnJzcGZPcHQtRTFNWXNURXFBZC1CMThXXzlCLWt4NFpIRDFvREpUSDlVU1h4RDF5UU51Z1VOaVU1WHBWWFN1V1NhSjFMM0hTS3pqOVZXTi1jbnIzYUlNMGo1eGh1RjA0eHRvSWRQT05WNVpUOGl0SkhlU01MdzlsYnhu?oc=5",
+   "published": 1792361739,
+   "traced_at": 1792453761,
+   "pick": {
+    "sources": [
+     "Maritime_Chokepoint_Disruption",
+     "Oil_Price"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "houthi",
+     "brent"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "9fc62b43e025",
+     "headline": "Stock Market Today: Dow, S&P 500 and Nasdaq head for a strong finish as tech stocks rally; oil prices fall while yields rise"
+    },
+    {
+     "id": "63f6eda38a57",
+     "headline": "Gold Rises Amid Falling Oil Prices"
+    },
+    {
+     "id": "54dffc4c8a1d",
+     "headline": "The disturbing \u2018new normal\u2019 in the Strait of Hormuz: Attacks on ships at a record high and oil at $100 a barrel"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": 1
+    },
+    {
+     "ticker": "OXY",
+     "direction": 1
+    },
+    {
+     "ticker": "COP",
+     "direction": 1
+    },
+    {
+     "ticker": "DVN",
+     "direction": 1
+    },
+    {
+     "ticker": "FANG",
+     "direction": 1
+    },
+    {
+     "ticker": "EOG",
+     "direction": 1
+    }
+   ],
+   "reached": 29
+  },
+  {
+   "id": "49a6a863f3f6",
+   "headline": "The Iran War has sent gas and oil prices higher. That could spell economic disaster in the midterms.",
+   "source": "Business Insider",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcThTSklPLUcwNHR0VTRuYVpNeHAxSWUtWlloYTd6ZVYyTFJaS1JmS1gxM1lzTFBxM3pNdzlJV1NpUWJPbTRlMnFZN1dVSzlRQThPZG5ncVh2bEgwSEc5ZlJTQzlNUFFhRFR3bktNeC1sMHJTRHpIQmsxUWxubW5BR0hOWEVDMXhrb041dmo2eHBuMld2V1UwVg?oc=5",
+   "published": 1792404000,
+   "traced_at": 1792453761,
+   "pick": {
+    "sources": [
+     "Middle_East_Conflict"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "iran"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "80fa6fa211e2",
+     "headline": "Democratic senators demand Pentagon reveal 'true cost' of Iran war"
+    },
+    {
+     "id": "93fe9678c29a",
+     "headline": "Wright says Trump administration has not broken promise to lower gas prices amid Iran war"
+    },
+    {
+     "id": "b20fd6ddd316",
+     "headline": "President Donald Trump Claims Gasoline Prices Will \"Drop Like a Rock\" When the Iran War Ends, but He's Completely Missed the Bigger Picture"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": 1
+    },
+    {
+     "ticker": "OXY",
+     "direction": 1
+    },
+    {
+     "ticker": "COP",
+     "direction": 1
+    },
+    {
+     "ticker": "DVN",
+     "direction": 1
+    },
+    {
+     "ticker": "FANG",
+     "direction": 1
+    },
+    {
+     "ticker": "EOG",
+     "direction": 1
+    }
+   ],
+   "reached": 23
+  },
+  {
+   "id": "7e6b43656f46",
+   "headline": "Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1JVnBSTjI4Y21rVlR6Y1laVmg1VVJKQkNKTFh0ZXlrQWRrUUtBbWhUMmJlVUZXYVFmY1NEM3BaaU12ZHBVdWduajRlMVpFZTBiTDNDVnZxZTdJQ041V1J3clNKc1ZNRVJweC11MWpNWnhidHfSAXhBVV95cUxOUWgzZ3hhZUJVYXZRMWFFOWc0UjJrOGszMklNdzVidTBrb3ZkWG5PQW5nQUQxcVU1RS1sTkZDZmlHbnVwRUprN1UxZlhIendadzduQ0V6bXdBemdaYTdBd25rTURiNnl1RTlZdVM2ZFBybmFmZXVvWVA?oc=5",
+   "published": 1792387763,
+   "traced_at": 1792453761,
+   "pick": {
+    "sources": [
+     "Interest_Rates"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "interest rates"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "07e5ea3b89b4",
+     "headline": "French Government-Bond Yields Rise on Protests, Budget Concerns; Treasury Yields Fall"
+    },
+    {
+     "id": "5e91e45af1f6",
+     "headline": "Williams says Fed may not have to hike rates in 2027, at odds with traders"
+    },
+    {
+     "id": "508e160494a0",
+     "headline": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": -1
+    },
+    {
+     "ticker": "TOL",
+     "direction": 1
+    },
+    {
+     "ticker": "NVR",
+     "direction": 1
+    },
+    {
+     "ticker": "LEN",
+     "direction": 1
+    },
+    {
+     "ticker": "DHI",
+     "direction": 1
+    },
+    {
+     "ticker": "PHM",
+     "direction": 1
+    }
+   ],
+   "reached": 35
+  },
   {
    "id": "9fc62b43e025",
    "headline": "Stock Market Today: Dow, S&P 500 and Nasdaq head for a strong finish as tech stocks rally; oil prices fall while yields rise",
@@ -1597,7 +1835,7 @@
    "reached": 12
   }
  ],
- "total": 31,
+ "total": 35,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -1610,7 +1848,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 31
+  "waiting": 35
  },
  "checkup": {
   "at": 1792255747,
