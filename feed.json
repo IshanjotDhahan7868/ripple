@@ -1,6 +1,276 @@
 {
- "updated": 1792385810,
+ "updated": 1792417232,
  "items": [
+  {
+   "id": "07e5ea3b89b4",
+   "headline": "French Government-Bond Yields Rise on Protests, Budget Concerns; Treasury Yields Fall",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSk1wWWp6WG1vZjdfYjZXX1hRU0lPVEl6WnVGbkozSXB5eTU5UHN2aG9nRHRpc1VMNlI5eF92YXNZNTFUOGFBMnk1anY0cUxFcG5YTTF0NFRhaGZ0VjkwbjNETmpiWkVXUHlNMmZJV014MlJ2LXRKZWlmS3E1N21wZHdnUXZybnJBRzlVSmdwUQ?oc=5",
+   "published": 1792401660,
+   "traced_at": 1792417219,
+   "pick": {
+    "sources": [
+     "Interest_Rates"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "treasury yields"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "5e91e45af1f6",
+     "headline": "Williams says Fed may not have to hike rates in 2027, at odds with traders"
+    },
+    {
+     "id": "508e160494a0",
+     "headline": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": -1
+    },
+    {
+     "ticker": "TOL",
+     "direction": 1
+    },
+    {
+     "ticker": "NVR",
+     "direction": 1
+    },
+    {
+     "ticker": "LEN",
+     "direction": 1
+    },
+    {
+     "ticker": "DHI",
+     "direction": 1
+    },
+    {
+     "ticker": "PHM",
+     "direction": 1
+    }
+   ],
+   "reached": 35
+  },
+  {
+   "id": "80fa6fa211e2",
+   "headline": "Democratic senators demand Pentagon reveal 'true cost' of Iran war",
+   "source": "USA Today",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPczIxY0diYnRqWGtGN1RSbzIteTVaS18yY05JTkhlWHItMGNRVEN1UjJXaDEtSExJTGpRRk5EUGVseTl1VXZacVhkbXEzV3duckpPbm9GUHEyUkdzNXR4N1JWc3pkOU51c1FRV0VXdnFjM240Qnl0V1JNdzNGQW1abUppY3p1SGpGZDV5TEoxQjdrSWM1V05pSmNtcW5qOFBzVWc?oc=5",
+   "published": 1792411680,
+   "traced_at": 1792417219,
+   "pick": {
+    "sources": [
+     "Middle_East_Conflict"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "iran"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "93fe9678c29a",
+     "headline": "Wright says Trump administration has not broken promise to lower gas prices amid Iran war"
+    },
+    {
+     "id": "b20fd6ddd316",
+     "headline": "President Donald Trump Claims Gasoline Prices Will \"Drop Like a Rock\" When the Iran War Ends, but He's Completely Missed the Bigger Picture"
+    },
+    {
+     "id": "f22794dce12a",
+     "headline": "Retail price impacts from the Iran war are uneven but add up for US households before midterms"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": 1
+    },
+    {
+     "ticker": "OXY",
+     "direction": 1
+    },
+    {
+     "ticker": "COP",
+     "direction": 1
+    },
+    {
+     "ticker": "DVN",
+     "direction": 1
+    },
+    {
+     "ticker": "FANG",
+     "direction": 1
+    },
+    {
+     "ticker": "EOG",
+     "direction": 1
+    }
+   ],
+   "reached": 23
+  },
+  {
+   "id": "63f6eda38a57",
+   "headline": "Gold Rises Amid Falling Oil Prices",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZU5uN1haS1FQQW82aVdiWmxlbDJrMkszT091U2xWR3dGOTdBeVZ6Z0gzSGpqQ2ZNTE96MG1kckxxY2NVV0I0THpteE9lWGZTdHUxa01OTzJkUndWcVVRWDVZWHVYeFZPcm5VckhaZFBVRDRjcmgyRDg5OUJ1WFBlTlotVGlnekE3SVFDVkpFMHBQbTVPWmd4WTNSSTd1X0ZJNDFlUmVWcGxlSE5oWG1ENmZoYk1oVTdKZlE?oc=5",
+   "published": 1792396560,
+   "traced_at": 1792417219,
+   "pick": {
+    "sources": [
+     "Oil_Price"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "oil prices"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "54dffc4c8a1d",
+     "headline": "The disturbing \u2018new normal\u2019 in the Strait of Hormuz: Attacks on ships at a record high and oil at $100 a barrel"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": -1
+    },
+    {
+     "ticker": "OXY",
+     "direction": -1
+    },
+    {
+     "ticker": "COP",
+     "direction": -1
+    },
+    {
+     "ticker": "DVN",
+     "direction": -1
+    },
+    {
+     "ticker": "FANG",
+     "direction": -1
+    },
+    {
+     "ticker": "EOG",
+     "direction": -1
+    }
+   ],
+   "reached": 27
+  },
+  {
+   "id": "815e0bd45d21",
+   "headline": "Social Security\u2019s 3.6% raise may finally match inflation",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUjd6RWRIUGtNRS1TR29UZWZPMllRa0xFMndkOE9fS1JFWGlfTlpuYnloNnFuOVJnZmE3QkVMWWdOaHNucTgxOGVhc09yaVpMUDAzVHFvNW0zemVyMHhnV2hqNHNSOXNuUkF1RDNHVUl2Yk1MZHNicV9yVE9xWE14bDFmQmlCdWo2UHVYOA?oc=5",
+   "published": 1792336620,
+   "traced_at": 1792417219,
+   "pick": {
+    "sources": [
+     "Inflation"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "inflation"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "6a2bfa0b3f76",
+     "headline": "US inflation rises more than expected - here's what is happening with prices"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": 1
+    },
+    {
+     "ticker": "TOL",
+     "direction": -1
+    },
+    {
+     "ticker": "NVR",
+     "direction": -1
+    },
+    {
+     "ticker": "LEN",
+     "direction": -1
+    },
+    {
+     "ticker": "DHI",
+     "direction": -1
+    },
+    {
+     "ticker": "PHM",
+     "direction": -1
+    }
+   ],
+   "reached": 32
+  },
+  {
+   "id": "52e4e12dd1f7",
+   "headline": "NVIDIA\u2019s Development Of Custom HBM Drops Samsung\u2019s And TSMC\u2019s Foundry Rivalry, As Both Manufacturers Join Forces To Develop \u201cBase Die\u201d On The 3nm Node",
+   "source": "Wccftech",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BTkpLWnF6anJoSlk0V0pXOWpCYUJnSWYweVdzS2Q0MDRTZG53alNxSVhPNXVmSEZBSWt2VW9RSzItRkJ4Ul9ISGQxNllIYXVzTFZSTXZ5N3pZNy05RHNWU3J2bUs0R1dhc1Jzc3MwSFdYd1XSAXhBVV95cUxNREVfbGx3VXpvejk1WFFUVDFEVzdnZzZ0MjRGTFhCYl9MTEZuNFNteHBURmtPeGpHdkEtZjFGbW9vRWdtNGdkc2E4bW1aTExhWXpvMXhmdlY4OGdzMEMxeXpuYW9zakMzSGxvbzVDbVVLLW9uSFVDN3g?oc=5",
+   "published": 1792319015,
+   "traced_at": 1792417220,
+   "pick": {
+    "sources": [
+     "Semiconductor_Manufacturing",
+     "Memory_Chips"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "foundry",
+     "tsmc",
+     "hbm"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "GFS",
+     "direction": -1
+    },
+    {
+     "ticker": "UMC",
+     "direction": -1
+    },
+    {
+     "ticker": "ASML",
+     "direction": -1
+    },
+    {
+     "ticker": "MU",
+     "direction": -1
+    },
+    {
+     "ticker": "TER",
+     "direction": -1
+    },
+    {
+     "ticker": "KLAC",
+     "direction": -1
+    }
+   ],
+   "reached": 13
+  },
   {
    "id": "b4ea96698396",
    "headline": "Oil tumbles as Trump's Russia sanctions waiver may lead to more fuel supplies",
@@ -1060,7 +1330,7 @@
    "reached": 12
   }
  ],
- "total": 21,
+ "total": 26,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -1073,7 +1343,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 21
+  "waiting": 26
  },
  "checkup": {
   "at": 1792255747,
