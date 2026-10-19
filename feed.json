@@ -1,6 +1,273 @@
 {
- "updated": 1792417232,
+ "updated": 1792440110,
  "items": [
+  {
+   "id": "9fc62b43e025",
+   "headline": "Stock Market Today: Dow, S&P 500 and Nasdaq head for a strong finish as tech stocks rally; oil prices fall while yields rise",
+   "source": "MarketWatch",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZVc5SllmY19RT3VJLWpubDJLYUZ1UE5mTkVaZTlTYm93cUZBQ1M4cWZtRG1aNEhQcTZyUS1yVElZd0NJY2lkbmprMjVMRndENWc4enRDZ2JRT1ZqTzN5SmRHVWVxRnlSY3hsakxUREc0ZDFTYTRZSUh2WnhzSWtnellHYktCOTBvcVRteDZ2YXA0SktEVG4xS3hpdDBtcV9xMms2ZXpIWVpiYlpHOWRJUk54dWxFQjA1bGpB?oc=5",
+   "published": 1792438800,
+   "traced_at": 1792440098,
+   "pick": {
+    "sources": [
+     "Oil_Price"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "oil prices"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "63f6eda38a57",
+     "headline": "Gold Rises Amid Falling Oil Prices"
+    },
+    {
+     "id": "54dffc4c8a1d",
+     "headline": "The disturbing \u2018new normal\u2019 in the Strait of Hormuz: Attacks on ships at a record high and oil at $100 a barrel"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": -1
+    },
+    {
+     "ticker": "OXY",
+     "direction": -1
+    },
+    {
+     "ticker": "COP",
+     "direction": -1
+    },
+    {
+     "ticker": "DVN",
+     "direction": -1
+    },
+    {
+     "ticker": "FANG",
+     "direction": -1
+    },
+    {
+     "ticker": "EOG",
+     "direction": -1
+    }
+   ],
+   "reached": 27
+  },
+  {
+   "id": "7d4470acbd43",
+   "headline": "Oil Futures Pull Back on Russia Sanctions Waiver",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTDJ2Qjl2WFNBTjRjQzBPZ3NvaVFXOFctRlZqQzBVZDhDTkR4eEZ6NzZadGhJZHdwSzVuVExwYmxtUFVucTdBRVFzS1BfT3dVeVpNYmJzUzNnTVlzZng0dUZzNTlLOERkZl8wbXRjZS1QVlRDbnhBejVWU2k1UnF5U1BhZzNiUGd6TEFvWmkxajJmUzdiSVBOWnIzaHBmWE9Td1FMMUZtNEMxcEtzOXltQmhsNzNvRTNNX3VhYm8yX2xzU0diYTNNZkp1M0Q5LTJoZGxTaWg0MG1VTlR1Smc?oc=5",
+   "published": 1792427400,
+   "traced_at": 1792440098,
+   "pick": {
+    "sources": [
+     "Sanctions",
+     "Russia_Ukraine_War"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "sanctions",
+     "russia"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "b4ea96698396",
+     "headline": "Oil tumbles as Trump's Russia sanctions waiver may lead to more fuel supplies"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "LXU",
+     "direction": 1
+    },
+    {
+     "ticker": "MOS",
+     "direction": 1
+    },
+    {
+     "ticker": "IPI",
+     "direction": 1
+    },
+    {
+     "ticker": "NTR",
+     "direction": 1
+    },
+    {
+     "ticker": "CF",
+     "direction": 1
+    },
+    {
+     "ticker": "UREA",
+     "direction": 1
+    }
+   ],
+   "reached": 25
+  },
+  {
+   "id": "608ae9bb4ddf",
+   "headline": "Gold edges lower as firm dollar, elevated yields weigh",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcHBoaXFtRmhELVpxR3BOYzNDX3IzS1Y1UHZaZUlWRnBiY0Y3WWxwa19vSlVRUENyTGtpZVJFSEFSLW9hVWhEaktYRTVhVWpObTFOYThBVXNRX19VY0phaUJjSkdSMjFZQ19FUFZGMm44UnNpZkZGSnNCeUc2SFZ4c1ZZUU9lV2tiUk1odm44Wmc2WGVjSG5pYUU3QnE2NGYx?oc=5",
+   "published": 1792379460,
+   "traced_at": 1792440098,
+   "pick": {
+    "sources": [
+     "USD_Strength",
+     "Gold"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "dollar",
+     "gold"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "81121d812e03",
+     "headline": "I\u2019ll bet my bottom dollar stocks are about to rally"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "AEM",
+     "direction": -1
+    },
+    {
+     "ticker": "NEM",
+     "direction": -1
+    },
+    {
+     "ticker": "KGC",
+     "direction": -1
+    },
+    {
+     "ticker": "WPM",
+     "direction": -1
+    },
+    {
+     "ticker": "FNV",
+     "direction": -1
+    },
+    {
+     "ticker": "GOLD",
+     "direction": -1
+    }
+   ],
+   "reached": 4
+  },
+  {
+   "id": "097d06a75143",
+   "headline": "Europe EV sales rose 70% in September, around 30% of market share",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZ0ctREhXOHRCbnByZlQ4RDNoM051bnJjZzZFSzczeEdGWmFHQXpyV1FLM1dMWGNyQnI1b19XbmJENmQxWUtvdWN2NXlGX09xc3RxVWUxWVlaLVl6dVJqM3lMcWwteUROMnhsZUEzaHZxOTF4RldpZ1RsYTBrRjhNeGI0WUo5MTdaN2taeVR5T2JzSmluejd2aTVJVktpUl8tWXVJ?oc=5",
+   "published": 1792425626,
+   "traced_at": 1792440099,
+   "pick": {
+    "sources": [
+     "EVs_and_Autonomy"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "ev sales"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "a46f1492cd3b",
+     "headline": "ICE Vehicle Sales Crash 49%(!) While EV Share Jumps to 67%(!) \u2014 China EV Sales Report for September"
+    },
+    {
+     "id": "a9cde5862acf",
+     "headline": "Fuel-price surge turbocharges global EV sales and spells end for diesel in Europe"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "RIVN",
+     "direction": 1
+    },
+    {
+     "ticker": "IDRV",
+     "direction": 1
+    },
+    {
+     "ticker": "DRIV",
+     "direction": 1
+    },
+    {
+     "ticker": "F",
+     "direction": 1
+    },
+    {
+     "ticker": "GM",
+     "direction": 1
+    },
+    {
+     "ticker": "TSLA",
+     "direction": 1
+    }
+   ],
+   "reached": 1
+  },
+  {
+   "id": "ef6f24fb527c",
+   "headline": "United Airlines adds 5 nonstop routes to its lineup \u2014 including new international destinations",
+   "source": "New York Post",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT3RmMnhQaDRONFk1MS1ZdnNpVVVQb05hZ1h3dWlqSXRFcy1sZEJSNHdGUlA2VGZpVkliUmJJeDVoMDZKeGs1bXJ2T2pjZjlPSEZkRXlvN3dDUkgtUVREV2ZxNHBKTlVDYU1oNmJ4MFVKckNuMXVydjhiOWRyX1ZKa1BZd2NzY0dCQk5pOTI0cVBvUUpkRVgzVlRMSVZzQkk?oc=5",
+   "published": 1792433280,
+   "traced_at": 1792440099,
+   "pick": {
+    "sources": [
+     "Airlines"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "airlines"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "DAL",
+     "direction": 1
+    },
+    {
+     "ticker": "LUV",
+     "direction": 1
+    },
+    {
+     "ticker": "AAL",
+     "direction": 1
+    },
+    {
+     "ticker": "UAL",
+     "direction": 1
+    },
+    {
+     "ticker": "ALK",
+     "direction": 1
+    },
+    {
+     "ticker": "JETS",
+     "direction": 1
+    }
+   ],
+   "reached": 2
+  },
   {
    "id": "07e5ea3b89b4",
    "headline": "French Government-Bond Yields Rise on Protests, Budget Concerns; Treasury Yields Fall",
@@ -1330,7 +1597,7 @@
    "reached": 12
   }
  ],
- "total": 26,
+ "total": 31,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -1343,7 +1610,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 26
+  "waiting": 31
  },
  "checkup": {
   "at": 1792255747,
