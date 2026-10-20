@@ -1,6 +1,260 @@
 {
- "updated": 1792497171,
+ "updated": 1792516945,
  "items": [
+  {
+   "id": "293ad530dc12",
+   "headline": "Global oil prices hit highest level in 5 months amid attacks on ships, facilities - ABC News",
+   "source": "Breaking News, Latest News and Videos",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONThfbkdFS1RqVThBR0RmOTBxU1pvMllfR1lmcGYyY3hPY1drZkVLWkF4Zm5aek5MNDlIRVp6YWc4NkNnWnhKWGFUcm5HLS00NzkyajEyaWJyVHN4UEFlVEU4Q05WVmJNNjVwSDBmRk9xbzFnUThYdnhMMUFjSnZIM1BocXNzUmJ0TFFscmNrTU9lOV94R0Jj0gGcAUFVX3lxTFBEaUdOQ3c1M0VELVBBY2dRS2dTT1JiWDZwNlExQzdmN19KYU95endONWlkSkhrSGhBWGRMMnNnSERiMFJmU0VEc1Q3dnk1NVY4TVBrbm9NT09ndF9OTTA4eC15cF9XUW5OWE5NRnhKWDFFTFJTVXlNV1hnRGNKd2pRSUsyT01UaFdfQ0F6eHBFUkhpajNtdG5VWTI4SA?oc=5",
+   "published": 1792506549,
+   "traced_at": 1792516932,
+   "pick": {
+    "sources": [
+     "Oil_Price"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "oil prices"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "1a661e21343c",
+     "headline": "Brent oil tops $109 after Houthi militants claim they attacked Saudi airports and Aramco facilities"
+    },
+    {
+     "id": "9fc62b43e025",
+     "headline": "Stock Market Today: Dow, S&P 500 and Nasdaq head for a strong finish as tech stocks rally; oil prices fall while yields rise"
+    },
+    {
+     "id": "63f6eda38a57",
+     "headline": "Gold Rises Amid Falling Oil Prices"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": -1
+    },
+    {
+     "ticker": "OXY",
+     "direction": -1
+    },
+    {
+     "ticker": "COP",
+     "direction": -1
+    },
+    {
+     "ticker": "DVN",
+     "direction": -1
+    },
+    {
+     "ticker": "FANG",
+     "direction": -1
+    },
+    {
+     "ticker": "EOG",
+     "direction": -1
+    }
+   ],
+   "reached": 27
+  },
+  {
+   "id": "025d7dea3ef6",
+   "headline": "US single-family housing starts plunge; building permits hit 3-1/2-year low",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY2htS1FUS3p1M0dBYTAxbU9HY1ViSVBFQ1JpU3NERnNQSkVTWFBTS1R4ekZVb0NEajZtM3RwTnlGVi1VZmxQdms4cHVqVGgyVWdvbERHc0ZLdUNvTFRCNVowOFR6OTFmUml2cmtsdzdfRE9sRHdDYnVXS3dtTEFqUmdjZ2tUSlNranZGNklxNzhWcmd0dHdFUElxRlA1cm9JXzcxNzhmeXphenFCUHJz?oc=5",
+   "published": 1792505861,
+   "traced_at": 1792516932,
+   "pick": {
+    "sources": [
+     "Housing_and_Homebuilders"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "housing starts"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "TOL",
+     "direction": -1
+    },
+    {
+     "ticker": "NVR",
+     "direction": -1
+    },
+    {
+     "ticker": "LEN",
+     "direction": -1
+    },
+    {
+     "ticker": "DHI",
+     "direction": -1
+    },
+    {
+     "ticker": "PHM",
+     "direction": -1
+    },
+    {
+     "ticker": "XHB",
+     "direction": -1
+    }
+   ],
+   "reached": 1
+  },
+  {
+   "id": "23bc8edefba3",
+   "headline": "Micron union in Taiwan to launch one-day strike as bonus dispute escalates",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdW84LTY4WGZuakNjaU5mZ1I5TEd3RXZRYmdBWlFYUkVoTHQyX0xSYkhidnhGTFN6SjBsdGp6eE9aN3M1VE03V09mNWtjYnFYWWRtN0J3NUk2ZVEzVGhxRFFMNEZqRW94Y1h0OHpyX0tOWTMzNDdhcmFJN2dUSUtwN1FtTXpFNFVITG9LT3JNMFdWLVdQRklxZzU0aE9TUmxXUjRNY0NEN0hLMjZFYTRJQXVJQTNZY0k?oc=5",
+   "published": 1792461960,
+   "traced_at": 1792516932,
+   "pick": {
+    "sources": [
+     "Taiwan_Strait_Risk"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "taiwan"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "8857715ed372",
+     "headline": "Micron union in Taiwan to launch strike as bonus dispute escalates"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "TER",
+     "direction": -1
+    },
+    {
+     "ticker": "KLAC",
+     "direction": -1
+    },
+    {
+     "ticker": "LRCX",
+     "direction": -1
+    },
+    {
+     "ticker": "ASML",
+     "direction": -1
+    },
+    {
+     "ticker": "GFS",
+     "direction": -1
+    },
+    {
+     "ticker": "UMC",
+     "direction": -1
+    }
+   ],
+   "reached": 27
+  },
+  {
+   "id": "3327899dc5ef",
+   "headline": "The budget deficit swells, while the cost of debt rises",
+   "source": "Axios",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE12UnpJR0F4bjRvTF9PMXZtb2JVcWxiejBIb0MxOUlBWGREa25qVjYxOFhGeFFwWVMwQ0tsMFRnWUQtNElUX0VmbHVaSEYzMlctbjZBemFTZkFmYmd5djdHOWc4eFlna2tHR0dfaFlVbFl3QnREdzBB?oc=5",
+   "published": 1792488752,
+   "traced_at": 1792516932,
+   "pick": {
+    "sources": [
+     "Fiscal_Policy"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "budget deficit"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "LDOS",
+     "direction": 1
+    },
+    {
+     "ticker": "BAH",
+     "direction": 1
+    },
+    {
+     "ticker": "SAIC",
+     "direction": 1
+    },
+    {
+     "ticker": "CACI",
+     "direction": 1
+    },
+    {
+     "ticker": "NSC",
+     "direction": 1
+    },
+    {
+     "ticker": "CSX",
+     "direction": 1
+    }
+   ],
+   "reached": 31
+  },
+  {
+   "id": "81e209e295db",
+   "headline": "Pending home sales sink to 25-year low as buyers flee high mortgage rates",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/pending-home-sales-sink-to-25-year-low-as-buyers-flee-high-mortgage-rates-d02c6b30?mod=mw_rss_topstories",
+   "published": 1792508460,
+   "traced_at": 1792516933,
+   "pick": {
+    "sources": [
+     "Housing_and_Homebuilders"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "mortgage rates",
+     "home sales"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "TOL",
+     "direction": -1
+    },
+    {
+     "ticker": "NVR",
+     "direction": -1
+    },
+    {
+     "ticker": "LEN",
+     "direction": -1
+    },
+    {
+     "ticker": "DHI",
+     "direction": -1
+    },
+    {
+     "ticker": "PHM",
+     "direction": -1
+    },
+    {
+     "ticker": "XHB",
+     "direction": -1
+    }
+   ],
+   "reached": 1
+  },
   {
    "id": "8857715ed372",
    "headline": "Micron union in Taiwan to launch strike as bonus dispute escalates",
@@ -2249,7 +2503,7 @@
    "reached": 12
   }
  ],
- "total": 43,
+ "total": 48,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -2262,7 +2516,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 43
+  "waiting": 48
  },
  "checkup": {
   "at": 1792255747,
