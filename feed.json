@@ -1,6 +1,255 @@
 {
- "updated": 1792472554,
+ "updated": 1792497171,
  "items": [
+  {
+   "id": "8857715ed372",
+   "headline": "Micron union in Taiwan to launch strike as bonus dispute escalates",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdW84LTY4WGZuakNjaU5mZ1I5TEd3RXZRYmdBWlFYUkVoTHQyX0xSYkhidnhGTFN6SjBsdGp6eE9aN3M1VE03V09mNWtjYnFYWWRtN0J3NUk2ZVEzVGhxRFFMNEZqRW94Y1h0OHpyX0tOWTMzNDdhcmFJN2dUSUtwN1FtTXpFNFVITG9LT3JNMFdWLVdQRklxZzU0aE9TUmxXUjRNY0NEN0hLMjZFYTRJQXVJQTNZY0k?oc=5",
+   "published": 1792461960,
+   "traced_at": 1792497158,
+   "pick": {
+    "sources": [
+     "Taiwan_Strait_Risk"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "taiwan"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "TER",
+     "direction": -1
+    },
+    {
+     "ticker": "KLAC",
+     "direction": -1
+    },
+    {
+     "ticker": "LRCX",
+     "direction": -1
+    },
+    {
+     "ticker": "ASML",
+     "direction": -1
+    },
+    {
+     "ticker": "GFS",
+     "direction": -1
+    },
+    {
+     "ticker": "UMC",
+     "direction": -1
+    }
+   ],
+   "reached": 27
+  },
+  {
+   "id": "9cee37ce8206",
+   "headline": "US sanctions 5 Chinese entities over ex-Google engineer\u2019s AI trade secrets theft",
+   "source": "South China Morning Post",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLUlXRzA1YVNhSkh4U0dNMjVIZko0VHFqZHFaTlptUUdPTlFzU25TeFl3dXVnLVBMSGFXWExCMkpQRFpncV9VSjNncEVTTnl2SHB5R0ZmVGJnWUhBQUJXM1hibzdNVk1QVFdrOW1LVjBXQmVzNkN6bi01NFNPeHMtb1R3RkpLbl9XMkVWc2xrOTRKd3ZNUnBVUGdYeTdrNFZ5NEtiVDJ2Mm5tLWQwLTJkeDRuMkRaTU94anFQODZma0VlX0JIa1hzbmlQLXNIVWlYa1VJ0gHTAUFVX3lxTFB3SGxmMDdDZUNibnhKc1RHTGhSNzJZZFptRUh5NmlqRnlmUUE0bTAwMmMyNk15dUN1cTRFUmNqeDB3Nnh6VjdqSThnM3Q5ZmNxdDFRX0ptSjhDUnJLX1AtTEpBWWQwRFA2VzBJX2V6TWJna0IxWVdjVlVjMFpmZ3pVcWtzRV9aazdPeXpMSjcwMUN6NU9IRzZBcFdBeXZBWjlGQUJ6aHUwZEpHRFBmX19lOXg4Z3U3X1E3a3poX2ZGYVRvQ1VGMnhBZ29XZkJMWktuMG8?oc=5",
+   "published": 1792449367,
+   "traced_at": 1792497158,
+   "pick": {
+    "sources": [
+     "Sanctions"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "sanctions"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "7d4470acbd43",
+     "headline": "Oil Futures Pull Back on Russia Sanctions Waiver"
+    },
+    {
+     "id": "b4ea96698396",
+     "headline": "Oil tumbles as Trump's Russia sanctions waiver may lead to more fuel supplies"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "MPC",
+     "direction": 1
+    },
+    {
+     "ticker": "PSX",
+     "direction": 1
+    },
+    {
+     "ticker": "DINO",
+     "direction": 1
+    },
+    {
+     "ticker": "VLO",
+     "direction": 1
+    },
+    {
+     "ticker": "PBF",
+     "direction": 1
+    },
+    {
+     "ticker": "DK",
+     "direction": 1
+    }
+   ],
+   "reached": 13
+  },
+  {
+   "id": "5436fe30992a",
+   "headline": "HSBC CEO warns the AI boom won\u2019t make every data center a good bet",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/20/data-center-financing-ai-debt-hsbc.html",
+   "published": 1792492757,
+   "traced_at": 1792497159,
+   "pick": {
+    "sources": [
+     "Data_Centers"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "data center"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "899e9dbf729d",
+     "headline": "Microsoft Scraps UK Data Center Deal With Nscale, Telegraph Says"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "GLEN.L",
+     "direction": 1
+    },
+    {
+     "ticker": "FCX",
+     "direction": 1
+    },
+    {
+     "ticker": "SCCO",
+     "direction": 1
+    },
+    {
+     "ticker": "GE",
+     "direction": 1
+    },
+    {
+     "ticker": "SCHN.PA",
+     "direction": 1
+    },
+    {
+     "ticker": "COPX",
+     "direction": 1
+    }
+   ],
+   "reached": 28
+  },
+  {
+   "id": "44d4d9d4c7fe",
+   "headline": "Jobless rate falls but small firms cut back hiring",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/c6eq327pzr53o?at_medium=RSS&at_campaign=rss",
+   "published": 1792495608,
+   "traced_at": 1792497159,
+   "pick": {
+    "sources": [
+     "Labor_Market"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "hiring"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "ADP",
+     "direction": -1
+    },
+    {
+     "ticker": "MAN",
+     "direction": -1
+    },
+    {
+     "ticker": "RHI",
+     "direction": -1
+    },
+    {
+     "ticker": "PAYX",
+     "direction": -1
+    },
+    {
+     "ticker": "NKE",
+     "direction": -1
+    },
+    {
+     "ticker": "WMT",
+     "direction": -1
+    }
+   ],
+   "reached": 26
+  },
+  {
+   "id": "db90afcd58fb",
+   "headline": "\u00a330 rise in payments for crisis-hit households",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/c59vz71kxxgzo?at_medium=RSS&at_campaign=rss",
+   "published": 1792495162,
+   "traced_at": 1792497159,
+   "pick": {
+    "sources": [
+     "Payments_Networks"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "payments"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "V",
+     "direction": 1
+    },
+    {
+     "ticker": "MA",
+     "direction": 1
+    },
+    {
+     "ticker": "XYZ",
+     "direction": 1
+    },
+    {
+     "ticker": "AXP",
+     "direction": 1
+    },
+    {
+     "ticker": "IPAY",
+     "direction": 1
+    },
+    {
+     "ticker": "PYPL",
+     "direction": 1
+    }
+   ],
+   "reached": 1
+  },
   {
    "id": "87d7688b00e6",
    "headline": "Oil reverses course higher after US and Houthi attacks",
@@ -2000,7 +2249,7 @@
    "reached": 12
   }
  ],
- "total": 38,
+ "total": 43,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -2013,7 +2262,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 38
+  "waiting": 43
  },
  "checkup": {
   "at": 1792255747,
