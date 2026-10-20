@@ -1,6 +1,264 @@
 {
- "updated": 1792516945,
+ "updated": 1792532694,
  "items": [
+  {
+   "id": "c0b4897a7c0d",
+   "headline": "US to approve Boeing 737 Max 10 for passenger service after years of delays, AP source says",
+   "source": "AP News",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdWh5TEc3UFM1REZCazFzeGJpZTFXblJEdE9wWWFrU2RzbnFKVnRYQTV6MS10V21tVElVaW9jLTlMc3d2YnRSU0drVlR0RWxvam1SUUdHWGRaMG01OUZaM2RFd2lsZmFnc2NLVHBwbm5KOVhSa3ZiZjJfd2NycXRZdFF4SExsWXFlcGQ2NUdCMTIzMmlndlpISHd2RElFVk1nelNV?oc=5",
+   "published": 1792521660,
+   "traced_at": 1792532683,
+   "pick": {
+    "sources": [
+     "Aerospace_and_Defense_Manufacturing"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "boeing"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "NOC",
+     "direction": 1
+    },
+    {
+     "ticker": "GD",
+     "direction": 1
+    },
+    {
+     "ticker": "BA",
+     "direction": 1
+    },
+    {
+     "ticker": "RTX",
+     "direction": 1
+    },
+    {
+     "ticker": "LMT",
+     "direction": 1
+    },
+    {
+     "ticker": "XAR",
+     "direction": 1
+    }
+   ],
+   "reached": 10
+  },
+  {
+   "id": "c6cfa652d20c",
+   "headline": "United Airlines slashes 2026 profit outlook on fuel prices, but travelers keep booking despite higher fares",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBLMVhhMlVReDFPbkRjZlAzMmFUNE1pNXVMaWNrNUJvRXRZSHZLbDZSTVZ6a2xJS0lHbndqd1h4UkNqN09sWFF2UGdpWGxtdGlRYlpZbmtCNzNrYVBTZHdrWFlQaFNEUkhVRURNNWJZTUZQblBIZzZ4aTRfUFYyd9IBgwFBVV95cUxOblZ4MmZEY2lsdDdMOXpkX19kemhaTFNneWwtNndKNEQ5R0x5UFNud203SHk0czU3dGdwZFlrT3ZhOS1FWjFTbFNsS0g3NktoREd3LWRMd0twcXBhS3FJajI4ZllnRXlEU1hiUF9ITktoYWFQU0xJY1lNMG1LTndfNF9pQQ?oc=5",
+   "published": 1792526585,
+   "traced_at": 1792532684,
+   "pick": {
+    "sources": [
+     "Airlines"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "airlines"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "ef6f24fb527c",
+     "headline": "United Airlines adds 5 nonstop routes to its lineup \u2014 including new international destinations"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "DAL",
+     "direction": -1
+    },
+    {
+     "ticker": "LUV",
+     "direction": -1
+    },
+    {
+     "ticker": "AAL",
+     "direction": -1
+    },
+    {
+     "ticker": "UAL",
+     "direction": -1
+    },
+    {
+     "ticker": "ALK",
+     "direction": -1
+    },
+    {
+     "ticker": "JETS",
+     "direction": -1
+    }
+   ],
+   "reached": 2
+  },
+  {
+   "id": "2844a8d28750",
+   "headline": "US pending home sales tumble to record low in September",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yVlJjdW1HWTFERVF1ZkZfY1B1WWR0Q2l2cVE5cVBfLWVhN3VRc19DNUwxSi1ob3N1VGlYeS1jdzFjeXdNdUlza3NCTC1DbUs3a01ncEV0a1cyU2NSbUQzbmhHVkM5SEJFVG9aSEpPWVVxeUtuVnZRamRjMjZVSEU?oc=5",
+   "published": 1792504850,
+   "traced_at": 1792532684,
+   "pick": {
+    "sources": [
+     "Housing_and_Homebuilders"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "home sales"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "025d7dea3ef6",
+     "headline": "US single-family housing starts plunge; building permits hit 3-1/2-year low"
+    },
+    {
+     "id": "81e209e295db",
+     "headline": "Pending home sales sink to 25-year low as buyers flee high mortgage rates"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "TOL",
+     "direction": -1
+    },
+    {
+     "ticker": "NVR",
+     "direction": -1
+    },
+    {
+     "ticker": "LEN",
+     "direction": -1
+    },
+    {
+     "ticker": "DHI",
+     "direction": -1
+    },
+    {
+     "ticker": "PHM",
+     "direction": -1
+    },
+    {
+     "ticker": "XHB",
+     "direction": -1
+    }
+   ],
+   "reached": 1
+  },
+  {
+   "id": "15fd26ca7117",
+   "headline": "Apple adds U.S. titanium supplier for iPhone Duo as supply stays tight",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQN19fYVdtTnlOSmxoWTFGV1hra0RLYmh3TzVpdWhnU2o2LWZoZTlPQ2EtQjgtdjFxZTJaWWk0RXRfYXE2Vnp1dVpjT3RiOUNvWWFCWWpCbG1yLWUzN1BvWEVNUGRReDZwRVI0SWVPTF9JOW9tbGJtakhwOWY1VWpoQlhiTDdWWG1CaUk00gGQAUFVX3lxTFBNTUZtQjdTa0NoSWZEME05SG5FOGctVTRjX3ZhMWdZNUhEQ3hCVHB6WnB6ak94YlAtaldiM0FfY0ZadWNyclNiRjJpOF9oeTZnMjAzT0ZkRjJkUHBjaEtPMGdVM3o5Y0NLSS1aNEtqa0ZveV9OLTJBQk90ckIxREpVOWQxUkpKeEdacWt6VXNocA?oc=5",
+   "published": 1792497602,
+   "traced_at": 1792532685,
+   "pick": {
+    "sources": [
+     "Consumer_Electronics"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "iphone"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "SONY",
+     "direction": 1
+    },
+    {
+     "ticker": "HPQ",
+     "direction": 1
+    },
+    {
+     "ticker": "DELL",
+     "direction": 1
+    },
+    {
+     "ticker": "QCOM",
+     "direction": 1
+    },
+    {
+     "ticker": "TER",
+     "direction": 1
+    },
+    {
+     "ticker": "KLAC",
+     "direction": 1
+    }
+   ],
+   "reached": 7
+  },
+  {
+   "id": "ed6f1cdc926b",
+   "headline": "Dow Giant Jumps On AI Data Center Deal. No, Not That One.",
+   "source": "Investor's Business Daily",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOLXE3TXdLX01UWEhLTjJFTDNtZDQ1RzRMUFRjSmJBQXdWUFkxLUltUExYM0VvLVJTdE00N1lkLXV6T1hHNzJxVUVtaGE5ejZDMnNQTHdGUHNjZzNRdG5hX2N0Tl9BMTJ1OUVyUXltU2U0NW1lanVjbllrZ0lYWVUxQW4tN3ZIZw?oc=5",
+   "published": 1792501980,
+   "traced_at": 1792532685,
+   "pick": {
+    "sources": [
+     "Data_Centers"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "data center"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "5436fe30992a",
+     "headline": "HSBC CEO warns the AI boom won\u2019t make every data center a good bet"
+    },
+    {
+     "id": "899e9dbf729d",
+     "headline": "Microsoft Scraps UK Data Center Deal With Nscale, Telegraph Says"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "GLEN.L",
+     "direction": 1
+    },
+    {
+     "ticker": "FCX",
+     "direction": 1
+    },
+    {
+     "ticker": "SCCO",
+     "direction": 1
+    },
+    {
+     "ticker": "GE",
+     "direction": 1
+    },
+    {
+     "ticker": "SCHN.PA",
+     "direction": 1
+    },
+    {
+     "ticker": "COPX",
+     "direction": 1
+    }
+   ],
+   "reached": 28
+  },
   {
    "id": "293ad530dc12",
    "headline": "Global oil prices hit highest level in 5 months amid attacks on ships, facilities - ABC News",
@@ -2503,7 +2761,7 @@
    "reached": 12
   }
  ],
- "total": 48,
+ "total": 53,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -2516,7 +2774,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 48
+  "waiting": 53
  },
  "checkup": {
   "at": 1792255747,
