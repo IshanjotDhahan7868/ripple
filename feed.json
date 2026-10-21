@@ -1,6 +1,182 @@
 {
- "updated": 1792591101,
+ "updated": 1792608418,
  "items": [
+  {
+   "id": "5e6a6f1132cd",
+   "headline": "Micron faces strike from one Taiwan union after deal with another",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV193bUJ6bXZZcHp1Q0tId1ZUdU90Um9BR09QOU0wZ0pxNmJtVFhSbVhBMi1hdXY5ajVReHFJSVVseXY2V2Z4N3hEcTEzenJJSVAwRnNCWXVnV1NudWdqalpwenc5eDhBSTVVaUZYZ1kxaTlpcEh4NWRSSkdrMUVZeDhlQTZXU2RFQ3oyZDVwU0tsbFFRRzRIMGpiODVjM0otVUJlVEZRSmV5UGtpYXJBY3B1aw?oc=5",
+   "published": 1792563780,
+   "traced_at": 1792608408,
+   "pick": {
+    "sources": [
+     "Taiwan_Strait_Risk"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "taiwan"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "23bc8edefba3",
+     "headline": "Micron union in Taiwan to launch one-day strike as bonus dispute escalates"
+    },
+    {
+     "id": "8857715ed372",
+     "headline": "Micron union in Taiwan to launch strike as bonus dispute escalates"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "TER",
+     "direction": -1
+    },
+    {
+     "ticker": "KLAC",
+     "direction": -1
+    },
+    {
+     "ticker": "LRCX",
+     "direction": -1
+    },
+    {
+     "ticker": "ASML",
+     "direction": -1
+    },
+    {
+     "ticker": "GFS",
+     "direction": -1
+    },
+    {
+     "ticker": "UMC",
+     "direction": -1
+    }
+   ],
+   "reached": 27
+  },
+  {
+   "id": "98dc4f3b4ed7",
+   "headline": "Mortgage rates drop for the first time in 2 months, but demand still falls further",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRjJOZ3JIVUl3eXpCNGRlWE1ZZnI5VjhHaGdTLWl2ajBjVXIwVWttVnJ5dGN4ZlQ3c0pENFdtZVp4VzBINmxRTjJFRVhqSm1NVW40VURnbUxqNDF6NXowM3VFWUVBX0ItYVlOOFdYc1BWX1FzYkFVb2lOaEprWk5kTmlQQ1d0YmE0YmdKOXhmMU80MlZjQnRDVUt0c2I4T190U1MxUE95Y9IBrAFBVV95cUxNazlWMTRaaGFRVmg2SU9Gd1pUNzJTblpGMklsaTVmSXlsZF9PVjI1RF9YWUFmWjRReE93dG94S1d1NEFfdlpZY2dIWFp6R2k4bkk1eWpMMHJoSmt6WWpoYktmbC1XcmJsMk9BZ2FoQ2wzVjRmQ2lEWUhOYVluazBZZUcxeWJ4bXJZUDUxUTAwc2lKdVVBVG42S3ZzZFl6ZVBTaURzRm5YanlLb0FP?oc=5",
+   "published": 1792580401,
+   "traced_at": 1792608408,
+   "pick": {
+    "sources": [
+     "Housing_and_Homebuilders"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "mortgage rates"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "2844a8d28750",
+     "headline": "US pending home sales tumble to record low in September"
+    },
+    {
+     "id": "025d7dea3ef6",
+     "headline": "US single-family housing starts plunge; building permits hit 3-1/2-year low"
+    },
+    {
+     "id": "81e209e295db",
+     "headline": "Pending home sales sink to 25-year low as buyers flee high mortgage rates"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "TOL",
+     "direction": -1
+    },
+    {
+     "ticker": "NVR",
+     "direction": -1
+    },
+    {
+     "ticker": "LEN",
+     "direction": -1
+    },
+    {
+     "ticker": "DHI",
+     "direction": -1
+    },
+    {
+     "ticker": "PHM",
+     "direction": -1
+    },
+    {
+     "ticker": "XHB",
+     "direction": -1
+    }
+   ],
+   "reached": 1
+  },
+  {
+   "id": "22d0deff907f",
+   "headline": "Data center stocks remain under pressure after Korea IPO plunges 30%",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTDNTb1VtS1EwN01MVno1T19zRkJOQWZxZ1B4Q2VnalhzWTFYVUZHR183cDJXT3BhMFZkNUpWb1A3b25ZUkdZWE14Z25oT3E3RFFhNVVzQjFnMTA4dkMyaVJCV0dRSDVXaG44ZlRzX1c3eGZQei13OV9ZNXFjMU5tZXMyamdVYUtMZW1uUkV0QWt2Mnc5dTRlc3JoVlBnMVctdG1QVU9TSTlwenNBN3N4ZVBTUnV1MldkV0HSAb8BQVVfeXFMTmNDNWN4eEZtWlJPUWVaRWZCX1lVT2h3RmJ1VGpGSDlwWlJ4TUZmTFMxTmUxWVRmVFBwWlhUVVFmRFk3OHdKQ2xHaUgxR3JHaFMzYVNndWZReE43WXBQdTdQN282b3g2X2VQWU52RmtXUm9ldkJudnhFQW1yMjlraDlNbHlFa0Q4aWwzS01MbFNCNS1oTGZnZE52cVhsMzVoWVNTVGxET0F1ajNnNkhZUG5aOXE1NUdXcGxTRkV1VEk?oc=5",
+   "published": 1792499811,
+   "traced_at": 1792608408,
+   "pick": {
+    "sources": [
+     "Data_Centers"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "data center"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "a8f4c0782308",
+     "headline": "Nextdc Shares Plunge 44% After Public Backlash Hits Data Center"
+    },
+    {
+     "id": "ed6f1cdc926b",
+     "headline": "Dow Giant Jumps On AI Data Center Deal. No, Not That One."
+    },
+    {
+     "id": "5436fe30992a",
+     "headline": "HSBC CEO warns the AI boom won\u2019t make every data center a good bet"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "GLEN.L",
+     "direction": -1
+    },
+    {
+     "ticker": "FCX",
+     "direction": -1
+    },
+    {
+     "ticker": "SCCO",
+     "direction": -1
+    },
+    {
+     "ticker": "GE",
+     "direction": -1
+    },
+    {
+     "ticker": "SCHN.PA",
+     "direction": -1
+    },
+    {
+     "ticker": "COPX",
+     "direction": -1
+    }
+   ],
+   "reached": 28
+  },
   {
    "id": "6d68003f746b",
    "headline": "Boeing's largest 737 MAX jet wins FAA certification, clearing way for deliveries of 1,555 ordered planes",
@@ -3113,7 +3289,7 @@
    "reached": 12
   }
  ],
- "total": 59,
+ "total": 62,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -3126,7 +3302,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 59
+  "waiting": 62
  },
  "checkup": {
   "at": 1792255747,
