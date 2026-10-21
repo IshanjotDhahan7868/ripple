@@ -1,6 +1,186 @@
 {
- "updated": 1792543327,
+ "updated": 1792569026,
  "items": [
+  {
+   "id": "8e310d92493d",
+   "headline": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQThhSGdLckY3MFRuaDNSQXFrSS1WWmQ1b29MNXN6a3ZJUDgtOWRPNEEybjdWeUdYal9RWm9XSk9Od2RZeV91dDAyZmtUTE9kN0R5Ul91bUFlRzVudG5TcmhfdFhuUURUbV85dHV6MWsyTTNURWRwZl9lVVJiOE9zTlNiT2xwVUROekxiWTRWQk_SAZYBQVVfeXFMTTc2a08zNV9CdTlVWGRzcWNIX0E3Qk9idS1GWDM5ejVhQ05Wa0Jvb2dhRUdKVUNQcHJsTklHWl84RjJQY2ZINk9HVEdzSmRhdWtYRzlxNFhjUW5scmlxZ1EwUHRDeVRqVHQ3TkpEOXVoSXRPRWlpeUpWcllkWFpuVGIyQXJ6ZGI3T28yRi1jTENIbGlRUVBB?oc=5",
+   "published": 1792518611,
+   "traced_at": 1792569012,
+   "pick": {
+    "sources": [
+     "Interest_Rates"
+    ],
+    "direction": 1,
+    "how": "rule",
+    "matched": [
+     "\\bfed\\b.*\\b(hikes?|raises?)\\b.*\\brates?\\b|\\brate hike|higher for longer"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "7e6b43656f46",
+     "headline": "Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates"
+    },
+    {
+     "id": "07e5ea3b89b4",
+     "headline": "French Government-Bond Yields Rise on Protests, Budget Concerns; Treasury Yields Fall"
+    },
+    {
+     "id": "5e91e45af1f6",
+     "headline": "Williams says Fed may not have to hike rates in 2027, at odds with traders"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": 1
+    },
+    {
+     "ticker": "TOL",
+     "direction": -1
+    },
+    {
+     "ticker": "NVR",
+     "direction": -1
+    },
+    {
+     "ticker": "LEN",
+     "direction": -1
+    },
+    {
+     "ticker": "DHI",
+     "direction": -1
+    },
+    {
+     "ticker": "PHM",
+     "direction": -1
+    }
+   ],
+   "reached": 35
+  },
+  {
+   "id": "ee280e0f4a3c",
+   "headline": "Beijing blasts US sanctions on 5 Chinese firms tied to ex-Google engineer",
+   "source": "AP News",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS0JyVEtjeDR1NUlIUFJPOUtWbkV2cWVNVHY4dEUwWWlYcFZRbWlGWldfcXZ3cS1jSjBhbVZmY2pVSEEyelI3dDM5cThXcnNVWHVjVjlVR0cyanNwODVOdVVMdXA2Sy1QZEVjU01HU0Q4MGxYQURrZjJzZDkyc3BhdjZ1T191dDM0WDJhc2RzNEpBazBRQ1gxdmdMREpvb2g1T2VGd0lEQVU3SG9Ma1E?oc=5",
+   "published": 1792535280,
+   "traced_at": 1792569012,
+   "pick": {
+    "sources": [
+     "Sanctions"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "sanctions"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "9cee37ce8206",
+     "headline": "US sanctions 5 Chinese entities over ex-Google engineer\u2019s AI trade secrets theft"
+    },
+    {
+     "id": "7d4470acbd43",
+     "headline": "Oil Futures Pull Back on Russia Sanctions Waiver"
+    },
+    {
+     "id": "b4ea96698396",
+     "headline": "Oil tumbles as Trump's Russia sanctions waiver may lead to more fuel supplies"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "MPC",
+     "direction": 1
+    },
+    {
+     "ticker": "PSX",
+     "direction": 1
+    },
+    {
+     "ticker": "DINO",
+     "direction": 1
+    },
+    {
+     "ticker": "VLO",
+     "direction": 1
+    },
+    {
+     "ticker": "PBF",
+     "direction": 1
+    },
+    {
+     "ticker": "DK",
+     "direction": 1
+    }
+   ],
+   "reached": 13
+  },
+  {
+   "id": "5817b22e01d2",
+   "headline": "Wall St set for lower open as oil prices jump, earnings in focus",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdmMybVh5YTdzU09XVXBpYmoxOXlyUHhoMFJ1aDRzTENGRFVHQmc0OXpZZ0k5NjFBNmVxREJ6SWlQQk1tNDR3d0JTUzFObGpjWHBEYl94ZldLdjl2ODdiR1dqRzFTVGlCZFRKVEk2NUt1Vy01UTZZdlNXWjNpWWhoWER2dnBUaVNfb2syMzQtMGI?oc=5",
+   "published": 1792530855,
+   "traced_at": 1792569012,
+   "pick": {
+    "sources": [
+     "Oil_Price"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "oil prices"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "293ad530dc12",
+     "headline": "Global oil prices hit highest level in 5 months amid attacks on ships, facilities - ABC News"
+    },
+    {
+     "id": "1a661e21343c",
+     "headline": "Brent oil tops $109 after Houthi militants claim they attacked Saudi airports and Aramco facilities"
+    },
+    {
+     "id": "9fc62b43e025",
+     "headline": "Stock Market Today: Dow, S&P 500 and Nasdaq head for a strong finish as tech stocks rally; oil prices fall while yields rise"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": 1
+    },
+    {
+     "ticker": "OXY",
+     "direction": 1
+    },
+    {
+     "ticker": "COP",
+     "direction": 1
+    },
+    {
+     "ticker": "DVN",
+     "direction": 1
+    },
+    {
+     "ticker": "FANG",
+     "direction": 1
+    },
+    {
+     "ticker": "EOG",
+     "direction": 1
+    }
+   ],
+   "reached": 27
+  },
   {
    "id": "c0b4897a7c0d",
    "headline": "US to approve Boeing 737 Max 10 for passenger service after years of delays, AP source says",
@@ -2761,7 +2941,7 @@
    "reached": 12
   }
  ],
- "total": 53,
+ "total": 56,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -2774,7 +2954,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 53
+  "waiting": 56
  },
  "checkup": {
   "at": 1792255747,
