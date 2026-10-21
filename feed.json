@@ -1,6 +1,234 @@
 {
- "updated": 1792608418,
+ "updated": 1792625324,
  "items": [
+  {
+   "id": "7c6468257d5a",
+   "headline": "Southwest Airlines cuts 2026 profit forecast on higher fuel",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZGpGLWN1Z0ZQZ1FZY3cyX0pWV1VhR1RLX1VPc3RBc01FLTJ2eGNrZFRnVUcxeTI4Vmxpd2xRbEU3R21DaWVISUx2MG94eVNNM0M2MTdyRDNjLW55b1R5dEIyTUc3X0Z2YzVTbGotZzFMVUtlVGpCLXRvOEZ3YlpvMS1R0gGHAUFVX3lxTE0yb2tWUWlZV1VRWFZUeVJtWHRnaVU0ckFOSWFsU3pWLWMzdU1zRGhFa0hLLS1pMFpELXpfZHhyZVk5OXhNVTZBb3RRd3BQc2h2YmxiOFFxRkw0YUdmdkdsdUZ0ejdlRWNadDZic3B5c0tHX0ZHYlRBSlVIUDZFOTVFcm9adjZKZw?oc=5",
+   "published": 1792615003,
+   "traced_at": 1792625315,
+   "pick": {
+    "sources": [
+     "Airlines"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "airlines"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "c6cfa652d20c",
+     "headline": "United Airlines slashes 2026 profit outlook on fuel prices, but travelers keep booking despite higher fares"
+    },
+    {
+     "id": "ef6f24fb527c",
+     "headline": "United Airlines adds 5 nonstop routes to its lineup \u2014 including new international destinations"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "DAL",
+     "direction": -1
+    },
+    {
+     "ticker": "LUV",
+     "direction": -1
+    },
+    {
+     "ticker": "AAL",
+     "direction": -1
+    },
+    {
+     "ticker": "UAL",
+     "direction": -1
+    },
+    {
+     "ticker": "ALK",
+     "direction": -1
+    },
+    {
+     "ticker": "JETS",
+     "direction": -1
+    }
+   ],
+   "reached": 2
+  },
+  {
+   "id": "7bfefd86768f",
+   "headline": "Europe's financial regulators query Google over cloud outage that hit banks",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOT1pIZlJZYU5ld0dIeUlRcEtISURhQ080MDNWRU50d1ZSUEpnSzlPT2JjMFU1R0lQM05rZ2FCZVVhaVgtSlZwZW5DY29BUEpudGdiNUp1T0syMnEwWEpYcV9RaWJWc3k3UnBmdnVPTjd4Wnl2RHQ1a2Q3dG1IUlJ4QndPc05rRjJmMXNqZ0tRdnJ2eUl5Y3RvTUdRUmQySk5HaEpqdw?oc=5",
+   "published": 1792597400,
+   "traced_at": 1792625316,
+   "pick": {
+    "sources": [
+     "Retail_Banking"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "banks"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "3e655ae7b98a",
+     "headline": "Banks expect to be hit with higher taxes in Budget"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "WFC",
+     "direction": -1
+    },
+    {
+     "ticker": "TD",
+     "direction": -1
+    },
+    {
+     "ticker": "C",
+     "direction": -1
+    },
+    {
+     "ticker": "KBE",
+     "direction": -1
+    },
+    {
+     "ticker": "BAC",
+     "direction": -1
+    },
+    {
+     "ticker": "JPM",
+     "direction": -1
+    }
+   ],
+   "reached": 1
+  },
+  {
+   "id": "2dda0db1fd01",
+   "headline": "U.S. Crude Oil Stockpiles Fall More Than Expected",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQm5hOGlwVkNzMHk1V2V2Snc3WXZkaXNUMEVyc0NmSmh2Yl9ieENlaUE4YkVKWUpFNExZZ1ZkYWdXQjkySW5HWlBjeDJSUHZEY282M2Z3UXhLeWtKOXdVWnFsZHBVMGVydzdUcHJCSFdkeDE3eU5vZktQZmEzdmZhOFNxczNqajJ1YUkyUGVPS1JRTDZCb210VExyY21SQQ?oc=5",
+   "published": 1792596240,
+   "traced_at": 1792625316,
+   "pick": {
+    "sources": [
+     "Oil_Price"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "crude oil"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "5817b22e01d2",
+     "headline": "Wall St set for lower open as oil prices jump, earnings in focus"
+    },
+    {
+     "id": "293ad530dc12",
+     "headline": "Global oil prices hit highest level in 5 months amid attacks on ships, facilities - ABC News"
+    },
+    {
+     "id": "1a661e21343c",
+     "headline": "Brent oil tops $109 after Houthi militants claim they attacked Saudi airports and Aramco facilities"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": -1
+    },
+    {
+     "ticker": "OXY",
+     "direction": -1
+    },
+    {
+     "ticker": "COP",
+     "direction": -1
+    },
+    {
+     "ticker": "DVN",
+     "direction": -1
+    },
+    {
+     "ticker": "FANG",
+     "direction": -1
+    },
+    {
+     "ticker": "EOG",
+     "direction": -1
+    }
+   ],
+   "reached": 27
+  },
+  {
+   "id": "98ee9b1aba54",
+   "headline": "Stock Market Today: Nasdaq logs 1.1% gain; S&P 500 and Dow end higher as AI plays and tech bounce; oil climbs in after-hours trade as investors monitor Middle East headlines; Meta and Tesla earnings on deck",
+   "source": "MarketWatch",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVkRpQXdOVzlDUERyeXdaOVdGZER5SmlMcVlvSHd5d3pHZjhLUGpRM0R4ZWtSTlp5bHRlTE1Ibl9haTJzdlBYRWNMWHJ1X2NyZU5oc2ZTWms1eWpGcUlwamNPb3ZXMk90SGIzYWtnUEd6blF6Mlo1WC1lMUVxdDNhMF9yRi1GZGpPV0ZMRDhYUGpBeXVscGxDRjF0MkxKNE9DcHJkdlV5dl9sRWRjcWFUWXRQMVpfY3RsbXlldEJJNlVMY1BBMkVB?oc=5",
+   "published": 1792614060,
+   "traced_at": 1792625316,
+   "pick": {
+    "sources": [
+     "Middle_East_Conflict"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "middle east"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "49a6a863f3f6",
+     "headline": "The Iran War has sent gas and oil prices higher. That could spell economic disaster in the midterms."
+    },
+    {
+     "id": "80fa6fa211e2",
+     "headline": "Democratic senators demand Pentagon reveal 'true cost' of Iran war"
+    },
+    {
+     "id": "93fe9678c29a",
+     "headline": "Wright says Trump administration has not broken promise to lower gas prices amid Iran war"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": 1
+    },
+    {
+     "ticker": "OXY",
+     "direction": 1
+    },
+    {
+     "ticker": "COP",
+     "direction": 1
+    },
+    {
+     "ticker": "DVN",
+     "direction": 1
+    },
+    {
+     "ticker": "FANG",
+     "direction": 1
+    },
+    {
+     "ticker": "EOG",
+     "direction": 1
+    }
+   ],
+   "reached": 23
+  },
   {
    "id": "5e6a6f1132cd",
    "headline": "Micron faces strike from one Taiwan union after deal with another",
@@ -3289,7 +3517,7 @@
    "reached": 12
   }
  ],
- "total": 62,
+ "total": 66,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -3302,7 +3530,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 62
+  "waiting": 66
  },
  "checkup": {
   "at": 1792255747,
