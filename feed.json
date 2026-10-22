@@ -1,6 +1,66 @@
 {
- "updated": 1792645507,
+ "updated": 1792670887,
  "items": [
+  {
+   "id": "b54d57cc803f",
+   "headline": "American Airlines expects deeper 2026 loss on pricier fuel despite record revenue",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNak80bjFjS2pOdmVwM2RueXhEbnJZU1hpMWdZckJMbEgtaEl4b2dTdHV2VkpsVWdvWGFzeW1mVDkzWUVhNUtseWpOSTlaLU44R0JKN196bHQwbEFOT0pWUENEaWF5aGs3TVluYkdGVU5XcENSdE15QldhaTk5Z2ZGddIBhgFBVV95cUxNUXdObGpBeW01bjVUbkhmcHZqU2JXeDJKRUN5U0xvQ2FDRGZHa0J4Vk5KTDk3M2RyaEw3TDFYd0ZrSzh6eUthUENPeE9fQlBUaUtzaUVEckhoMVNNampaVVFaXzBBQ2FiQlh4WjlDeXotZEg5Q1AzNGNfejdITUtveVJCS2tpUQ?oc=5",
+   "published": 1792667403,
+   "traced_at": 1792670875,
+   "pick": {
+    "sources": [
+     "Airlines"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "airlines"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "7c6468257d5a",
+     "headline": "Southwest Airlines cuts 2026 profit forecast on higher fuel"
+    },
+    {
+     "id": "c6cfa652d20c",
+     "headline": "United Airlines slashes 2026 profit outlook on fuel prices, but travelers keep booking despite higher fares"
+    },
+    {
+     "id": "ef6f24fb527c",
+     "headline": "United Airlines adds 5 nonstop routes to its lineup \u2014 including new international destinations"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "DAL",
+     "direction": 1
+    },
+    {
+     "ticker": "LUV",
+     "direction": 1
+    },
+    {
+     "ticker": "AAL",
+     "direction": 1
+    },
+    {
+     "ticker": "UAL",
+     "direction": 1
+    },
+    {
+     "ticker": "ALK",
+     "direction": 1
+    },
+    {
+     "ticker": "JETS",
+     "direction": 1
+    }
+   ],
+   "reached": 2
+  },
   {
    "id": "7c6468257d5a",
    "headline": "Southwest Airlines cuts 2026 profit forecast on higher fuel",
@@ -3517,7 +3577,7 @@
    "reached": 12
   }
  ],
- "total": 66,
+ "total": 67,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -3530,7 +3590,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 66
+  "waiting": 67
  },
  "checkup": {
   "at": 1792255747,
