@@ -117,9 +117,91 @@ BUDGET_MESSAGE = ("The demo's language-model budget is used up. Sample headlines
                   "and tracing from a driver works without a model.")
 
 
+# ---------- free-first: the deterministic rulebook reads typed headlines before the model ----------
+
+_matcher = None
+_matcher_lock = threading.Lock()
+
+
+def _get_matcher():
+    """The live loop's headline matcher (live/pick.py), built once per process. None when the
+    rulebook files are unavailable in this deployment — /api/analyze then behaves as before."""
+    global _matcher
+    if _matcher is None:
+        with _matcher_lock:
+            if _matcher is None:
+                try:
+                    from live.pick import Matcher
+
+                    _matcher = Matcher()
+                except Exception:
+                    _matcher = False
+    return _matcher or None
+
+
+def _engine_brief(analysis: dict, memory: list[dict]) -> str:
+    """A brief built only from what the graph returned — the same guarantee the agent's
+    fallback brief makes, so a rulebook trace can never name a ticker the graph didn't."""
+    drivers = analysis["drivers"]
+    top = next((d for d in drivers if d["hops"] >= 2), drivers[0])
+    chain = " → ".join(p.replace("_", " ") for p in top["path"])
+    tick = ", ".join(f'{a["ticker"]} ({"up" if a["direction"] > 0 else "down"})' for a in analysis["assets"][:5])
+    text = (f"Strongest second-order effect: {chain} (~{top['lag_months']} months). "
+            f"Most exposed: {tick}.")
+    if memory:
+        text += f" This adds to earlier news on the same drivers: {memory[0]['headline'][:110]}"
+    return text
+
+
+def _engine_events(headline: str, depth: int, pick: dict) -> list[dict]:
+    """Trace a rulebook-read headline with the deterministic engine alone — no model call.
+    Returns the same event shapes an agent run streams (tool calls, Cypher trace, brief).
+    Raises before returning anything if the trace itself fails, so the caller can fall
+    back to the model path with nothing emitted yet."""
+    g = TracedGraph(graph())
+    events: list[dict] = []
+    events.append({"type": "tool_call", "name": "analyze_impact",
+                   "input": {"sources": pick["sources"], "direction": pick["direction"], "depth": depth}})
+    analysis = tools.analyze_impact(g, pick["sources"], pick["direction"], depth)
+    events.append({"type": "tool_result", "name": "analyze_impact", "error": False,
+                   "result": analysis, "queries": g.drain()})
+
+    events.append({"type": "tool_call", "name": "recall_events",
+                   "input": {"driver_ids": pick["sources"], "days": 30}})
+    try:
+        memory = tools.recall_events(g, pick["sources"], 30)["events"]
+        events.append({"type": "tool_result", "name": "recall_events", "error": False,
+                       "result": {"events": memory}, "queries": g.drain()})
+    except tools.ToolError:
+        memory = []
+        events.append({"type": "tool_result", "name": "recall_events", "error": True,
+                       "result": {"events": []}, "queries": g.drain()})
+
+    text = _engine_brief(analysis, memory)
+    answer_type = "compounding" if memory else "answered"
+    tickers = [a["ticker"] for a in analysis["assets"][:6]]
+    events.append({"type": "tool_call", "name": "record_alert",
+                   "input": {"headline": headline, "sources": pick["sources"],
+                             "direction": pick["direction"], "summary": text, "tickers": tickers}})
+    try:
+        rec = tools.record_alert(g, headline, pick["sources"], pick["direction"], text,
+                                 tickers, answer_type)
+        events.append({"type": "tool_result", "name": "record_alert", "error": False,
+                       "result": rec, "queries": g.drain()})
+    except Exception as e:  # the trace is the product; the alert is bookkeeping
+        events.append({"type": "tool_result", "name": "record_alert", "error": True,
+                       "result": {"error": str(e)}, "queries": g.drain()})
+
+    events.append({"type": "brief", "answer_type": answer_type, "text": text,
+                   "analysis": analysis, "memory": memory, "usd": 0.0,
+                   "via": "rulebook", "how": pick.get("how"), "matched": pick.get("matched", [])})
+    return events
+
+
 @app.post("/api/analyze")
 def analyze(body: AnalyzeIn):
-    """Streams a live agent run. A headline seen before replays its stored run instead of calling the model again."""
+    """Streams a live agent run. A headline seen before replays its stored run instead of calling the model again.
+    A headline the deterministic rulebook can read is traced by the engine alone, with no model call at all."""
     q: queue.Queue = queue.Queue()
     cached = budget.cached_run(graph(), body.headline, body.depth)
 
@@ -135,6 +217,23 @@ def analyze(body: AnalyzeIn):
                 for ev in cached:
                     q.put({**ev, "replayed": True} if ev.get("type") == "brief" else ev)
                 return
+            pick = None
+            matcher = _get_matcher()
+            if matcher is not None:
+                try:
+                    pick = matcher.pick(body.headline)
+                except Exception:
+                    pick = None
+            if pick is not None:
+                try:
+                    engine_events = _engine_events(body.headline, body.depth, pick)
+                except Exception:
+                    engine_events = None  # rulebook trace failed; the model path below still can
+                if engine_events is not None:
+                    for ev in engine_events:
+                        emit(ev)
+                    budget.store_run(graph(), body.headline, body.depth, events)
+                    return
             if _over_budget():
                 q.put({"type": "error", "message": BUDGET_MESSAGE})
                 return
