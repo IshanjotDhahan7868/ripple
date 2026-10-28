@@ -1,6 +1,399 @@
 {
- "updated": 1793205859,
+ "updated": 1793227437,
  "items": [
+  {
+   "id": "0eb48084236e",
+   "headline": "AI Is Finding a Flood of Bugs, and Silicon Valley Is Rushing to Fix Them",
+   "source": "The New York Times",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1YaHMzZ0xHaXZJclUyQTNaV21kT28yQVNMWk1oaTNENVZQUkFzSjJWTllSMVdKM1dKZU1kUGpHTnBRTUp5czRSS2h5ZUg2ZlJ2cE9adDhOaWRhN1MyaENXazlvWm8zMnhuOFZzQ0F1SkVLMnIwb0hKTzNmY1VSUQ?oc=5",
+   "published": 1793214893,
+   "traced_at": 1793227421,
+   "pick": {
+    "sources": [
+     "Natural_Disasters"
+    ],
+    "direction": 1,
+    "how": "rule",
+    "matched": [
+     "\\b(hurricane|wildfire|earthquake|flood|drought|heatwave)\\b"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "LOW",
+     "direction": 1
+    },
+    {
+     "ticker": "GNRC",
+     "direction": 1
+    },
+    {
+     "ticker": "EG",
+     "direction": -1
+    },
+    {
+     "ticker": "ALL",
+     "direction": -1
+    },
+    {
+     "ticker": "CB",
+     "direction": -1
+    },
+    {
+     "ticker": "RNR",
+     "direction": -1
+    }
+   ],
+   "reached": 11
+  },
+  {
+   "id": "69ed1e0e42de",
+   "headline": "Wall Street ends higher as Fed holds key rate steady, focus turns to earnings",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQVNrQUVwN1c3SjBCODU1TXUwRy1hQ2lIQUxFZkJ3dGhXa0NZalhVTFFoeTU4MlB3VDRwWE1QRktITG5FZnd1eUVDTjRUankwRGgzRkRKTGdwZDVDbWUyTWVKNlRKVld5RVdaTllzZkVhdXUzNkZUOU5RWWNOQVJTY2xuaDJZZXlybC05LXRmTmpPb2RvVlliLWxBUXZVRldXU3kyY2pWb1ZmZlFNUU1KMmN4aV9wMk9Lai01YXcza0JqdDQ?oc=5",
+   "published": 1793214601,
+   "traced_at": 1793227421,
+   "pick": {
+    "sources": [
+     "Interest_Rates"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "fed"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "efdaa6a6d5b1",
+     "headline": "Fed meeting live updates: No hike expected, but investors watching Warsh for what's next"
+    },
+    {
+     "id": "efa5670d3baa",
+     "headline": "Stock market today: Nasdaq wavers, S&P 500 and Dow climb ahead of Fed decision, Big Tech earnings"
+    },
+    {
+     "id": "de073c7d63b8",
+     "headline": "UK inflation jumps to 3.5% \u2014 cementing rate hike expectations"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": 1
+    },
+    {
+     "ticker": "TOL",
+     "direction": -1
+    },
+    {
+     "ticker": "NVR",
+     "direction": -1
+    },
+    {
+     "ticker": "LEN",
+     "direction": -1
+    },
+    {
+     "ticker": "DHI",
+     "direction": -1
+    },
+    {
+     "ticker": "PHM",
+     "direction": -1
+    }
+   ],
+   "reached": 35
+  },
+  {
+   "id": "e2e78517fd47",
+   "headline": "Oil Prices Rise on Worries of Middle East Conflict Escalation",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSlpYejlRTmd1MFprTGxzTHhIQi1taDhJVkMtTThYN1Y5UktONWZxcVM5TEJ2Sy1Jd25QZXFCem5uNDkzOGU3Z0NONzE1V0ZPT2E2QlJTdjZreDg0eXA5Z21MandpYmI3azQ5Q0h4azVTdHpYQnVQVGdYR3pEajBid0QtT0taZl9OVktOSUhIWjl6eGdqYlJ5RFZOd3p1LVRkVjVCVg?oc=5",
+   "published": 1793215320,
+   "traced_at": 1793227421,
+   "pick": {
+    "sources": [
+     "Middle_East_Conflict",
+     "Oil_Price"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "middle east",
+     "oil prices"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "7b9ed6f38545",
+     "headline": "Oil Futures Fall as Market Holds Out Hope for Middle East Diplomacy"
+    },
+    {
+     "id": "2dda0db1fd01",
+     "headline": "U.S. Crude Oil Stockpiles Fall More Than Expected"
+    },
+    {
+     "id": "98ee9b1aba54",
+     "headline": "Stock Market Today: Nasdaq logs 1.1% gain; S&P 500 and Dow end higher as AI plays and tech bounce; oil climbs in after-hours trade as investors monitor Middle East headlines; Meta and Tesla earnings on deck"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": 1
+    },
+    {
+     "ticker": "OXY",
+     "direction": 1
+    },
+    {
+     "ticker": "COP",
+     "direction": 1
+    },
+    {
+     "ticker": "DVN",
+     "direction": 1
+    },
+    {
+     "ticker": "FANG",
+     "direction": 1
+    },
+    {
+     "ticker": "EOG",
+     "direction": 1
+    }
+   ],
+   "reached": 36
+  },
+  {
+   "id": "80b9769659dc",
+   "headline": "Boston Scientific Cuts View Again After Cyberattack, Other Challenges",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR1EwSlN6N0xZMGxFQ3ZqRHluTUhBUExmTnFNdEtTLXEyNUxRclJNM2pPTTVFMjVKbm9XZEhuelF5am1PUGphMWJCekNNd25zTHNwdVBZSEtLS25JTXprNzU4TFJlS096eldPMUFoMWVpRUF3Mm9oUUstOGhFb1Y3RUs4WTRQeE5pLWYybWtYeXpWVXFOYmZnQ0M1VkNlX1FsU29YdmFHdEhXSmEwMFJPUHVwLW52Zw?oc=5",
+   "published": 1793187000,
+   "traced_at": 1793227422,
+   "pick": {
+    "sources": [
+     "Cyber_Threats"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "cyberattack"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "91dd8bbaf7fd",
+     "headline": "Japan's GMO urges customers to shut down PCs amid ransomware threat"
+    },
+    {
+     "id": "0ffe17943aed",
+     "headline": "How Israeli firm\u2019s \u2018zero-click\u2019 malware attack poses global security risk"
+    },
+    {
+     "id": "2f03ba7ec94a",
+     "headline": "Hack exposes data on millions of California students"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "FTNT",
+     "direction": -1
+    },
+    {
+     "ticker": "CRWD",
+     "direction": -1
+    },
+    {
+     "ticker": "PANW",
+     "direction": -1
+    },
+    {
+     "ticker": "ZS",
+     "direction": -1
+    },
+    {
+     "ticker": "HACK",
+     "direction": -1
+    },
+    {
+     "ticker": "CIBR",
+     "direction": -1
+    }
+   ],
+   "reached": 2
+  },
+  {
+   "id": "fd418fd5d148",
+   "headline": "The Fed's new headache: An AI boom that turns to bust",
+   "source": "Politico",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVTdHYXBUMEV4enBnVGx4aC1OeHZXZktKYklMcWEwQmZIMi13QzcyU1hQeC15bXpWVE95Zm9IbDRvbzRvS1QtV2JiZTFuMmlpR3FhSHRTeFM3Y2c3QjJ1amM1b0VxWEMyYlhNbUxMajlLeG9ETGRjeU5ubmFuODVNdHZzN0JkRXFMUWNTSlhR?oc=5",
+   "published": 1793197560,
+   "traced_at": 1793227422,
+   "pick": {
+    "sources": [
+     "Interest_Rates"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "fed"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "efdaa6a6d5b1",
+     "headline": "Fed meeting live updates: No hike expected, but investors watching Warsh for what's next"
+    },
+    {
+     "id": "efa5670d3baa",
+     "headline": "Stock market today: Nasdaq wavers, S&P 500 and Dow climb ahead of Fed decision, Big Tech earnings"
+    },
+    {
+     "id": "de073c7d63b8",
+     "headline": "UK inflation jumps to 3.5% \u2014 cementing rate hike expectations"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": 1
+    },
+    {
+     "ticker": "TOL",
+     "direction": -1
+    },
+    {
+     "ticker": "NVR",
+     "direction": -1
+    },
+    {
+     "ticker": "LEN",
+     "direction": -1
+    },
+    {
+     "ticker": "DHI",
+     "direction": -1
+    },
+    {
+     "ticker": "PHM",
+     "direction": -1
+    }
+   ],
+   "reached": 35
+  },
+  {
+   "id": "c59f98af38c6",
+   "headline": "Robinhood Misses Q3 Earnings as Crypto Revenue Rises and Prediction Market Bets Grow",
+   "source": "Decrypt",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaTZ5OThyTGVOcVl0dG9KMC1YakczX0s1bWN3YUJHZ0dZVDVlUlRiQU80YlQxa2RqLXJPd2I4bmRPM1ZCeW8weU00eXprb3RzeHU3amlvV0xfVXJraFM0aFVnbS1PS3o0X1RvbjJ3THg4YlN5OWxjUGJLeno2Skt4UkxzOWItVkE?oc=5",
+   "published": 1793133731,
+   "traced_at": 1793227422,
+   "pick": {
+    "sources": [
+     "Crypto_Assets"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "crypto"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "1b1dd4267b48",
+     "headline": "Robinhood Chain brings in $26 million as crypto revenue rises 20% in Q3"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "MSTR",
+     "direction": 1
+    },
+    {
+     "ticker": "MARA",
+     "direction": 1
+    },
+    {
+     "ticker": "COIN",
+     "direction": 1
+    },
+    {
+     "ticker": "RIOT",
+     "direction": 1
+    },
+    {
+     "ticker": "HOOD",
+     "direction": 1
+    },
+    {
+     "ticker": "BITCOIN",
+     "direction": 1
+    }
+   ],
+   "reached": 1
+  },
+  {
+   "id": "14bc66c3cba0",
+   "headline": "Scripps Layoffs Continue With 431 Cuts As CEO Promises 100 New Jobs in \u2018Enterprise-Wide Transformation\u2019",
+   "source": "TV News Check",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNaDM1NkxrUFRZcGYxTTB5bU0xM1lhVWozZW8tNFVadjBielNtM3RQSUV1Y1hmVGRjb0Ixc3ViaktYQ0xHeHV5U01mUWkzeGh3Q2R2NXZDeExSQ0dhSlhpQ0lZenVXemZVdmVrejNnQV9XWWVfN0JYd3lacUdEUDQyRXhRY0lJUGxjNHhkNEVBaUFXX2REdFZpSy15QkM2YW5KTzZQNTdmMlBoWUhhRFlGdFpLNXpDQ1pmdFh3M2hJSWRuYVlDNzFSQXVSbC1Wcklwd1N2NnU5SjM2MWs?oc=5",
+   "published": 1793145816,
+   "traced_at": 1793227422,
+   "pick": {
+    "sources": [
+     "Labor_Market"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "layoffs"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "44d4d9d4c7fe",
+     "headline": "Jobless rate falls but small firms cut back hiring"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "ADP",
+     "direction": 1
+    },
+    {
+     "ticker": "MAN",
+     "direction": 1
+    },
+    {
+     "ticker": "RHI",
+     "direction": 1
+    },
+    {
+     "ticker": "PAYX",
+     "direction": 1
+    },
+    {
+     "ticker": "NKE",
+     "direction": 1
+    },
+    {
+     "ticker": "WMT",
+     "direction": 1
+    }
+   ],
+   "reached": 26
+  },
   {
    "id": "efdaa6a6d5b1",
    "headline": "Fed meeting live updates: No hike expected, but investors watching Warsh for what's next",
@@ -6263,181 +6656,9 @@
    ],
    "reached": 1,
    "revises": "ac7d3c54de1a"
-  },
-  {
-   "id": "26604a401075",
-   "headline": "Exclusive | Diesel Prices Hold High Despite Efforts to Boost Global Supplies",
-   "source": "WSJ",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcERkZnNCRk5MTUxhdHJhbGFyUVE2ZGlFT1JwRER0WjhJaUFGYzlzc0RpYzZESWx2b2t1S1lJazJUbkh5UUJtZ0hQUW9ZYUEwOWZiYXhDRFl2S2dNcmdUVWs1SEVFWFlIVXNMbVZVOGRtdGhhb1lMX1hxZGFPU2xiVURZUVRLT2Uxc09vR2JoMW1DazUxUFkzbXVIUF9abWEzZU81TXRLeVQ0TThBVDhWc1h4WQ?oc=5",
-   "published": 1792159200,
-   "traced_at": 1792255545,
-   "pick": {
-    "sources": [
-     "Refining"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "diesel"
-    ]
-   },
-   "earlier": [],
-   "grade": {
-    "5": {
-     "hit": false,
-     "excess": -0.0045,
-     "from": "2026-10-19",
-     "to": "2026-10-26",
-     "stocks": [
-      {
-       "ticker": "MPC",
-       "direction": 1,
-       "ret": -0.0064,
-       "excess": -0.005
-      },
-      {
-       "ticker": "PSX",
-       "direction": 1,
-       "ret": -0.0059,
-       "excess": -0.0044
-      },
-      {
-       "ticker": "DINO",
-       "direction": 1,
-       "ret": 0.0067,
-       "excess": 0.0081
-      },
-      {
-       "ticker": "VLO",
-       "direction": 1,
-       "ret": -0.0151,
-       "excess": -0.0137
-      },
-      {
-       "ticker": "PBF",
-       "direction": 1,
-       "ret": -0.0087,
-       "excess": -0.0073
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "MPC",
-     "direction": 1
-    },
-    {
-     "ticker": "PSX",
-     "direction": 1
-    },
-    {
-     "ticker": "DINO",
-     "direction": 1
-    },
-    {
-     "ticker": "VLO",
-     "direction": 1
-    },
-    {
-     "ticker": "PBF",
-     "direction": 1
-    },
-    {
-     "ticker": "DK",
-     "direction": 1
-    }
-   ],
-   "reached": 6
-  },
-  {
-   "id": "9adfea12ab3b",
-   "headline": "There is a violent \u2018new normal\u2019 in the Strait of Hormuz. Here\u2019s why we should worry",
-   "source": "The Independent",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNT3FFX29qVUxFMWdGdGp4VDEyVURCRUFhNGdwUUpTWFZYSDMxUEQwYTRSZFdOVVFZcjVSWXBLRElwQVJsclJNUS00OGZuMjNPVjZnU2ctRlhtVHhMdHNrZmtEWjlpRTdzQjFnTm1KSmJEcVhIVVJCZ1JGMjZfc0RGU3JuenJ6UFZKMEc2d1d2bHB1Y0RYcEdLdWt4dHRUeld3ajIzTw?oc=5",
-   "published": 1792228200,
-   "traced_at": 1792255546,
-   "pick": {
-    "sources": [
-     "Maritime_Chokepoint_Disruption"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "strait of hormuz"
-    ]
-   },
-   "earlier": [],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.0447,
-     "from": "2026-10-19",
-     "to": "2026-10-26",
-     "stocks": [
-      {
-       "ticker": "ZIM",
-       "direction": 1,
-       "ret": 0.0193,
-       "excess": 0.0208
-      },
-      {
-       "ticker": "FRO",
-       "direction": 1,
-       "ret": 0.0889,
-       "excess": 0.0904
-      },
-      {
-       "ticker": "SBLK",
-       "direction": 1,
-       "ret": 0.0356,
-       "excess": 0.0371
-      },
-      {
-       "ticker": "INSW",
-       "direction": 1,
-       "ret": 0.0851,
-       "excess": 0.0865
-      },
-      {
-       "ticker": "MATX",
-       "direction": 1,
-       "ret": -0.0126,
-       "excess": -0.0112
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "ZIM",
-     "direction": 1
-    },
-    {
-     "ticker": "FRO",
-     "direction": 1
-    },
-    {
-     "ticker": "SBLK",
-     "direction": 1
-    },
-    {
-     "ticker": "INSW",
-     "direction": 1
-    },
-    {
-     "ticker": "MATX",
-     "direction": 1
-    },
-    {
-     "ticker": "DHT",
-     "direction": 1
-    }
-   ],
-   "reached": 12
   }
  ],
- "total": 75,
+ "total": 82,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -6450,7 +6671,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 13
+  "waiting": 20
  },
  "checkup": {
   "at": 1792255747,
