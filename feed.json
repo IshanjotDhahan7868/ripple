@@ -1,6 +1,448 @@
 {
- "updated": 1792670887,
+ "updated": 1793205859,
  "items": [
+  {
+   "id": "efdaa6a6d5b1",
+   "headline": "Fed meeting live updates: No hike expected, but investors watching Warsh for what's next",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1tMUlxMlhyZGowTmtxUW9oU1NrQjU1UzBWd0pobmpmdG83UHBURXhSSkgydEdTZnFJY2J2VFpJOGZGOWJlMGc5VEhxaW5EVmRYZ2NHZHJPZXhhV3NSazdDb0NpSWZMc3hBMnBYS210Nm5PNzRJTWfSAXtBVV95cUxPRWNadTVHenE4RU90Q0FxX0lOWjJWamVmRm4xUnk1cVJlZkFaeDRjX21iX1FKZEhYRmZVWFBPWDhUQks0elVQbjU5U2NVbTdGNWdsS1Y0Slo2SE9zTFhjc2EwQU9EaHRoR3pWN3Y2UmM2TmswVUxTODJObXc?oc=5",
+   "published": 1793204880,
+   "traced_at": 1793205846,
+   "pick": {
+    "sources": [
+     "Interest_Rates"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "fed"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "de073c7d63b8",
+     "headline": "UK inflation jumps to 3.5% \u2014 cementing rate hike expectations"
+    },
+    {
+     "id": "8e310d92493d",
+     "headline": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes"
+    },
+    {
+     "id": "7e6b43656f46",
+     "headline": "Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": -1
+    },
+    {
+     "ticker": "TOL",
+     "direction": 1
+    },
+    {
+     "ticker": "NVR",
+     "direction": 1
+    },
+    {
+     "ticker": "LEN",
+     "direction": 1
+    },
+    {
+     "ticker": "DHI",
+     "direction": 1
+    },
+    {
+     "ticker": "PHM",
+     "direction": 1
+    }
+   ],
+   "reached": 35
+  },
+  {
+   "id": "efa5670d3baa",
+   "headline": "Stock market today: Nasdaq wavers, S&P 500 and Dow climb ahead of Fed decision, Big Tech earnings",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZktFQ2UzRnJZcVE5N1gzczRfZnY1Zmx3TzUtV0dtUTZpVFR6ZktfcG5jYW9YbGE4Wmx2cjVQcjY4OEM4cjVCTzVJTndicWFPb0xuN1k2a0xXVTBaRkEwdVJfUHlPVDMwWUlnQ21QNHZ1ak9JaHdJbmQySDAzNzdBaFdvMmpfUkZJMjItMmR0b2VHTHo5blZTMjhBVkx1YUZtYUZ2Sy1jR09UalFqZWp2OWlsczMwR1R4VFk5SWRWcW81ZDU4Q1lBMUJjcFlkalZMVXlwTUNQVjktcXNXVkhxRGlfbVc?oc=5",
+   "published": 1793201444,
+   "traced_at": 1793205846,
+   "pick": {
+    "sources": [
+     "Interest_Rates"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "fed"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "de073c7d63b8",
+     "headline": "UK inflation jumps to 3.5% \u2014 cementing rate hike expectations"
+    },
+    {
+     "id": "8e310d92493d",
+     "headline": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes"
+    },
+    {
+     "id": "7e6b43656f46",
+     "headline": "Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": 1
+    },
+    {
+     "ticker": "TOL",
+     "direction": -1
+    },
+    {
+     "ticker": "NVR",
+     "direction": -1
+    },
+    {
+     "ticker": "LEN",
+     "direction": -1
+    },
+    {
+     "ticker": "DHI",
+     "direction": -1
+    },
+    {
+     "ticker": "PHM",
+     "direction": -1
+    }
+   ],
+   "reached": 35
+  },
+  {
+   "id": "1f862d53e9f7",
+   "headline": "Visa Posts Record Annual Revenue. The Focus Now Shifts to Reaching New Customers.",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IcmZPVC1VZ1A3blVnWjlCNHNnNFZoZUVscVZEcC10SDhfbVp1elVlYXRxQmR1eF95a0tMNnl0TE1TMzlhdkxNRVJCb2t0c2otbTZPTk16ekFnUkZiNWdBN1Nfb2gyRmY5b21wNUJpQkRkLU1OeGc?oc=5",
+   "published": 1793179800,
+   "traced_at": 1793205846,
+   "pick": {
+    "sources": [
+     "Payments_Networks"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "visa"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "db90afcd58fb",
+     "headline": "\u00a330 rise in payments for crisis-hit households"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "V",
+     "direction": 1
+    },
+    {
+     "ticker": "MA",
+     "direction": 1
+    },
+    {
+     "ticker": "XYZ",
+     "direction": 1
+    },
+    {
+     "ticker": "AXP",
+     "direction": 1
+    },
+    {
+     "ticker": "IPAY",
+     "direction": 1
+    },
+    {
+     "ticker": "PYPL",
+     "direction": 1
+    }
+   ],
+   "reached": 1
+  },
+  {
+   "id": "17c7f3109c83",
+   "headline": "US consumer confidence recovers in October as gas prices eased a bit",
+   "source": "AP News",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMkp3Y2pHeVVWMm1DT1NJUm1veTh6QWNhN0JGVHFjWElMTWw3eklNc0hUVVBhM3ZOdnpkUFRsU01wSjdsbFFjNzlfd1RYTGdXVWpJY055ZV9VczZXSTNKRzVZNktiZlFSTUJtQ3RYay1Qa1BKM3RTQmdBZHhyVVR3TnFORjI4MkpjQzcwU2dGRkZ6TENIeFZKUGlRblF0cHNRWFE0VE5DaTFidw?oc=5",
+   "published": 1793122200,
+   "traced_at": 1793205846,
+   "pick": {
+    "sources": [
+     "Consumer_Spending"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "consumer confidence"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "NKE",
+     "direction": -1
+    },
+    {
+     "ticker": "WMT",
+     "direction": -1
+    },
+    {
+     "ticker": "MCD",
+     "direction": -1
+    },
+    {
+     "ticker": "COST",
+     "direction": -1
+    },
+    {
+     "ticker": "TGT",
+     "direction": -1
+    },
+    {
+     "ticker": "V",
+     "direction": -1
+    }
+   ],
+   "reached": 13
+  },
+  {
+   "id": "7b9ed6f38545",
+   "headline": "Oil Futures Fall as Market Holds Out Hope for Middle East Diplomacy",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeklkQ3dLbGJfaEt1ZDNyR3BZbk5JcjlJWVNEVnRrSVFudjJsOFA1S20zSlNxdVpoVkFJM1liUUdaTXExS25HTzFnUFYxWUNkWUFTVU9mODVlX3VwOGdzRGJEdHUzQzhyekVZeUhmN1RTTUhMM05peURpTFBRTFcyZ3RyX2dRT1lDT3k5YmtWeHRhYTJGdWNqWFRXZFVJMWMxMlM3YWcyZWlMZHV5SGc?oc=5",
+   "published": 1793128980,
+   "traced_at": 1793205846,
+   "pick": {
+    "sources": [
+     "Middle_East_Conflict"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "middle east"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "98ee9b1aba54",
+     "headline": "Stock Market Today: Nasdaq logs 1.1% gain; S&P 500 and Dow end higher as AI plays and tech bounce; oil climbs in after-hours trade as investors monitor Middle East headlines; Meta and Tesla earnings on deck"
+    },
+    {
+     "id": "49a6a863f3f6",
+     "headline": "The Iran War has sent gas and oil prices higher. That could spell economic disaster in the midterms."
+    },
+    {
+     "id": "80fa6fa211e2",
+     "headline": "Democratic senators demand Pentagon reveal 'true cost' of Iran war"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": -1
+    },
+    {
+     "ticker": "OXY",
+     "direction": -1
+    },
+    {
+     "ticker": "COP",
+     "direction": -1
+    },
+    {
+     "ticker": "DVN",
+     "direction": -1
+    },
+    {
+     "ticker": "FANG",
+     "direction": -1
+    },
+    {
+     "ticker": "EOG",
+     "direction": -1
+    }
+   ],
+   "reached": 23
+  },
+  {
+   "id": "91dd8bbaf7fd",
+   "headline": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
+   "source": "BleepingComputer",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMEJaSEdMMmg4LTNBYV9EVlQ1TURRa0luMzNsbTVXWU5MdHJuUklydjc5TnQ5UEZYb1p1SHozYndLQXhNVng2NHZya1dqSGFHdm1NTE56UDBhYWVKdS1wYlJRVVZ4aF83RllxWWxsX1ZqN0plQ3ZNenZvX1EzTDZ5cGJOVE9WN0k5dWVJX050Q3dZUFNDMnp1WEhuM2RCSUJIV3h2ME9xdEFMWUFncUdmOWFjcGk?oc=5",
+   "published": 1793144151,
+   "traced_at": 1793205846,
+   "pick": {
+    "sources": [
+     "Cyber_Threats"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "ransomware"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "0ffe17943aed",
+     "headline": "How Israeli firm\u2019s \u2018zero-click\u2019 malware attack poses global security risk"
+    },
+    {
+     "id": "2f03ba7ec94a",
+     "headline": "Hack exposes data on millions of California students"
+    },
+    {
+     "id": "319077016fa1",
+     "headline": "Hackers steal personal data of millions of California students in massive breach"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "FTNT",
+     "direction": 1
+    },
+    {
+     "ticker": "CRWD",
+     "direction": 1
+    },
+    {
+     "ticker": "PANW",
+     "direction": 1
+    },
+    {
+     "ticker": "ZS",
+     "direction": 1
+    },
+    {
+     "ticker": "HACK",
+     "direction": 1
+    },
+    {
+     "ticker": "CIBR",
+     "direction": 1
+    }
+   ],
+   "reached": 2
+  },
+  {
+   "id": "13513920bb96",
+   "headline": "Boeing Stock Plunges After Earnings. 737 Progress Isn\u2019t Fast Enough.",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqTDlic1FKMVhoYkNvVEtMRXp2RXdPT2sxdWRHdzZBMUlEMzlwSDFweGFBVVVWaGtOa0JuTml0b2VsamV0Yi1xVXhuM205SHRQWWVVXzBNenRRUngtZWk1bk9CZmJBM2phOGdoYmE4TWpkeDlobnZwUg?oc=5",
+   "published": 1793131740,
+   "traced_at": 1793205846,
+   "pick": {
+    "sources": [
+     "Aerospace_and_Defense_Manufacturing"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "boeing"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "6d68003f746b",
+     "headline": "Boeing's largest 737 MAX jet wins FAA certification, clearing way for deliveries of 1,555 ordered planes"
+    },
+    {
+     "id": "c0b4897a7c0d",
+     "headline": "US to approve Boeing 737 Max 10 for passenger service after years of delays, AP source says"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "NOC",
+     "direction": -1
+    },
+    {
+     "ticker": "GD",
+     "direction": -1
+    },
+    {
+     "ticker": "BA",
+     "direction": -1
+    },
+    {
+     "ticker": "RTX",
+     "direction": -1
+    },
+    {
+     "ticker": "LMT",
+     "direction": -1
+    },
+    {
+     "ticker": "XAR",
+     "direction": -1
+    }
+   ],
+   "reached": 10
+  },
+  {
+   "id": "1b1dd4267b48",
+   "headline": "Robinhood Chain brings in $26 million as crypto revenue rises 20% in Q3",
+   "source": "The Block",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUm0yam8wLWJOQ2toSDF6bGFhak1ELVVoV1hZdUhOUVF1TnBUdC1OaC01WDBKZy1vdnRBOEFMQUs2Z3dncDgxcGlZZHZQV01wNGhyRUNKdVYyTUlKcEF2X0JkX0cxM2RMb1pZN3NlVWNaeVFEb0dXRXh4ZDcycFh3VmNPNktBVWhYSUQzRkVhNndjcXVUZmpibEsteC14azFOZEo5cW15VWYyb1o3aUxPUW1yOVBYcVFzU2VZ?oc=5",
+   "published": 1793134500,
+   "traced_at": 1793205847,
+   "pick": {
+    "sources": [
+     "Crypto_Assets"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "crypto"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "MSTR",
+     "direction": 1
+    },
+    {
+     "ticker": "MARA",
+     "direction": 1
+    },
+    {
+     "ticker": "COIN",
+     "direction": 1
+    },
+    {
+     "ticker": "RIOT",
+     "direction": 1
+    },
+    {
+     "ticker": "HOOD",
+     "direction": 1
+    },
+    {
+     "ticker": "BITCOIN",
+     "direction": 1
+    }
+   ],
+   "reached": 1
+  },
   {
    "id": "b54d57cc803f",
    "headline": "American Airlines expects deeper 2026 loss on pricier fuel despite record revenue",
@@ -316,7 +758,46 @@
      "headline": "Micron union in Taiwan to launch strike as bonus dispute escalates"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0381,
+     "from": "2026-10-21",
+     "to": "2026-10-28",
+     "stocks": [
+      {
+       "ticker": "TER",
+       "direction": -1,
+       "ret": -0.1018,
+       "excess": 0.0992
+      },
+      {
+       "ticker": "KLAC",
+       "direction": -1,
+       "ret": -0.0249,
+       "excess": 0.0223
+      },
+      {
+       "ticker": "LRCX",
+       "direction": -1,
+       "ret": -0.0259,
+       "excess": 0.0234
+      },
+      {
+       "ticker": "ASML",
+       "direction": -1,
+       "ret": -0.0094,
+       "excess": 0.0068
+      },
+      {
+       "ticker": "GFS",
+       "direction": -1,
+       "ret": -0.0412,
+       "excess": 0.0386
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "TER",
@@ -376,7 +857,46 @@
      "headline": "Pending home sales sink to 25-year low as buyers flee high mortgage rates"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0422,
+     "from": "2026-10-21",
+     "to": "2026-10-28",
+     "stocks": [
+      {
+       "ticker": "TOL",
+       "direction": -1,
+       "ret": 0.037,
+       "excess": -0.0396
+      },
+      {
+       "ticker": "NVR",
+       "direction": -1,
+       "ret": -0.0139,
+       "excess": 0.0114
+      },
+      {
+       "ticker": "LEN",
+       "direction": -1,
+       "ret": 0.075,
+       "excess": -0.0776
+      },
+      {
+       "ticker": "DHI",
+       "direction": -1,
+       "ret": 0.0363,
+       "excess": -0.0389
+      },
+      {
+       "ticker": "PHM",
+       "direction": -1,
+       "ret": 0.0636,
+       "excess": -0.0662
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "TOL",
@@ -436,7 +956,46 @@
      "headline": "HSBC CEO warns the AI boom won\u2019t make every data center a good bet"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0157,
+     "from": "2026-10-21",
+     "to": "2026-10-28",
+     "stocks": [
+      {
+       "ticker": "GLEN.L",
+       "direction": -1,
+       "ret": -0.0203,
+       "excess": 0.0177
+      },
+      {
+       "ticker": "FCX",
+       "direction": -1,
+       "ret": -0.0443,
+       "excess": 0.0417
+      },
+      {
+       "ticker": "SCCO",
+       "direction": -1,
+       "ret": -0.0273,
+       "excess": 0.0248
+      },
+      {
+       "ticker": "GE",
+       "direction": -1,
+       "ret": 0.0247,
+       "excess": -0.0272
+      },
+      {
+       "ticker": "COPX",
+       "direction": -1,
+       "ret": -0.0238,
+       "excess": 0.0213
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "GLEN.L",
@@ -488,7 +1047,46 @@
      "headline": "US to approve Boeing 737 Max 10 for passenger service after years of delays, AP source says"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0211,
+     "from": "2026-10-21",
+     "to": "2026-10-28",
+     "stocks": [
+      {
+       "ticker": "NOC",
+       "direction": 1,
+       "ret": 0.0238,
+       "excess": 0.0264
+      },
+      {
+       "ticker": "GD",
+       "direction": 1,
+       "ret": 0.0283,
+       "excess": 0.0309
+      },
+      {
+       "ticker": "BA",
+       "direction": 1,
+       "ret": -0.1324,
+       "excess": -0.1298
+      },
+      {
+       "ticker": "RTX",
+       "direction": 1,
+       "ret": 0.0316,
+       "excess": 0.0342
+      },
+      {
+       "ticker": "LMT",
+       "direction": 1,
+       "ret": 0.141,
+       "excess": 0.1436
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "NOC",
@@ -548,7 +1146,46 @@
      "headline": "French Government-Bond Yields Rise on Protests, Budget Concerns; Treasury Yields Fall"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0344,
+     "from": "2026-10-21",
+     "to": "2026-10-28",
+     "stocks": [
+      {
+       "ticker": "IBKR",
+       "direction": 1,
+       "ret": -0.0298,
+       "excess": -0.0272
+      },
+      {
+       "ticker": "TOL",
+       "direction": -1,
+       "ret": 0.037,
+       "excess": -0.0396
+      },
+      {
+       "ticker": "NVR",
+       "direction": -1,
+       "ret": -0.0139,
+       "excess": 0.0114
+      },
+      {
+       "ticker": "LEN",
+       "direction": -1,
+       "ret": 0.075,
+       "excess": -0.0776
+      },
+      {
+       "ticker": "DHI",
+       "direction": -1,
+       "ret": 0.0363,
+       "excess": -0.0389
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "IBKR",
@@ -608,7 +1245,46 @@
      "headline": "Microsoft Scraps UK Data Center Deal With Nscale, Telegraph Says"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0157,
+     "from": "2026-10-21",
+     "to": "2026-10-28",
+     "stocks": [
+      {
+       "ticker": "GLEN.L",
+       "direction": -1,
+       "ret": -0.0203,
+       "excess": 0.0177
+      },
+      {
+       "ticker": "FCX",
+       "direction": -1,
+       "ret": -0.0443,
+       "excess": 0.0417
+      },
+      {
+       "ticker": "SCCO",
+       "direction": -1,
+       "ret": -0.0273,
+       "excess": 0.0248
+      },
+      {
+       "ticker": "GE",
+       "direction": -1,
+       "ret": 0.0247,
+       "excess": -0.0272
+      },
+      {
+       "ticker": "COPX",
+       "direction": -1,
+       "ret": -0.0238,
+       "excess": 0.0213
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "GLEN.L",
@@ -668,7 +1344,46 @@
      "headline": "Williams says Fed may not have to hike rates in 2027, at odds with traders"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0344,
+     "from": "2026-10-21",
+     "to": "2026-10-28",
+     "stocks": [
+      {
+       "ticker": "IBKR",
+       "direction": 1,
+       "ret": -0.0298,
+       "excess": -0.0272
+      },
+      {
+       "ticker": "TOL",
+       "direction": -1,
+       "ret": 0.037,
+       "excess": -0.0396
+      },
+      {
+       "ticker": "NVR",
+       "direction": -1,
+       "ret": -0.0139,
+       "excess": 0.0114
+      },
+      {
+       "ticker": "LEN",
+       "direction": -1,
+       "ret": 0.075,
+       "excess": -0.0776
+      },
+      {
+       "ticker": "DHI",
+       "direction": -1,
+       "ret": 0.0363,
+       "excess": -0.0389
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "IBKR",
@@ -728,7 +1443,46 @@
      "headline": "Oil tumbles as Trump's Russia sanctions waiver may lead to more fuel supplies"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0937,
+     "from": "2026-10-21",
+     "to": "2026-10-28",
+     "stocks": [
+      {
+       "ticker": "MPC",
+       "direction": 1,
+       "ret": -0.0674,
+       "excess": -0.0649
+      },
+      {
+       "ticker": "PSX",
+       "direction": 1,
+       "ret": -0.0708,
+       "excess": -0.0683
+      },
+      {
+       "ticker": "DINO",
+       "direction": 1,
+       "ret": -0.1122,
+       "excess": -0.1096
+      },
+      {
+       "ticker": "VLO",
+       "direction": 1,
+       "ret": -0.1216,
+       "excess": -0.1191
+      },
+      {
+       "ticker": "PBF",
+       "direction": 1,
+       "ret": -0.1092,
+       "excess": -0.1067
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "MPC",
@@ -788,7 +1542,46 @@
      "headline": "Stock Market Today: Dow, S&P 500 and Nasdaq head for a strong finish as tech stocks rally; oil prices fall while yields rise"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.034,
+     "from": "2026-10-21",
+     "to": "2026-10-28",
+     "stocks": [
+      {
+       "ticker": "APA",
+       "direction": 1,
+       "ret": 0.051,
+       "excess": 0.0536
+      },
+      {
+       "ticker": "OXY",
+       "direction": 1,
+       "ret": 0.0117,
+       "excess": 0.0143
+      },
+      {
+       "ticker": "COP",
+       "direction": 1,
+       "ret": 0.0289,
+       "excess": 0.0314
+      },
+      {
+       "ticker": "DVN",
+       "direction": 1,
+       "ret": 0.0367,
+       "excess": 0.0392
+      },
+      {
+       "ticker": "FANG",
+       "direction": 1,
+       "ret": 0.0289,
+       "excess": 0.0314
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "APA",
@@ -835,7 +1628,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0211,
+     "from": "2026-10-21",
+     "to": "2026-10-28",
+     "stocks": [
+      {
+       "ticker": "NOC",
+       "direction": 1,
+       "ret": 0.0238,
+       "excess": 0.0264
+      },
+      {
+       "ticker": "GD",
+       "direction": 1,
+       "ret": 0.0283,
+       "excess": 0.0309
+      },
+      {
+       "ticker": "BA",
+       "direction": 1,
+       "ret": -0.1324,
+       "excess": -0.1298
+      },
+      {
+       "ticker": "RTX",
+       "direction": 1,
+       "ret": 0.0316,
+       "excess": 0.0342
+      },
+      {
+       "ticker": "LMT",
+       "direction": 1,
+       "ret": 0.141,
+       "excess": 0.1436
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "NOC",
@@ -887,7 +1719,46 @@
      "headline": "United Airlines adds 5 nonstop routes to its lineup \u2014 including new international destinations"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0513,
+     "from": "2026-10-21",
+     "to": "2026-10-28",
+     "stocks": [
+      {
+       "ticker": "DAL",
+       "direction": -1,
+       "ret": 0.0415,
+       "excess": -0.044
+      },
+      {
+       "ticker": "LUV",
+       "direction": -1,
+       "ret": 0.0935,
+       "excess": -0.0961
+      },
+      {
+       "ticker": "AAL",
+       "direction": -1,
+       "ret": 0.0225,
+       "excess": -0.025
+      },
+      {
+       "ticker": "UAL",
+       "direction": -1,
+       "ret": 0.0248,
+       "excess": -0.0273
+      },
+      {
+       "ticker": "ALK",
+       "direction": -1,
+       "ret": 0.0617,
+       "excess": -0.0643
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "DAL",
@@ -943,7 +1814,46 @@
      "headline": "Pending home sales sink to 25-year low as buyers flee high mortgage rates"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0422,
+     "from": "2026-10-21",
+     "to": "2026-10-28",
+     "stocks": [
+      {
+       "ticker": "TOL",
+       "direction": -1,
+       "ret": 0.037,
+       "excess": -0.0396
+      },
+      {
+       "ticker": "NVR",
+       "direction": -1,
+       "ret": -0.0139,
+       "excess": 0.0114
+      },
+      {
+       "ticker": "LEN",
+       "direction": -1,
+       "ret": 0.075,
+       "excess": -0.0776
+      },
+      {
+       "ticker": "DHI",
+       "direction": -1,
+       "ret": 0.0363,
+       "excess": -0.0389
+      },
+      {
+       "ticker": "PHM",
+       "direction": -1,
+       "ret": 0.0636,
+       "excess": -0.0662
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "TOL",
@@ -990,7 +1900,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0025,
+     "from": "2026-10-21",
+     "to": "2026-10-28",
+     "stocks": [
+      {
+       "ticker": "SONY",
+       "direction": 1,
+       "ret": 0.0026,
+       "excess": 0.0051
+      },
+      {
+       "ticker": "HPQ",
+       "direction": 1,
+       "ret": 0.0388,
+       "excess": 0.0413
+      },
+      {
+       "ticker": "DELL",
+       "direction": 1,
+       "ret": 0.0142,
+       "excess": 0.0168
+      },
+      {
+       "ticker": "QCOM",
+       "direction": 1,
+       "ret": 0.0208,
+       "excess": 0.0233
+      },
+      {
+       "ticker": "TER",
+       "direction": 1,
+       "ret": -0.1018,
+       "excess": -0.0992
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "SONY",
@@ -1046,7 +1995,46 @@
      "headline": "Microsoft Scraps UK Data Center Deal With Nscale, Telegraph Says"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0157,
+     "from": "2026-10-21",
+     "to": "2026-10-28",
+     "stocks": [
+      {
+       "ticker": "GLEN.L",
+       "direction": 1,
+       "ret": -0.0203,
+       "excess": -0.0177
+      },
+      {
+       "ticker": "FCX",
+       "direction": 1,
+       "ret": -0.0443,
+       "excess": -0.0417
+      },
+      {
+       "ticker": "SCCO",
+       "direction": 1,
+       "ret": -0.0273,
+       "excess": -0.0248
+      },
+      {
+       "ticker": "GE",
+       "direction": 1,
+       "ret": 0.0247,
+       "excess": 0.0272
+      },
+      {
+       "ticker": "COPX",
+       "direction": 1,
+       "ret": -0.0238,
+       "excess": -0.0213
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "GLEN.L",
@@ -1106,7 +2094,46 @@
      "headline": "Gold Rises Amid Falling Oil Prices"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0114,
+     "from": "2026-10-20",
+     "to": "2026-10-27",
+     "stocks": [
+      {
+       "ticker": "APA",
+       "direction": -1,
+       "ret": 0.023,
+       "excess": -0.0222
+      },
+      {
+       "ticker": "OXY",
+       "direction": -1,
+       "ret": -0.003,
+       "excess": 0.0038
+      },
+      {
+       "ticker": "COP",
+       "direction": -1,
+       "ret": 0.0138,
+       "excess": -0.013
+      },
+      {
+       "ticker": "DVN",
+       "direction": -1,
+       "ret": 0.0169,
+       "excess": -0.0161
+      },
+      {
+       "ticker": "FANG",
+       "direction": -1,
+       "ret": 0.0102,
+       "excess": -0.0094
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "APA",
@@ -1153,7 +2180,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0402,
+     "from": "2026-10-20",
+     "to": "2026-10-27",
+     "stocks": [
+      {
+       "ticker": "TOL",
+       "direction": -1,
+       "ret": 0.0476,
+       "excess": -0.0468
+      },
+      {
+       "ticker": "NVR",
+       "direction": -1,
+       "ret": -0.0287,
+       "excess": 0.0295
+      },
+      {
+       "ticker": "LEN",
+       "direction": -1,
+       "ret": 0.0754,
+       "excess": -0.0746
+      },
+      {
+       "ticker": "DHI",
+       "direction": -1,
+       "ret": 0.0489,
+       "excess": -0.0481
+      },
+      {
+       "ticker": "PHM",
+       "direction": -1,
+       "ret": 0.062,
+       "excess": -0.0612
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "TOL",
@@ -1205,7 +2271,46 @@
      "headline": "Micron union in Taiwan to launch strike as bonus dispute escalates"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0361,
+     "from": "2026-10-20",
+     "to": "2026-10-27",
+     "stocks": [
+      {
+       "ticker": "TER",
+       "direction": -1,
+       "ret": -0.0384,
+       "excess": 0.0391
+      },
+      {
+       "ticker": "KLAC",
+       "direction": -1,
+       "ret": -0.05,
+       "excess": 0.0507
+      },
+      {
+       "ticker": "LRCX",
+       "direction": -1,
+       "ret": -0.0858,
+       "excess": 0.0866
+      },
+      {
+       "ticker": "ASML",
+       "direction": -1,
+       "ret": 0.0042,
+       "excess": -0.0034
+      },
+      {
+       "ticker": "GFS",
+       "direction": -1,
+       "ret": -0.0066,
+       "excess": 0.0074
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "TER",
@@ -1252,7 +2357,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0898,
+     "from": "2026-10-20",
+     "to": "2026-10-27",
+     "stocks": [
+      {
+       "ticker": "LDOS",
+       "direction": 1,
+       "ret": 0.0938,
+       "excess": 0.093
+      },
+      {
+       "ticker": "BAH",
+       "direction": 1,
+       "ret": 0.1124,
+       "excess": 0.1117
+      },
+      {
+       "ticker": "SAIC",
+       "direction": 1,
+       "ret": 0.1067,
+       "excess": 0.1059
+      },
+      {
+       "ticker": "CACI",
+       "direction": 1,
+       "ret": 0.0963,
+       "excess": 0.0955
+      },
+      {
+       "ticker": "NSC",
+       "direction": 1,
+       "ret": 0.0435,
+       "excess": 0.0427
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "LDOS",
@@ -1300,7 +2444,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0402,
+     "from": "2026-10-20",
+     "to": "2026-10-27",
+     "stocks": [
+      {
+       "ticker": "TOL",
+       "direction": -1,
+       "ret": 0.0476,
+       "excess": -0.0468
+      },
+      {
+       "ticker": "NVR",
+       "direction": -1,
+       "ret": -0.0287,
+       "excess": 0.0295
+      },
+      {
+       "ticker": "LEN",
+       "direction": -1,
+       "ret": 0.0754,
+       "excess": -0.0746
+      },
+      {
+       "ticker": "DHI",
+       "direction": -1,
+       "ret": 0.0489,
+       "excess": -0.0481
+      },
+      {
+       "ticker": "PHM",
+       "direction": -1,
+       "ret": 0.062,
+       "excess": -0.0612
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "TOL",
@@ -1347,7 +2530,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0361,
+     "from": "2026-10-20",
+     "to": "2026-10-27",
+     "stocks": [
+      {
+       "ticker": "TER",
+       "direction": -1,
+       "ret": -0.0384,
+       "excess": 0.0391
+      },
+      {
+       "ticker": "KLAC",
+       "direction": -1,
+       "ret": -0.05,
+       "excess": 0.0507
+      },
+      {
+       "ticker": "LRCX",
+       "direction": -1,
+       "ret": -0.0858,
+       "excess": 0.0866
+      },
+      {
+       "ticker": "ASML",
+       "direction": -1,
+       "ret": 0.0042,
+       "excess": -0.0034
+      },
+      {
+       "ticker": "GFS",
+       "direction": -1,
+       "ret": -0.0066,
+       "excess": 0.0074
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "TER",
@@ -1403,7 +2625,46 @@
      "headline": "Oil tumbles as Trump's Russia sanctions waiver may lead to more fuel supplies"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0943,
+     "from": "2026-10-20",
+     "to": "2026-10-27",
+     "stocks": [
+      {
+       "ticker": "MPC",
+       "direction": 1,
+       "ret": -0.0822,
+       "excess": -0.083
+      },
+      {
+       "ticker": "PSX",
+       "direction": 1,
+       "ret": -0.0773,
+       "excess": -0.0781
+      },
+      {
+       "ticker": "DINO",
+       "direction": 1,
+       "ret": -0.0886,
+       "excess": -0.0894
+      },
+      {
+       "ticker": "VLO",
+       "direction": 1,
+       "ret": -0.1063,
+       "excess": -0.1071
+      },
+      {
+       "ticker": "PBF",
+       "direction": 1,
+       "ret": -0.1129,
+       "excess": -0.1137
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "MPC",
@@ -1455,7 +2716,46 @@
      "headline": "Microsoft Scraps UK Data Center Deal With Nscale, Telegraph Says"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0278,
+     "from": "2026-10-20",
+     "to": "2026-10-27",
+     "stocks": [
+      {
+       "ticker": "GLEN.L",
+       "direction": 1,
+       "ret": -0.0149,
+       "excess": -0.0157
+      },
+      {
+       "ticker": "FCX",
+       "direction": 1,
+       "ret": -0.0424,
+       "excess": -0.0432
+      },
+      {
+       "ticker": "SCCO",
+       "direction": 1,
+       "ret": -0.0391,
+       "excess": -0.0399
+      },
+      {
+       "ticker": "GE",
+       "direction": 1,
+       "ret": -0.0074,
+       "excess": -0.0082
+      },
+      {
+       "ticker": "COPX",
+       "direction": 1,
+       "ret": -0.0312,
+       "excess": -0.032
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "GLEN.L",
@@ -1502,7 +2802,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0546,
+     "from": "2026-10-20",
+     "to": "2026-10-27",
+     "stocks": [
+      {
+       "ticker": "ADP",
+       "direction": -1,
+       "ret": 0.0012,
+       "excess": -0.0004
+      },
+      {
+       "ticker": "MAN",
+       "direction": -1,
+       "ret": 0.0647,
+       "excess": -0.0639
+      },
+      {
+       "ticker": "RHI",
+       "direction": -1,
+       "ret": 0.2396,
+       "excess": -0.2388
+      },
+      {
+       "ticker": "PAYX",
+       "direction": -1,
+       "ret": -0.02,
+       "excess": 0.0207
+      },
+      {
+       "ticker": "NKE",
+       "direction": -1,
+       "ret": -0.0084,
+       "excess": 0.0092
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "ADP",
@@ -1549,7 +2888,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0238,
+     "from": "2026-10-20",
+     "to": "2026-10-27",
+     "stocks": [
+      {
+       "ticker": "V",
+       "direction": 1,
+       "ret": -0.0116,
+       "excess": -0.0124
+      },
+      {
+       "ticker": "MA",
+       "direction": 1,
+       "ret": -0.017,
+       "excess": -0.0178
+      },
+      {
+       "ticker": "XYZ",
+       "direction": 1,
+       "ret": -0.0414,
+       "excess": -0.0422
+      },
+      {
+       "ticker": "AXP",
+       "direction": 1,
+       "ret": -0.0171,
+       "excess": -0.0179
+      },
+      {
+       "ticker": "IPAY",
+       "direction": 1,
+       "ret": -0.0282,
+       "excess": -0.0289
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "V",
@@ -1609,7 +2987,46 @@
      "headline": "The disturbing \u2018new normal\u2019 in the Strait of Hormuz: Attacks on ships at a record high and oil at $100 a barrel"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0303,
+     "from": "2026-10-20",
+     "to": "2026-10-27",
+     "stocks": [
+      {
+       "ticker": "ZIM",
+       "direction": 1,
+       "ret": 0.0202,
+       "excess": 0.0195
+      },
+      {
+       "ticker": "FRO",
+       "direction": 1,
+       "ret": 0.0686,
+       "excess": 0.0678
+      },
+      {
+       "ticker": "SBLK",
+       "direction": 1,
+       "ret": 0.0263,
+       "excess": 0.0256
+      },
+      {
+       "ticker": "INSW",
+       "direction": 1,
+       "ret": 0.0635,
+       "excess": 0.0627
+      },
+      {
+       "ticker": "MATX",
+       "direction": 1,
+       "ret": -0.0233,
+       "excess": -0.0241
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "ZIM",
@@ -1667,7 +3084,46 @@
      "headline": "I\u2019ll bet my bottom dollar stocks are about to rally"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0313,
+     "from": "2026-10-20",
+     "to": "2026-10-27",
+     "stocks": [
+      {
+       "ticker": "AEM",
+       "direction": 1,
+       "ret": -0.0297,
+       "excess": -0.0305
+      },
+      {
+       "ticker": "NEM",
+       "direction": 1,
+       "ret": -0.0357,
+       "excess": -0.0365
+      },
+      {
+       "ticker": "KGC",
+       "direction": 1,
+       "ret": -0.0271,
+       "excess": -0.0279
+      },
+      {
+       "ticker": "WPM",
+       "direction": 1,
+       "ret": -0.0405,
+       "excess": -0.0413
+      },
+      {
+       "ticker": "FNV",
+       "direction": 1,
+       "ret": -0.0196,
+       "excess": -0.0204
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "AEM",
@@ -1714,7 +3170,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0271,
+     "from": "2026-10-20",
+     "to": "2026-10-27",
+     "stocks": [
+      {
+       "ticker": "BAM",
+       "direction": 1,
+       "ret": 0.0179,
+       "excess": 0.0171
+      },
+      {
+       "ticker": "APO",
+       "direction": 1,
+       "ret": 0.0273,
+       "excess": 0.0265
+      },
+      {
+       "ticker": "KKR",
+       "direction": 1,
+       "ret": 0.0304,
+       "excess": 0.0296
+      },
+      {
+       "ticker": "BX",
+       "direction": 1,
+       "ret": 0.0576,
+       "excess": 0.0568
+      },
+      {
+       "ticker": "BLK",
+       "direction": 1,
+       "ret": 0.0065,
+       "excess": 0.0057
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "BAM",
@@ -1770,7 +3265,46 @@
      "headline": "There is a violent \u2018new normal\u2019 in the Strait of Hormuz. Here\u2019s why we should worry"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0303,
+     "from": "2026-10-20",
+     "to": "2026-10-27",
+     "stocks": [
+      {
+       "ticker": "ZIM",
+       "direction": 1,
+       "ret": 0.0202,
+       "excess": 0.0195
+      },
+      {
+       "ticker": "FRO",
+       "direction": 1,
+       "ret": 0.0686,
+       "excess": 0.0678
+      },
+      {
+       "ticker": "SBLK",
+       "direction": 1,
+       "ret": 0.0263,
+       "excess": 0.0256
+      },
+      {
+       "ticker": "INSW",
+       "direction": 1,
+       "ret": 0.0635,
+       "excess": 0.0627
+      },
+      {
+       "ticker": "MATX",
+       "direction": 1,
+       "ret": -0.0233,
+       "excess": -0.0241
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "ZIM",
@@ -1832,7 +3366,46 @@
      "headline": "The disturbing \u2018new normal\u2019 in the Strait of Hormuz: Attacks on ships at a record high and oil at $100 a barrel"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0114,
+     "from": "2026-10-20",
+     "to": "2026-10-27",
+     "stocks": [
+      {
+       "ticker": "APA",
+       "direction": 1,
+       "ret": 0.023,
+       "excess": 0.0222
+      },
+      {
+       "ticker": "OXY",
+       "direction": 1,
+       "ret": -0.003,
+       "excess": -0.0038
+      },
+      {
+       "ticker": "COP",
+       "direction": 1,
+       "ret": 0.0138,
+       "excess": 0.013
+      },
+      {
+       "ticker": "DVN",
+       "direction": 1,
+       "ret": 0.0169,
+       "excess": 0.0161
+      },
+      {
+       "ticker": "FANG",
+       "direction": 1,
+       "ret": 0.0102,
+       "excess": 0.0094
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "APA",
@@ -1892,7 +3465,46 @@
      "headline": "President Donald Trump Claims Gasoline Prices Will \"Drop Like a Rock\" When the Iran War Ends, but He's Completely Missed the Bigger Picture"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0114,
+     "from": "2026-10-20",
+     "to": "2026-10-27",
+     "stocks": [
+      {
+       "ticker": "APA",
+       "direction": 1,
+       "ret": 0.023,
+       "excess": 0.0222
+      },
+      {
+       "ticker": "OXY",
+       "direction": 1,
+       "ret": -0.003,
+       "excess": -0.0038
+      },
+      {
+       "ticker": "COP",
+       "direction": 1,
+       "ret": 0.0138,
+       "excess": 0.013
+      },
+      {
+       "ticker": "DVN",
+       "direction": 1,
+       "ret": 0.0169,
+       "excess": 0.0161
+      },
+      {
+       "ticker": "FANG",
+       "direction": 1,
+       "ret": 0.0102,
+       "excess": 0.0094
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "APA",
@@ -1952,7 +3564,46 @@
      "headline": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0298,
+     "from": "2026-10-20",
+     "to": "2026-10-27",
+     "stocks": [
+      {
+       "ticker": "IBKR",
+       "direction": -1,
+       "ret": -0.008,
+       "excess": 0.0088
+      },
+      {
+       "ticker": "TOL",
+       "direction": 1,
+       "ret": 0.0476,
+       "excess": 0.0468
+      },
+      {
+       "ticker": "NVR",
+       "direction": 1,
+       "ret": -0.0287,
+       "excess": -0.0295
+      },
+      {
+       "ticker": "LEN",
+       "direction": 1,
+       "ret": 0.0754,
+       "excess": 0.0746
+      },
+      {
+       "ticker": "DHI",
+       "direction": 1,
+       "ret": 0.0489,
+       "excess": 0.0481
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "IBKR",
@@ -2008,7 +3659,46 @@
      "headline": "The disturbing \u2018new normal\u2019 in the Strait of Hormuz: Attacks on ships at a record high and oil at $100 a barrel"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0114,
+     "from": "2026-10-20",
+     "to": "2026-10-27",
+     "stocks": [
+      {
+       "ticker": "APA",
+       "direction": -1,
+       "ret": 0.023,
+       "excess": -0.0222
+      },
+      {
+       "ticker": "OXY",
+       "direction": -1,
+       "ret": -0.003,
+       "excess": 0.0038
+      },
+      {
+       "ticker": "COP",
+       "direction": -1,
+       "ret": 0.0138,
+       "excess": -0.013
+      },
+      {
+       "ticker": "DVN",
+       "direction": -1,
+       "ret": 0.0169,
+       "excess": -0.0161
+      },
+      {
+       "ticker": "FANG",
+       "direction": -1,
+       "ret": 0.0102,
+       "excess": -0.0094
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "APA",
@@ -2062,7 +3752,46 @@
      "headline": "Oil tumbles as Trump's Russia sanctions waiver may lead to more fuel supplies"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0153,
+     "from": "2026-10-20",
+     "to": "2026-10-27",
+     "stocks": [
+      {
+       "ticker": "LXU",
+       "direction": 1,
+       "ret": 0.0068,
+       "excess": 0.006
+      },
+      {
+       "ticker": "MOS",
+       "direction": 1,
+       "ret": 0.0521,
+       "excess": 0.0513
+      },
+      {
+       "ticker": "IPI",
+       "direction": 1,
+       "ret": -0.0053,
+       "excess": -0.0061
+      },
+      {
+       "ticker": "NTR",
+       "direction": 1,
+       "ret": 0.0049,
+       "excess": 0.0041
+      },
+      {
+       "ticker": "CF",
+       "direction": 1,
+       "ret": 0.0221,
+       "excess": 0.0213
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "LXU",
@@ -2116,7 +3845,46 @@
      "headline": "I\u2019ll bet my bottom dollar stocks are about to rally"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0313,
+     "from": "2026-10-20",
+     "to": "2026-10-27",
+     "stocks": [
+      {
+       "ticker": "AEM",
+       "direction": -1,
+       "ret": -0.0297,
+       "excess": 0.0305
+      },
+      {
+       "ticker": "NEM",
+       "direction": -1,
+       "ret": -0.0357,
+       "excess": 0.0365
+      },
+      {
+       "ticker": "KGC",
+       "direction": -1,
+       "ret": -0.0271,
+       "excess": 0.0279
+      },
+      {
+       "ticker": "WPM",
+       "direction": -1,
+       "ret": -0.0405,
+       "excess": 0.0413
+      },
+      {
+       "ticker": "FNV",
+       "direction": -1,
+       "ret": -0.0196,
+       "excess": 0.0204
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "AEM",
@@ -2172,7 +3940,46 @@
      "headline": "Fuel-price surge turbocharges global EV sales and spells end for diesel in Europe"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0173,
+     "from": "2026-10-20",
+     "to": "2026-10-27",
+     "stocks": [
+      {
+       "ticker": "RIVN",
+       "direction": 1,
+       "ret": -0.0491,
+       "excess": -0.0499
+      },
+      {
+       "ticker": "IDRV",
+       "direction": 1,
+       "ret": -0.0313,
+       "excess": -0.0321
+      },
+      {
+       "ticker": "DRIV",
+       "direction": 1,
+       "ret": -0.0107,
+       "excess": -0.0115
+      },
+      {
+       "ticker": "F",
+       "direction": 1,
+       "ret": -0.0362,
+       "excess": -0.037
+      },
+      {
+       "ticker": "GM",
+       "direction": 1,
+       "ret": 0.0448,
+       "excess": 0.044
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "RIVN",
@@ -2219,7 +4026,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0623,
+     "from": "2026-10-20",
+     "to": "2026-10-27",
+     "stocks": [
+      {
+       "ticker": "DAL",
+       "direction": 1,
+       "ret": 0.0625,
+       "excess": 0.0617
+      },
+      {
+       "ticker": "LUV",
+       "direction": 1,
+       "ret": 0.0956,
+       "excess": 0.0948
+      },
+      {
+       "ticker": "AAL",
+       "direction": 1,
+       "ret": 0.0413,
+       "excess": 0.0405
+      },
+      {
+       "ticker": "UAL",
+       "direction": 1,
+       "ret": 0.071,
+       "excess": 0.0702
+      },
+      {
+       "ticker": "ALK",
+       "direction": 1,
+       "ret": 0.0451,
+       "excess": 0.0443
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "DAL",
@@ -2275,7 +4121,46 @@
      "headline": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0514,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "IBKR",
+       "direction": -1,
+       "ret": -0.0093,
+       "excess": 0.0079
+      },
+      {
+       "ticker": "TOL",
+       "direction": 1,
+       "ret": 0.0708,
+       "excess": 0.0722
+      },
+      {
+       "ticker": "NVR",
+       "direction": 1,
+       "ret": -0.0172,
+       "excess": -0.0157
+      },
+      {
+       "ticker": "LEN",
+       "direction": 1,
+       "ret": 0.1069,
+       "excess": 0.1083
+      },
+      {
+       "ticker": "DHI",
+       "direction": 1,
+       "ret": 0.0828,
+       "excess": 0.0843
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "IBKR",
@@ -2335,7 +4220,46 @@
      "headline": "Retail price impacts from the Iran war are uneven but add up for US households before midterms"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0297,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "APA",
+       "direction": 1,
+       "ret": 0.0434,
+       "excess": 0.0449
+      },
+      {
+       "ticker": "OXY",
+       "direction": 1,
+       "ret": 0.0215,
+       "excess": 0.023
+      },
+      {
+       "ticker": "COP",
+       "direction": 1,
+       "ret": 0.0422,
+       "excess": 0.0437
+      },
+      {
+       "ticker": "DVN",
+       "direction": 1,
+       "ret": 0.0141,
+       "excess": 0.0156
+      },
+      {
+       "ticker": "FANG",
+       "direction": 1,
+       "ret": 0.0197,
+       "excess": 0.0212
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "APA",
@@ -2387,7 +4311,46 @@
      "headline": "The disturbing \u2018new normal\u2019 in the Strait of Hormuz: Attacks on ships at a record high and oil at $100 a barrel"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0297,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "APA",
+       "direction": -1,
+       "ret": 0.0434,
+       "excess": -0.0449
+      },
+      {
+       "ticker": "OXY",
+       "direction": -1,
+       "ret": 0.0215,
+       "excess": -0.023
+      },
+      {
+       "ticker": "COP",
+       "direction": -1,
+       "ret": 0.0422,
+       "excess": -0.0437
+      },
+      {
+       "ticker": "DVN",
+       "direction": -1,
+       "ret": 0.0141,
+       "excess": -0.0156
+      },
+      {
+       "ticker": "FANG",
+       "direction": -1,
+       "ret": 0.0197,
+       "excess": -0.0212
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "APA",
@@ -2439,7 +4402,46 @@
      "headline": "US inflation rises more than expected - here's what is happening with prices"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0514,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "IBKR",
+       "direction": 1,
+       "ret": -0.0093,
+       "excess": -0.0079
+      },
+      {
+       "ticker": "TOL",
+       "direction": -1,
+       "ret": 0.0708,
+       "excess": -0.0722
+      },
+      {
+       "ticker": "NVR",
+       "direction": -1,
+       "ret": -0.0172,
+       "excess": 0.0157
+      },
+      {
+       "ticker": "LEN",
+       "direction": -1,
+       "ret": 0.1069,
+       "excess": -0.1083
+      },
+      {
+       "ticker": "DHI",
+       "direction": -1,
+       "ret": 0.0828,
+       "excess": -0.0843
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "IBKR",
@@ -2489,7 +4491,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0352,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "GFS",
+       "direction": -1,
+       "ret": -0.0241,
+       "excess": 0.0226
+      },
+      {
+       "ticker": "UMC",
+       "direction": -1,
+       "ret": -0.0448,
+       "excess": 0.0434
+      },
+      {
+       "ticker": "ASML",
+       "direction": -1,
+       "ret": -0.0341,
+       "excess": 0.0327
+      },
+      {
+       "ticker": "MU",
+       "direction": -1,
+       "ret": -0.0013,
+       "excess": -0.0001
+      },
+      {
+       "ticker": "TER",
+       "direction": -1,
+       "ret": -0.0791,
+       "excess": 0.0776
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "GFS",
@@ -2538,7 +4579,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.012,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "LXU",
+       "direction": -1,
+       "ret": -0.0315,
+       "excess": 0.03
+      },
+      {
+       "ticker": "MOS",
+       "direction": -1,
+       "ret": -0.0117,
+       "excess": 0.0103
+      },
+      {
+       "ticker": "IPI",
+       "direction": -1,
+       "ret": -0.0264,
+       "excess": 0.0249
+      },
+      {
+       "ticker": "NTR",
+       "direction": -1,
+       "ret": -0.0176,
+       "excess": 0.0161
+      },
+      {
+       "ticker": "CF",
+       "direction": -1,
+       "ret": 0.0197,
+       "excess": -0.0211
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "LXU",
@@ -2585,7 +4665,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0659,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "GLEN.L",
+       "direction": -1,
+       "ret": -0.0456,
+       "excess": 0.0441
+      },
+      {
+       "ticker": "FCX",
+       "direction": -1,
+       "ret": -0.0658,
+       "excess": 0.0644
+      },
+      {
+       "ticker": "SCCO",
+       "direction": -1,
+       "ret": -0.0782,
+       "excess": 0.0767
+      },
+      {
+       "ticker": "GE",
+       "direction": -1,
+       "ret": -0.0734,
+       "excess": 0.072
+      },
+      {
+       "ticker": "COPX",
+       "direction": -1,
+       "ret": -0.0738,
+       "excess": 0.0723
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "GLEN.L",
@@ -2641,7 +4760,46 @@
      "headline": "The Iran war has cost the average U.S. household the equivalent of almost $2,000, top economist says"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0297,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "APA",
+       "direction": -1,
+       "ret": 0.0434,
+       "excess": -0.0449
+      },
+      {
+       "ticker": "OXY",
+       "direction": -1,
+       "ret": 0.0215,
+       "excess": -0.023
+      },
+      {
+       "ticker": "COP",
+       "direction": -1,
+       "ret": 0.0422,
+       "excess": -0.0437
+      },
+      {
+       "ticker": "DVN",
+       "direction": -1,
+       "ret": 0.0141,
+       "excess": -0.0156
+      },
+      {
+       "ticker": "FANG",
+       "direction": -1,
+       "ret": 0.0197,
+       "excess": -0.0212
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "APA",
@@ -2703,7 +4861,46 @@
      "headline": "Exclusive | Diesel Prices Hold High Despite Efforts to Boost Global Supplies"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0045,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "MPC",
+       "direction": -1,
+       "ret": -0.0064,
+       "excess": 0.005
+      },
+      {
+       "ticker": "PSX",
+       "direction": -1,
+       "ret": -0.0059,
+       "excess": 0.0044
+      },
+      {
+       "ticker": "DINO",
+       "direction": -1,
+       "ret": 0.0067,
+       "excess": -0.0081
+      },
+      {
+       "ticker": "VLO",
+       "direction": -1,
+       "ret": -0.0151,
+       "excess": 0.0137
+      },
+      {
+       "ticker": "PBF",
+       "direction": -1,
+       "ret": -0.0087,
+       "excess": 0.0073
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "MPC",
@@ -2750,7 +4947,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.05,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "UUP",
+       "direction": 1,
+       "ret": 0.0003,
+       "excess": 0.0018
+      },
+      {
+       "ticker": "AEM",
+       "direction": -1,
+       "ret": -0.0635,
+       "excess": 0.0621
+      },
+      {
+       "ticker": "NEM",
+       "direction": -1,
+       "ret": -0.0646,
+       "excess": 0.0631
+      },
+      {
+       "ticker": "KGC",
+       "direction": -1,
+       "ret": -0.0529,
+       "excess": 0.0514
+      },
+      {
+       "ticker": "WPM",
+       "direction": -1,
+       "ret": -0.0729,
+       "excess": 0.0714
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "UUP",
@@ -2810,7 +5046,46 @@
      "headline": "BAE Systems cyberattack disrupts US federal court operations"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.1377,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "FTNT",
+       "direction": 1,
+       "ret": 0.069,
+       "excess": 0.0704
+      },
+      {
+       "ticker": "CRWD",
+       "direction": 1,
+       "ret": 0.1479,
+       "excess": 0.1493
+      },
+      {
+       "ticker": "PANW",
+       "direction": 1,
+       "ret": 0.1254,
+       "excess": 0.1269
+      },
+      {
+       "ticker": "ZS",
+       "direction": 1,
+       "ret": 0.2255,
+       "excess": 0.2269
+      },
+      {
+       "ticker": "HACK",
+       "direction": 1,
+       "ret": 0.1135,
+       "excess": 0.1149
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "FTNT",
@@ -2862,7 +5137,46 @@
      "headline": "Fuel-price surge turbocharges global EV sales and spells end for diesel in Europe"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0535,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "RIVN",
+       "direction": 1,
+       "ret": -0.0737,
+       "excess": -0.0723
+      },
+      {
+       "ticker": "IDRV",
+       "direction": 1,
+       "ret": -0.0451,
+       "excess": -0.0437
+      },
+      {
+       "ticker": "DRIV",
+       "direction": 1,
+       "ret": -0.0289,
+       "excess": -0.0275
+      },
+      {
+       "ticker": "F",
+       "direction": 1,
+       "ret": -0.0493,
+       "excess": -0.0478
+      },
+      {
+       "ticker": "GM",
+       "direction": 1,
+       "ret": -0.0778,
+       "excess": -0.0764
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "RIVN",
@@ -2914,7 +5228,46 @@
      "headline": "The Iran war has cost the average U.S. household the equivalent of almost $2,000, top economist says"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0297,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "APA",
+       "direction": 1,
+       "ret": 0.0434,
+       "excess": 0.0449
+      },
+      {
+       "ticker": "OXY",
+       "direction": 1,
+       "ret": 0.0215,
+       "excess": 0.023
+      },
+      {
+       "ticker": "COP",
+       "direction": 1,
+       "ret": 0.0422,
+       "excess": 0.0437
+      },
+      {
+       "ticker": "DVN",
+       "direction": 1,
+       "ret": 0.0141,
+       "excess": 0.0156
+      },
+      {
+       "ticker": "FANG",
+       "direction": 1,
+       "ret": 0.0197,
+       "excess": 0.0212
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "APA",
@@ -2970,7 +5323,46 @@
      "headline": "BAE Systems cyberattack disrupts US federal court operations"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.1377,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "FTNT",
+       "direction": 1,
+       "ret": 0.069,
+       "excess": 0.0704
+      },
+      {
+       "ticker": "CRWD",
+       "direction": 1,
+       "ret": 0.1479,
+       "excess": 0.1493
+      },
+      {
+       "ticker": "PANW",
+       "direction": 1,
+       "ret": 0.1254,
+       "excess": 0.1269
+      },
+      {
+       "ticker": "ZS",
+       "direction": 1,
+       "ret": 0.2255,
+       "excess": 0.2269
+      },
+      {
+       "ticker": "HACK",
+       "direction": 1,
+       "ret": 0.1135,
+       "excess": 0.1149
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "FTNT",
@@ -3017,7 +5409,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0297,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "APA",
+       "direction": 1,
+       "ret": 0.0434,
+       "excess": 0.0449
+      },
+      {
+       "ticker": "OXY",
+       "direction": 1,
+       "ret": 0.0215,
+       "excess": 0.023
+      },
+      {
+       "ticker": "COP",
+       "direction": 1,
+       "ret": 0.0422,
+       "excess": 0.0437
+      },
+      {
+       "ticker": "DVN",
+       "direction": 1,
+       "ret": 0.0141,
+       "excess": 0.0156
+      },
+      {
+       "ticker": "FANG",
+       "direction": 1,
+       "ret": 0.0197,
+       "excess": 0.0212
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "APA",
@@ -3071,7 +5502,46 @@
      "headline": "There is a violent \u2018new normal\u2019 in the Strait of Hormuz. Here\u2019s why we should worry"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0297,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "APA",
+       "direction": 1,
+       "ret": 0.0434,
+       "excess": 0.0449
+      },
+      {
+       "ticker": "OXY",
+       "direction": 1,
+       "ret": 0.0215,
+       "excess": 0.023
+      },
+      {
+       "ticker": "COP",
+       "direction": 1,
+       "ret": 0.0422,
+       "excess": 0.0437
+      },
+      {
+       "ticker": "DVN",
+       "direction": 1,
+       "ret": 0.0141,
+       "excess": 0.0156
+      },
+      {
+       "ticker": "FANG",
+       "direction": 1,
+       "ret": 0.0197,
+       "excess": 0.0212
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "APA",
@@ -3123,7 +5593,46 @@
      "headline": "BAE Systems cyberattack disrupts US federal court operations"
     }
    ],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.1377,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "FTNT",
+       "direction": 1,
+       "ret": 0.069,
+       "excess": 0.0704
+      },
+      {
+       "ticker": "CRWD",
+       "direction": 1,
+       "ret": 0.1479,
+       "excess": 0.1493
+      },
+      {
+       "ticker": "PANW",
+       "direction": 1,
+       "ret": 0.1254,
+       "excess": 0.1269
+      },
+      {
+       "ticker": "ZS",
+       "direction": 1,
+       "ret": 0.2255,
+       "excess": 0.2269
+      },
+      {
+       "ticker": "HACK",
+       "direction": 1,
+       "ret": 0.1135,
+       "excess": 0.1149
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "FTNT",
@@ -3170,7 +5679,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.1377,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "FTNT",
+       "direction": 1,
+       "ret": 0.069,
+       "excess": 0.0704
+      },
+      {
+       "ticker": "CRWD",
+       "direction": 1,
+       "ret": 0.1479,
+       "excess": 0.1493
+      },
+      {
+       "ticker": "PANW",
+       "direction": 1,
+       "ret": 0.1254,
+       "excess": 0.1269
+      },
+      {
+       "ticker": "ZS",
+       "direction": 1,
+       "ret": 0.2255,
+       "excess": 0.2269
+      },
+      {
+       "ticker": "HACK",
+       "direction": 1,
+       "ret": 0.1135,
+       "excess": 0.1149
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "FTNT",
@@ -3217,7 +5765,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0124,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "MS",
+       "direction": 1,
+       "ret": 0.0281,
+       "excess": 0.0296
+      },
+      {
+       "ticker": "GS",
+       "direction": 1,
+       "ret": 0.02,
+       "excess": 0.0214
+      },
+      {
+       "ticker": "BLK",
+       "direction": 1,
+       "ret": 0.0027,
+       "excess": 0.0042
+      },
+      {
+       "ticker": "JPM",
+       "direction": 1,
+       "ret": 0.0015,
+       "excess": 0.003
+      },
+      {
+       "ticker": "BAC",
+       "direction": 1,
+       "ret": 0.0026,
+       "excess": 0.004
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "MS",
@@ -3264,7 +5851,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0514,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "IBKR",
+       "direction": -1,
+       "ret": -0.0093,
+       "excess": 0.0079
+      },
+      {
+       "ticker": "TOL",
+       "direction": 1,
+       "ret": 0.0708,
+       "excess": 0.0722
+      },
+      {
+       "ticker": "NVR",
+       "direction": 1,
+       "ret": -0.0172,
+       "excess": -0.0157
+      },
+      {
+       "ticker": "LEN",
+       "direction": 1,
+       "ret": 0.1069,
+       "excess": 0.1083
+      },
+      {
+       "ticker": "DHI",
+       "direction": 1,
+       "ret": 0.0828,
+       "excess": 0.0843
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "IBKR",
@@ -3311,7 +5937,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0514,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "IBKR",
+       "direction": 1,
+       "ret": -0.0093,
+       "excess": -0.0079
+      },
+      {
+       "ticker": "TOL",
+       "direction": -1,
+       "ret": 0.0708,
+       "excess": -0.0722
+      },
+      {
+       "ticker": "NVR",
+       "direction": -1,
+       "ret": -0.0172,
+       "excess": 0.0157
+      },
+      {
+       "ticker": "LEN",
+       "direction": -1,
+       "ret": 0.1069,
+       "excess": -0.1083
+      },
+      {
+       "ticker": "DHI",
+       "direction": -1,
+       "ret": 0.0828,
+       "excess": -0.0843
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "IBKR",
@@ -3358,7 +6023,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0212,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "WFC",
+       "direction": -1,
+       "ret": 0.0104,
+       "excess": -0.0118
+      },
+      {
+       "ticker": "TD",
+       "direction": -1,
+       "ret": 0.0438,
+       "excess": -0.0453
+      },
+      {
+       "ticker": "C",
+       "direction": -1,
+       "ret": -0.0053,
+       "excess": 0.0039
+      },
+      {
+       "ticker": "KBE",
+       "direction": -1,
+       "ret": 0.0475,
+       "excess": -0.049
+      },
+      {
+       "ticker": "BAC",
+       "direction": -1,
+       "ret": 0.0026,
+       "excess": -0.004
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "WFC",
@@ -3405,7 +6109,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0514,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "IBKR",
+       "direction": 1,
+       "ret": -0.0093,
+       "excess": -0.0079
+      },
+      {
+       "ticker": "TOL",
+       "direction": -1,
+       "ret": 0.0708,
+       "excess": -0.0722
+      },
+      {
+       "ticker": "NVR",
+       "direction": -1,
+       "ret": -0.0172,
+       "excess": 0.0157
+      },
+      {
+       "ticker": "LEN",
+       "direction": -1,
+       "ret": 0.1069,
+       "excess": -0.1083
+      },
+      {
+       "ticker": "DHI",
+       "direction": -1,
+       "ret": 0.0828,
+       "excess": -0.0843
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "IBKR",
@@ -3452,7 +6195,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0535,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "RIVN",
+       "direction": 1,
+       "ret": -0.0737,
+       "excess": -0.0723
+      },
+      {
+       "ticker": "IDRV",
+       "direction": 1,
+       "ret": -0.0451,
+       "excess": -0.0437
+      },
+      {
+       "ticker": "DRIV",
+       "direction": 1,
+       "ret": -0.0289,
+       "excess": -0.0275
+      },
+      {
+       "ticker": "F",
+       "direction": 1,
+       "ret": -0.0493,
+       "excess": -0.0478
+      },
+      {
+       "ticker": "GM",
+       "direction": 1,
+       "ret": -0.0778,
+       "excess": -0.0764
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "RIVN",
@@ -3500,7 +6282,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": false,
+     "excess": -0.0045,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "MPC",
+       "direction": 1,
+       "ret": -0.0064,
+       "excess": -0.005
+      },
+      {
+       "ticker": "PSX",
+       "direction": 1,
+       "ret": -0.0059,
+       "excess": -0.0044
+      },
+      {
+       "ticker": "DINO",
+       "direction": 1,
+       "ret": 0.0067,
+       "excess": 0.0081
+      },
+      {
+       "ticker": "VLO",
+       "direction": 1,
+       "ret": -0.0151,
+       "excess": -0.0137
+      },
+      {
+       "ticker": "PBF",
+       "direction": 1,
+       "ret": -0.0087,
+       "excess": -0.0073
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "MPC",
@@ -3547,7 +6368,46 @@
     ]
    },
    "earlier": [],
-   "grade": {},
+   "grade": {
+    "5": {
+     "hit": true,
+     "excess": 0.0447,
+     "from": "2026-10-19",
+     "to": "2026-10-26",
+     "stocks": [
+      {
+       "ticker": "ZIM",
+       "direction": 1,
+       "ret": 0.0193,
+       "excess": 0.0208
+      },
+      {
+       "ticker": "FRO",
+       "direction": 1,
+       "ret": 0.0889,
+       "excess": 0.0904
+      },
+      {
+       "ticker": "SBLK",
+       "direction": 1,
+       "ret": 0.0356,
+       "excess": 0.0371
+      },
+      {
+       "ticker": "INSW",
+       "direction": 1,
+       "ret": 0.0851,
+       "excess": 0.0865
+      },
+      {
+       "ticker": "MATX",
+       "direction": 1,
+       "ret": -0.0126,
+       "excess": -0.0112
+      }
+     ]
+    }
+   },
    "top": [
     {
      "ticker": "ZIM",
@@ -3577,20 +6437,20 @@
    "reached": 12
   }
  ],
- "total": 67,
+ "total": 75,
  "withdrawn": 6,
  "score": {
   "5": {
-   "graded": 0,
-   "right": 0,
-   "avg_excess": null
+   "graded": 62,
+   "right": 35,
+   "avg_excess": 0.0087
   },
   "20": {
    "graded": 0,
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 67
+  "waiting": 13
  },
  "checkup": {
   "at": 1792255747,
