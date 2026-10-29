@@ -1,6 +1,340 @@
 {
- "updated": 1793253797,
+ "updated": 1793280155,
  "items": [
+  {
+   "id": "1b7ecc5560e8",
+   "headline": "U.S. futures remain lower after in-line report on Fed\u2019s favorite inflation gauge",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdjB0N1U5ZjdmTVFTOHFuVWJmdUl3SzBERUZhd25hbEIzc0F1bTFBb2hhb1pjcmNkWF9JYWFQMF9VNVItUkpjcXBYdzZ5SF83Tko4X010MGkxZldTSmxEckZyNXI5V2pET0lodW5rS3V2N2k5UXF3dDRuQ0FmbnJQTE5oWFlLdWxwLTJaUTFuNzVVUnlVcU51dEhEbmtNM2x2N2dtSEhObnZxQlpJR2RmRTdfZWJvUEtfNXJucEd6T2FsNFFRTENhSkJR?oc=5",
+   "published": 1793233966,
+   "traced_at": 1793280141,
+   "pick": {
+    "sources": [
+     "Inflation",
+     "Interest_Rates"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "inflation",
+     "fed"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "0a13d221fed5",
+     "headline": "Dow Jones Futures Fall, Techs Rise As SK Hynix Crushes Views; Fed, Microsoft, Google On Deck"
+    },
+    {
+     "id": "a8428479ad63",
+     "headline": "Stock market today: Nasdaq wavers, S&P 500 and Dow climb as Fed votes to hold rates steady in 10-2 decision"
+    },
+    {
+     "id": "69ed1e0e42de",
+     "headline": "Wall Street ends higher as Fed holds key rate steady, focus turns to earnings"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": -1
+    },
+    {
+     "ticker": "TOL",
+     "direction": 1
+    },
+    {
+     "ticker": "NVR",
+     "direction": 1
+    },
+    {
+     "ticker": "LEN",
+     "direction": 1
+    },
+    {
+     "ticker": "DHI",
+     "direction": 1
+    },
+    {
+     "ticker": "PHM",
+     "direction": 1
+    }
+   ],
+   "reached": 36
+  },
+  {
+   "id": "2c0048a12237",
+   "headline": "Earnings live updates: Eli Lilly stock pops as strong GLP-1 drug demand lifts results, ServiceNow stock plunges",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQMDRyaWIzUkxSMFBjeE95dEhUSFlzMWhNTnc0VDYyekJhQTV0RWtKRHhpS0djVmQ1cmFfN01vR2pTSHZzRDZrUWEwSUZqSlJINzNEOGNRN2JUU1FmMmJwaXgzT1NuTFlQdWZBeERfdXpzeTR5b1FEUEdCUHkza2MyUjNFS01BNmdaWDc2QWdqbmh1M1NWSjlHRFo5VEw0VC1DSkJLU3hGbnd6Ry04dDlxRTZMemJUMGRJeVlDLVE3RVF4NWxFdnJZb2NIRGhpTTQ1anNQZ1dzbllDVjcxSEhjc01yWnRVYWRaeU9yQm5UNTlZZjBka1hiZ2JVbGFXcVE?oc=5",
+   "published": 1793277965,
+   "traced_at": 1793280141,
+   "pick": {
+    "sources": [
+     "Pharma_and_Biotech"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "glp-1"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "ABBV",
+     "direction": 1
+    },
+    {
+     "ticker": "PFE",
+     "direction": 1
+    },
+    {
+     "ticker": "MRK",
+     "direction": 1
+    },
+    {
+     "ticker": "LLY",
+     "direction": 1
+    },
+    {
+     "ticker": "NVO",
+     "direction": 1
+    },
+    {
+     "ticker": "JNJ",
+     "direction": 1
+    }
+   ],
+   "reached": 1
+  },
+  {
+   "id": "ed88a41eb115",
+   "headline": "Yemen\u2019s Houthis attack Saudi Arabia\u2019s largest oil refinery",
+   "source": "Semafor",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaVo0WW9Banh5andiaW1HaTNTbXRVc0dKV0pNM3BLTUpsQm8zVmt0VTFWNzZpdXM5S0Ezem1sN2ViLU4xMGNhQ1NkczhWamJUT1JMTGVYc2VETHNFWkhpdWtuVFZ3OEg1UzlRWE53N1Q4dDlGQ2xkYUoxVjhqOVVXaFRSTTN3Q2hYb2E1QlBhT25GZXNqbjdZZWdjdmVjTkRO?oc=5",
+   "published": 1793184480,
+   "traced_at": 1793280142,
+   "pick": {
+    "sources": [
+     "Refining"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "refinery"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "b20fd6ddd316",
+     "headline": "President Donald Trump Claims Gasoline Prices Will \"Drop Like a Rock\" When the Iran War Ends, but He's Completely Missed the Bigger Picture"
+    },
+    {
+     "id": "26604a401075",
+     "headline": "Exclusive | Diesel Prices Hold High Despite Efforts to Boost Global Supplies"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "MPC",
+     "direction": 1
+    },
+    {
+     "ticker": "PSX",
+     "direction": 1
+    },
+    {
+     "ticker": "DINO",
+     "direction": 1
+    },
+    {
+     "ticker": "VLO",
+     "direction": 1
+    },
+    {
+     "ticker": "PBF",
+     "direction": 1
+    },
+    {
+     "ticker": "DK",
+     "direction": 1
+    }
+   ],
+   "reached": 6
+  },
+  {
+   "id": "b291468fae0d",
+   "headline": "Boston Scientific Crashes As Cybersecurity Attack Weighs On Guide",
+   "source": "Investor's Business Daily",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY2JpYTA3TFY4QUFjeVRUV3BXMEdUekthQ2xzR2lvbElVd0p0bEF0ZTc1YjZ2T0ZEcUtSRm81SHllcmdHc3JHVnBvdE5VNmVmTVJrQ1hjZXhXSnd0TzNJUVRXdVNLTnIwc3pKOFA1VVBVRkRJeG1Ddzk5a2g4Z1IxLTJLOVk4YVdrc0xSMzF4MlY5RmxxcFFxWGMtMk1xcC1CUm1r?oc=5",
+   "published": 1793221860,
+   "traced_at": 1793280142,
+   "pick": {
+    "sources": [
+     "Cybersecurity"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "cybersecurity"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "FTNT",
+     "direction": 1
+    },
+    {
+     "ticker": "CRWD",
+     "direction": 1
+    },
+    {
+     "ticker": "PANW",
+     "direction": 1
+    },
+    {
+     "ticker": "ZS",
+     "direction": 1
+    },
+    {
+     "ticker": "HACK",
+     "direction": 1
+    },
+    {
+     "ticker": "CIBR",
+     "direction": 1
+    }
+   ],
+   "reached": 1
+  },
+  {
+   "id": "e592ca352168",
+   "headline": "Consumer spending flattens out after inflation surge",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/consumer-spending-flattens-out-after-inflation-surge-e7761d25?mod=mw_rss_topstories",
+   "published": 1793278860,
+   "traced_at": 1793280142,
+   "pick": {
+    "sources": [
+     "Consumer_Spending",
+     "Inflation"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "consumer spending",
+     "inflation"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "17c7f3109c83",
+     "headline": "US consumer confidence recovers in October as gas prices eased a bit"
+    },
+    {
+     "id": "815e0bd45d21",
+     "headline": "Social Security\u2019s 3.6% raise may finally match inflation"
+    },
+    {
+     "id": "6a2bfa0b3f76",
+     "headline": "US inflation rises more than expected - here's what is happening with prices"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "NKE",
+     "direction": 1
+    },
+    {
+     "ticker": "WMT",
+     "direction": 1
+    },
+    {
+     "ticker": "MCD",
+     "direction": 1
+    },
+    {
+     "ticker": "COST",
+     "direction": 1
+    },
+    {
+     "ticker": "TGT",
+     "direction": 1
+    },
+    {
+     "ticker": "V",
+     "direction": 1
+    }
+   ],
+   "reached": 37
+  },
+  {
+   "id": "16473523f9a8",
+   "headline": "Inflation surges, PCE shows. Fed pause on rate hikes unlikely to last long with prices still rising.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/inflation-surges-pce-shows-fed-pause-on-rate-hikes-unlikely-to-last-long-with-prices-still-rising-79128886?mod=mw_rss_topstories",
+   "published": 1793277360,
+   "traced_at": 1793280142,
+   "pick": {
+    "sources": [
+     "Interest_Rates"
+    ],
+    "direction": 1,
+    "how": "rule",
+    "matched": [
+     "\\bfed\\b.*\\b(hikes?|raises?)\\b.*\\brates?\\b|\\brate hike|higher for longer"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "0a13d221fed5",
+     "headline": "Dow Jones Futures Fall, Techs Rise As SK Hynix Crushes Views; Fed, Microsoft, Google On Deck"
+    },
+    {
+     "id": "a8428479ad63",
+     "headline": "Stock market today: Nasdaq wavers, S&P 500 and Dow climb as Fed votes to hold rates steady in 10-2 decision"
+    },
+    {
+     "id": "69ed1e0e42de",
+     "headline": "Wall Street ends higher as Fed holds key rate steady, focus turns to earnings"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": 1
+    },
+    {
+     "ticker": "TOL",
+     "direction": -1
+    },
+    {
+     "ticker": "NVR",
+     "direction": -1
+    },
+    {
+     "ticker": "LEN",
+     "direction": -1
+    },
+    {
+     "ticker": "DHI",
+     "direction": -1
+    },
+    {
+     "ticker": "PHM",
+     "direction": -1
+    }
+   ],
+   "reached": 35
+  },
   {
    "id": "f09c434e1860",
    "headline": "Microsoft profits soar days after announcing thousands of layoffs",
@@ -5986,546 +6320,9 @@
     }
    ],
    "reached": 23
-  },
-  {
-   "id": "2f03ba7ec94a",
-   "headline": "Hack exposes data on millions of California students",
-   "source": "Politico",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWk53aXlIVzZsVm5ZaUhVNTkzWVpJOU5hY1BBWXhuTzJBdXdoSjhhUHh0VnJQeS1aUFNMNTVXR2x3dHhnS1B2LTMtU0tjTFdWZGREUTN4UDdRT0ZWdk5fd1RLaldUaGR2S0trQVBWLWNWVk5RUU56TFdMQkctWF9CeV9MTTh1TnhkRzlGQ2JHTFhieGtxZTBRcEVNM0l2N3dyM1NPOA?oc=5",
-   "published": 1792184280,
-   "traced_at": 1792269949,
-   "pick": {
-    "sources": [
-     "Cyber_Threats"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "hack"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "319077016fa1",
-     "headline": "Hackers steal personal data of millions of California students in massive breach"
-    },
-    {
-     "id": "361175ffd6c4",
-     "headline": "BAE Systems cyberattack disrupts US federal court operations"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.1377,
-     "from": "2026-10-19",
-     "to": "2026-10-26",
-     "stocks": [
-      {
-       "ticker": "FTNT",
-       "direction": 1,
-       "ret": 0.069,
-       "excess": 0.0704
-      },
-      {
-       "ticker": "CRWD",
-       "direction": 1,
-       "ret": 0.1479,
-       "excess": 0.1493
-      },
-      {
-       "ticker": "PANW",
-       "direction": 1,
-       "ret": 0.1254,
-       "excess": 0.1269
-      },
-      {
-       "ticker": "ZS",
-       "direction": 1,
-       "ret": 0.2255,
-       "excess": 0.2269
-      },
-      {
-       "ticker": "HACK",
-       "direction": 1,
-       "ret": 0.1135,
-       "excess": 0.1149
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "FTNT",
-     "direction": 1
-    },
-    {
-     "ticker": "CRWD",
-     "direction": 1
-    },
-    {
-     "ticker": "PANW",
-     "direction": 1
-    },
-    {
-     "ticker": "ZS",
-     "direction": 1
-    },
-    {
-     "ticker": "HACK",
-     "direction": 1
-    },
-    {
-     "ticker": "CIBR",
-     "direction": 1
-    }
-   ],
-   "reached": 2
-  },
-  {
-   "id": "75e5a4b7804e",
-   "headline": "The Iran war has cost the average U.S. household the equivalent of almost $2,000, top economist says",
-   "source": "Fortune",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNX3FaOUhvc3NETDNHNTJ1TS1STUVOT09LeGFtdFh0eG5IUG05blVqTHJnMjdVTk1tV3puRUYtcTZqLS1GQzBIX3psdnZSOG9aOVIxMGpNdGZsbnRYbVMxdjdEcFhxaWpMM0VweVlUSWJCRGx2TXZhd3JBcGZ0RjZuQ2NLNDhCUGZHWHBRVU9RTFg5Sm01Zzd3TzVxSjJCTTdEcE1xeXBaVUljY2RleHBv?oc=5",
-   "published": 1792246920,
-   "traced_at": 1792269004,
-   "pick": {
-    "sources": [
-     "Middle_East_Conflict"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "iran"
-    ]
-   },
-   "earlier": [],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.0297,
-     "from": "2026-10-19",
-     "to": "2026-10-26",
-     "stocks": [
-      {
-       "ticker": "APA",
-       "direction": 1,
-       "ret": 0.0434,
-       "excess": 0.0449
-      },
-      {
-       "ticker": "OXY",
-       "direction": 1,
-       "ret": 0.0215,
-       "excess": 0.023
-      },
-      {
-       "ticker": "COP",
-       "direction": 1,
-       "ret": 0.0422,
-       "excess": 0.0437
-      },
-      {
-       "ticker": "DVN",
-       "direction": 1,
-       "ret": 0.0141,
-       "excess": 0.0156
-      },
-      {
-       "ticker": "FANG",
-       "direction": 1,
-       "ret": 0.0197,
-       "excess": 0.0212
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "APA",
-     "direction": 1
-    },
-    {
-     "ticker": "OXY",
-     "direction": 1
-    },
-    {
-     "ticker": "COP",
-     "direction": 1
-    },
-    {
-     "ticker": "DVN",
-     "direction": 1
-    },
-    {
-     "ticker": "FANG",
-     "direction": 1
-    },
-    {
-     "ticker": "EOG",
-     "direction": 1
-    }
-   ],
-   "reached": 23
-  },
-  {
-   "id": "54dffc4c8a1d",
-   "headline": "The disturbing \u2018new normal\u2019 in the Strait of Hormuz: Attacks on ships at a record high and oil at $100 a barrel",
-   "source": "Yahoo News UK",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOHU5bGVzZkNURkx4SGh3aE1zeDRXMzNWV1NodWoyb0p4TVRDV2tDeEtvYWRSMWJoQnRqRGpRVU12VWlVd1hDeVI5bFUtM0xseTEtNmdDVklHM3BRczNDVURvbFpWYU1iRk9OQ0Z6Nk9UVThKT1ZKcTYxUVFIVE5fZWc0Y1VIa3M?oc=5",
-   "published": 1792228251,
-   "traced_at": 1792269005,
-   "pick": {
-    "sources": [
-     "Maritime_Chokepoint_Disruption",
-     "Oil_Price"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "strait of hormuz",
-     "barrel"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "9adfea12ab3b",
-     "headline": "There is a violent \u2018new normal\u2019 in the Strait of Hormuz. Here\u2019s why we should worry"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.0297,
-     "from": "2026-10-19",
-     "to": "2026-10-26",
-     "stocks": [
-      {
-       "ticker": "APA",
-       "direction": 1,
-       "ret": 0.0434,
-       "excess": 0.0449
-      },
-      {
-       "ticker": "OXY",
-       "direction": 1,
-       "ret": 0.0215,
-       "excess": 0.023
-      },
-      {
-       "ticker": "COP",
-       "direction": 1,
-       "ret": 0.0422,
-       "excess": 0.0437
-      },
-      {
-       "ticker": "DVN",
-       "direction": 1,
-       "ret": 0.0141,
-       "excess": 0.0156
-      },
-      {
-       "ticker": "FANG",
-       "direction": 1,
-       "ret": 0.0197,
-       "excess": 0.0212
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "APA",
-     "direction": 1
-    },
-    {
-     "ticker": "OXY",
-     "direction": 1
-    },
-    {
-     "ticker": "COP",
-     "direction": 1
-    },
-    {
-     "ticker": "DVN",
-     "direction": 1
-    },
-    {
-     "ticker": "FANG",
-     "direction": 1
-    },
-    {
-     "ticker": "EOG",
-     "direction": 1
-    }
-   ],
-   "reached": 29
-  },
-  {
-   "id": "319077016fa1",
-   "headline": "Hackers steal personal data of millions of California students in massive breach",
-   "source": "Los Angeles Times",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVkJhQlRoWUNLRDhBOGgxeWpPN25kOFRHQ0ZVSnFiaHM0S2w3aUhVTHVwTGtCWFUyWUtKRnI3QUFJTTNNVmZZNTV6VzZKaGVTTUtsMTdFdjR0azNJRWlqTmlCUWJvS0N0M2ZRVVJjUzdPQjRHOWduN0ZFM3pSOG1TLURQWW5TMDJyVUh3?oc=5",
-   "published": 1792198080,
-   "traced_at": 1792269005,
-   "pick": {
-    "sources": [
-     "Cyber_Threats"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "hackers"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "361175ffd6c4",
-     "headline": "BAE Systems cyberattack disrupts US federal court operations"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.1377,
-     "from": "2026-10-19",
-     "to": "2026-10-26",
-     "stocks": [
-      {
-       "ticker": "FTNT",
-       "direction": 1,
-       "ret": 0.069,
-       "excess": 0.0704
-      },
-      {
-       "ticker": "CRWD",
-       "direction": 1,
-       "ret": 0.1479,
-       "excess": 0.1493
-      },
-      {
-       "ticker": "PANW",
-       "direction": 1,
-       "ret": 0.1254,
-       "excess": 0.1269
-      },
-      {
-       "ticker": "ZS",
-       "direction": 1,
-       "ret": 0.2255,
-       "excess": 0.2269
-      },
-      {
-       "ticker": "HACK",
-       "direction": 1,
-       "ret": 0.1135,
-       "excess": 0.1149
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "FTNT",
-     "direction": 1
-    },
-    {
-     "ticker": "CRWD",
-     "direction": 1
-    },
-    {
-     "ticker": "PANW",
-     "direction": 1
-    },
-    {
-     "ticker": "ZS",
-     "direction": 1
-    },
-    {
-     "ticker": "HACK",
-     "direction": 1
-    },
-    {
-     "ticker": "CIBR",
-     "direction": 1
-    }
-   ],
-   "reached": 2
-  },
-  {
-   "id": "361175ffd6c4",
-   "headline": "BAE Systems cyberattack disrupts US federal court operations",
-   "source": "BleepingComputer",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOa2NUTlpIdnZMUHBmVmFET29Dd0JHOGp3UWxIblNXWHFOX25xNW5XZE80SzY0RjJxMGhKZTluWjVJaTFCUmRnWUlzejE1b2kwbUFyVEs3OHdxYl9qLTJWVkpib0JMRGp5OHVfZG5Kb2Vqd0dJckRETFFQOVJmS2J3Nm5LeGtsTXZ0YkMxM3pYTU5rVDFBWG5IdlZ4dXBWM3owelA2XzctcHU1eXk50gGyAUFVX3lxTE9FbjROdXhfbTlDM2k5M2hxWHZYeThkX0RZZzRwVVlzZmkyaGVsNTdmcFo5OEVDSmJEa3ZwcTZWQ2NzYW5FNnhlNmU4VXpjdGVyY2ZZbGlPMk00djdPV2dEbUxkbS1sOTVwUG9iVW8zUlNlcGVRanQxdEpaZEZuelhCUnVxX0FSLUlrUWQ5M3NrU195RzRzZlUtdlk0bk9fRTVwZENISnE3dWNNRmhXbWNQcnc?oc=5",
-   "published": 1792136255,
-   "traced_at": 1792255798,
-   "pick": {
-    "sources": [
-     "Cyber_Threats"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "cyberattack"
-    ]
-   },
-   "earlier": [],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.1377,
-     "from": "2026-10-19",
-     "to": "2026-10-26",
-     "stocks": [
-      {
-       "ticker": "FTNT",
-       "direction": 1,
-       "ret": 0.069,
-       "excess": 0.0704
-      },
-      {
-       "ticker": "CRWD",
-       "direction": 1,
-       "ret": 0.1479,
-       "excess": 0.1493
-      },
-      {
-       "ticker": "PANW",
-       "direction": 1,
-       "ret": 0.1254,
-       "excess": 0.1269
-      },
-      {
-       "ticker": "ZS",
-       "direction": 1,
-       "ret": 0.2255,
-       "excess": 0.2269
-      },
-      {
-       "ticker": "HACK",
-       "direction": 1,
-       "ret": 0.1135,
-       "excess": 0.1149
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "FTNT",
-     "direction": 1
-    },
-    {
-     "ticker": "CRWD",
-     "direction": 1
-    },
-    {
-     "ticker": "PANW",
-     "direction": 1
-    },
-    {
-     "ticker": "ZS",
-     "direction": 1
-    },
-    {
-     "ticker": "HACK",
-     "direction": 1
-    },
-    {
-     "ticker": "CIBR",
-     "direction": 1
-    }
-   ],
-   "reached": 2
-  },
-  {
-   "id": "4b1ced3a8e5f",
-   "headline": "Morgan Stanley tops estimates as equities trading revenue beats expectations by $909 million",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html",
-   "published": 1792009329,
-   "traced_at": 1792255799,
-   "pick": {
-    "sources": [
-     "Capital_Markets"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "trading revenue"
-    ]
-   },
-   "earlier": [],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.0124,
-     "from": "2026-10-19",
-     "to": "2026-10-26",
-     "stocks": [
-      {
-       "ticker": "MS",
-       "direction": 1,
-       "ret": 0.0281,
-       "excess": 0.0296
-      },
-      {
-       "ticker": "GS",
-       "direction": 1,
-       "ret": 0.02,
-       "excess": 0.0214
-      },
-      {
-       "ticker": "BLK",
-       "direction": 1,
-       "ret": 0.0027,
-       "excess": 0.0042
-      },
-      {
-       "ticker": "JPM",
-       "direction": 1,
-       "ret": 0.0015,
-       "excess": 0.003
-      },
-      {
-       "ticker": "BAC",
-       "direction": 1,
-       "ret": 0.0026,
-       "excess": 0.004
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "MS",
-     "direction": 1
-    },
-    {
-     "ticker": "GS",
-     "direction": 1
-    },
-    {
-     "ticker": "BLK",
-     "direction": 1
-    },
-    {
-     "ticker": "JPM",
-     "direction": 1
-    },
-    {
-     "ticker": "BAC",
-     "direction": 1
-    },
-    {
-     "ticker": "IAI",
-     "direction": 1
-    }
-   ],
-   "reached": 3
   }
  ],
- "total": 87,
+ "total": 93,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -6538,7 +6335,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 25
+  "waiting": 31
  },
  "checkup": {
   "at": 1792255747,
