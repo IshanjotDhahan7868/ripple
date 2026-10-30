@@ -1,6 +1,300 @@
 {
- "updated": 1793340242,
+ "updated": 1793366003,
  "items": [
+  {
+   "id": "d9428c1e9724",
+   "headline": "The $6.3 Billion Binance Hack Was Pulled Off in Just 20 Minutes",
+   "source": "WIRED",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQkVIbVhnWHA3eGRIYTNNOEVDOVMyWDNsTkoxYkZNZWhaR1IzUEZxNUo2YlQ1VHJTdHYyZEVvU19ET0R0bEJZY20xUzViOGU5Q2tuXzM5VGdxRXE5bW5YeG1hYkllaTI1OXJMMUFKZDlqNFFTRFdlOTR2eVdnOUZ5VE1XS25ySmsyeEhBOWFZaXJKNjNkTEJQeHNiUEw?oc=5",
+   "published": 1793360160,
+   "traced_at": 1793365989,
+   "pick": {
+    "sources": [
+     "Cyber_Threats"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "hack"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "663ad71bde66",
+     "headline": "Crypto giant Binance hit by 'largest hack in history'"
+    },
+    {
+     "id": "de40bf71c413",
+     "headline": "Crypto giant Binance hit by hack suspected to be largest in history"
+    },
+    {
+     "id": "0c4bfcf86736",
+     "headline": "Polymarket Halted International Trading After Hackers Drained Accounts"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "FTNT",
+     "direction": 1
+    },
+    {
+     "ticker": "CRWD",
+     "direction": 1
+    },
+    {
+     "ticker": "PANW",
+     "direction": 1
+    },
+    {
+     "ticker": "ZS",
+     "direction": 1
+    },
+    {
+     "ticker": "HACK",
+     "direction": 1
+    },
+    {
+     "ticker": "CIBR",
+     "direction": 1
+    }
+   ],
+   "reached": 2
+  },
+  {
+   "id": "10f2949f5a09",
+   "headline": "Gold hits four-month low, silver falls below $50/oz on Fed hike fears",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMFY2WEZOWHhyVDVPMkM2ZVUxM01TR09lcUZ0RlBWNF96QkJzWXhUZWpIbmlRSUlxN3FiZ0pEYWVXOW1YcVBQcHQ4cjU1NFpCQVlnS3pneWlKeTZIRjJzWkJuek9OeDhNSGxTU1ozV1g0czltbldNNkJORWRWS0ZBU25WdURjNWNpREdpdmZoV1c2ZzBnUmM5cm5HTG16OFpEdVhLWC13RkxHM3IxX1E?oc=5",
+   "published": 1793330640,
+   "traced_at": 1793365989,
+   "pick": {
+    "sources": [
+     "Gold"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "gold"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "ad83af207a06",
+     "headline": "Gold Futures Slip As U.S. Dollar Gains, Yields Edge Up"
+    },
+    {
+     "id": "608ae9bb4ddf",
+     "headline": "Gold edges lower as firm dollar, elevated yields weigh"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "AEM",
+     "direction": -1
+    },
+    {
+     "ticker": "NEM",
+     "direction": -1
+    },
+    {
+     "ticker": "KGC",
+     "direction": -1
+    },
+    {
+     "ticker": "WPM",
+     "direction": -1
+    },
+    {
+     "ticker": "FNV",
+     "direction": -1
+    },
+    {
+     "ticker": "GOLD",
+     "direction": -1
+    }
+   ],
+   "reached": 1
+  },
+  {
+   "id": "a5555eeb0d78",
+   "headline": "Silver could see further losses against gold as physical market weakens - Metals Focus",
+   "source": "Kitco",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcGduS3IwamQyRnFfbTlpZ09EZlhmb2dHY0NnSVhIaDV5LWozMGhqVFI3Y0NhZW9kd3UyWUt5Mmc2NDQ1QUxnYzgxUEJMODZlMWlMbkFxSm5pRm9RU2NxTVR1eDN0MzRMenVQeVJtTEtHWXJUMEFZVzNPRGVjcm5WRG9GSk1aOG44SEVOLTVZOG04cUtMMnVJYm9hRHp5Xzh4ZWxVOC1lMUFqYlk2Tm40MHZZMkZTZFBldU9xM3R3?oc=5",
+   "published": 1793298901,
+   "traced_at": 1793365989,
+   "pick": {
+    "sources": [
+     "Gold"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "gold"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "ad83af207a06",
+     "headline": "Gold Futures Slip As U.S. Dollar Gains, Yields Edge Up"
+    },
+    {
+     "id": "608ae9bb4ddf",
+     "headline": "Gold edges lower as firm dollar, elevated yields weigh"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "AEM",
+     "direction": -1
+    },
+    {
+     "ticker": "NEM",
+     "direction": -1
+    },
+    {
+     "ticker": "KGC",
+     "direction": -1
+    },
+    {
+     "ticker": "WPM",
+     "direction": -1
+    },
+    {
+     "ticker": "FNV",
+     "direction": -1
+    },
+    {
+     "ticker": "GOLD",
+     "direction": -1
+    }
+   ],
+   "reached": 1
+  },
+  {
+   "id": "5f8b86b43af2",
+   "headline": "Here\u2019s when Binance plans to reopen after what\u2019s believed to be the largest-ever $6.3 billion hack",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/heres-when-binance-plans-to-reopen-after-whats-believed-to-be-the-largest-ever-6-3-billion-hack-d3cb8154?mod=mw_rss_topstories",
+   "published": 1793353800,
+   "traced_at": 1793365989,
+   "pick": {
+    "sources": [
+     "Cyber_Threats"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "hack"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "663ad71bde66",
+     "headline": "Crypto giant Binance hit by 'largest hack in history'"
+    },
+    {
+     "id": "de40bf71c413",
+     "headline": "Crypto giant Binance hit by hack suspected to be largest in history"
+    },
+    {
+     "id": "0c4bfcf86736",
+     "headline": "Polymarket Halted International Trading After Hackers Drained Accounts"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "FTNT",
+     "direction": 1
+    },
+    {
+     "ticker": "CRWD",
+     "direction": 1
+    },
+    {
+     "ticker": "PANW",
+     "direction": 1
+    },
+    {
+     "ticker": "ZS",
+     "direction": 1
+    },
+    {
+     "ticker": "HACK",
+     "direction": 1
+    },
+    {
+     "ticker": "CIBR",
+     "direction": 1
+    }
+   ],
+   "reached": 2
+  },
+  {
+   "id": "55be6ac03693",
+   "headline": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss",
+   "published": 1793352831,
+   "traced_at": 1793365989,
+   "pick": {
+    "sources": [
+     "Crypto_Assets",
+     "Cyber_Threats"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "crypto",
+     "hack"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "663ad71bde66",
+     "headline": "Crypto giant Binance hit by 'largest hack in history'"
+    },
+    {
+     "id": "de40bf71c413",
+     "headline": "Crypto giant Binance hit by hack suspected to be largest in history"
+    },
+    {
+     "id": "0c4bfcf86736",
+     "headline": "Polymarket Halted International Trading After Hackers Drained Accounts"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "MSTR",
+     "direction": -1
+    },
+    {
+     "ticker": "MARA",
+     "direction": -1
+    },
+    {
+     "ticker": "COIN",
+     "direction": -1
+    },
+    {
+     "ticker": "RIOT",
+     "direction": -1
+    },
+    {
+     "ticker": "HOOD",
+     "direction": -1
+    },
+    {
+     "ticker": "BITCOIN",
+     "direction": -1
+    }
+   ],
+   "reached": 3
+  },
   {
    "id": "663ad71bde66",
    "headline": "Crypto giant Binance hit by 'largest hack in history'",
@@ -5636,471 +5930,9 @@
     }
    ],
    "reached": 27
-  },
-  {
-   "id": "7d4470acbd43",
-   "headline": "Oil Futures Pull Back on Russia Sanctions Waiver",
-   "source": "WSJ",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTDJ2Qjl2WFNBTjRjQzBPZ3NvaVFXOFctRlZqQzBVZDhDTkR4eEZ6NzZadGhJZHdwSzVuVExwYmxtUFVucTdBRVFzS1BfT3dVeVpNYmJzUzNnTVlzZng0dUZzNTlLOERkZl8wbXRjZS1QVlRDbnhBejVWU2k1UnF5U1BhZzNiUGd6TEFvWmkxajJmUzdiSVBOWnIzaHBmWE9Td1FMMUZtNEMxcEtzOXltQmhsNzNvRTNNX3VhYm8yX2xzU0diYTNNZkp1M0Q5LTJoZGxTaWg0MG1VTlR1Smc?oc=5",
-   "published": 1792427400,
-   "traced_at": 1792440098,
-   "pick": {
-    "sources": [
-     "Sanctions",
-     "Russia_Ukraine_War"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "sanctions",
-     "russia"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "b4ea96698396",
-     "headline": "Oil tumbles as Trump's Russia sanctions waiver may lead to more fuel supplies"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.0153,
-     "from": "2026-10-20",
-     "to": "2026-10-27",
-     "stocks": [
-      {
-       "ticker": "LXU",
-       "direction": 1,
-       "ret": 0.0068,
-       "excess": 0.006
-      },
-      {
-       "ticker": "MOS",
-       "direction": 1,
-       "ret": 0.0521,
-       "excess": 0.0513
-      },
-      {
-       "ticker": "IPI",
-       "direction": 1,
-       "ret": -0.0053,
-       "excess": -0.0061
-      },
-      {
-       "ticker": "NTR",
-       "direction": 1,
-       "ret": 0.0049,
-       "excess": 0.0041
-      },
-      {
-       "ticker": "CF",
-       "direction": 1,
-       "ret": 0.0221,
-       "excess": 0.0213
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "LXU",
-     "direction": 1
-    },
-    {
-     "ticker": "MOS",
-     "direction": 1
-    },
-    {
-     "ticker": "IPI",
-     "direction": 1
-    },
-    {
-     "ticker": "NTR",
-     "direction": 1
-    },
-    {
-     "ticker": "CF",
-     "direction": 1
-    },
-    {
-     "ticker": "UREA",
-     "direction": 1
-    }
-   ],
-   "reached": 25
-  },
-  {
-   "id": "608ae9bb4ddf",
-   "headline": "Gold edges lower as firm dollar, elevated yields weigh",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcHBoaXFtRmhELVpxR3BOYzNDX3IzS1Y1UHZaZUlWRnBiY0Y3WWxwa19vSlVRUENyTGtpZVJFSEFSLW9hVWhEaktYRTVhVWpObTFOYThBVXNRX19VY0phaUJjSkdSMjFZQ19FUFZGMm44UnNpZkZGSnNCeUc2SFZ4c1ZZUU9lV2tiUk1odm44Wmc2WGVjSG5pYUU3QnE2NGYx?oc=5",
-   "published": 1792379460,
-   "traced_at": 1792440098,
-   "pick": {
-    "sources": [
-     "USD_Strength",
-     "Gold"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "dollar",
-     "gold"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "81121d812e03",
-     "headline": "I\u2019ll bet my bottom dollar stocks are about to rally"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.0313,
-     "from": "2026-10-20",
-     "to": "2026-10-27",
-     "stocks": [
-      {
-       "ticker": "AEM",
-       "direction": -1,
-       "ret": -0.0297,
-       "excess": 0.0305
-      },
-      {
-       "ticker": "NEM",
-       "direction": -1,
-       "ret": -0.0357,
-       "excess": 0.0365
-      },
-      {
-       "ticker": "KGC",
-       "direction": -1,
-       "ret": -0.0271,
-       "excess": 0.0279
-      },
-      {
-       "ticker": "WPM",
-       "direction": -1,
-       "ret": -0.0405,
-       "excess": 0.0413
-      },
-      {
-       "ticker": "FNV",
-       "direction": -1,
-       "ret": -0.0196,
-       "excess": 0.0204
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "AEM",
-     "direction": -1
-    },
-    {
-     "ticker": "NEM",
-     "direction": -1
-    },
-    {
-     "ticker": "KGC",
-     "direction": -1
-    },
-    {
-     "ticker": "WPM",
-     "direction": -1
-    },
-    {
-     "ticker": "FNV",
-     "direction": -1
-    },
-    {
-     "ticker": "GOLD",
-     "direction": -1
-    }
-   ],
-   "reached": 4
-  },
-  {
-   "id": "097d06a75143",
-   "headline": "Europe EV sales rose 70% in September, around 30% of market share",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZ0ctREhXOHRCbnByZlQ4RDNoM051bnJjZzZFSzczeEdGWmFHQXpyV1FLM1dMWGNyQnI1b19XbmJENmQxWUtvdWN2NXlGX09xc3RxVWUxWVlaLVl6dVJqM3lMcWwteUROMnhsZUEzaHZxOTF4RldpZ1RsYTBrRjhNeGI0WUo5MTdaN2taeVR5T2JzSmluejd2aTVJVktpUl8tWXVJ?oc=5",
-   "published": 1792425626,
-   "traced_at": 1792440099,
-   "pick": {
-    "sources": [
-     "EVs_and_Autonomy"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "ev sales"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "a46f1492cd3b",
-     "headline": "ICE Vehicle Sales Crash 49%(!) While EV Share Jumps to 67%(!) \u2014 China EV Sales Report for September"
-    },
-    {
-     "id": "a9cde5862acf",
-     "headline": "Fuel-price surge turbocharges global EV sales and spells end for diesel in Europe"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": false,
-     "excess": -0.0173,
-     "from": "2026-10-20",
-     "to": "2026-10-27",
-     "stocks": [
-      {
-       "ticker": "RIVN",
-       "direction": 1,
-       "ret": -0.0491,
-       "excess": -0.0499
-      },
-      {
-       "ticker": "IDRV",
-       "direction": 1,
-       "ret": -0.0313,
-       "excess": -0.0321
-      },
-      {
-       "ticker": "DRIV",
-       "direction": 1,
-       "ret": -0.0107,
-       "excess": -0.0115
-      },
-      {
-       "ticker": "F",
-       "direction": 1,
-       "ret": -0.0362,
-       "excess": -0.037
-      },
-      {
-       "ticker": "GM",
-       "direction": 1,
-       "ret": 0.0448,
-       "excess": 0.044
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "RIVN",
-     "direction": 1
-    },
-    {
-     "ticker": "IDRV",
-     "direction": 1
-    },
-    {
-     "ticker": "DRIV",
-     "direction": 1
-    },
-    {
-     "ticker": "F",
-     "direction": 1
-    },
-    {
-     "ticker": "GM",
-     "direction": 1
-    },
-    {
-     "ticker": "TSLA",
-     "direction": 1
-    }
-   ],
-   "reached": 1
-  },
-  {
-   "id": "ef6f24fb527c",
-   "headline": "United Airlines adds 5 nonstop routes to its lineup \u2014 including new international destinations",
-   "source": "New York Post",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT3RmMnhQaDRONFk1MS1ZdnNpVVVQb05hZ1h3dWlqSXRFcy1sZEJSNHdGUlA2VGZpVkliUmJJeDVoMDZKeGs1bXJ2T2pjZjlPSEZkRXlvN3dDUkgtUVREV2ZxNHBKTlVDYU1oNmJ4MFVKckNuMXVydjhiOWRyX1ZKa1BZd2NzY0dCQk5pOTI0cVBvUUpkRVgzVlRMSVZzQkk?oc=5",
-   "published": 1792433280,
-   "traced_at": 1792440099,
-   "pick": {
-    "sources": [
-     "Airlines"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "airlines"
-    ]
-   },
-   "earlier": [],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.0623,
-     "from": "2026-10-20",
-     "to": "2026-10-27",
-     "stocks": [
-      {
-       "ticker": "DAL",
-       "direction": 1,
-       "ret": 0.0625,
-       "excess": 0.0617
-      },
-      {
-       "ticker": "LUV",
-       "direction": 1,
-       "ret": 0.0956,
-       "excess": 0.0948
-      },
-      {
-       "ticker": "AAL",
-       "direction": 1,
-       "ret": 0.0413,
-       "excess": 0.0405
-      },
-      {
-       "ticker": "UAL",
-       "direction": 1,
-       "ret": 0.071,
-       "excess": 0.0702
-      },
-      {
-       "ticker": "ALK",
-       "direction": 1,
-       "ret": 0.0451,
-       "excess": 0.0443
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "DAL",
-     "direction": 1
-    },
-    {
-     "ticker": "LUV",
-     "direction": 1
-    },
-    {
-     "ticker": "AAL",
-     "direction": 1
-    },
-    {
-     "ticker": "UAL",
-     "direction": 1
-    },
-    {
-     "ticker": "ALK",
-     "direction": 1
-    },
-    {
-     "ticker": "JETS",
-     "direction": 1
-    }
-   ],
-   "reached": 2
-  },
-  {
-   "id": "07e5ea3b89b4",
-   "headline": "French Government-Bond Yields Rise on Protests, Budget Concerns; Treasury Yields Fall",
-   "source": "WSJ",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSk1wWWp6WG1vZjdfYjZXX1hRU0lPVEl6WnVGbkozSXB5eTU5UHN2aG9nRHRpc1VMNlI5eF92YXNZNTFUOGFBMnk1anY0cUxFcG5YTTF0NFRhaGZ0VjkwbjNETmpiWkVXUHlNMmZJV014MlJ2LXRKZWlmS3E1N21wZHdnUXZybnJBRzlVSmdwUQ?oc=5",
-   "published": 1792401660,
-   "traced_at": 1792417219,
-   "pick": {
-    "sources": [
-     "Interest_Rates"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "treasury yields"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "5e91e45af1f6",
-     "headline": "Williams says Fed may not have to hike rates in 2027, at odds with traders"
-    },
-    {
-     "id": "508e160494a0",
-     "headline": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.0514,
-     "from": "2026-10-19",
-     "to": "2026-10-26",
-     "stocks": [
-      {
-       "ticker": "IBKR",
-       "direction": -1,
-       "ret": -0.0093,
-       "excess": 0.0079
-      },
-      {
-       "ticker": "TOL",
-       "direction": 1,
-       "ret": 0.0708,
-       "excess": 0.0722
-      },
-      {
-       "ticker": "NVR",
-       "direction": 1,
-       "ret": -0.0172,
-       "excess": -0.0157
-      },
-      {
-       "ticker": "LEN",
-       "direction": 1,
-       "ret": 0.1069,
-       "excess": 0.1083
-      },
-      {
-       "ticker": "DHI",
-       "direction": 1,
-       "ret": 0.0828,
-       "excess": 0.0843
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "IBKR",
-     "direction": -1
-    },
-    {
-     "ticker": "TOL",
-     "direction": 1
-    },
-    {
-     "ticker": "NVR",
-     "direction": 1
-    },
-    {
-     "ticker": "LEN",
-     "direction": 1
-    },
-    {
-     "ticker": "DHI",
-     "direction": 1
-    },
-    {
-     "ticker": "PHM",
-     "direction": 1
-    }
-   ],
-   "reached": 35
   }
  ],
- "total": 105,
+ "total": 110,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -6113,7 +5945,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 38
+  "waiting": 43
  },
  "checkup": {
   "at": 1792255747,
