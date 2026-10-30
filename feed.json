@@ -1,6 +1,186 @@
 {
- "updated": 1793318455,
+ "updated": 1793340242,
  "items": [
+  {
+   "id": "663ad71bde66",
+   "headline": "Crypto giant Binance hit by 'largest hack in history'",
+   "source": "BBC",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ocUpaWWozVHpsR0I5N0xtb0dNdlFJUWRiWWJYN2xoY2NOS3E0MzJxdFpMS29xU20yd3Mtc0c2dmtfU1FTa3BBZF8zY3BvYndzRnBnY3NXSEl3d0U?oc=5",
+   "published": 1793335942,
+   "traced_at": 1793340226,
+   "pick": {
+    "sources": [
+     "Crypto_Assets",
+     "Cyber_Threats"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "crypto",
+     "hack"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "0c4bfcf86736",
+     "headline": "Polymarket Halted International Trading After Hackers Drained Accounts"
+    },
+    {
+     "id": "57731bade02c",
+     "headline": "Binance pauses withdrawals as hackers suspected of stealing billions in crypto"
+    },
+    {
+     "id": "b245b607544e",
+     "headline": "Boston Scientific cuts guidance in wake of cyberattack, sees rebuilding years ahead"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "MSTR",
+     "direction": -1
+    },
+    {
+     "ticker": "MARA",
+     "direction": -1
+    },
+    {
+     "ticker": "COIN",
+     "direction": -1
+    },
+    {
+     "ticker": "RIOT",
+     "direction": -1
+    },
+    {
+     "ticker": "HOOD",
+     "direction": -1
+    },
+    {
+     "ticker": "BITCOIN",
+     "direction": -1
+    }
+   ],
+   "reached": 3
+  },
+  {
+   "id": "b043d7102bcd",
+   "headline": "US economy grows at brisk 3.4% pace in third quarter on strong consumer spending and AI investment",
+   "source": "AP News",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYX1ZvM3RmNE1xbUFIc3MwZDVzVWVXa3NWdkF2cGVndGVuZjVyVDVBQ05nN2NlNFVsbkZabnBBU1JlREljc1VHczhVNmkybDc4cWNLQzVuMXRTLVJTSWVuLUJJUDFaZkhKeHI2NDFPMENNLWp2UWdOV3FSTQ?oc=5",
+   "published": 1793278500,
+   "traced_at": 1793340226,
+   "pick": {
+    "sources": [
+     "Consumer_Spending"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "consumer spending"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "e592ca352168",
+     "headline": "Consumer spending flattens out after inflation surge"
+    },
+    {
+     "id": "17c7f3109c83",
+     "headline": "US consumer confidence recovers in October as gas prices eased a bit"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "NKE",
+     "direction": 1
+    },
+    {
+     "ticker": "WMT",
+     "direction": 1
+    },
+    {
+     "ticker": "MCD",
+     "direction": 1
+    },
+    {
+     "ticker": "COST",
+     "direction": 1
+    },
+    {
+     "ticker": "TGT",
+     "direction": 1
+    },
+    {
+     "ticker": "V",
+     "direction": 1
+    }
+   ],
+   "reached": 13
+  },
+  {
+   "id": "de40bf71c413",
+   "headline": "Crypto giant Binance hit by hack suspected to be largest in history",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss",
+   "published": 1793337316,
+   "traced_at": 1793340226,
+   "pick": {
+    "sources": [
+     "Crypto_Assets",
+     "Cyber_Threats"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "crypto",
+     "hack"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "0c4bfcf86736",
+     "headline": "Polymarket Halted International Trading After Hackers Drained Accounts"
+    },
+    {
+     "id": "57731bade02c",
+     "headline": "Binance pauses withdrawals as hackers suspected of stealing billions in crypto"
+    },
+    {
+     "id": "b245b607544e",
+     "headline": "Boston Scientific cuts guidance in wake of cyberattack, sees rebuilding years ahead"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "MSTR",
+     "direction": -1
+    },
+    {
+     "ticker": "MARA",
+     "direction": -1
+    },
+    {
+     "ticker": "COIN",
+     "direction": -1
+    },
+    {
+     "ticker": "RIOT",
+     "direction": -1
+    },
+    {
+     "ticker": "HOOD",
+     "direction": -1
+    },
+    {
+     "ticker": "BITCOIN",
+     "direction": -1
+    }
+   ],
+   "reached": 3
+  },
   {
    "id": "03afd805296c",
    "headline": "Amazon Stock Drops on Wall Street Miss, Despite Biggest Cloud Growth in Years",
@@ -5918,290 +6098,9 @@
     }
    ],
    "reached": 35
-  },
-  {
-   "id": "80fa6fa211e2",
-   "headline": "Democratic senators demand Pentagon reveal 'true cost' of Iran war",
-   "source": "USA Today",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPczIxY0diYnRqWGtGN1RSbzIteTVaS18yY05JTkhlWHItMGNRVEN1UjJXaDEtSExJTGpRRk5EUGVseTl1VXZacVhkbXEzV3duckpPbm9GUHEyUkdzNXR4N1JWc3pkOU51c1FRV0VXdnFjM240Qnl0V1JNdzNGQW1abUppY3p1SGpGZDV5TEoxQjdrSWM1V05pSmNtcW5qOFBzVWc?oc=5",
-   "published": 1792411680,
-   "traced_at": 1792417219,
-   "pick": {
-    "sources": [
-     "Middle_East_Conflict"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "iran"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "93fe9678c29a",
-     "headline": "Wright says Trump administration has not broken promise to lower gas prices amid Iran war"
-    },
-    {
-     "id": "b20fd6ddd316",
-     "headline": "President Donald Trump Claims Gasoline Prices Will \"Drop Like a Rock\" When the Iran War Ends, but He's Completely Missed the Bigger Picture"
-    },
-    {
-     "id": "f22794dce12a",
-     "headline": "Retail price impacts from the Iran war are uneven but add up for US households before midterms"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.0297,
-     "from": "2026-10-19",
-     "to": "2026-10-26",
-     "stocks": [
-      {
-       "ticker": "APA",
-       "direction": 1,
-       "ret": 0.0434,
-       "excess": 0.0449
-      },
-      {
-       "ticker": "OXY",
-       "direction": 1,
-       "ret": 0.0215,
-       "excess": 0.023
-      },
-      {
-       "ticker": "COP",
-       "direction": 1,
-       "ret": 0.0422,
-       "excess": 0.0437
-      },
-      {
-       "ticker": "DVN",
-       "direction": 1,
-       "ret": 0.0141,
-       "excess": 0.0156
-      },
-      {
-       "ticker": "FANG",
-       "direction": 1,
-       "ret": 0.0197,
-       "excess": 0.0212
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "APA",
-     "direction": 1
-    },
-    {
-     "ticker": "OXY",
-     "direction": 1
-    },
-    {
-     "ticker": "COP",
-     "direction": 1
-    },
-    {
-     "ticker": "DVN",
-     "direction": 1
-    },
-    {
-     "ticker": "FANG",
-     "direction": 1
-    },
-    {
-     "ticker": "EOG",
-     "direction": 1
-    }
-   ],
-   "reached": 23
-  },
-  {
-   "id": "63f6eda38a57",
-   "headline": "Gold Rises Amid Falling Oil Prices",
-   "source": "WSJ",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZU5uN1haS1FQQW82aVdiWmxlbDJrMkszT091U2xWR3dGOTdBeVZ6Z0gzSGpqQ2ZNTE96MG1kckxxY2NVV0I0THpteE9lWGZTdHUxa01OTzJkUndWcVVRWDVZWHVYeFZPcm5VckhaZFBVRDRjcmgyRDg5OUJ1WFBlTlotVGlnekE3SVFDVkpFMHBQbTVPWmd4WTNSSTd1X0ZJNDFlUmVWcGxlSE5oWG1ENmZoYk1oVTdKZlE?oc=5",
-   "published": 1792396560,
-   "traced_at": 1792417219,
-   "pick": {
-    "sources": [
-     "Oil_Price"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "oil prices"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "54dffc4c8a1d",
-     "headline": "The disturbing \u2018new normal\u2019 in the Strait of Hormuz: Attacks on ships at a record high and oil at $100 a barrel"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": false,
-     "excess": -0.0297,
-     "from": "2026-10-19",
-     "to": "2026-10-26",
-     "stocks": [
-      {
-       "ticker": "APA",
-       "direction": -1,
-       "ret": 0.0434,
-       "excess": -0.0449
-      },
-      {
-       "ticker": "OXY",
-       "direction": -1,
-       "ret": 0.0215,
-       "excess": -0.023
-      },
-      {
-       "ticker": "COP",
-       "direction": -1,
-       "ret": 0.0422,
-       "excess": -0.0437
-      },
-      {
-       "ticker": "DVN",
-       "direction": -1,
-       "ret": 0.0141,
-       "excess": -0.0156
-      },
-      {
-       "ticker": "FANG",
-       "direction": -1,
-       "ret": 0.0197,
-       "excess": -0.0212
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "APA",
-     "direction": -1
-    },
-    {
-     "ticker": "OXY",
-     "direction": -1
-    },
-    {
-     "ticker": "COP",
-     "direction": -1
-    },
-    {
-     "ticker": "DVN",
-     "direction": -1
-    },
-    {
-     "ticker": "FANG",
-     "direction": -1
-    },
-    {
-     "ticker": "EOG",
-     "direction": -1
-    }
-   ],
-   "reached": 27
-  },
-  {
-   "id": "815e0bd45d21",
-   "headline": "Social Security\u2019s 3.6% raise may finally match inflation",
-   "source": "TheStreet",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUjd6RWRIUGtNRS1TR29UZWZPMllRa0xFMndkOE9fS1JFWGlfTlpuYnloNnFuOVJnZmE3QkVMWWdOaHNucTgxOGVhc09yaVpMUDAzVHFvNW0zemVyMHhnV2hqNHNSOXNuUkF1RDNHVUl2Yk1MZHNicV9yVE9xWE14bDFmQmlCdWo2UHVYOA?oc=5",
-   "published": 1792336620,
-   "traced_at": 1792417219,
-   "pick": {
-    "sources": [
-     "Inflation"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "inflation"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "6a2bfa0b3f76",
-     "headline": "US inflation rises more than expected - here's what is happening with prices"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": false,
-     "excess": -0.0514,
-     "from": "2026-10-19",
-     "to": "2026-10-26",
-     "stocks": [
-      {
-       "ticker": "IBKR",
-       "direction": 1,
-       "ret": -0.0093,
-       "excess": -0.0079
-      },
-      {
-       "ticker": "TOL",
-       "direction": -1,
-       "ret": 0.0708,
-       "excess": -0.0722
-      },
-      {
-       "ticker": "NVR",
-       "direction": -1,
-       "ret": -0.0172,
-       "excess": 0.0157
-      },
-      {
-       "ticker": "LEN",
-       "direction": -1,
-       "ret": 0.1069,
-       "excess": -0.1083
-      },
-      {
-       "ticker": "DHI",
-       "direction": -1,
-       "ret": 0.0828,
-       "excess": -0.0843
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "IBKR",
-     "direction": 1
-    },
-    {
-     "ticker": "TOL",
-     "direction": -1
-    },
-    {
-     "ticker": "NVR",
-     "direction": -1
-    },
-    {
-     "ticker": "LEN",
-     "direction": -1
-    },
-    {
-     "ticker": "DHI",
-     "direction": -1
-    },
-    {
-     "ticker": "PHM",
-     "direction": -1
-    }
-   ],
-   "reached": 32
   }
  ],
- "total": 102,
+ "total": 105,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -6214,7 +6113,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 35
+  "waiting": 38
  },
  "checkup": {
   "at": 1792255747,
