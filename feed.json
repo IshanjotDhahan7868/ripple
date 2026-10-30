@@ -1,6 +1,344 @@
 {
- "updated": 1793303035,
+ "updated": 1793318455,
  "items": [
+  {
+   "id": "03afd805296c",
+   "headline": "Amazon Stock Drops on Wall Street Miss, Despite Biggest Cloud Growth in Years",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVHZWSE5vTFZGTUM4YWNYVnpyc0hKUC1jbzN3c1g5c1BLTlRzcU9VdHlLOWI2eFdxWTJOVmc3YnNqUmhQeDM3V1dVdl9Pb190OThLWVRwLWJuUUpBVlRvQXZjcFV0YV9wTUhvZ2U2MDg5d0pNRlZ6bGowd2MtaVhGRQ?oc=5",
+   "published": 1793311980,
+   "traced_at": 1793318444,
+   "pick": {
+    "sources": [
+     "Cloud_Infrastructure"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "cloud growth"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "QQQ",
+     "direction": -1
+    },
+    {
+     "ticker": "NOW",
+     "direction": -1
+    },
+    {
+     "ticker": "HUBS",
+     "direction": -1
+    },
+    {
+     "ticker": "INTU",
+     "direction": -1
+    },
+    {
+     "ticker": "CRM",
+     "direction": -1
+    },
+    {
+     "ticker": "ORCL",
+     "direction": -1
+    }
+   ],
+   "reached": 3
+  },
+  {
+   "id": "d1210d7c3e23",
+   "headline": "Wall Street ends lower as Alphabet revenue miss revives AI capex jitters",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd0tULWRvRHZoRUxrM1Z6NnVOUUo5LUJWRVo2Z05nbmhDSFhjRjgtb3ZJUzF1TXJzdWYxWG1Sa0EtcHl1Wmd5M09ZcWVORWpNQzNuX2FnRUoxcUVHbmlwYUNmTWtVMlQ4TC0xR1hQVmpvQU5PM2NtaG1jcmdvRE1xODdKWTFHcHplNGVKUVdXaUhtOTBLb2xIOHZUa2hJZW5EdGc?oc=5",
+   "published": 1793305787,
+   "traced_at": 1793318444,
+   "pick": {
+    "sources": [
+     "AI_Compute_Demand"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "ai capex"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "TER",
+     "direction": -1
+    },
+    {
+     "ticker": "KLAC",
+     "direction": -1
+    },
+    {
+     "ticker": "LRCX",
+     "direction": -1
+    },
+    {
+     "ticker": "GLEN.L",
+     "direction": -1
+    },
+    {
+     "ticker": "FCX",
+     "direction": -1
+    },
+    {
+     "ticker": "SCCO",
+     "direction": -1
+    }
+   ],
+   "reached": 29
+  },
+  {
+   "id": "0c4bfcf86736",
+   "headline": "Polymarket Halted International Trading After Hackers Drained Accounts",
+   "source": "WIRED",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYjJpaTh1WDF4TmphMjV6LWN6X253UE9sOEVReFVrWjVXWFEtTHhHQ2JkOVd2NGs1YjdBSjM5UlVXWmhjVmNEeDktM0ZmZ0tlWllHamFCb01iS2h1Vm1DX25CelVLejVZU1lua1RjTHFBbks0Tk5tZlVXOGJReHZJREFjX0VyaUlI?oc=5",
+   "published": 1793303460,
+   "traced_at": 1793318444,
+   "pick": {
+    "sources": [
+     "Cyber_Threats"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "hackers"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "b245b607544e",
+     "headline": "Boston Scientific cuts guidance in wake of cyberattack, sees rebuilding years ahead"
+    },
+    {
+     "id": "80b9769659dc",
+     "headline": "Boston Scientific Cuts View Again After Cyberattack, Other Challenges"
+    },
+    {
+     "id": "91dd8bbaf7fd",
+     "headline": "Japan's GMO urges customers to shut down PCs amid ransomware threat"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "FTNT",
+     "direction": -1
+    },
+    {
+     "ticker": "CRWD",
+     "direction": -1
+    },
+    {
+     "ticker": "PANW",
+     "direction": -1
+    },
+    {
+     "ticker": "ZS",
+     "direction": -1
+    },
+    {
+     "ticker": "HACK",
+     "direction": -1
+    },
+    {
+     "ticker": "CIBR",
+     "direction": -1
+    }
+   ],
+   "reached": 2
+  },
+  {
+   "id": "8138569929ed",
+   "headline": "Fed\u2019s preferred inflation gauge rose in September as third-quarter GDP beats expectations",
+   "source": "Fox Business",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4tXzR6aE4tVjI0WWFkZDhaVkRhUUR2S0lfbnFTUW5LWktIM1Z4RVlNUGQ2X0xTVVFaXzJpbDZXNVRZeFhYM1JlOHRXNzRudTdHbm81NXFHcG9aUDU1WnVPN09LUXN5LThtQzlrVDJNX0dVQdIBd0FVX3lxTFBEM0VwX2EyY0JfZ1lGU3FscXFYYnQ5ZnBsM0FGZm1pNlZmbG1wQWpFREhFVGhjSXBDQzRzTGt4LUhzM2dEYVlYbXo3eTF6Y1IwOVdILTVCeXg0WE84UjJHWVZweE9rT3lPdWVKc1NZUXRNcXhGX3Fr?oc=5",
+   "published": 1793284440,
+   "traced_at": 1793318444,
+   "pick": {
+    "sources": [
+     "Inflation",
+     "Interest_Rates"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "inflation",
+     "fed"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "bf7440c98c11",
+     "headline": "Did the Fed make a mistake with its October rate pause? The Treasury could help save the day."
+    },
+    {
+     "id": "cfd589ba9794",
+     "headline": "US interest rates held steady and economy grows - what it means for you"
+    },
+    {
+     "id": "1b7ecc5560e8",
+     "headline": "U.S. futures remain lower after in-line report on Fed\u2019s favorite inflation gauge"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": 1
+    },
+    {
+     "ticker": "TOL",
+     "direction": -1
+    },
+    {
+     "ticker": "NVR",
+     "direction": -1
+    },
+    {
+     "ticker": "LEN",
+     "direction": -1
+    },
+    {
+     "ticker": "DHI",
+     "direction": -1
+    },
+    {
+     "ticker": "PHM",
+     "direction": -1
+    }
+   ],
+   "reached": 36
+  },
+  {
+   "id": "57731bade02c",
+   "headline": "Binance pauses withdrawals as hackers suspected of stealing billions in crypto",
+   "source": "TechCrunch",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbm5LZnZPOUNfY002TlpQTUVSVlhqekxhbGdld0V3V2RENUJwWjBtTFFhV1NKMHQ5THI2SjhwZkFIM25QZkRUYVNiWm5RdWF5Ty1paDNWbVhtQUtsOWQyLXEyRVRMSmJiSmRoUkY0OHI1T2pkbWQ4LTBGdmxWNFNNenM1UEtwMXp4M0lqR1RXa1MxcHNEdUU1dVJuZ2tEZllCVEJNajFoQ0tMODhpUjcxaVNKMA?oc=5",
+   "published": 1793312843,
+   "traced_at": 1793318444,
+   "pick": {
+    "sources": [
+     "Cyber_Threats",
+     "Crypto_Assets"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "hackers",
+     "crypto"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "b245b607544e",
+     "headline": "Boston Scientific cuts guidance in wake of cyberattack, sees rebuilding years ahead"
+    },
+    {
+     "id": "80b9769659dc",
+     "headline": "Boston Scientific Cuts View Again After Cyberattack, Other Challenges"
+    },
+    {
+     "id": "c59f98af38c6",
+     "headline": "Robinhood Misses Q3 Earnings as Crypto Revenue Rises and Prediction Market Bets Grow"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "MSTR",
+     "direction": -1
+    },
+    {
+     "ticker": "MARA",
+     "direction": -1
+    },
+    {
+     "ticker": "COIN",
+     "direction": -1
+    },
+    {
+     "ticker": "RIOT",
+     "direction": -1
+    },
+    {
+     "ticker": "HOOD",
+     "direction": -1
+    },
+    {
+     "ticker": "BITCOIN",
+     "direction": -1
+    }
+   ],
+   "reached": 3
+  },
+  {
+   "id": "b560c3af5b81",
+   "headline": "Fed Chair Kevin Warsh reveals October surprise inside interest-rate pause",
+   "source": "TheStreet",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBGWHkwZkppaEpsc05aaHRaekl1dnpmd2VhRlNYcEwyVlRoX1RoWXpFX1plSjFRcTB1enJLTFBnRE9Bc1ZTNGg3TjVlTXhUcTFpNmRnWDRPTXRteFdaN2E2V0U0cVRFa3UwamExVFMwYVRzV0piNTkwYS0zdHZCdw?oc=5",
+   "published": 1793232420,
+   "traced_at": 1793318445,
+   "pick": {
+    "sources": [
+     "Interest_Rates"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "fed"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "bf7440c98c11",
+     "headline": "Did the Fed make a mistake with its October rate pause? The Treasury could help save the day."
+    },
+    {
+     "id": "cfd589ba9794",
+     "headline": "US interest rates held steady and economy grows - what it means for you"
+    },
+    {
+     "id": "1b7ecc5560e8",
+     "headline": "U.S. futures remain lower after in-line report on Fed\u2019s favorite inflation gauge"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": -1
+    },
+    {
+     "ticker": "TOL",
+     "direction": 1
+    },
+    {
+     "ticker": "NVR",
+     "direction": 1
+    },
+    {
+     "ticker": "LEN",
+     "direction": 1
+    },
+    {
+     "ticker": "DHI",
+     "direction": 1
+    },
+    {
+     "ticker": "PHM",
+     "direction": 1
+    }
+   ],
+   "reached": 35
+  },
   {
    "id": "12c33fba7611",
    "headline": "Iovance, A Top 1% Biotech Stock, Crashes In A Surprise Lung Cancer Twist",
@@ -5861,554 +6199,9 @@
     }
    ],
    "reached": 32
-  },
-  {
-   "id": "52e4e12dd1f7",
-   "headline": "NVIDIA\u2019s Development Of Custom HBM Drops Samsung\u2019s And TSMC\u2019s Foundry Rivalry, As Both Manufacturers Join Forces To Develop \u201cBase Die\u201d On The 3nm Node",
-   "source": "Wccftech",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BTkpLWnF6anJoSlk0V0pXOWpCYUJnSWYweVdzS2Q0MDRTZG53alNxSVhPNXVmSEZBSWt2VW9RSzItRkJ4Ul9ISGQxNllIYXVzTFZSTXZ5N3pZNy05RHNWU3J2bUs0R1dhc1Jzc3MwSFdYd1XSAXhBVV95cUxNREVfbGx3VXpvejk1WFFUVDFEVzdnZzZ0MjRGTFhCYl9MTEZuNFNteHBURmtPeGpHdkEtZjFGbW9vRWdtNGdkc2E4bW1aTExhWXpvMXhmdlY4OGdzMEMxeXpuYW9zakMzSGxvbzVDbVVLLW9uSFVDN3g?oc=5",
-   "published": 1792319015,
-   "traced_at": 1792417220,
-   "pick": {
-    "sources": [
-     "Semiconductor_Manufacturing",
-     "Memory_Chips"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "foundry",
-     "tsmc",
-     "hbm"
-    ]
-   },
-   "earlier": [],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.0352,
-     "from": "2026-10-19",
-     "to": "2026-10-26",
-     "stocks": [
-      {
-       "ticker": "GFS",
-       "direction": -1,
-       "ret": -0.0241,
-       "excess": 0.0226
-      },
-      {
-       "ticker": "UMC",
-       "direction": -1,
-       "ret": -0.0448,
-       "excess": 0.0434
-      },
-      {
-       "ticker": "ASML",
-       "direction": -1,
-       "ret": -0.0341,
-       "excess": 0.0327
-      },
-      {
-       "ticker": "MU",
-       "direction": -1,
-       "ret": -0.0013,
-       "excess": -0.0001
-      },
-      {
-       "ticker": "TER",
-       "direction": -1,
-       "ret": -0.0791,
-       "excess": 0.0776
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "GFS",
-     "direction": -1
-    },
-    {
-     "ticker": "UMC",
-     "direction": -1
-    },
-    {
-     "ticker": "ASML",
-     "direction": -1
-    },
-    {
-     "ticker": "MU",
-     "direction": -1
-    },
-    {
-     "ticker": "TER",
-     "direction": -1
-    },
-    {
-     "ticker": "KLAC",
-     "direction": -1
-    }
-   ],
-   "reached": 13
-  },
-  {
-   "id": "b4ea96698396",
-   "headline": "Oil tumbles as Trump's Russia sanctions waiver may lead to more fuel supplies",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMmVLc19hd0VSYXIydVNTWENKZ2J5WVNvVDRQUjRfTUJXWGhjOGxGZkFHVm9SNnZzeU9TWUhrYnJTRU1sVFRnX1BwZVd3NHB5a0NLdThkbDRldlg2eHdhTll2b3RnQTJ4U3dHVGczM25FdjJHRGQ5WGJDV2Qxd1hzLV9EcjNWaUQ4cXEzbWVHRzNuS1dGVVNBSmdXWGR6THN1dXhvSUdFS0dMMTJZTnBBZEFfZ2JoYVVFSWNMZw?oc=5",
-   "published": 1792362180,
-   "traced_at": 1792385803,
-   "pick": {
-    "sources": [
-     "Sanctions",
-     "Russia_Ukraine_War"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "sanctions",
-     "russia"
-    ]
-   },
-   "earlier": [],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.012,
-     "from": "2026-10-19",
-     "to": "2026-10-26",
-     "stocks": [
-      {
-       "ticker": "LXU",
-       "direction": -1,
-       "ret": -0.0315,
-       "excess": 0.03
-      },
-      {
-       "ticker": "MOS",
-       "direction": -1,
-       "ret": -0.0117,
-       "excess": 0.0103
-      },
-      {
-       "ticker": "IPI",
-       "direction": -1,
-       "ret": -0.0264,
-       "excess": 0.0249
-      },
-      {
-       "ticker": "NTR",
-       "direction": -1,
-       "ret": -0.0176,
-       "excess": 0.0161
-      },
-      {
-       "ticker": "CF",
-       "direction": -1,
-       "ret": 0.0197,
-       "excess": -0.0211
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "LXU",
-     "direction": -1
-    },
-    {
-     "ticker": "MOS",
-     "direction": -1
-    },
-    {
-     "ticker": "IPI",
-     "direction": -1
-    },
-    {
-     "ticker": "NTR",
-     "direction": -1
-    },
-    {
-     "ticker": "CF",
-     "direction": -1
-    },
-    {
-     "ticker": "UREA",
-     "direction": -1
-    }
-   ],
-   "reached": 25
-  },
-  {
-   "id": "899e9dbf729d",
-   "headline": "Microsoft Scraps UK Data Center Deal With Nscale, Telegraph Says",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYXhlWkpqYnAwNVVYQjBLWTdQdi1HYm50VjhBQ3UwTkNhc0gtTGhoMnluWGxuMVdmZWM3eFRjVFA5dWZ0STlFRVJ6S090WVFveFF1RVNjcHFpd2ZNTFJfamxDNGl6YTNrSmkta2pteXpnMElHVXVjcUI5WDNlemltdVRSZURQUXBmcTFrV0NyY2R0a3J1clFlOGU2RjRTbVRnbzRnU3NvRktJR3g3RUw4Zm9vTnE?oc=5",
-   "published": 1792335614,
-   "traced_at": 1792362567,
-   "pick": {
-    "sources": [
-     "Data_Centers"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "data center"
-    ]
-   },
-   "earlier": [],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.0659,
-     "from": "2026-10-19",
-     "to": "2026-10-26",
-     "stocks": [
-      {
-       "ticker": "GLEN.L",
-       "direction": -1,
-       "ret": -0.0456,
-       "excess": 0.0441
-      },
-      {
-       "ticker": "FCX",
-       "direction": -1,
-       "ret": -0.0658,
-       "excess": 0.0644
-      },
-      {
-       "ticker": "SCCO",
-       "direction": -1,
-       "ret": -0.0782,
-       "excess": 0.0767
-      },
-      {
-       "ticker": "GE",
-       "direction": -1,
-       "ret": -0.0734,
-       "excess": 0.072
-      },
-      {
-       "ticker": "COPX",
-       "direction": -1,
-       "ret": -0.0738,
-       "excess": 0.0723
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "GLEN.L",
-     "direction": -1
-    },
-    {
-     "ticker": "FCX",
-     "direction": -1
-    },
-    {
-     "ticker": "SCCO",
-     "direction": -1
-    },
-    {
-     "ticker": "GE",
-     "direction": -1
-    },
-    {
-     "ticker": "SCHN.PA",
-     "direction": -1
-    },
-    {
-     "ticker": "COPX",
-     "direction": -1
-    }
-   ],
-   "reached": 28
-  },
-  {
-   "id": "93fe9678c29a",
-   "headline": "Wright says Trump administration has not broken promise to lower gas prices amid Iran war",
-   "source": "The Hill",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYndPRzM1RHY1Vk9vQXdMaEJJa0phMGpyaWhWZlNqTDlvTUVxbXNhZW12WG9tR3dMYno5dkdnb18tOEktd2d4QXdqeUZ0QW5kSHlHTXhTSFBzajVlVVRaZUJMeXdTemJHdEhrZUJIY3l2bmlyQjFab3pGYnlQenVoelUwNEViQTTSAYwBQVVfeXFMT0FrYlJuVkNFRDhseTBIa3dKbnNMZmk2aVY5WG5fYmZDRnNFVUFzSXd2eFNhLTd3dlctd1F6Z2kwTmZ5SmRoUVFMQ3VUVlNaUzVzMkJYZkZtOGpDVDZJSDRJNzFJV3FWdVhkNTBDTnVMRXlid0cwTlNaYk1mb281dkEyb3ZpYkxRZ0Zvb3g?oc=5",
-   "published": 1792343880,
-   "traced_at": 1792362567,
-   "pick": {
-    "sources": [
-     "Middle_East_Conflict"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "iran"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "f22794dce12a",
-     "headline": "Retail price impacts from the Iran war are uneven but add up for US households before midterms"
-    },
-    {
-     "id": "75e5a4b7804e",
-     "headline": "The Iran war has cost the average U.S. household the equivalent of almost $2,000, top economist says"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": false,
-     "excess": -0.0297,
-     "from": "2026-10-19",
-     "to": "2026-10-26",
-     "stocks": [
-      {
-       "ticker": "APA",
-       "direction": -1,
-       "ret": 0.0434,
-       "excess": -0.0449
-      },
-      {
-       "ticker": "OXY",
-       "direction": -1,
-       "ret": 0.0215,
-       "excess": -0.023
-      },
-      {
-       "ticker": "COP",
-       "direction": -1,
-       "ret": 0.0422,
-       "excess": -0.0437
-      },
-      {
-       "ticker": "DVN",
-       "direction": -1,
-       "ret": 0.0141,
-       "excess": -0.0156
-      },
-      {
-       "ticker": "FANG",
-       "direction": -1,
-       "ret": 0.0197,
-       "excess": -0.0212
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "APA",
-     "direction": -1
-    },
-    {
-     "ticker": "OXY",
-     "direction": -1
-    },
-    {
-     "ticker": "COP",
-     "direction": -1
-    },
-    {
-     "ticker": "DVN",
-     "direction": -1
-    },
-    {
-     "ticker": "FANG",
-     "direction": -1
-    },
-    {
-     "ticker": "EOG",
-     "direction": -1
-    }
-   ],
-   "reached": 23
-  },
-  {
-   "id": "b20fd6ddd316",
-   "headline": "President Donald Trump Claims Gasoline Prices Will \"Drop Like a Rock\" When the Iran War Ends, but He's Completely Missed the Bigger Picture",
-   "source": "The Motley Fool",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQb1ItYUFpX19VOW9qb0IwWkhiVDhZcGdPUHRtVENBcWxXWDVGZTFxMG9vT2ZIcXdxS1E1eEh1dHc2R2lTM3QxbVJTU0ZKLUtqOURESWE1YWpkZ01iaGhBSWtPNDAtNGVNQ2Q5R3JxbkhwaE8xbTlLMzFuSlJ1SVRlYW5GcENicE13RkNvSEQtdDFQM29ZTk5pc0t3ZVg4bF9qbGRkVl9RRU1tdklWTjRBY2lTX1ZLeXUwWTEzVmFoeHdiS2tETVVMaHZKczNNak9MN0ZtZmFKZw?oc=5",
-   "published": 1792227960,
-   "traced_at": 1792362568,
-   "pick": {
-    "sources": [
-     "Refining",
-     "Middle_East_Conflict"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "gasoline prices",
-     "iran"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "f22794dce12a",
-     "headline": "Retail price impacts from the Iran war are uneven but add up for US households before midterms"
-    },
-    {
-     "id": "75e5a4b7804e",
-     "headline": "The Iran war has cost the average U.S. household the equivalent of almost $2,000, top economist says"
-    },
-    {
-     "id": "26604a401075",
-     "headline": "Exclusive | Diesel Prices Hold High Despite Efforts to Boost Global Supplies"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.0045,
-     "from": "2026-10-19",
-     "to": "2026-10-26",
-     "stocks": [
-      {
-       "ticker": "MPC",
-       "direction": -1,
-       "ret": -0.0064,
-       "excess": 0.005
-      },
-      {
-       "ticker": "PSX",
-       "direction": -1,
-       "ret": -0.0059,
-       "excess": 0.0044
-      },
-      {
-       "ticker": "DINO",
-       "direction": -1,
-       "ret": 0.0067,
-       "excess": -0.0081
-      },
-      {
-       "ticker": "VLO",
-       "direction": -1,
-       "ret": -0.0151,
-       "excess": 0.0137
-      },
-      {
-       "ticker": "PBF",
-       "direction": -1,
-       "ret": -0.0087,
-       "excess": 0.0073
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "MPC",
-     "direction": -1
-    },
-    {
-     "ticker": "PSX",
-     "direction": -1
-    },
-    {
-     "ticker": "DINO",
-     "direction": -1
-    },
-    {
-     "ticker": "VLO",
-     "direction": -1
-    },
-    {
-     "ticker": "PBF",
-     "direction": -1
-    },
-    {
-     "ticker": "DK",
-     "direction": -1
-    }
-   ],
-   "reached": 24
-  },
-  {
-   "id": "81121d812e03",
-   "headline": "I\u2019ll bet my bottom dollar stocks are about to rally",
-   "source": "The Telegraph",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZ2R1S1NKNklNSm9Td1MxZDh3MFcwaE5hSS0xV2NVay0xaklvOGhObW16TDF5MV81OFNUU3d1R0oxTG1jV0pVbHVPTTNkRVYxamRvV3RZZE1tSzNqR3ktWFZuMkY0TUNSeE9wZ3lmeWQ0YWlRS2RIcTBGbmZfQUM2TTFVQXJpU0pudFdRci1pX1dNdjJDVFBkX2ZfWkh4Z2M?oc=5",
-   "published": 1792234800,
-   "traced_at": 1792362568,
-   "pick": {
-    "sources": [
-     "USD_Strength"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "dollar"
-    ]
-   },
-   "earlier": [],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.05,
-     "from": "2026-10-19",
-     "to": "2026-10-26",
-     "stocks": [
-      {
-       "ticker": "UUP",
-       "direction": 1,
-       "ret": 0.0003,
-       "excess": 0.0018
-      },
-      {
-       "ticker": "AEM",
-       "direction": -1,
-       "ret": -0.0635,
-       "excess": 0.0621
-      },
-      {
-       "ticker": "NEM",
-       "direction": -1,
-       "ret": -0.0646,
-       "excess": 0.0631
-      },
-      {
-       "ticker": "KGC",
-       "direction": -1,
-       "ret": -0.0529,
-       "excess": 0.0514
-      },
-      {
-       "ticker": "WPM",
-       "direction": -1,
-       "ret": -0.0729,
-       "excess": 0.0714
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "UUP",
-     "direction": 1
-    },
-    {
-     "ticker": "AEM",
-     "direction": -1
-    },
-    {
-     "ticker": "NEM",
-     "direction": -1
-    },
-    {
-     "ticker": "KGC",
-     "direction": -1
-    },
-    {
-     "ticker": "WPM",
-     "direction": -1
-    },
-    {
-     "ticker": "FNV",
-     "direction": -1
-    }
-   ],
-   "reached": 4
   }
  ],
- "total": 96,
+ "total": 102,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -6421,7 +6214,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 29
+  "waiting": 35
  },
  "checkup": {
   "at": 1792255747,
