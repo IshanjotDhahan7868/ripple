@@ -1,6 +1,316 @@
 {
- "updated": 1793388655,
+ "updated": 1793404530,
  "items": [
+  {
+   "id": "96c6ad82db14",
+   "headline": "Binance says user funds are safe after thieves make off with billions in largest-ever crypto hack",
+   "source": "NBC News",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYlpKVXRGc1RtdzlUZXBLNzFtUGM2eS1zRE9BVW5ZaEZ5cklBa05NSXo3VUhuSjZjSUlVekdkRkFUM01jbkVzSU84Q2hRMWowckpKUjg3cHh1d0d3SGplWnpIeWpwdmJrS1laVHRBRlg4U1ZvN0JqVndyNmlNNTFsUEQtd0dyNDZhc2tfdlNMSVZFZVlLWXlla1Y4OGZIMklFUWhn?oc=5",
+   "published": 1793396184,
+   "traced_at": 1793404518,
+   "pick": {
+    "sources": [
+     "Cyber_Threats"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "hack"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "75aa8892ad86",
+     "headline": "Binance Hack Sends Crypto Stocks Tumbling"
+    },
+    {
+     "id": "848a62c8c369",
+     "headline": "Is your crypto safe? What Binance\u2019s $6.3 billion hack means for bitcoin investors."
+    },
+    {
+     "id": "4a6966be6269",
+     "headline": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "FTNT",
+     "direction": 1
+    },
+    {
+     "ticker": "CRWD",
+     "direction": 1
+    },
+    {
+     "ticker": "PANW",
+     "direction": 1
+    },
+    {
+     "ticker": "ZS",
+     "direction": 1
+    },
+    {
+     "ticker": "HACK",
+     "direction": 1
+    },
+    {
+     "ticker": "CIBR",
+     "direction": 1
+    }
+   ],
+   "reached": 2
+  },
+  {
+   "id": "2dc151f1b252",
+   "headline": "Exxon, Chevron profits beat forecasts, refining margins surge during wars",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON2JIcGhXLURlX1ZHUDVac0IwV1BuN1puU1ljMVFoMUJPNWtZQ2FFdEVMY1ZoZ3pENFUtZEpXZ0ZRU2ZLTFVobHd2XzRiaUxuRFRESXVYNm9zNUUxLWliR1A0RHpTUlNjSUxOazBFSzFvUS1HVWVJX1VGeU41WkxDSjlLTHlQX0dEd1NqUzNna0dkMEZBYmZEd1JZaHhuVElEZFBLZFR0YVQ4V3BxVkhLbGxOMzlRWjU1RmZzRA?oc=5",
+   "published": 1793385948,
+   "traced_at": 1793404519,
+   "pick": {
+    "sources": [
+     "Refining",
+     "Oil_and_Gas"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "refining margins",
+     "chevron",
+     "exxon"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "ed88a41eb115",
+     "headline": "Yemen\u2019s Houthis attack Saudi Arabia\u2019s largest oil refinery"
+    },
+    {
+     "id": "b20fd6ddd316",
+     "headline": "President Donald Trump Claims Gasoline Prices Will \"Drop Like a Rock\" When the Iran War Ends, but He's Completely Missed the Bigger Picture"
+    },
+    {
+     "id": "26604a401075",
+     "headline": "Exclusive | Diesel Prices Hold High Despite Efforts to Boost Global Supplies"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "MPC",
+     "direction": 1
+    },
+    {
+     "ticker": "XOM",
+     "direction": 1
+    },
+    {
+     "ticker": "PSX",
+     "direction": 1
+    },
+    {
+     "ticker": "DINO",
+     "direction": 1
+    },
+    {
+     "ticker": "VLO",
+     "direction": 1
+    },
+    {
+     "ticker": "BP",
+     "direction": 1
+    }
+   ],
+   "reached": 8
+  },
+  {
+   "id": "f842ddd53960",
+   "headline": "Gold prices plunge to one-year low below $3,900 as higher oil prices fuel fears of more pain ahead",
+   "source": "Kitco",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRUZmdmJRRFN3bUxiblBxRUVkd3o3SmRSRjd3ZUt3Rm5DVlNUQ201LW9BOHZyMnVBUEtZaGlNRFk5dTJKTzNHVjNkWGdWU3YtdVVPU0txb1pFZWJ5ZVhUaDRaTERzV2h5QzJzYWM3TExZRWRxQlNJbFlrWTQwbU8tbjA4Sm5JTWxqWVlFTUVZZjNvTVZXblN3SVVmMVVyVF9iQk5GS1RWcjRrRHdNRXRnV0VhYmtLRTE2?oc=5",
+   "published": 1793384281,
+   "traced_at": 1793404519,
+   "pick": {
+    "sources": [
+     "Oil_Price"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "oil prices"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "8d46adfaa860",
+     "headline": "Oil Prices Rise After Hormuz Tanker Attack, Houthi Claims Stoke Supply Fears"
+    },
+    {
+     "id": "ef6c76e9af92",
+     "headline": "Oil prices fall as peace hopes offset fears of growing Middle East conflict"
+    },
+    {
+     "id": "e2e78517fd47",
+     "headline": "Oil Prices Rise on Worries of Middle East Conflict Escalation"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": 1
+    },
+    {
+     "ticker": "OXY",
+     "direction": 1
+    },
+    {
+     "ticker": "COP",
+     "direction": 1
+    },
+    {
+     "ticker": "DVN",
+     "direction": 1
+    },
+    {
+     "ticker": "FANG",
+     "direction": 1
+    },
+    {
+     "ticker": "EOG",
+     "direction": 1
+    }
+   ],
+   "reached": 27
+  },
+  {
+   "id": "b28f3afbca3f",
+   "headline": "Oil Prices Rise as Middle East, Ukraine-Russia Conflict Fuel Supply Worries",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUnhpZVZHQUliUnJIQUJWb3JmbVl6VV9GZ3NJN0M3X0EzZU9pa2N4SEcybGNlakZkcmxyeVNqV0E5LWRxTU1VZUM4Uk9TdGZTS0RJLU1CZ1JVVFBlM0pTcWFPd2U0b1RFTkVyV2oxSzNwZzYzMjBwVmRtbUFvWUowS1RPSEQ3eE1Qa2ZQQVJ5SExsbzVXQTQtNlZYRC1Bbnh2YmpnZ2VGaHZLQlJDRWJRZEZOU2VCZ1hPcENQcTUtYw?oc=5",
+   "published": 1793391540,
+   "traced_at": 1793404519,
+   "pick": {
+    "sources": [
+     "Middle_East_Conflict",
+     "Oil_Price",
+     "Russia_Ukraine_War"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "middle east",
+     "oil prices",
+     "ukraine",
+     "russia"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "8d46adfaa860",
+     "headline": "Oil Prices Rise After Hormuz Tanker Attack, Houthi Claims Stoke Supply Fears"
+    },
+    {
+     "id": "ef6c76e9af92",
+     "headline": "Oil prices fall as peace hopes offset fears of growing Middle East conflict"
+    },
+    {
+     "id": "e2e78517fd47",
+     "headline": "Oil Prices Rise on Worries of Middle East Conflict Escalation"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": 1
+    },
+    {
+     "ticker": "OXY",
+     "direction": 1
+    },
+    {
+     "ticker": "COP",
+     "direction": 1
+    },
+    {
+     "ticker": "DVN",
+     "direction": 1
+    },
+    {
+     "ticker": "FANG",
+     "direction": 1
+    },
+    {
+     "ticker": "EOG",
+     "direction": 1
+    }
+   ],
+   "reached": 45
+  },
+  {
+   "id": "a94e61343d29",
+   "headline": "Why gold plunged to its lowest price in a year despite renewed Iran jitters",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/why-gold-plunged-to-its-lowest-price-in-a-year-despite-renewed-iran-jitters-365be0e2?mod=mw_rss_topstories",
+   "published": 1793395800,
+   "traced_at": 1793404520,
+   "pick": {
+    "sources": [
+     "Middle_East_Conflict",
+     "Gold"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "iran",
+     "gold"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "10f2949f5a09",
+     "headline": "Gold hits four-month low, silver falls below $50/oz on Fed hike fears"
+    },
+    {
+     "id": "a5555eeb0d78",
+     "headline": "Silver could see further losses against gold as physical market weakens - Metals Focus"
+    },
+    {
+     "id": "ef6c76e9af92",
+     "headline": "Oil prices fall as peace hopes offset fears of growing Middle East conflict"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "AEM",
+     "direction": -1
+    },
+    {
+     "ticker": "NEM",
+     "direction": -1
+    },
+    {
+     "ticker": "KGC",
+     "direction": -1
+    },
+    {
+     "ticker": "WPM",
+     "direction": -1
+    },
+    {
+     "ticker": "FNV",
+     "direction": -1
+    },
+    {
+     "ticker": "GOLD",
+     "direction": -1
+    }
+   ],
+   "reached": 23
+  },
   {
    "id": "75aa8892ad86",
    "headline": "Binance Hack Sends Crypto Stocks Tumbling",
@@ -5258,468 +5568,9 @@
     }
    ],
    "reached": 13
-  },
-  {
-   "id": "5436fe30992a",
-   "headline": "HSBC CEO warns the AI boom won\u2019t make every data center a good bet",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/10/20/data-center-financing-ai-debt-hsbc.html",
-   "published": 1792492757,
-   "traced_at": 1792497159,
-   "pick": {
-    "sources": [
-     "Data_Centers"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "data center"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "899e9dbf729d",
-     "headline": "Microsoft Scraps UK Data Center Deal With Nscale, Telegraph Says"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": false,
-     "excess": -0.0278,
-     "from": "2026-10-20",
-     "to": "2026-10-27",
-     "stocks": [
-      {
-       "ticker": "GLEN.L",
-       "direction": 1,
-       "ret": -0.0149,
-       "excess": -0.0157
-      },
-      {
-       "ticker": "FCX",
-       "direction": 1,
-       "ret": -0.0424,
-       "excess": -0.0432
-      },
-      {
-       "ticker": "SCCO",
-       "direction": 1,
-       "ret": -0.0391,
-       "excess": -0.0399
-      },
-      {
-       "ticker": "GE",
-       "direction": 1,
-       "ret": -0.0074,
-       "excess": -0.0082
-      },
-      {
-       "ticker": "COPX",
-       "direction": 1,
-       "ret": -0.0312,
-       "excess": -0.032
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "GLEN.L",
-     "direction": 1
-    },
-    {
-     "ticker": "FCX",
-     "direction": 1
-    },
-    {
-     "ticker": "SCCO",
-     "direction": 1
-    },
-    {
-     "ticker": "GE",
-     "direction": 1
-    },
-    {
-     "ticker": "SCHN.PA",
-     "direction": 1
-    },
-    {
-     "ticker": "COPX",
-     "direction": 1
-    }
-   ],
-   "reached": 28
-  },
-  {
-   "id": "44d4d9d4c7fe",
-   "headline": "Jobless rate falls but small firms cut back hiring",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/c6eq327pzr53o?at_medium=RSS&at_campaign=rss",
-   "published": 1792495608,
-   "traced_at": 1792497159,
-   "pick": {
-    "sources": [
-     "Labor_Market"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "hiring"
-    ]
-   },
-   "earlier": [],
-   "grade": {
-    "5": {
-     "hit": false,
-     "excess": -0.0546,
-     "from": "2026-10-20",
-     "to": "2026-10-27",
-     "stocks": [
-      {
-       "ticker": "ADP",
-       "direction": -1,
-       "ret": 0.0012,
-       "excess": -0.0004
-      },
-      {
-       "ticker": "MAN",
-       "direction": -1,
-       "ret": 0.0647,
-       "excess": -0.0639
-      },
-      {
-       "ticker": "RHI",
-       "direction": -1,
-       "ret": 0.2396,
-       "excess": -0.2388
-      },
-      {
-       "ticker": "PAYX",
-       "direction": -1,
-       "ret": -0.02,
-       "excess": 0.0207
-      },
-      {
-       "ticker": "NKE",
-       "direction": -1,
-       "ret": -0.0084,
-       "excess": 0.0092
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "ADP",
-     "direction": -1
-    },
-    {
-     "ticker": "MAN",
-     "direction": -1
-    },
-    {
-     "ticker": "RHI",
-     "direction": -1
-    },
-    {
-     "ticker": "PAYX",
-     "direction": -1
-    },
-    {
-     "ticker": "NKE",
-     "direction": -1
-    },
-    {
-     "ticker": "WMT",
-     "direction": -1
-    }
-   ],
-   "reached": 26
-  },
-  {
-   "id": "db90afcd58fb",
-   "headline": "\u00a330 rise in payments for crisis-hit households",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/c59vz71kxxgzo?at_medium=RSS&at_campaign=rss",
-   "published": 1792495162,
-   "traced_at": 1792497159,
-   "pick": {
-    "sources": [
-     "Payments_Networks"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "payments"
-    ]
-   },
-   "earlier": [],
-   "grade": {
-    "5": {
-     "hit": false,
-     "excess": -0.0238,
-     "from": "2026-10-20",
-     "to": "2026-10-27",
-     "stocks": [
-      {
-       "ticker": "V",
-       "direction": 1,
-       "ret": -0.0116,
-       "excess": -0.0124
-      },
-      {
-       "ticker": "MA",
-       "direction": 1,
-       "ret": -0.017,
-       "excess": -0.0178
-      },
-      {
-       "ticker": "XYZ",
-       "direction": 1,
-       "ret": -0.0414,
-       "excess": -0.0422
-      },
-      {
-       "ticker": "AXP",
-       "direction": 1,
-       "ret": -0.0171,
-       "excess": -0.0179
-      },
-      {
-       "ticker": "IPAY",
-       "direction": 1,
-       "ret": -0.0282,
-       "excess": -0.0289
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "V",
-     "direction": 1
-    },
-    {
-     "ticker": "MA",
-     "direction": 1
-    },
-    {
-     "ticker": "XYZ",
-     "direction": 1
-    },
-    {
-     "ticker": "AXP",
-     "direction": 1
-    },
-    {
-     "ticker": "IPAY",
-     "direction": 1
-    },
-    {
-     "ticker": "PYPL",
-     "direction": 1
-    }
-   ],
-   "reached": 1
-  },
-  {
-   "id": "87d7688b00e6",
-   "headline": "Oil reverses course higher after US and Houthi attacks",
-   "source": "investingLive",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOE1IZGVDQ2Y4U3pQM2wtcFZpNHhyT2x2WFJaVlNLM3RDSGpBNjhFT0J2SlE0di1ZUDUxWUxkSzJMREg5RkVIQl9fWFBwajhvTDdHZlRqVEhuWndLSGN4WFVFM05ObEdfWmd6UjlkUGJvMEVzSVR1WnJENk1LT2NOcS0zaUVncGMxRENhNUZPb3NxS3V0cG81Sw?oc=5",
-   "published": 1792430701,
-   "traced_at": 1792472544,
-   "pick": {
-    "sources": [
-     "Maritime_Chokepoint_Disruption"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "houthi"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "9c3d35f5aa00",
-     "headline": "Saudi Arabia Postpones Its Marquee Investment Event After Houthi Attacks"
-    },
-    {
-     "id": "1a661e21343c",
-     "headline": "Brent oil tops $109 after Houthi militants claim they attacked Saudi airports and Aramco facilities"
-    },
-    {
-     "id": "54dffc4c8a1d",
-     "headline": "The disturbing \u2018new normal\u2019 in the Strait of Hormuz: Attacks on ships at a record high and oil at $100 a barrel"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.0303,
-     "from": "2026-10-20",
-     "to": "2026-10-27",
-     "stocks": [
-      {
-       "ticker": "ZIM",
-       "direction": 1,
-       "ret": 0.0202,
-       "excess": 0.0195
-      },
-      {
-       "ticker": "FRO",
-       "direction": 1,
-       "ret": 0.0686,
-       "excess": 0.0678
-      },
-      {
-       "ticker": "SBLK",
-       "direction": 1,
-       "ret": 0.0263,
-       "excess": 0.0256
-      },
-      {
-       "ticker": "INSW",
-       "direction": 1,
-       "ret": 0.0635,
-       "excess": 0.0627
-      },
-      {
-       "ticker": "MATX",
-       "direction": 1,
-       "ret": -0.0233,
-       "excess": -0.0241
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "ZIM",
-     "direction": 1
-    },
-    {
-     "ticker": "FRO",
-     "direction": 1
-    },
-    {
-     "ticker": "SBLK",
-     "direction": 1
-    },
-    {
-     "ticker": "INSW",
-     "direction": 1
-    },
-    {
-     "ticker": "MATX",
-     "direction": 1
-    },
-    {
-     "ticker": "DHT",
-     "direction": 1
-    }
-   ],
-   "reached": 12
-  },
-  {
-   "id": "ad83af207a06",
-   "headline": "Gold Futures Slip As U.S. Dollar Gains, Yields Edge Up",
-   "source": "WSJ",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZU5uN1haS1FQQW82aVdiWmxlbDJrMkszT091U2xWR3dGOTdBeVZ6Z0gzSGpqQ2ZNTE96MG1kckxxY2NVV0I0THpteE9lWGZTdHUxa01OTzJkUndWcVVRWDVZWHVYeFZPcm5VckhaZFBVRDRjcmgyRDg5OUJ1WFBlTlotVGlnekE3SVFDVkpFMHBQbTVPWmd4WTNSSTd1X0ZJNDFlUmVWcGxlSE5oWG1ENmZoYk1oVTdKZlE?oc=5",
-   "published": 1792433640,
-   "traced_at": 1792472544,
-   "pick": {
-    "sources": [
-     "USD_Strength",
-     "Gold"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "dollar",
-     "gold"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "608ae9bb4ddf",
-     "headline": "Gold edges lower as firm dollar, elevated yields weigh"
-    },
-    {
-     "id": "81121d812e03",
-     "headline": "I\u2019ll bet my bottom dollar stocks are about to rally"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": false,
-     "excess": -0.0313,
-     "from": "2026-10-20",
-     "to": "2026-10-27",
-     "stocks": [
-      {
-       "ticker": "AEM",
-       "direction": 1,
-       "ret": -0.0297,
-       "excess": -0.0305
-      },
-      {
-       "ticker": "NEM",
-       "direction": 1,
-       "ret": -0.0357,
-       "excess": -0.0365
-      },
-      {
-       "ticker": "KGC",
-       "direction": 1,
-       "ret": -0.0271,
-       "excess": -0.0279
-      },
-      {
-       "ticker": "WPM",
-       "direction": 1,
-       "ret": -0.0405,
-       "excess": -0.0413
-      },
-      {
-       "ticker": "FNV",
-       "direction": 1,
-       "ret": -0.0196,
-       "excess": -0.0204
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "AEM",
-     "direction": 1
-    },
-    {
-     "ticker": "NEM",
-     "direction": 1
-    },
-    {
-     "ticker": "KGC",
-     "direction": 1
-    },
-    {
-     "ticker": "WPM",
-     "direction": 1
-    },
-    {
-     "ticker": "FNV",
-     "direction": 1
-    },
-    {
-     "ticker": "GOLD",
-     "direction": 1
-    }
-   ],
-   "reached": 4
   }
  ],
- "total": 116,
+ "total": 121,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -5732,7 +5583,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 49
+  "waiting": 54
  },
  "checkup": {
   "at": 1792255747,
