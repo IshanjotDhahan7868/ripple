@@ -1,6 +1,234 @@
 {
- "updated": 1793451025,
+ "updated": 1793471999,
  "items": [
+  {
+   "id": "bfb3186faa44",
+   "headline": "Crypto exchanges rush to tighten security after $6.3bn Binance heist",
+   "source": "Financial Times",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMlhkZVRjcVo3aTIxVDNSSUp2NlJDWTdpbnJSWEpuLTU4dm5Qd3Y5VUJMNWpGVHB0R19VTW1BbzA5a2ZUaURtLUNLdGVnUVJRcHZCOUV0UWVyUnlSaDE0QkVqcXltY1hhbW1NZ2t1ZXV3TGxSNDdBVkFEWHRQbjRBczRULTI?oc=5",
+   "published": 1793443098,
+   "traced_at": 1793471980,
+   "pick": {
+    "sources": [
+     "Crypto_Assets"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "crypto"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "55be6ac03693",
+     "headline": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history"
+    },
+    {
+     "id": "663ad71bde66",
+     "headline": "Crypto giant Binance hit by 'largest hack in history'"
+    },
+    {
+     "id": "de40bf71c413",
+     "headline": "Crypto giant Binance hit by hack suspected to be largest in history"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "MSTR",
+     "direction": 1
+    },
+    {
+     "ticker": "MARA",
+     "direction": 1
+    },
+    {
+     "ticker": "COIN",
+     "direction": 1
+    },
+    {
+     "ticker": "RIOT",
+     "direction": 1
+    },
+    {
+     "ticker": "HOOD",
+     "direction": 1
+    },
+    {
+     "ticker": "BITCOIN",
+     "direction": 1
+    }
+   ],
+   "reached": 1
+  },
+  {
+   "id": "f6a5414c4e1b",
+   "headline": "Automakers like Rivian and Ford are \u2018democratizing 3D printing\u2019 to reduce costs and increase speed",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03VHpWQVNudE80cmxIdHllS2R0MzVjQmd0ekVWREJZYXlIYjNlMG4xU0FoV3J6aC1FZEZIWFpkbWhXUVZVR2JBMU1rVUYwOGU3MFRsQWpJYzJNd3hHeVZzN2FsVFoyT0pMRlM5UGxLRjNHeXVKS29HS0M4WmxPalHSAYQBQVVfeXFMUG84TU5ISlg2amdTb1dVSjR1cjM1TnlFSVFnMlFEdjlGQ1Q0T25YQkcwdTFFM2gtT1RkaHE3c1djcnJJTzhBVDh3WkpMbTJIUi1CUmhXTmhMc2NncElLS014ZmJhZE90akhCd1dtRTdtS2RZMk1iUWlvS1dFX3RnRUdjbm1O?oc=5",
+   "published": 1793448001,
+   "traced_at": 1793471980,
+   "pick": {
+    "sources": [
+     "Autos_and_Auto_Parts"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "automakers"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "BWA",
+     "direction": -1
+    },
+    {
+     "ticker": "TM",
+     "direction": -1
+    },
+    {
+     "ticker": "STLA",
+     "direction": -1
+    },
+    {
+     "ticker": "APTV",
+     "direction": -1
+    },
+    {
+     "ticker": "CARZ",
+     "direction": -1
+    },
+    {
+     "ticker": "GM",
+     "direction": -1
+    }
+   ],
+   "reached": 1
+  },
+  {
+   "id": "c59ca7698dda",
+   "headline": "Fed needs at least two more rate hikes, Logan says",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPN0l1dXR6NGI2OV9OZGVkZHRFdzNqcVBnSGRFamxWZlNaZTNsQmdIbXRHVXc5VE9FZzcyWUI4YU5hai1VZlVtY2ZsQTh0VDgxYmtJT1V3X0NvUEZvRjBDT2VaQUdaeDdIWkZ5MlhraUdTVHJYSlM3RFVzU3lVNjctTzU2eFMzNk5kbDBIWlR2RWJ0NkQ2Znc?oc=5",
+   "published": 1793381743,
+   "traced_at": 1793471980,
+   "pick": {
+    "sources": [
+     "Interest_Rates"
+    ],
+    "direction": 1,
+    "how": "rule",
+    "matched": [
+     "\\bfed\\b.*\\b(hikes?|raises?)\\b.*\\brates?\\b|\\brate hike|higher for longer"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "8138569929ed",
+     "headline": "Fed\u2019s preferred inflation gauge rose in September as third-quarter GDP beats expectations"
+    },
+    {
+     "id": "b560c3af5b81",
+     "headline": "Fed Chair Kevin Warsh reveals October surprise inside interest-rate pause"
+    },
+    {
+     "id": "bf7440c98c11",
+     "headline": "Did the Fed make a mistake with its October rate pause? The Treasury could help save the day."
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": 1
+    },
+    {
+     "ticker": "TOL",
+     "direction": -1
+    },
+    {
+     "ticker": "NVR",
+     "direction": -1
+    },
+    {
+     "ticker": "LEN",
+     "direction": -1
+    },
+    {
+     "ticker": "DHI",
+     "direction": -1
+    },
+    {
+     "ticker": "PHM",
+     "direction": -1
+    }
+   ],
+   "reached": 35
+  },
+  {
+   "id": "57584b4f8d2d",
+   "headline": "Trump promised to slash energy costs \u2014 but gasoline, diesel and jet fuel all soared instead",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaVZRU2JRSWM2Ylo4a3NKR3RUdkVaX2JyeWZaU04zejZBRGFUVlk4VTU0MHVmYTVtWDZiNlAxZUNkcmRydmhyQkdQbDFyQm93MjZhZkF3MUw2eWE1ZjlmTk1uZXNNSlJDTURQSHQ0TVBEbF9kdDhoY2NuazlXb05VQVhn0gGHAUFVX3lxTE93THBWTXRfcWhNYmRfanNqbWdYbEdlazdoNFdqMWdnR3Rjd3pLTEJka24yakhNOXY3dmFGSWZDMUM0VV9SN09rOGxwUzZzWHE1QXdHVzRNQXlzeVJweTE2b1pycktiSjJpdzV1WUpmejk1S3ZvZ2FlYjhJZU5PMXVXTlVsb1BPbw?oc=5",
+   "published": 1793450998,
+   "traced_at": 1793471980,
+   "pick": {
+    "sources": [
+     "Refining"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "jet fuel",
+     "diesel"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "2dc151f1b252",
+     "headline": "Exxon, Chevron profits beat forecasts, refining margins surge during wars"
+    },
+    {
+     "id": "ed88a41eb115",
+     "headline": "Yemen\u2019s Houthis attack Saudi Arabia\u2019s largest oil refinery"
+    },
+    {
+     "id": "b20fd6ddd316",
+     "headline": "President Donald Trump Claims Gasoline Prices Will \"Drop Like a Rock\" When the Iran War Ends, but He's Completely Missed the Bigger Picture"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "MPC",
+     "direction": 1
+    },
+    {
+     "ticker": "PSX",
+     "direction": 1
+    },
+    {
+     "ticker": "DINO",
+     "direction": 1
+    },
+    {
+     "ticker": "VLO",
+     "direction": 1
+    },
+    {
+     "ticker": "PBF",
+     "direction": 1
+    },
+    {
+     "ticker": "DK",
+     "direction": 1
+    }
+   ],
+   "reached": 6
+  },
   {
    "id": "e6dcb837c1e9",
    "headline": "Trump called out Big Oil profits. Here\u2019s how much their refining earnings have surged since",
@@ -5064,380 +5292,9 @@
     }
    ],
    "reached": 7
-  },
-  {
-   "id": "ed6f1cdc926b",
-   "headline": "Dow Giant Jumps On AI Data Center Deal. No, Not That One.",
-   "source": "Investor's Business Daily",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOLXE3TXdLX01UWEhLTjJFTDNtZDQ1RzRMUFRjSmJBQXdWUFkxLUltUExYM0VvLVJTdE00N1lkLXV6T1hHNzJxVUVtaGE5ejZDMnNQTHdGUHNjZzNRdG5hX2N0Tl9BMTJ1OUVyUXltU2U0NW1lanVjbllrZ0lYWVUxQW4tN3ZIZw?oc=5",
-   "published": 1792501980,
-   "traced_at": 1792532685,
-   "pick": {
-    "sources": [
-     "Data_Centers"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "data center"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "5436fe30992a",
-     "headline": "HSBC CEO warns the AI boom won\u2019t make every data center a good bet"
-    },
-    {
-     "id": "899e9dbf729d",
-     "headline": "Microsoft Scraps UK Data Center Deal With Nscale, Telegraph Says"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": false,
-     "excess": -0.0157,
-     "from": "2026-10-21",
-     "to": "2026-10-28",
-     "stocks": [
-      {
-       "ticker": "GLEN.L",
-       "direction": 1,
-       "ret": -0.0203,
-       "excess": -0.0177
-      },
-      {
-       "ticker": "FCX",
-       "direction": 1,
-       "ret": -0.0443,
-       "excess": -0.0417
-      },
-      {
-       "ticker": "SCCO",
-       "direction": 1,
-       "ret": -0.0273,
-       "excess": -0.0248
-      },
-      {
-       "ticker": "GE",
-       "direction": 1,
-       "ret": 0.0247,
-       "excess": 0.0272
-      },
-      {
-       "ticker": "COPX",
-       "direction": 1,
-       "ret": -0.0238,
-       "excess": -0.0213
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "GLEN.L",
-     "direction": 1
-    },
-    {
-     "ticker": "FCX",
-     "direction": 1
-    },
-    {
-     "ticker": "SCCO",
-     "direction": 1
-    },
-    {
-     "ticker": "GE",
-     "direction": 1
-    },
-    {
-     "ticker": "SCHN.PA",
-     "direction": 1
-    },
-    {
-     "ticker": "COPX",
-     "direction": 1
-    }
-   ],
-   "reached": 28
-  },
-  {
-   "id": "293ad530dc12",
-   "headline": "Global oil prices hit highest level in 5 months amid attacks on ships, facilities - ABC News",
-   "source": "Breaking News, Latest News and Videos",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONThfbkdFS1RqVThBR0RmOTBxU1pvMllfR1lmcGYyY3hPY1drZkVLWkF4Zm5aek5MNDlIRVp6YWc4NkNnWnhKWGFUcm5HLS00NzkyajEyaWJyVHN4UEFlVEU4Q05WVmJNNjVwSDBmRk9xbzFnUThYdnhMMUFjSnZIM1BocXNzUmJ0TFFscmNrTU9lOV94R0Jj0gGcAUFVX3lxTFBEaUdOQ3c1M0VELVBBY2dRS2dTT1JiWDZwNlExQzdmN19KYU95endONWlkSkhrSGhBWGRMMnNnSERiMFJmU0VEc1Q3dnk1NVY4TVBrbm9NT09ndF9OTTA4eC15cF9XUW5OWE5NRnhKWDFFTFJTVXlNV1hnRGNKd2pRSUsyT01UaFdfQ0F6eHBFUkhpajNtdG5VWTI4SA?oc=5",
-   "published": 1792506549,
-   "traced_at": 1792516932,
-   "pick": {
-    "sources": [
-     "Oil_Price"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "oil prices"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "1a661e21343c",
-     "headline": "Brent oil tops $109 after Houthi militants claim they attacked Saudi airports and Aramco facilities"
-    },
-    {
-     "id": "9fc62b43e025",
-     "headline": "Stock Market Today: Dow, S&P 500 and Nasdaq head for a strong finish as tech stocks rally; oil prices fall while yields rise"
-    },
-    {
-     "id": "63f6eda38a57",
-     "headline": "Gold Rises Amid Falling Oil Prices"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": false,
-     "excess": -0.0114,
-     "from": "2026-10-20",
-     "to": "2026-10-27",
-     "stocks": [
-      {
-       "ticker": "APA",
-       "direction": -1,
-       "ret": 0.023,
-       "excess": -0.0222
-      },
-      {
-       "ticker": "OXY",
-       "direction": -1,
-       "ret": -0.003,
-       "excess": 0.0038
-      },
-      {
-       "ticker": "COP",
-       "direction": -1,
-       "ret": 0.0138,
-       "excess": -0.013
-      },
-      {
-       "ticker": "DVN",
-       "direction": -1,
-       "ret": 0.0169,
-       "excess": -0.0161
-      },
-      {
-       "ticker": "FANG",
-       "direction": -1,
-       "ret": 0.0102,
-       "excess": -0.0094
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "APA",
-     "direction": -1
-    },
-    {
-     "ticker": "OXY",
-     "direction": -1
-    },
-    {
-     "ticker": "COP",
-     "direction": -1
-    },
-    {
-     "ticker": "DVN",
-     "direction": -1
-    },
-    {
-     "ticker": "FANG",
-     "direction": -1
-    },
-    {
-     "ticker": "EOG",
-     "direction": -1
-    }
-   ],
-   "reached": 27
-  },
-  {
-   "id": "025d7dea3ef6",
-   "headline": "US single-family housing starts plunge; building permits hit 3-1/2-year low",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY2htS1FUS3p1M0dBYTAxbU9HY1ViSVBFQ1JpU3NERnNQSkVTWFBTS1R4ekZVb0NEajZtM3RwTnlGVi1VZmxQdms4cHVqVGgyVWdvbERHc0ZLdUNvTFRCNVowOFR6OTFmUml2cmtsdzdfRE9sRHdDYnVXS3dtTEFqUmdjZ2tUSlNranZGNklxNzhWcmd0dHdFUElxRlA1cm9JXzcxNzhmeXphenFCUHJz?oc=5",
-   "published": 1792505861,
-   "traced_at": 1792516932,
-   "pick": {
-    "sources": [
-     "Housing_and_Homebuilders"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "housing starts"
-    ]
-   },
-   "earlier": [],
-   "grade": {
-    "5": {
-     "hit": false,
-     "excess": -0.0402,
-     "from": "2026-10-20",
-     "to": "2026-10-27",
-     "stocks": [
-      {
-       "ticker": "TOL",
-       "direction": -1,
-       "ret": 0.0476,
-       "excess": -0.0468
-      },
-      {
-       "ticker": "NVR",
-       "direction": -1,
-       "ret": -0.0287,
-       "excess": 0.0295
-      },
-      {
-       "ticker": "LEN",
-       "direction": -1,
-       "ret": 0.0754,
-       "excess": -0.0746
-      },
-      {
-       "ticker": "DHI",
-       "direction": -1,
-       "ret": 0.0489,
-       "excess": -0.0481
-      },
-      {
-       "ticker": "PHM",
-       "direction": -1,
-       "ret": 0.062,
-       "excess": -0.0612
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "TOL",
-     "direction": -1
-    },
-    {
-     "ticker": "NVR",
-     "direction": -1
-    },
-    {
-     "ticker": "LEN",
-     "direction": -1
-    },
-    {
-     "ticker": "DHI",
-     "direction": -1
-    },
-    {
-     "ticker": "PHM",
-     "direction": -1
-    },
-    {
-     "ticker": "XHB",
-     "direction": -1
-    }
-   ],
-   "reached": 1
-  },
-  {
-   "id": "23bc8edefba3",
-   "headline": "Micron union in Taiwan to launch one-day strike as bonus dispute escalates",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdW84LTY4WGZuakNjaU5mZ1I5TEd3RXZRYmdBWlFYUkVoTHQyX0xSYkhidnhGTFN6SjBsdGp6eE9aN3M1VE03V09mNWtjYnFYWWRtN0J3NUk2ZVEzVGhxRFFMNEZqRW94Y1h0OHpyX0tOWTMzNDdhcmFJN2dUSUtwN1FtTXpFNFVITG9LT3JNMFdWLVdQRklxZzU0aE9TUmxXUjRNY0NEN0hLMjZFYTRJQXVJQTNZY0k?oc=5",
-   "published": 1792461960,
-   "traced_at": 1792516932,
-   "pick": {
-    "sources": [
-     "Taiwan_Strait_Risk"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "taiwan"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "8857715ed372",
-     "headline": "Micron union in Taiwan to launch strike as bonus dispute escalates"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.0361,
-     "from": "2026-10-20",
-     "to": "2026-10-27",
-     "stocks": [
-      {
-       "ticker": "TER",
-       "direction": -1,
-       "ret": -0.0384,
-       "excess": 0.0391
-      },
-      {
-       "ticker": "KLAC",
-       "direction": -1,
-       "ret": -0.05,
-       "excess": 0.0507
-      },
-      {
-       "ticker": "LRCX",
-       "direction": -1,
-       "ret": -0.0858,
-       "excess": 0.0866
-      },
-      {
-       "ticker": "ASML",
-       "direction": -1,
-       "ret": 0.0042,
-       "excess": -0.0034
-      },
-      {
-       "ticker": "GFS",
-       "direction": -1,
-       "ret": -0.0066,
-       "excess": 0.0074
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "TER",
-     "direction": -1
-    },
-    {
-     "ticker": "KLAC",
-     "direction": -1
-    },
-    {
-     "ticker": "LRCX",
-     "direction": -1
-    },
-    {
-     "ticker": "ASML",
-     "direction": -1
-    },
-    {
-     "ticker": "GFS",
-     "direction": -1
-    },
-    {
-     "ticker": "UMC",
-     "direction": -1
-    }
-   ],
-   "reached": 27
   }
  ],
- "total": 125,
+ "total": 129,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -5450,7 +5307,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 58
+  "waiting": 62
  },
  "checkup": {
   "at": 1792255747,
