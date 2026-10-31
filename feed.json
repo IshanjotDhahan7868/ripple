@@ -1,6 +1,115 @@
 {
- "updated": 1793404530,
+ "updated": 1793426339,
  "items": [
+  {
+   "id": "671578d8ac1b",
+   "headline": "Gold sinks to one-year low, silver slips below $50 on inflation concerns, tech selloff",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMjlsWUMxUzl3ekFYUW9ON28wdURrNlZaTDJZS3p1cllobUVrY09kUHo4ZzlvMzY4RmZiVGdvTmluaDlZS0JHX2FDQkxJYXNiTmxOU2RsMDQzUnV5STN2WFFLNjRLdGdJVTlSRjJBUkhQTVpIMFRwd3FqbkVfdHhoR0Fqa3RpSU9sczYwcjNxTGUweVVGTzA3UDhoQTJTQ29yd0F1NlhMQWl3MFo1ZVMxd0tQVTh0dVVBUEItNXlB?oc=5",
+   "published": 1793397511,
+   "traced_at": 1793426324,
+   "pick": {
+    "sources": [
+     "Inflation",
+     "Gold"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "inflation",
+     "gold"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "a94e61343d29",
+     "headline": "Why gold plunged to its lowest price in a year despite renewed Iran jitters"
+    },
+    {
+     "id": "10f2949f5a09",
+     "headline": "Gold hits four-month low, silver falls below $50/oz on Fed hike fears"
+    },
+    {
+     "id": "a5555eeb0d78",
+     "headline": "Silver could see further losses against gold as physical market weakens - Metals Focus"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "AEM",
+     "direction": -1
+    },
+    {
+     "ticker": "NEM",
+     "direction": -1
+    },
+    {
+     "ticker": "KGC",
+     "direction": -1
+    },
+    {
+     "ticker": "WPM",
+     "direction": -1
+    },
+    {
+     "ticker": "FNV",
+     "direction": -1
+    },
+    {
+     "ticker": "GOLD",
+     "direction": -1
+    }
+   ],
+   "reached": 32
+  },
+  {
+   "id": "66e6237a4a3c",
+   "headline": "California sisters among hundreds stranded in Asia after cruise ship halts operations over high fuel costs",
+   "source": "Los Angeles Times",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaWNFUVlpM19oaWI1VWpCdGh5NWY0RzBoR202dlV2RlBOV0x4ZEs4a3lLSzQxQ1FYNEZMcTlTTkxUeFFHVm1ZTGJ0S2lVQnJXQlQySUNnTFNUYnIxT2Y4ZGp4T0o1T1ZBTkhYWjd2bE5XazFjN3huS0pWYW1LR20wdk5ib0hPaUxUNnFhU2luZEM3bzRSVGFZUk00VnFraHprUldjSDJVRHVHYkhBRTFQbTRxMlVQenppYS12YzBROERucEdhSHc?oc=5",
+   "published": 1793414340,
+   "traced_at": 1793426324,
+   "pick": {
+    "sources": [
+     "Tourism_and_Travel"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "cruise"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "EXPE",
+     "direction": -1
+    },
+    {
+     "ticker": "MAR",
+     "direction": -1
+    },
+    {
+     "ticker": "HLT",
+     "direction": -1
+    },
+    {
+     "ticker": "BKNG",
+     "direction": -1
+    },
+    {
+     "ticker": "RCL",
+     "direction": -1
+    },
+    {
+     "ticker": "ABNB",
+     "direction": -1
+    }
+   ],
+   "reached": 3
+  },
   {
    "id": "96c6ad82db14",
    "headline": "Binance says user funds are safe after thieves make off with billions in largest-ever crypto hack",
@@ -5387,190 +5496,9 @@
     }
    ],
    "reached": 1
-  },
-  {
-   "id": "8857715ed372",
-   "headline": "Micron union in Taiwan to launch strike as bonus dispute escalates",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdW84LTY4WGZuakNjaU5mZ1I5TEd3RXZRYmdBWlFYUkVoTHQyX0xSYkhidnhGTFN6SjBsdGp6eE9aN3M1VE03V09mNWtjYnFYWWRtN0J3NUk2ZVEzVGhxRFFMNEZqRW94Y1h0OHpyX0tOWTMzNDdhcmFJN2dUSUtwN1FtTXpFNFVITG9LT3JNMFdWLVdQRklxZzU0aE9TUmxXUjRNY0NEN0hLMjZFYTRJQXVJQTNZY0k?oc=5",
-   "published": 1792461960,
-   "traced_at": 1792497158,
-   "pick": {
-    "sources": [
-     "Taiwan_Strait_Risk"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "taiwan"
-    ]
-   },
-   "earlier": [],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.0361,
-     "from": "2026-10-20",
-     "to": "2026-10-27",
-     "stocks": [
-      {
-       "ticker": "TER",
-       "direction": -1,
-       "ret": -0.0384,
-       "excess": 0.0391
-      },
-      {
-       "ticker": "KLAC",
-       "direction": -1,
-       "ret": -0.05,
-       "excess": 0.0507
-      },
-      {
-       "ticker": "LRCX",
-       "direction": -1,
-       "ret": -0.0858,
-       "excess": 0.0866
-      },
-      {
-       "ticker": "ASML",
-       "direction": -1,
-       "ret": 0.0042,
-       "excess": -0.0034
-      },
-      {
-       "ticker": "GFS",
-       "direction": -1,
-       "ret": -0.0066,
-       "excess": 0.0074
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "TER",
-     "direction": -1
-    },
-    {
-     "ticker": "KLAC",
-     "direction": -1
-    },
-    {
-     "ticker": "LRCX",
-     "direction": -1
-    },
-    {
-     "ticker": "ASML",
-     "direction": -1
-    },
-    {
-     "ticker": "GFS",
-     "direction": -1
-    },
-    {
-     "ticker": "UMC",
-     "direction": -1
-    }
-   ],
-   "reached": 27
-  },
-  {
-   "id": "9cee37ce8206",
-   "headline": "US sanctions 5 Chinese entities over ex-Google engineer\u2019s AI trade secrets theft",
-   "source": "South China Morning Post",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLUlXRzA1YVNhSkh4U0dNMjVIZko0VHFqZHFaTlptUUdPTlFzU25TeFl3dXVnLVBMSGFXWExCMkpQRFpncV9VSjNncEVTTnl2SHB5R0ZmVGJnWUhBQUJXM1hibzdNVk1QVFdrOW1LVjBXQmVzNkN6bi01NFNPeHMtb1R3RkpLbl9XMkVWc2xrOTRKd3ZNUnBVUGdYeTdrNFZ5NEtiVDJ2Mm5tLWQwLTJkeDRuMkRaTU94anFQODZma0VlX0JIa1hzbmlQLXNIVWlYa1VJ0gHTAUFVX3lxTFB3SGxmMDdDZUNibnhKc1RHTGhSNzJZZFptRUh5NmlqRnlmUUE0bTAwMmMyNk15dUN1cTRFUmNqeDB3Nnh6VjdqSThnM3Q5ZmNxdDFRX0ptSjhDUnJLX1AtTEpBWWQwRFA2VzBJX2V6TWJna0IxWVdjVlVjMFpmZ3pVcWtzRV9aazdPeXpMSjcwMUN6NU9IRzZBcFdBeXZBWjlGQUJ6aHUwZEpHRFBmX19lOXg4Z3U3X1E3a3poX2ZGYVRvQ1VGMnhBZ29XZkJMWktuMG8?oc=5",
-   "published": 1792449367,
-   "traced_at": 1792497158,
-   "pick": {
-    "sources": [
-     "Sanctions"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "sanctions"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "7d4470acbd43",
-     "headline": "Oil Futures Pull Back on Russia Sanctions Waiver"
-    },
-    {
-     "id": "b4ea96698396",
-     "headline": "Oil tumbles as Trump's Russia sanctions waiver may lead to more fuel supplies"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": false,
-     "excess": -0.0943,
-     "from": "2026-10-20",
-     "to": "2026-10-27",
-     "stocks": [
-      {
-       "ticker": "MPC",
-       "direction": 1,
-       "ret": -0.0822,
-       "excess": -0.083
-      },
-      {
-       "ticker": "PSX",
-       "direction": 1,
-       "ret": -0.0773,
-       "excess": -0.0781
-      },
-      {
-       "ticker": "DINO",
-       "direction": 1,
-       "ret": -0.0886,
-       "excess": -0.0894
-      },
-      {
-       "ticker": "VLO",
-       "direction": 1,
-       "ret": -0.1063,
-       "excess": -0.1071
-      },
-      {
-       "ticker": "PBF",
-       "direction": 1,
-       "ret": -0.1129,
-       "excess": -0.1137
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "MPC",
-     "direction": 1
-    },
-    {
-     "ticker": "PSX",
-     "direction": 1
-    },
-    {
-     "ticker": "DINO",
-     "direction": 1
-    },
-    {
-     "ticker": "VLO",
-     "direction": 1
-    },
-    {
-     "ticker": "PBF",
-     "direction": 1
-    },
-    {
-     "ticker": "DK",
-     "direction": 1
-    }
-   ],
-   "reached": 13
   }
  ],
- "total": 121,
+ "total": 123,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -5583,7 +5511,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 54
+  "waiting": 56
  },
  "checkup": {
   "at": 1792255747,
