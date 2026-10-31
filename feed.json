@@ -1,6 +1,118 @@
 {
- "updated": 1793426339,
+ "updated": 1793451025,
  "items": [
+  {
+   "id": "e6dcb837c1e9",
+   "headline": "Trump called out Big Oil profits. Here\u2019s how much their refining earnings have surged since",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1OUC1PMmdWalJDS0UtUEsyN0p6a0RTMURBRDEzdlNNMDFOeDNPRTlQbGl5b2FHMFlXWkJJaFFZZUhFYUdYSzVPakQyR1ZDemxFX2Y1QnFGTTJUREcyNGJ2ZFZteXB1LVk0YmRuajBoWkFCMDV3U2fSAXtBVV95cUxPeExBWDlUMDIxT1FHY1YzV3lDb3BVMTJUVFNQRVg4WEdaOHVNMFRUaDFkRExuTkVhd3F2ZHltYzU3Y2lyb1Z0MUJyZy1Xc2Z6dzhYZXpYZmY5eFl0b2VfSmlLbi1qY0FlNnVPYkppdG9wUWZnQWtjTk5IQ2s?oc=5",
+   "published": 1793426402,
+   "traced_at": 1793451010,
+   "pick": {
+    "sources": [
+     "Oil_and_Gas"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "big oil"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "2dc151f1b252",
+     "headline": "Exxon, Chevron profits beat forecasts, refining margins surge during wars"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "XOM",
+     "direction": 1
+    },
+    {
+     "ticker": "BP",
+     "direction": 1
+    },
+    {
+     "ticker": "CNQ",
+     "direction": 1
+    },
+    {
+     "ticker": "CVX",
+     "direction": 1
+    },
+    {
+     "ticker": "SHEL",
+     "direction": 1
+    },
+    {
+     "ticker": "IXC",
+     "direction": 1
+    }
+   ],
+   "reached": 2
+  },
+  {
+   "id": "7cf48bac8b65",
+   "headline": "Gold Just Hit a New Low. Here's Where Traders Are Finding Safety Instead.",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPQnlFRUt0YXpUZTlQSFZUQnJRdEVNeFlLekVZX0RXQ00wQXZZZDZma0JSZEJCOGN6M2FIYzVnRzVtWWk0T2VxSVVMNUdNeHZyMjd4OGV4Yk1FN1NPaEp6V3lWb2JVRHd4TUtnMVV4MTJEM196NWN6MndRbWg5WlRiVlUwN0tSNmlzQmRPQ2U2Ukw1ejRRQ2Q5YXlkWk1fdG9udUtNOE1SN3V3a0F5SDVWQS00UFFQMDZrbXdMbFJyYmJQb3Y2RU1RaXJpTlRMdE5mUUxuSDhCU1k4Y01IR1VWNFNQeVBOTjFMakhTeTVwSXBPV3ZpaFBRRV9n?oc=5",
+   "published": 1793358060,
+   "traced_at": 1793451010,
+   "pick": {
+    "sources": [
+     "Gold"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "gold"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "671578d8ac1b",
+     "headline": "Gold sinks to one-year low, silver slips below $50 on inflation concerns, tech selloff"
+    },
+    {
+     "id": "a94e61343d29",
+     "headline": "Why gold plunged to its lowest price in a year despite renewed Iran jitters"
+    },
+    {
+     "id": "10f2949f5a09",
+     "headline": "Gold hits four-month low, silver falls below $50/oz on Fed hike fears"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "AEM",
+     "direction": -1
+    },
+    {
+     "ticker": "NEM",
+     "direction": -1
+    },
+    {
+     "ticker": "KGC",
+     "direction": -1
+    },
+    {
+     "ticker": "WPM",
+     "direction": -1
+    },
+    {
+     "ticker": "FNV",
+     "direction": -1
+    },
+    {
+     "ticker": "GOLD",
+     "direction": -1
+    }
+   ],
+   "reached": 1
+  },
   {
    "id": "671578d8ac1b",
    "headline": "Gold sinks to one-year low, silver slips below $50 on inflation concerns, tech selloff",
@@ -5323,182 +5435,9 @@
     }
    ],
    "reached": 27
-  },
-  {
-   "id": "3327899dc5ef",
-   "headline": "The budget deficit swells, while the cost of debt rises",
-   "source": "Axios",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE12UnpJR0F4bjRvTF9PMXZtb2JVcWxiejBIb0MxOUlBWGREa25qVjYxOFhGeFFwWVMwQ0tsMFRnWUQtNElUX0VmbHVaSEYzMlctbjZBemFTZkFmYmd5djdHOWc4eFlna2tHR0dfaFlVbFl3QnREdzBB?oc=5",
-   "published": 1792488752,
-   "traced_at": 1792516932,
-   "pick": {
-    "sources": [
-     "Fiscal_Policy"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "budget deficit"
-    ]
-   },
-   "earlier": [],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.0898,
-     "from": "2026-10-20",
-     "to": "2026-10-27",
-     "stocks": [
-      {
-       "ticker": "LDOS",
-       "direction": 1,
-       "ret": 0.0938,
-       "excess": 0.093
-      },
-      {
-       "ticker": "BAH",
-       "direction": 1,
-       "ret": 0.1124,
-       "excess": 0.1117
-      },
-      {
-       "ticker": "SAIC",
-       "direction": 1,
-       "ret": 0.1067,
-       "excess": 0.1059
-      },
-      {
-       "ticker": "CACI",
-       "direction": 1,
-       "ret": 0.0963,
-       "excess": 0.0955
-      },
-      {
-       "ticker": "NSC",
-       "direction": 1,
-       "ret": 0.0435,
-       "excess": 0.0427
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "LDOS",
-     "direction": 1
-    },
-    {
-     "ticker": "BAH",
-     "direction": 1
-    },
-    {
-     "ticker": "SAIC",
-     "direction": 1
-    },
-    {
-     "ticker": "CACI",
-     "direction": 1
-    },
-    {
-     "ticker": "NSC",
-     "direction": 1
-    },
-    {
-     "ticker": "CSX",
-     "direction": 1
-    }
-   ],
-   "reached": 31
-  },
-  {
-   "id": "81e209e295db",
-   "headline": "Pending home sales sink to 25-year low as buyers flee high mortgage rates",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/pending-home-sales-sink-to-25-year-low-as-buyers-flee-high-mortgage-rates-d02c6b30?mod=mw_rss_topstories",
-   "published": 1792508460,
-   "traced_at": 1792516933,
-   "pick": {
-    "sources": [
-     "Housing_and_Homebuilders"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "mortgage rates",
-     "home sales"
-    ]
-   },
-   "earlier": [],
-   "grade": {
-    "5": {
-     "hit": false,
-     "excess": -0.0402,
-     "from": "2026-10-20",
-     "to": "2026-10-27",
-     "stocks": [
-      {
-       "ticker": "TOL",
-       "direction": -1,
-       "ret": 0.0476,
-       "excess": -0.0468
-      },
-      {
-       "ticker": "NVR",
-       "direction": -1,
-       "ret": -0.0287,
-       "excess": 0.0295
-      },
-      {
-       "ticker": "LEN",
-       "direction": -1,
-       "ret": 0.0754,
-       "excess": -0.0746
-      },
-      {
-       "ticker": "DHI",
-       "direction": -1,
-       "ret": 0.0489,
-       "excess": -0.0481
-      },
-      {
-       "ticker": "PHM",
-       "direction": -1,
-       "ret": 0.062,
-       "excess": -0.0612
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "TOL",
-     "direction": -1
-    },
-    {
-     "ticker": "NVR",
-     "direction": -1
-    },
-    {
-     "ticker": "LEN",
-     "direction": -1
-    },
-    {
-     "ticker": "DHI",
-     "direction": -1
-    },
-    {
-     "ticker": "PHM",
-     "direction": -1
-    },
-    {
-     "ticker": "XHB",
-     "direction": -1
-    }
-   ],
-   "reached": 1
   }
  ],
- "total": 123,
+ "total": 125,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -5511,7 +5450,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 56
+  "waiting": 58
  },
  "checkup": {
   "at": 1792255747,
