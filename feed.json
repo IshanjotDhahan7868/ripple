@@ -1,6 +1,128 @@
 {
- "updated": 1793471999,
+ "updated": 1793489370,
  "items": [
+  {
+   "id": "f46ced58e18b",
+   "headline": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONWZobnlmVnlwbk9rMk1yeUVabnE1QUdtdTVEWGR6UUkwYXEzWk9weVpLMWFtRWF2Ykd6SmpNalgtelBCZ0lBdkd6Vm1xcWhNNkNVM0ZKTW43TmZyUUtMb1pYZVY2V2VuaFh5dHdBakhBYllrQjY5bUhrOHpteVNRUWNaZFrSAYoBQVVfeXFMUHFJcmV4YzZNcTZ4dk5RX2YyQm1TWDhpSS1OemxNdFRkUHhFTEFDNHpueE1QejEzMGVQYUFwQXpNV2JaVmJzdlQ2TWFJNlJOYjFkckE3TFpHVHpMSWt4YlBzMkZUX0hSa295M2tHSkx5aUFDbjMwbDkxQlNhdnp1NlhYd21VOER5ZHZn?oc=5",
+   "published": 1793472981,
+   "traced_at": 1793489356,
+   "pick": {
+    "sources": [
+     "Data_Centers"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "data center"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "22d0deff907f",
+     "headline": "Data center stocks remain under pressure after Korea IPO plunges 30%"
+    },
+    {
+     "id": "a8f4c0782308",
+     "headline": "Nextdc Shares Plunge 44% After Public Backlash Hits Data Center"
+    },
+    {
+     "id": "ed6f1cdc926b",
+     "headline": "Dow Giant Jumps On AI Data Center Deal. No, Not That One."
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "GLEN.L",
+     "direction": -1
+    },
+    {
+     "ticker": "FCX",
+     "direction": -1
+    },
+    {
+     "ticker": "SCCO",
+     "direction": -1
+    },
+    {
+     "ticker": "GE",
+     "direction": -1
+    },
+    {
+     "ticker": "SCHN.PA",
+     "direction": -1
+    },
+    {
+     "ticker": "COPX",
+     "direction": -1
+    }
+   ],
+   "reached": 28
+  },
+  {
+   "id": "79f778829a14",
+   "headline": "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTjZlVnBjQWc3TU0zdGE1QmhZOVdvZzhYSzZyci1hZE1scFJyY3hnaGUzSlpIZG1CcG5JVXhLQWxWaDRVS05UTUNYRkxSVEhGSW11SmhlMHBmM3FyZHhPWkJkeDJqS0ZDS2VsWWpRa3p6RFkyUTl5a0ZJYk90d1FvcVFsRdIBiAFBVV95cUxPV0ZFNlB2SnBqR1NCRWVlRTRmWkR0Z2ZyRmR6cUpPMjRtREFsb2RkRnBaTnRWVkVBRDM5QUJJa0lybXpRUzZQVFBnS3htaXdiTko3SzZJLUlUWDZacEpiSEJpdXlrVENkcjd5YVJZMTMwY05jR3BIbjROS00xMjVHQnh6Vmp4T0xG?oc=5",
+   "published": 1793380907,
+   "traced_at": 1793489356,
+   "pick": {
+    "sources": [
+     "Maritime_Chokepoint_Disruption",
+     "Oil_Price"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "strait of hormuz",
+     "crude oil"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "f842ddd53960",
+     "headline": "Gold prices plunge to one-year low below $3,900 as higher oil prices fuel fears of more pain ahead"
+    },
+    {
+     "id": "b28f3afbca3f",
+     "headline": "Oil Prices Rise as Middle East, Ukraine-Russia Conflict Fuel Supply Worries"
+    },
+    {
+     "id": "8d46adfaa860",
+     "headline": "Oil Prices Rise After Hormuz Tanker Attack, Houthi Claims Stoke Supply Fears"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": 1
+    },
+    {
+     "ticker": "OXY",
+     "direction": 1
+    },
+    {
+     "ticker": "COP",
+     "direction": 1
+    },
+    {
+     "ticker": "DVN",
+     "direction": 1
+    },
+    {
+     "ticker": "FANG",
+     "direction": 1
+    },
+    {
+     "ticker": "EOG",
+     "direction": 1
+    }
+   ],
+   "reached": 29
+  },
   {
    "id": "bfb3186faa44",
    "headline": "Crypto exchanges rush to tighten security after $6.3bn Binance heist",
@@ -5111,190 +5233,9 @@
     }
    ],
    "reached": 2
-  },
-  {
-   "id": "2844a8d28750",
-   "headline": "US pending home sales tumble to record low in September",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yVlJjdW1HWTFERVF1ZkZfY1B1WWR0Q2l2cVE5cVBfLWVhN3VRc19DNUwxSi1ob3N1VGlYeS1jdzFjeXdNdUlza3NCTC1DbUs3a01ncEV0a1cyU2NSbUQzbmhHVkM5SEJFVG9aSEpPWVVxeUtuVnZRamRjMjZVSEU?oc=5",
-   "published": 1792504850,
-   "traced_at": 1792532684,
-   "pick": {
-    "sources": [
-     "Housing_and_Homebuilders"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "home sales"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "025d7dea3ef6",
-     "headline": "US single-family housing starts plunge; building permits hit 3-1/2-year low"
-    },
-    {
-     "id": "81e209e295db",
-     "headline": "Pending home sales sink to 25-year low as buyers flee high mortgage rates"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": false,
-     "excess": -0.0422,
-     "from": "2026-10-21",
-     "to": "2026-10-28",
-     "stocks": [
-      {
-       "ticker": "TOL",
-       "direction": -1,
-       "ret": 0.037,
-       "excess": -0.0396
-      },
-      {
-       "ticker": "NVR",
-       "direction": -1,
-       "ret": -0.0139,
-       "excess": 0.0114
-      },
-      {
-       "ticker": "LEN",
-       "direction": -1,
-       "ret": 0.075,
-       "excess": -0.0776
-      },
-      {
-       "ticker": "DHI",
-       "direction": -1,
-       "ret": 0.0363,
-       "excess": -0.0389
-      },
-      {
-       "ticker": "PHM",
-       "direction": -1,
-       "ret": 0.0636,
-       "excess": -0.0662
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "TOL",
-     "direction": -1
-    },
-    {
-     "ticker": "NVR",
-     "direction": -1
-    },
-    {
-     "ticker": "LEN",
-     "direction": -1
-    },
-    {
-     "ticker": "DHI",
-     "direction": -1
-    },
-    {
-     "ticker": "PHM",
-     "direction": -1
-    },
-    {
-     "ticker": "XHB",
-     "direction": -1
-    }
-   ],
-   "reached": 1
-  },
-  {
-   "id": "15fd26ca7117",
-   "headline": "Apple adds U.S. titanium supplier for iPhone Duo as supply stays tight",
-   "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQN19fYVdtTnlOSmxoWTFGV1hra0RLYmh3TzVpdWhnU2o2LWZoZTlPQ2EtQjgtdjFxZTJaWWk0RXRfYXE2Vnp1dVpjT3RiOUNvWWFCWWpCbG1yLWUzN1BvWEVNUGRReDZwRVI0SWVPTF9JOW9tbGJtakhwOWY1VWpoQlhiTDdWWG1CaUk00gGQAUFVX3lxTFBNTUZtQjdTa0NoSWZEME05SG5FOGctVTRjX3ZhMWdZNUhEQ3hCVHB6WnB6ak94YlAtaldiM0FfY0ZadWNyclNiRjJpOF9oeTZnMjAzT0ZkRjJkUHBjaEtPMGdVM3o5Y0NLSS1aNEtqa0ZveV9OLTJBQk90ckIxREpVOWQxUkpKeEdacWt6VXNocA?oc=5",
-   "published": 1792497602,
-   "traced_at": 1792532685,
-   "pick": {
-    "sources": [
-     "Consumer_Electronics"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "iphone"
-    ]
-   },
-   "earlier": [],
-   "grade": {
-    "5": {
-     "hit": false,
-     "excess": -0.0025,
-     "from": "2026-10-21",
-     "to": "2026-10-28",
-     "stocks": [
-      {
-       "ticker": "SONY",
-       "direction": 1,
-       "ret": 0.0026,
-       "excess": 0.0051
-      },
-      {
-       "ticker": "HPQ",
-       "direction": 1,
-       "ret": 0.0388,
-       "excess": 0.0413
-      },
-      {
-       "ticker": "DELL",
-       "direction": 1,
-       "ret": 0.0142,
-       "excess": 0.0168
-      },
-      {
-       "ticker": "QCOM",
-       "direction": 1,
-       "ret": 0.0208,
-       "excess": 0.0233
-      },
-      {
-       "ticker": "TER",
-       "direction": 1,
-       "ret": -0.1018,
-       "excess": -0.0992
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "SONY",
-     "direction": 1
-    },
-    {
-     "ticker": "HPQ",
-     "direction": 1
-    },
-    {
-     "ticker": "DELL",
-     "direction": 1
-    },
-    {
-     "ticker": "QCOM",
-     "direction": 1
-    },
-    {
-     "ticker": "TER",
-     "direction": 1
-    },
-    {
-     "ticker": "KLAC",
-     "direction": 1
-    }
-   ],
-   "reached": 7
   }
  ],
- "total": 129,
+ "total": 131,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -5307,7 +5248,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 62
+  "waiting": 64
  },
  "checkup": {
   "at": 1792255747,
