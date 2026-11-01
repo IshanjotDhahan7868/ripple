@@ -1,6 +1,126 @@
 {
- "updated": 1793546397,
+ "updated": 1793565494,
  "items": [
+  {
+   "id": "6435cb86aa0e",
+   "headline": "Investors pull billions in funds from Binance after record $6.3bn hack",
+   "source": "The Guardian",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaENiZkNSRGNUNkQ5SWhKRTE1dkhMVUVCM3dSVWY4X2EzWFl2WkN1SnhKb3g0S0pCOW1YNWU4Und2MDdPenZRdUJoTWpaNzUzRGZkNWRCeWlOU0xITHQ4WTlLR2Z6dGhCMlZzSDl3YWFWYURqX0RBWEtWVlNWMXhuMnllWk13ckMxTEFwMkVWY1J1dmR5V1otVGVTUnVjLVlCT2dwaE1ILWktVXJia1pSbEtiNE1FM0JFenp0SW5na1M?oc=5",
+   "published": 1793556480,
+   "traced_at": 1793565480,
+   "pick": {
+    "sources": [
+     "Cyber_Threats"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "hack"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "d406ebe721f4",
+     "headline": "Binance to Resume Customer Withdrawals in Phases After Hack"
+    },
+    {
+     "id": "870677e09647",
+     "headline": "Crypto firm Binance covers 90% of losses after $6.3bn hack"
+    },
+    {
+     "id": "96c6ad82db14",
+     "headline": "Binance says user funds are safe after thieves make off with billions in largest-ever crypto hack"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "FTNT",
+     "direction": 1
+    },
+    {
+     "ticker": "CRWD",
+     "direction": 1
+    },
+    {
+     "ticker": "PANW",
+     "direction": 1
+    },
+    {
+     "ticker": "ZS",
+     "direction": 1
+    },
+    {
+     "ticker": "HACK",
+     "direction": 1
+    },
+    {
+     "ticker": "CIBR",
+     "direction": 1
+    }
+   ],
+   "reached": 2
+  },
+  {
+   "id": "286dd8bc1f43",
+   "headline": "US Jobs Pickup May Keep Fed on Track to Hike Rates Again",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSjA5czFvNHJVY3pfd3I2ZGt0eGlkWDZCa3llcU5VRjUxV3pHc2pOUFI5NGZERThCY0lZNkJQZXFPMUphdmw4OEJOV2V2blZ2NGlDakI4NDRVM3VYR0ViSkhGbS1SR2Q0Sk03TmFRd1FvOW90U1Q4TnJYVFJIbVpUSEhpMTVMUmNrbGxpNldwOUZTbXVjV3hpTVV5d00tRHpPOHVJdmVOaEM1ZWc?oc=5",
+   "published": 1793544091,
+   "traced_at": 1793565480,
+   "pick": {
+    "sources": [
+     "Interest_Rates"
+    ],
+    "direction": 1,
+    "how": "rule",
+    "matched": [
+     "\\bfed\\b.*\\b(hikes?|raises?)\\b.*\\brates?\\b|\\brate hike|higher for longer"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "c59ca7698dda",
+     "headline": "Fed needs at least two more rate hikes, Logan says"
+    },
+    {
+     "id": "8138569929ed",
+     "headline": "Fed\u2019s preferred inflation gauge rose in September as third-quarter GDP beats expectations"
+    },
+    {
+     "id": "b560c3af5b81",
+     "headline": "Fed Chair Kevin Warsh reveals October surprise inside interest-rate pause"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": 1
+    },
+    {
+     "ticker": "TOL",
+     "direction": -1
+    },
+    {
+     "ticker": "NVR",
+     "direction": -1
+    },
+    {
+     "ticker": "LEN",
+     "direction": -1
+    },
+    {
+     "ticker": "DHI",
+     "direction": -1
+    },
+    {
+     "ticker": "PHM",
+     "direction": -1
+    }
+   ],
+   "reached": 35
+  },
   {
    "id": "d406ebe721f4",
    "headline": "Binance to Resume Customer Withdrawals in Phases After Hack",
@@ -4853,207 +4973,9 @@
     }
    ],
    "reached": 10
-  },
-  {
-   "id": "de073c7d63b8",
-   "headline": "UK inflation jumps to 3.5% \u2014 cementing rate hike expectations",
-   "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9BMFE1c0o5clpFOWdSQzVWX1VBSDVFcmpXSmptNDRoVGdNUEVkYWdRZW54T1VLOWJ3aU1IeHlGMURjdHE4VzZ3YWdHdzUwekFiWlV2ODk1NVJqX1RfYzVjV3VQQXBWVFhRaUVJNnhfUGxMSFUxUWZn?oc=5",
-   "published": 1792562579,
-   "traced_at": 1792591094,
-   "pick": {
-    "sources": [
-     "Interest_Rates"
-    ],
-    "direction": 1,
-    "how": "rule",
-    "matched": [
-     "\\bfed\\b.*\\b(hikes?|raises?)\\b.*\\brates?\\b|\\brate hike|higher for longer"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "8e310d92493d",
-     "headline": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes"
-    },
-    {
-     "id": "7e6b43656f46",
-     "headline": "Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates"
-    },
-    {
-     "id": "07e5ea3b89b4",
-     "headline": "French Government-Bond Yields Rise on Protests, Budget Concerns; Treasury Yields Fall"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": false,
-     "excess": -0.0344,
-     "from": "2026-10-21",
-     "to": "2026-10-28",
-     "stocks": [
-      {
-       "ticker": "IBKR",
-       "direction": 1,
-       "ret": -0.0298,
-       "excess": -0.0272
-      },
-      {
-       "ticker": "TOL",
-       "direction": -1,
-       "ret": 0.037,
-       "excess": -0.0396
-      },
-      {
-       "ticker": "NVR",
-       "direction": -1,
-       "ret": -0.0139,
-       "excess": 0.0114
-      },
-      {
-       "ticker": "LEN",
-       "direction": -1,
-       "ret": 0.075,
-       "excess": -0.0776
-      },
-      {
-       "ticker": "DHI",
-       "direction": -1,
-       "ret": 0.0363,
-       "excess": -0.0389
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "IBKR",
-     "direction": 1
-    },
-    {
-     "ticker": "TOL",
-     "direction": -1
-    },
-    {
-     "ticker": "NVR",
-     "direction": -1
-    },
-    {
-     "ticker": "LEN",
-     "direction": -1
-    },
-    {
-     "ticker": "DHI",
-     "direction": -1
-    },
-    {
-     "ticker": "PHM",
-     "direction": -1
-    }
-   ],
-   "reached": 35
-  },
-  {
-   "id": "a8f4c0782308",
-   "headline": "Nextdc Shares Plunge 44% After Public Backlash Hits Data Center",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc2cycW1CNXNjRGR3blYyX0w5SWpPYURMTUFCQ1l6M1lJRUlPcHB6NHM3MncxQy1wYXBkeW12eC1lTmJHMXhPNWJUeXNTcFR3cEZLMmlCamtNcEZCbHpLbVN2aXJNM0lDWmZKemsyX0p3N05hMXBVdVFiOEhrQl82ZVBMRWFmanZqUHJabnQzUWJFYnI3Sl9QVGprLVNSVDFxNFlkb0dSX1JBMVZrY2NwMVM2ams?oc=5",
-   "published": 1792562100,
-   "traced_at": 1792591094,
-   "pick": {
-    "sources": [
-     "Data_Centers"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "data center"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "ed6f1cdc926b",
-     "headline": "Dow Giant Jumps On AI Data Center Deal. No, Not That One."
-    },
-    {
-     "id": "5436fe30992a",
-     "headline": "HSBC CEO warns the AI boom won\u2019t make every data center a good bet"
-    },
-    {
-     "id": "899e9dbf729d",
-     "headline": "Microsoft Scraps UK Data Center Deal With Nscale, Telegraph Says"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.0157,
-     "from": "2026-10-21",
-     "to": "2026-10-28",
-     "stocks": [
-      {
-       "ticker": "GLEN.L",
-       "direction": -1,
-       "ret": -0.0203,
-       "excess": 0.0177
-      },
-      {
-       "ticker": "FCX",
-       "direction": -1,
-       "ret": -0.0443,
-       "excess": 0.0417
-      },
-      {
-       "ticker": "SCCO",
-       "direction": -1,
-       "ret": -0.0273,
-       "excess": 0.0248
-      },
-      {
-       "ticker": "GE",
-       "direction": -1,
-       "ret": 0.0247,
-       "excess": -0.0272
-      },
-      {
-       "ticker": "COPX",
-       "direction": -1,
-       "ret": -0.0238,
-       "excess": 0.0213
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "GLEN.L",
-     "direction": -1
-    },
-    {
-     "ticker": "FCX",
-     "direction": -1
-    },
-    {
-     "ticker": "SCCO",
-     "direction": -1
-    },
-    {
-     "ticker": "GE",
-     "direction": -1
-    },
-    {
-     "ticker": "SCHN.PA",
-     "direction": -1
-    },
-    {
-     "ticker": "COPX",
-     "direction": -1
-    }
-   ],
-   "reached": 28
   }
  ],
- "total": 136,
+ "total": 138,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -5066,7 +4988,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 69
+  "waiting": 71
  },
  "checkup": {
   "at": 1792255747,
