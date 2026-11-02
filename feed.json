@@ -1,6 +1,488 @@
 {
- "updated": 1793583412,
+ "updated": 1793612452,
  "items": [
+  {
+   "id": "7e0c8289be06",
+   "headline": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+   "source": "The Hacker News",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWmVOUTJ5cEo0bUU2Unp2V093dXNIN3hEaHB5VXRrZlBYRjc5RkVzM2lraGRpZGNIM0s0Uk15bVdPOHNSNGJsN29Ma3lVTzBleWd2WHRuSGlzOXVtV193RE8wbXgyaGNjdGdJRkUxdkR2ajN0MGh2STQ2T2p3YTVMTnRVME8?oc=5",
+   "published": 1793598948,
+   "traced_at": 1793612434,
+   "pick": {
+    "sources": [
+     "Crypto_Assets"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "crypto"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "0b9a0210f2cb",
+     "headline": "Binance users withdraw billions after record crypto hack"
+    },
+    {
+     "id": "ff27bfa07c99",
+     "headline": "Binance users withdraw $3.6bn after record crypto hack"
+    },
+    {
+     "id": "da4f869d03ef",
+     "headline": "FBI blames North Korea for record $6.3bn crypto heist from Binance"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "MSTR",
+     "direction": 1
+    },
+    {
+     "ticker": "MARA",
+     "direction": 1
+    },
+    {
+     "ticker": "COIN",
+     "direction": 1
+    },
+    {
+     "ticker": "RIOT",
+     "direction": 1
+    },
+    {
+     "ticker": "HOOD",
+     "direction": 1
+    },
+    {
+     "ticker": "BITCOIN",
+     "direction": 1
+    }
+   ],
+   "reached": 1
+  },
+  {
+   "id": "cc8a09460f2b",
+   "headline": "Gold Rises, But Expectations of Tighter U.S. Monetary Policy Weigh",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOG92ektRZjRLMl82N25ZZmkxMnpJMXdpV0hUQy1xVzloWW9hR3pPSzZNVFEyRnZ3YWVSLURHMUp5bVZsbk9sakxJMk1POWg3ZjlKaHE5eENHdVhkYWVzV2s2LUxhemppdTd4RVV2OFdqT1lGb1YwWnhiU010bXNiMjNLRnkydno1UzRpdHJKOVJhMGF0Rm9LNE9YZHZyQUU5S01RRHIyTE01OWJURU1rUE02a0JaOUdMbXRLeUZ3?oc=5",
+   "published": 1793580707,
+   "traced_at": 1793612434,
+   "pick": {
+    "sources": [
+     "Gold"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "gold"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "7cf48bac8b65",
+     "headline": "Gold Just Hit a New Low. Here's Where Traders Are Finding Safety Instead."
+    },
+    {
+     "id": "671578d8ac1b",
+     "headline": "Gold sinks to one-year low, silver slips below $50 on inflation concerns, tech selloff"
+    },
+    {
+     "id": "a94e61343d29",
+     "headline": "Why gold plunged to its lowest price in a year despite renewed Iran jitters"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "AEM",
+     "direction": 1
+    },
+    {
+     "ticker": "NEM",
+     "direction": 1
+    },
+    {
+     "ticker": "KGC",
+     "direction": 1
+    },
+    {
+     "ticker": "WPM",
+     "direction": 1
+    },
+    {
+     "ticker": "FNV",
+     "direction": 1
+    },
+    {
+     "ticker": "GOLD",
+     "direction": 1
+    }
+   ],
+   "reached": 1
+  },
+  {
+   "id": "749f110a4ba8",
+   "headline": "U.S. crude falls more than 3% amid reports of U.S.-Iran diplomatic efforts",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQXd1a2c2UEtTYmUxbDlrUGdYYmxXdWJJd19lbVVpa1NCZFNIT1ZpV2xBOEFmY195WVZSLXNIdktTTldXRHVlWHBYN0ZIRmhMb21lRWY0X1U2NERwSzNLSTFaVjNFTmVXWDBrM1BrNE8yTjBjVUdFWG9ET05OdGhPMUstRzljYTjSAYwBQVVfeXFMTVhDTDhNM0RuaF9EMUI4clJLbjhRWVNITUd3Z3BUX2dPaXgzOFVEYlFQajBfbTFpdGtoVzhsUm0tYkdST2VKYjZPbWZCZTNvVnJra1oyU3RWRUNkYmE2dElpVUVGRDBxLWVXYVZlOVBoUy1QNVJ6dHdnOVVJUjdSdm85QWRxWTFDUmMwTHY?oc=5",
+   "published": 1793595866,
+   "traced_at": 1793612434,
+   "pick": {
+    "sources": [
+     "Middle_East_Conflict"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "iran"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "b28f3afbca3f",
+     "headline": "Oil Prices Rise as Middle East, Ukraine-Russia Conflict Fuel Supply Worries"
+    },
+    {
+     "id": "a94e61343d29",
+     "headline": "Why gold plunged to its lowest price in a year despite renewed Iran jitters"
+    },
+    {
+     "id": "ef6c76e9af92",
+     "headline": "Oil prices fall as peace hopes offset fears of growing Middle East conflict"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": -1
+    },
+    {
+     "ticker": "OXY",
+     "direction": -1
+    },
+    {
+     "ticker": "COP",
+     "direction": -1
+    },
+    {
+     "ticker": "DVN",
+     "direction": -1
+    },
+    {
+     "ticker": "FANG",
+     "direction": -1
+    },
+    {
+     "ticker": "EOG",
+     "direction": -1
+    }
+   ],
+   "reached": 23
+  },
+  {
+   "id": "848b744991e6",
+   "headline": "Saudi Economy Shrank at Slower Pace Before Houthi Escalation",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNanJ5UmZiYUY4UVA0SXdvUTFsblpPSVlvU1hHUU1hdDhLS0Y3MUxLblhiNWJ2SHdKTW56cTdYR1FXUXNEMmxTTUZkUUNhRlpqODV1enhJa19aMUZNZ2N3dW4yTEQyd1JrRkZpQTRwM1Job0xCRVZqYjh0d18xOEprUzFFUXQ4WHZWRTF0U3I0M05fVzlWejNHdnNlZkFvdXhqVF9pYjFFV1FBaFM5RUNaN1FfazI5dw?oc=5",
+   "published": 1793537226,
+   "traced_at": 1793612434,
+   "pick": {
+    "sources": [
+     "Maritime_Chokepoint_Disruption"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "houthi"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "79f778829a14",
+     "headline": "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz"
+    },
+    {
+     "id": "8d46adfaa860",
+     "headline": "Oil Prices Rise After Hormuz Tanker Attack, Houthi Claims Stoke Supply Fears"
+    },
+    {
+     "id": "87d7688b00e6",
+     "headline": "Oil reverses course higher after US and Houthi attacks"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "ZIM",
+     "direction": 1
+    },
+    {
+     "ticker": "FRO",
+     "direction": 1
+    },
+    {
+     "ticker": "SBLK",
+     "direction": 1
+    },
+    {
+     "ticker": "INSW",
+     "direction": 1
+    },
+    {
+     "ticker": "MATX",
+     "direction": 1
+    },
+    {
+     "ticker": "DHT",
+     "direction": 1
+    }
+   ],
+   "reached": 12
+  },
+  {
+   "id": "893d7fc276d6",
+   "headline": "Perion to be acquired by India\u2019s Affle for $420 million, marking a steep fall for a once-billion-dollar Israeli company",
+   "source": "CTech",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGWmY2U0tPOWJRdThkdWN3d0FVWDdyaXp4N24tQkN1djdqRGtzUHoxSDgyLUV3YTlFU01HT0VDcGhENDdTNks4RkhzcU5nSkpVQVlab0g3RkR3VjRLb1loRUFCcUZkTDQ?oc=5",
+   "published": 1793532900,
+   "traced_at": 1793612435,
+   "pick": {
+    "sources": [
+     "USD_Strength"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "dollar"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "ad83af207a06",
+     "headline": "Gold Futures Slip As U.S. Dollar Gains, Yields Edge Up"
+    },
+    {
+     "id": "608ae9bb4ddf",
+     "headline": "Gold edges lower as firm dollar, elevated yields weigh"
+    },
+    {
+     "id": "81121d812e03",
+     "headline": "I\u2019ll bet my bottom dollar stocks are about to rally"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "UUP",
+     "direction": -1
+    },
+    {
+     "ticker": "AEM",
+     "direction": 1
+    },
+    {
+     "ticker": "NEM",
+     "direction": 1
+    },
+    {
+     "ticker": "KGC",
+     "direction": 1
+    },
+    {
+     "ticker": "WPM",
+     "direction": 1
+    },
+    {
+     "ticker": "FNV",
+     "direction": 1
+    }
+   ],
+   "reached": 4
+  },
+  {
+   "id": "1c69ff6d8973",
+   "headline": "Kevin Warsh is managing US debt costs not inflation as interest rates risk topping GDP growth soon",
+   "source": "Fortune",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVkphbi1JbkpNU1htVTU5TDJFajBlMHktbHlwb1lVdGE5LVN3ZlVoRkhIa1ptcDU4Y0hIajRJYnhnUHdaQ1Q2MjRCcTNhSFZLODFsbzNyMGt6V0QtMFRqWEdCVDkwWDhuWTJOdXF4WkxFX3I3VUNpdUNBV3d0OUtjeEJXRUtCWjEzVE1kampUbXEzampzQUh5eVNaNU1sQ2VWS3ZPVGR4V2lJdUJqbjRhdU5yZGhXQW03UDZwb196QVdfbzB5aUM1b0lPRTRtZ2M?oc=5",
+   "published": 1793574420,
+   "traced_at": 1793612435,
+   "pick": {
+    "sources": [
+     "Interest_Rates",
+     "Inflation"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "interest rates",
+     "inflation"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "286dd8bc1f43",
+     "headline": "US Jobs Pickup May Keep Fed on Track to Hike Rates Again"
+    },
+    {
+     "id": "67dc8cece2ab",
+     "headline": "In Biden's First Halloween In Office, A 100-Piece Bag Of Candy Cost $9.91, A Study Found. This Year It's $16.96, And Government Data Shows Candy Prices Rose 7.7% In A Year, More Than Double Overall Inflation"
+    },
+    {
+     "id": "c59ca7698dda",
+     "headline": "Fed needs at least two more rate hikes, Logan says"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": 1
+    },
+    {
+     "ticker": "TOL",
+     "direction": -1
+    },
+    {
+     "ticker": "NVR",
+     "direction": -1
+    },
+    {
+     "ticker": "LEN",
+     "direction": -1
+    },
+    {
+     "ticker": "DHI",
+     "direction": -1
+    },
+    {
+     "ticker": "PHM",
+     "direction": -1
+    }
+   ],
+   "reached": 36
+  },
+  {
+   "id": "3bfb8b8d66f4",
+   "headline": "Ryanair may freeze workers' pay and raise airfares",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cr0qkve1x224o?at_medium=RSS&at_campaign=rss",
+   "published": 1793608437,
+   "traced_at": 1793612435,
+   "pick": {
+    "sources": [
+     "Airlines"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "airfares"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "b54d57cc803f",
+     "headline": "American Airlines expects deeper 2026 loss on pricier fuel despite record revenue"
+    },
+    {
+     "id": "7c6468257d5a",
+     "headline": "Southwest Airlines cuts 2026 profit forecast on higher fuel"
+    },
+    {
+     "id": "c6cfa652d20c",
+     "headline": "United Airlines slashes 2026 profit outlook on fuel prices, but travelers keep booking despite higher fares"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "DAL",
+     "direction": 1
+    },
+    {
+     "ticker": "LUV",
+     "direction": 1
+    },
+    {
+     "ticker": "AAL",
+     "direction": 1
+    },
+    {
+     "ticker": "UAL",
+     "direction": 1
+    },
+    {
+     "ticker": "ALK",
+     "direction": 1
+    },
+    {
+     "ticker": "JETS",
+     "direction": 1
+    }
+   ],
+   "reached": 2
+  },
+  {
+   "id": "472dfcdbafcc",
+   "headline": "Binance users withdraw $3.6bn after largest-ever crypto hack",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss",
+   "published": 1793605353,
+   "traced_at": 1793612435,
+   "pick": {
+    "sources": [
+     "Cyber_Threats"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "hack"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "0b9a0210f2cb",
+     "headline": "Binance users withdraw billions after record crypto hack"
+    },
+    {
+     "id": "ff27bfa07c99",
+     "headline": "Binance users withdraw $3.6bn after record crypto hack"
+    },
+    {
+     "id": "b4f214f9be3b",
+     "headline": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "FTNT",
+     "direction": 1
+    },
+    {
+     "ticker": "CRWD",
+     "direction": 1
+    },
+    {
+     "ticker": "PANW",
+     "direction": 1
+    },
+    {
+     "ticker": "ZS",
+     "direction": 1
+    },
+    {
+     "ticker": "HACK",
+     "direction": 1
+    },
+    {
+     "ticker": "CIBR",
+     "direction": 1
+    }
+   ],
+   "reached": 2
+  },
   {
    "id": "0b9a0210f2cb",
    "headline": "Binance users withdraw billions after record crypto hack",
@@ -4184,655 +4666,9 @@
     }
    ],
    "reached": 23
-  },
-  {
-   "id": "91dd8bbaf7fd",
-   "headline": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
-   "source": "BleepingComputer",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMEJaSEdMMmg4LTNBYV9EVlQ1TURRa0luMzNsbTVXWU5MdHJuUklydjc5TnQ5UEZYb1p1SHozYndLQXhNVng2NHZya1dqSGFHdm1NTE56UDBhYWVKdS1wYlJRVVZ4aF83RllxWWxsX1ZqN0plQ3ZNenZvX1EzTDZ5cGJOVE9WN0k5dWVJX050Q3dZUFNDMnp1WEhuM2RCSUJIV3h2ME9xdEFMWUFncUdmOWFjcGk?oc=5",
-   "published": 1793144151,
-   "traced_at": 1793205846,
-   "pick": {
-    "sources": [
-     "Cyber_Threats"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "ransomware"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "0ffe17943aed",
-     "headline": "How Israeli firm\u2019s \u2018zero-click\u2019 malware attack poses global security risk"
-    },
-    {
-     "id": "2f03ba7ec94a",
-     "headline": "Hack exposes data on millions of California students"
-    },
-    {
-     "id": "319077016fa1",
-     "headline": "Hackers steal personal data of millions of California students in massive breach"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "FTNT",
-     "direction": 1
-    },
-    {
-     "ticker": "CRWD",
-     "direction": 1
-    },
-    {
-     "ticker": "PANW",
-     "direction": 1
-    },
-    {
-     "ticker": "ZS",
-     "direction": 1
-    },
-    {
-     "ticker": "HACK",
-     "direction": 1
-    },
-    {
-     "ticker": "CIBR",
-     "direction": 1
-    }
-   ],
-   "reached": 2
-  },
-  {
-   "id": "13513920bb96",
-   "headline": "Boeing Stock Plunges After Earnings. 737 Progress Isn\u2019t Fast Enough.",
-   "source": "Barron's",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqTDlic1FKMVhoYkNvVEtMRXp2RXdPT2sxdWRHdzZBMUlEMzlwSDFweGFBVVVWaGtOa0JuTml0b2VsamV0Yi1xVXhuM205SHRQWWVVXzBNenRRUngtZWk1bk9CZmJBM2phOGdoYmE4TWpkeDlobnZwUg?oc=5",
-   "published": 1793131740,
-   "traced_at": 1793205846,
-   "pick": {
-    "sources": [
-     "Aerospace_and_Defense_Manufacturing"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "boeing"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "6d68003f746b",
-     "headline": "Boeing's largest 737 MAX jet wins FAA certification, clearing way for deliveries of 1,555 ordered planes"
-    },
-    {
-     "id": "c0b4897a7c0d",
-     "headline": "US to approve Boeing 737 Max 10 for passenger service after years of delays, AP source says"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "NOC",
-     "direction": -1
-    },
-    {
-     "ticker": "GD",
-     "direction": -1
-    },
-    {
-     "ticker": "BA",
-     "direction": -1
-    },
-    {
-     "ticker": "RTX",
-     "direction": -1
-    },
-    {
-     "ticker": "LMT",
-     "direction": -1
-    },
-    {
-     "ticker": "XAR",
-     "direction": -1
-    }
-   ],
-   "reached": 10
-  },
-  {
-   "id": "1b1dd4267b48",
-   "headline": "Robinhood Chain brings in $26 million as crypto revenue rises 20% in Q3",
-   "source": "The Block",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUm0yam8wLWJOQ2toSDF6bGFhak1ELVVoV1hZdUhOUVF1TnBUdC1OaC01WDBKZy1vdnRBOEFMQUs2Z3dncDgxcGlZZHZQV01wNGhyRUNKdVYyTUlKcEF2X0JkX0cxM2RMb1pZN3NlVWNaeVFEb0dXRXh4ZDcycFh3VmNPNktBVWhYSUQzRkVhNndjcXVUZmpibEsteC14azFOZEo5cW15VWYyb1o3aUxPUW1yOVBYcVFzU2VZ?oc=5",
-   "published": 1793134500,
-   "traced_at": 1793205847,
-   "pick": {
-    "sources": [
-     "Crypto_Assets"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "crypto"
-    ]
-   },
-   "earlier": [],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "MSTR",
-     "direction": 1
-    },
-    {
-     "ticker": "MARA",
-     "direction": 1
-    },
-    {
-     "ticker": "COIN",
-     "direction": 1
-    },
-    {
-     "ticker": "RIOT",
-     "direction": 1
-    },
-    {
-     "ticker": "HOOD",
-     "direction": 1
-    },
-    {
-     "ticker": "BITCOIN",
-     "direction": 1
-    }
-   ],
-   "reached": 1
-  },
-  {
-   "id": "b54d57cc803f",
-   "headline": "American Airlines expects deeper 2026 loss on pricier fuel despite record revenue",
-   "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNak80bjFjS2pOdmVwM2RueXhEbnJZU1hpMWdZckJMbEgtaEl4b2dTdHV2VkpsVWdvWGFzeW1mVDkzWUVhNUtseWpOSTlaLU44R0JKN196bHQwbEFOT0pWUENEaWF5aGs3TVluYkdGVU5XcENSdE15QldhaTk5Z2ZGddIBhgFBVV95cUxNUXdObGpBeW01bjVUbkhmcHZqU2JXeDJKRUN5U0xvQ2FDRGZHa0J4Vk5KTDk3M2RyaEw3TDFYd0ZrSzh6eUthUENPeE9fQlBUaUtzaUVEckhoMVNNampaVVFaXzBBQ2FiQlh4WjlDeXotZEg5Q1AzNGNfejdITUtveVJCS2tpUQ?oc=5",
-   "published": 1792667403,
-   "traced_at": 1792670875,
-   "pick": {
-    "sources": [
-     "Airlines"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "airlines"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "7c6468257d5a",
-     "headline": "Southwest Airlines cuts 2026 profit forecast on higher fuel"
-    },
-    {
-     "id": "c6cfa652d20c",
-     "headline": "United Airlines slashes 2026 profit outlook on fuel prices, but travelers keep booking despite higher fares"
-    },
-    {
-     "id": "ef6f24fb527c",
-     "headline": "United Airlines adds 5 nonstop routes to its lineup \u2014 including new international destinations"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.0238,
-     "from": "2026-10-22",
-     "to": "2026-10-29",
-     "stocks": [
-      {
-       "ticker": "DAL",
-       "direction": 1,
-       "ret": 0.0288,
-       "excess": 0.0233
-      },
-      {
-       "ticker": "LUV",
-       "direction": 1,
-       "ret": 0.0363,
-       "excess": 0.0308
-      },
-      {
-       "ticker": "AAL",
-       "direction": 1,
-       "ret": 0.023,
-       "excess": 0.0175
-      },
-      {
-       "ticker": "UAL",
-       "direction": 1,
-       "ret": 0.0351,
-       "excess": 0.0296
-      },
-      {
-       "ticker": "ALK",
-       "direction": 1,
-       "ret": 0.0235,
-       "excess": 0.0179
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "DAL",
-     "direction": 1
-    },
-    {
-     "ticker": "LUV",
-     "direction": 1
-    },
-    {
-     "ticker": "AAL",
-     "direction": 1
-    },
-    {
-     "ticker": "UAL",
-     "direction": 1
-    },
-    {
-     "ticker": "ALK",
-     "direction": 1
-    },
-    {
-     "ticker": "JETS",
-     "direction": 1
-    }
-   ],
-   "reached": 2
-  },
-  {
-   "id": "7c6468257d5a",
-   "headline": "Southwest Airlines cuts 2026 profit forecast on higher fuel",
-   "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZGpGLWN1Z0ZQZ1FZY3cyX0pWV1VhR1RLX1VPc3RBc01FLTJ2eGNrZFRnVUcxeTI4Vmxpd2xRbEU3R21DaWVISUx2MG94eVNNM0M2MTdyRDNjLW55b1R5dEIyTUc3X0Z2YzVTbGotZzFMVUtlVGpCLXRvOEZ3YlpvMS1R0gGHAUFVX3lxTE0yb2tWUWlZV1VRWFZUeVJtWHRnaVU0ckFOSWFsU3pWLWMzdU1zRGhFa0hLLS1pMFpELXpfZHhyZVk5OXhNVTZBb3RRd3BQc2h2YmxiOFFxRkw0YUdmdkdsdUZ0ejdlRWNadDZic3B5c0tHX0ZHYlRBSlVIUDZFOTVFcm9adjZKZw?oc=5",
-   "published": 1792615003,
-   "traced_at": 1792625315,
-   "pick": {
-    "sources": [
-     "Airlines"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "airlines"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "c6cfa652d20c",
-     "headline": "United Airlines slashes 2026 profit outlook on fuel prices, but travelers keep booking despite higher fares"
-    },
-    {
-     "id": "ef6f24fb527c",
-     "headline": "United Airlines adds 5 nonstop routes to its lineup \u2014 including new international destinations"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": false,
-     "excess": -0.0238,
-     "from": "2026-10-22",
-     "to": "2026-10-29",
-     "stocks": [
-      {
-       "ticker": "DAL",
-       "direction": -1,
-       "ret": 0.0288,
-       "excess": -0.0233
-      },
-      {
-       "ticker": "LUV",
-       "direction": -1,
-       "ret": 0.0363,
-       "excess": -0.0308
-      },
-      {
-       "ticker": "AAL",
-       "direction": -1,
-       "ret": 0.023,
-       "excess": -0.0175
-      },
-      {
-       "ticker": "UAL",
-       "direction": -1,
-       "ret": 0.0351,
-       "excess": -0.0296
-      },
-      {
-       "ticker": "ALK",
-       "direction": -1,
-       "ret": 0.0235,
-       "excess": -0.0179
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "DAL",
-     "direction": -1
-    },
-    {
-     "ticker": "LUV",
-     "direction": -1
-    },
-    {
-     "ticker": "AAL",
-     "direction": -1
-    },
-    {
-     "ticker": "UAL",
-     "direction": -1
-    },
-    {
-     "ticker": "ALK",
-     "direction": -1
-    },
-    {
-     "ticker": "JETS",
-     "direction": -1
-    }
-   ],
-   "reached": 2
-  },
-  {
-   "id": "7bfefd86768f",
-   "headline": "Europe's financial regulators query Google over cloud outage that hit banks",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOT1pIZlJZYU5ld0dIeUlRcEtISURhQ080MDNWRU50d1ZSUEpnSzlPT2JjMFU1R0lQM05rZ2FCZVVhaVgtSlZwZW5DY29BUEpudGdiNUp1T0syMnEwWEpYcV9RaWJWc3k3UnBmdnVPTjd4Wnl2RHQ1a2Q3dG1IUlJ4QndPc05rRjJmMXNqZ0tRdnJ2eUl5Y3RvTUdRUmQySk5HaEpqdw?oc=5",
-   "published": 1792597400,
-   "traced_at": 1792625316,
-   "pick": {
-    "sources": [
-     "Retail_Banking"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "banks"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "3e655ae7b98a",
-     "headline": "Banks expect to be hit with higher taxes in Budget"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": false,
-     "excess": -0.0094,
-     "from": "2026-10-22",
-     "to": "2026-10-29",
-     "stocks": [
-      {
-       "ticker": "WFC",
-       "direction": -1,
-       "ret": 0.0217,
-       "excess": -0.0162
-      },
-      {
-       "ticker": "TD",
-       "direction": -1,
-       "ret": 0.0159,
-       "excess": -0.0104
-      },
-      {
-       "ticker": "C",
-       "direction": -1,
-       "ret": 0.0248,
-       "excess": -0.0193
-      },
-      {
-       "ticker": "KBE",
-       "direction": -1,
-       "ret": 0.0077,
-       "excess": -0.0022
-      },
-      {
-       "ticker": "BAC",
-       "direction": -1,
-       "ret": 0.0044,
-       "excess": 0.0011
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "WFC",
-     "direction": -1
-    },
-    {
-     "ticker": "TD",
-     "direction": -1
-    },
-    {
-     "ticker": "C",
-     "direction": -1
-    },
-    {
-     "ticker": "KBE",
-     "direction": -1
-    },
-    {
-     "ticker": "BAC",
-     "direction": -1
-    },
-    {
-     "ticker": "JPM",
-     "direction": -1
-    }
-   ],
-   "reached": 1
-  },
-  {
-   "id": "2dda0db1fd01",
-   "headline": "U.S. Crude Oil Stockpiles Fall More Than Expected",
-   "source": "WSJ",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQm5hOGlwVkNzMHk1V2V2Snc3WXZkaXNUMEVyc0NmSmh2Yl9ieENlaUE4YkVKWUpFNExZZ1ZkYWdXQjkySW5HWlBjeDJSUHZEY282M2Z3UXhLeWtKOXdVWnFsZHBVMGVydzdUcHJCSFdkeDE3eU5vZktQZmEzdmZhOFNxczNqajJ1YUkyUGVPS1JRTDZCb210VExyY21SQQ?oc=5",
-   "published": 1792596240,
-   "traced_at": 1792625316,
-   "pick": {
-    "sources": [
-     "Oil_Price"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "crude oil"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "5817b22e01d2",
-     "headline": "Wall St set for lower open as oil prices jump, earnings in focus"
-    },
-    {
-     "id": "293ad530dc12",
-     "headline": "Global oil prices hit highest level in 5 months amid attacks on ships, facilities - ABC News"
-    },
-    {
-     "id": "1a661e21343c",
-     "headline": "Brent oil tops $109 after Houthi militants claim they attacked Saudi airports and Aramco facilities"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": false,
-     "excess": -0.0229,
-     "from": "2026-10-22",
-     "to": "2026-10-29",
-     "stocks": [
-      {
-       "ticker": "APA",
-       "direction": -1,
-       "ret": 0.0368,
-       "excess": -0.0313
-      },
-      {
-       "ticker": "OXY",
-       "direction": -1,
-       "ret": 0.002,
-       "excess": 0.0035
-      },
-      {
-       "ticker": "COP",
-       "direction": -1,
-       "ret": 0.0262,
-       "excess": -0.0207
-      },
-      {
-       "ticker": "DVN",
-       "direction": -1,
-       "ret": 0.0333,
-       "excess": -0.0278
-      },
-      {
-       "ticker": "FANG",
-       "direction": -1,
-       "ret": 0.0437,
-       "excess": -0.0382
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "APA",
-     "direction": -1
-    },
-    {
-     "ticker": "OXY",
-     "direction": -1
-    },
-    {
-     "ticker": "COP",
-     "direction": -1
-    },
-    {
-     "ticker": "DVN",
-     "direction": -1
-    },
-    {
-     "ticker": "FANG",
-     "direction": -1
-    },
-    {
-     "ticker": "EOG",
-     "direction": -1
-    }
-   ],
-   "reached": 27
-  },
-  {
-   "id": "98ee9b1aba54",
-   "headline": "Stock Market Today: Nasdaq logs 1.1% gain; S&P 500 and Dow end higher as AI plays and tech bounce; oil climbs in after-hours trade as investors monitor Middle East headlines; Meta and Tesla earnings on deck",
-   "source": "MarketWatch",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVkRpQXdOVzlDUERyeXdaOVdGZER5SmlMcVlvSHd5d3pHZjhLUGpRM0R4ZWtSTlp5bHRlTE1Ibl9haTJzdlBYRWNMWHJ1X2NyZU5oc2ZTWms1eWpGcUlwamNPb3ZXMk90SGIzYWtnUEd6blF6Mlo1WC1lMUVxdDNhMF9yRi1GZGpPV0ZMRDhYUGpBeXVscGxDRjF0MkxKNE9DcHJkdlV5dl9sRWRjcWFUWXRQMVpfY3RsbXlldEJJNlVMY1BBMkVB?oc=5",
-   "published": 1792614060,
-   "traced_at": 1792625316,
-   "pick": {
-    "sources": [
-     "Middle_East_Conflict"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "middle east"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "49a6a863f3f6",
-     "headline": "The Iran War has sent gas and oil prices higher. That could spell economic disaster in the midterms."
-    },
-    {
-     "id": "80fa6fa211e2",
-     "headline": "Democratic senators demand Pentagon reveal 'true cost' of Iran war"
-    },
-    {
-     "id": "93fe9678c29a",
-     "headline": "Wright says Trump administration has not broken promise to lower gas prices amid Iran war"
-    }
-   ],
-   "grade": {
-    "5": {
-     "hit": true,
-     "excess": 0.0229,
-     "from": "2026-10-22",
-     "to": "2026-10-29",
-     "stocks": [
-      {
-       "ticker": "APA",
-       "direction": 1,
-       "ret": 0.0368,
-       "excess": 0.0313
-      },
-      {
-       "ticker": "OXY",
-       "direction": 1,
-       "ret": 0.002,
-       "excess": -0.0035
-      },
-      {
-       "ticker": "COP",
-       "direction": 1,
-       "ret": 0.0262,
-       "excess": 0.0207
-      },
-      {
-       "ticker": "DVN",
-       "direction": 1,
-       "ret": 0.0333,
-       "excess": 0.0278
-      },
-      {
-       "ticker": "FANG",
-       "direction": 1,
-       "ret": 0.0437,
-       "excess": 0.0382
-      }
-     ]
-    }
-   },
-   "top": [
-    {
-     "ticker": "APA",
-     "direction": 1
-    },
-    {
-     "ticker": "OXY",
-     "direction": 1
-    },
-    {
-     "ticker": "COP",
-     "direction": 1
-    },
-    {
-     "ticker": "DVN",
-     "direction": 1
-    },
-    {
-     "ticker": "FANG",
-     "direction": 1
-    },
-    {
-     "ticker": "EOG",
-     "direction": 1
-    }
-   ],
-   "reached": 23
   }
  ],
- "total": 142,
+ "total": 150,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -4845,7 +4681,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 75
+  "waiting": 83
  },
  "checkup": {
   "at": 1792255747,
