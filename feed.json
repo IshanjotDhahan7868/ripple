@@ -1,6 +1,340 @@
 {
- "updated": 1793676678,
+ "updated": 1793707621,
  "items": [
+  {
+   "id": "d58363317c31",
+   "headline": "Saudi Aramco Profit Jumps Despite Damaging Attacks on Pipelines and Refineries",
+   "source": "The New York Times",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8yNWtyRjVSdzJFSk4xeXctTEFXSloyU0VMWk11R0libnQ2ZnRkRVZfNkJTaGtYSng0akhzT21GSFRfTkRQNG80WDFubEpUWmVRbDJUa0RhcU0zMXFOdWFrc2dGS2dlOHMxQ2NoVGU4M3JUSTNtbzFCbGJvWVBqdw?oc=5",
+   "published": 1793690346,
+   "traced_at": 1793707604,
+   "pick": {
+    "sources": [
+     "Oil_Supply"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "saudi aramco"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": -1
+    },
+    {
+     "ticker": "OXY",
+     "direction": -1
+    },
+    {
+     "ticker": "COP",
+     "direction": -1
+    },
+    {
+     "ticker": "DVN",
+     "direction": -1
+    },
+    {
+     "ticker": "FANG",
+     "direction": -1
+    },
+    {
+     "ticker": "EOG",
+     "direction": -1
+    }
+   ],
+   "reached": 27
+  },
+  {
+   "id": "8dcdca73f8e2",
+   "headline": "North Korea denies involvement in Binance hack and criticizes FBI probe as 'a trite provocation' - ABC News",
+   "source": "Breaking News, Latest News and Videos",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNzB5ZjczNmtMZm56N3NILWdQcFpXSXZDdWJic0Z5QVIyY2NaOXZHeDRoTF9mbFF4N0xFNmZsOVE2di14aVBFcHEyMWY2S25OdGZsb0kyLUYwaDhqUVNDQTdTQUQ5SG5hS3YzU1VMejhtNVRpczZXNDdMM3lpemo5d3B4TGM0R0JIaWdLWElnR3M5RDdVQUNpX01GM01UYnNXUGJGd1dHT3NELThlVF9TRlpR0gG3AUFVX3lxTE9OTkhVWXFYSERaODE3TDV1ekZtMGFsMFJmVUVib1E3b0Ewb3REQk9yTEY1MExicFJWTGZLSTFPTUNPRGRxT3l4RnZUbjBjQmtCRnVmcE1ySW1QS25oX0tycnpWN0RpSDRydmZrb0R2QWhkYWpqT3ZlQlg5NjdCMV9vRVllN01sLUhIV1pqTVZ6bk8wdHhldGVVNE5LUVFodTlMdk1feXc3R0lnOTFzUzd2NHMtZFUxbw?oc=5",
+   "published": 1793694517,
+   "traced_at": 1793707604,
+   "pick": {
+    "sources": [
+     "Cyber_Threats"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "hack"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "fd34a532bb8d",
+     "headline": "North Korea denies being behind record $6.3bn Binance hack"
+    },
+    {
+     "id": "472dfcdbafcc",
+     "headline": "Binance users withdraw $3.6bn after largest-ever crypto hack"
+    },
+    {
+     "id": "0b9a0210f2cb",
+     "headline": "Binance users withdraw billions after record crypto hack"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "FTNT",
+     "direction": 1
+    },
+    {
+     "ticker": "CRWD",
+     "direction": 1
+    },
+    {
+     "ticker": "PANW",
+     "direction": 1
+    },
+    {
+     "ticker": "ZS",
+     "direction": 1
+    },
+    {
+     "ticker": "HACK",
+     "direction": 1
+    },
+    {
+     "ticker": "CIBR",
+     "direction": 1
+    }
+   ],
+   "reached": 2
+  },
+  {
+   "id": "0e80a73d2248",
+   "headline": "A new cold war: hackers target fridges across the globe",
+   "source": "NPR",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE03U19lUzF5Wk5FRzNza2JkcTVidnFNa0c0cF9SNm1PcWNNQ00xQjR3YkNKektjbUdKN1FoLV9ibUVDNHJ6Z0RJRGlfZExIVVJjV1B0S0FFWnBxUVJkandJeC1JVkczbTNsemNyUjB2ZDdPUVRldGVmWA?oc=5",
+   "published": 1793700000,
+   "traced_at": 1793707605,
+   "pick": {
+    "sources": [
+     "Cyber_Threats"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "hackers"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "fd34a532bb8d",
+     "headline": "North Korea denies being behind record $6.3bn Binance hack"
+    },
+    {
+     "id": "472dfcdbafcc",
+     "headline": "Binance users withdraw $3.6bn after largest-ever crypto hack"
+    },
+    {
+     "id": "0b9a0210f2cb",
+     "headline": "Binance users withdraw billions after record crypto hack"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "FTNT",
+     "direction": 1
+    },
+    {
+     "ticker": "CRWD",
+     "direction": 1
+    },
+    {
+     "ticker": "PANW",
+     "direction": 1
+    },
+    {
+     "ticker": "ZS",
+     "direction": 1
+    },
+    {
+     "ticker": "HACK",
+     "direction": 1
+    },
+    {
+     "ticker": "CIBR",
+     "direction": 1
+    }
+   ],
+   "reached": 2
+  },
+  {
+   "id": "160ea9699917",
+   "headline": "Australia hikes rates to 18-year high to fight inflation",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOVF0RkNGUTNUYmFYajhocUI2NlZIREUwR0NIMWZkQUZKX0JDUzlmVUF5MjVHSXBkRFdTN2ZfNEhFNWZPTlVwOGhsVVdQVXFLWlFucll1eERYV1U1RFAxbDB4TWdSZXluajhFak1Va3RONnhfMlFpTWNXSDc3dUJTYlNITENPQUM3OVHSAY8BQVVfeXFMUGxxTzhhSzZVajEwWVM0VXpjb0ZySmFoS2oyRmtXWl9GcHVsdm0tVXNYQkNVQkdxeU93a2JEQjZ4aHYyeWhMVHdXdHJSR3h5cmZLbnRreHlyUGdwNi0tbDFNdk0yYnoyekJIaVgtSl9kbkdCU2s0VHJIalVvcW5RcWpqdzhwVEVMUVFhRks1OTA?oc=5",
+   "published": 1793676720,
+   "traced_at": 1793707605,
+   "pick": {
+    "sources": [
+     "Inflation"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "inflation"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "1c69ff6d8973",
+     "headline": "Kevin Warsh is managing US debt costs not inflation as interest rates risk topping GDP growth soon"
+    },
+    {
+     "id": "67dc8cece2ab",
+     "headline": "In Biden's First Halloween In Office, A 100-Piece Bag Of Candy Cost $9.91, A Study Found. This Year It's $16.96, And Government Data Shows Candy Prices Rose 7.7% In A Year, More Than Double Overall Inflation"
+    },
+    {
+     "id": "671578d8ac1b",
+     "headline": "Gold sinks to one-year low, silver slips below $50 on inflation concerns, tech selloff"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": 1
+    },
+    {
+     "ticker": "TOL",
+     "direction": -1
+    },
+    {
+     "ticker": "NVR",
+     "direction": -1
+    },
+    {
+     "ticker": "LEN",
+     "direction": -1
+    },
+    {
+     "ticker": "DHI",
+     "direction": -1
+    },
+    {
+     "ticker": "PHM",
+     "direction": -1
+    }
+   ],
+   "reached": 32
+  },
+  {
+   "id": "36f5c9a029c9",
+   "headline": "War, tariffs and China: What the US midterms mean for the Asia-Pacific",
+   "source": "Al Jazeera",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcXdSUzdCZE1aZDlWYzNjZ0hTQ1NIclRrN2hvT2trYnM3djdIajN1Nk8zWEViT3FHQ1lPMEJNSDZDR1ZxMUNuS1lMeGM3RVdrckJXZWpERVpzakZVb3htaG1kcC1aNEVuLVhxSVRxUWZPNnd0THU2aF93R0xhdUNUQkM4aGNtMVpyb2FxeWlUZ2V0SWFPcGZOWWRxMG9WeWl2ZDJPR1VyZUluQTdZbUHSAbMBQVVfeXFMTnBxd2VhLVdiSEE4akU0M2FNUUJYT0gtWXIyVnFOM29RTElPVFFGczNaWHAyOFNmMl9UTjgzSlhyOHREaFNXU0dxdldFZXBJSXBWaldWel9rU1IxZ1N4aVd6azVEMXVSczM4Mko2RlBnQTZIWjZXdk95MzdrWlBNdFF4MWw1cnJ3QXJmTXVGbFJZcnFFcFU3VExWbUpNMWlTWnptRnY4YUxjTTdIal8wU0xBeDg?oc=5",
+   "published": 1793663674,
+   "traced_at": 1793707605,
+   "pick": {
+    "sources": [
+     "Trade_Restrictions"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "tariffs"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "LYC.AX",
+     "direction": 1
+    },
+    {
+     "ticker": "MP",
+     "direction": 1
+    },
+    {
+     "ticker": "TER",
+     "direction": -1
+    },
+    {
+     "ticker": "KLAC",
+     "direction": -1
+    },
+    {
+     "ticker": "LRCX",
+     "direction": -1
+    },
+    {
+     "ticker": "ASML",
+     "direction": -1
+    }
+   ],
+   "reached": 34
+  },
+  {
+   "id": "a2a97c27731e",
+   "headline": "U.S. Treasury, European Bond Yields Fall as Oil Prices Drop",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUGUwUW9rQ2ZHNURiZzhMRDEyQXVMUkQ0c3dreUlKakhxR2JRTzV1dUlKWm9KbWFqd3ZRVWF4Qk1rTi1jdDBSZm9aRVNFd1hOVlI5dUJSTTdKbFUtSGw1MGFac1pWUXUtcFRzd282c2RMdXh0bW12WUJnVUlkdDE2RllDTy04NE92aDlvTnBXaHBTSkVHVmJncUV6SkE3emxqbHZSX25FTTZFaGVhWm52QU1HbzdaYjNfRTQ0RnBzWkkxQmtEN0JtWA?oc=5",
+   "published": 1793646600,
+   "traced_at": 1793707605,
+   "pick": {
+    "sources": [
+     "Oil_Price"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "oil prices"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "0b53704a67c9",
+     "headline": "Oil prices slide in biggest drop since July on hope for more Iran talks"
+    },
+    {
+     "id": "03f7d72ae354",
+     "headline": "Stock Market Today: S&P 500, Nasdaq close lower as tech selloff deepens, but Dow rises and oil prices drop"
+    },
+    {
+     "id": "784a5effb7c4",
+     "headline": "Stock Market Today: Major Indexes Rise After Friday\u2019s Sell-Off as Oil Prices Plunge; Apple, Palantir Earnings Due After the Closing Bell"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": -1
+    },
+    {
+     "ticker": "OXY",
+     "direction": -1
+    },
+    {
+     "ticker": "COP",
+     "direction": -1
+    },
+    {
+     "ticker": "DVN",
+     "direction": -1
+    },
+    {
+     "ticker": "FANG",
+     "direction": -1
+    },
+    {
+     "ticker": "EOG",
+     "direction": -1
+    }
+   ],
+   "reached": 27
+  },
   {
    "id": "fd34a532bb8d",
    "headline": "North Korea denies being behind record $6.3bn Binance hack",
@@ -4343,337 +4677,9 @@
     }
    ],
    "reached": 36
-  },
-  {
-   "id": "2c0048a12237",
-   "headline": "Earnings live updates: Eli Lilly stock pops as strong GLP-1 drug demand lifts results, ServiceNow stock plunges",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQMDRyaWIzUkxSMFBjeE95dEhUSFlzMWhNTnc0VDYyekJhQTV0RWtKRHhpS0djVmQ1cmFfN01vR2pTSHZzRDZrUWEwSUZqSlJINzNEOGNRN2JUU1FmMmJwaXgzT1NuTFlQdWZBeERfdXpzeTR5b1FEUEdCUHkza2MyUjNFS01BNmdaWDc2QWdqbmh1M1NWSjlHRFo5VEw0VC1DSkJLU3hGbnd6Ry04dDlxRTZMemJUMGRJeVlDLVE3RVF4NWxFdnJZb2NIRGhpTTQ1anNQZ1dzbllDVjcxSEhjc01yWnRVYWRaeU9yQm5UNTlZZjBka1hiZ2JVbGFXcVE?oc=5",
-   "published": 1793277965,
-   "traced_at": 1793280141,
-   "pick": {
-    "sources": [
-     "Pharma_and_Biotech"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "glp-1"
-    ]
-   },
-   "earlier": [],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "ABBV",
-     "direction": 1
-    },
-    {
-     "ticker": "PFE",
-     "direction": 1
-    },
-    {
-     "ticker": "MRK",
-     "direction": 1
-    },
-    {
-     "ticker": "LLY",
-     "direction": 1
-    },
-    {
-     "ticker": "NVO",
-     "direction": 1
-    },
-    {
-     "ticker": "JNJ",
-     "direction": 1
-    }
-   ],
-   "reached": 1
-  },
-  {
-   "id": "ed88a41eb115",
-   "headline": "Yemen\u2019s Houthis attack Saudi Arabia\u2019s largest oil refinery",
-   "source": "Semafor",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaVo0WW9Banh5andiaW1HaTNTbXRVc0dKV0pNM3BLTUpsQm8zVmt0VTFWNzZpdXM5S0Ezem1sN2ViLU4xMGNhQ1NkczhWamJUT1JMTGVYc2VETHNFWkhpdWtuVFZ3OEg1UzlRWE53N1Q4dDlGQ2xkYUoxVjhqOVVXaFRSTTN3Q2hYb2E1QlBhT25GZXNqbjdZZWdjdmVjTkRO?oc=5",
-   "published": 1793184480,
-   "traced_at": 1793280142,
-   "pick": {
-    "sources": [
-     "Refining"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "refinery"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "b20fd6ddd316",
-     "headline": "President Donald Trump Claims Gasoline Prices Will \"Drop Like a Rock\" When the Iran War Ends, but He's Completely Missed the Bigger Picture"
-    },
-    {
-     "id": "26604a401075",
-     "headline": "Exclusive | Diesel Prices Hold High Despite Efforts to Boost Global Supplies"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "MPC",
-     "direction": 1
-    },
-    {
-     "ticker": "PSX",
-     "direction": 1
-    },
-    {
-     "ticker": "DINO",
-     "direction": 1
-    },
-    {
-     "ticker": "VLO",
-     "direction": 1
-    },
-    {
-     "ticker": "PBF",
-     "direction": 1
-    },
-    {
-     "ticker": "DK",
-     "direction": 1
-    }
-   ],
-   "reached": 6
-  },
-  {
-   "id": "b291468fae0d",
-   "headline": "Boston Scientific Crashes As Cybersecurity Attack Weighs On Guide",
-   "source": "Investor's Business Daily",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY2JpYTA3TFY4QUFjeVRUV3BXMEdUekthQ2xzR2lvbElVd0p0bEF0ZTc1YjZ2T0ZEcUtSRm81SHllcmdHc3JHVnBvdE5VNmVmTVJrQ1hjZXhXSnd0TzNJUVRXdVNLTnIwc3pKOFA1VVBVRkRJeG1Ddzk5a2g4Z1IxLTJLOVk4YVdrc0xSMzF4MlY5RmxxcFFxWGMtMk1xcC1CUm1r?oc=5",
-   "published": 1793221860,
-   "traced_at": 1793280142,
-   "pick": {
-    "sources": [
-     "Cybersecurity"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "cybersecurity"
-    ]
-   },
-   "earlier": [],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "FTNT",
-     "direction": 1
-    },
-    {
-     "ticker": "CRWD",
-     "direction": 1
-    },
-    {
-     "ticker": "PANW",
-     "direction": 1
-    },
-    {
-     "ticker": "ZS",
-     "direction": 1
-    },
-    {
-     "ticker": "HACK",
-     "direction": 1
-    },
-    {
-     "ticker": "CIBR",
-     "direction": 1
-    }
-   ],
-   "reached": 1
-  },
-  {
-   "id": "e592ca352168",
-   "headline": "Consumer spending flattens out after inflation surge",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/consumer-spending-flattens-out-after-inflation-surge-e7761d25?mod=mw_rss_topstories",
-   "published": 1793278860,
-   "traced_at": 1793280142,
-   "pick": {
-    "sources": [
-     "Consumer_Spending",
-     "Inflation"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "consumer spending",
-     "inflation"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "17c7f3109c83",
-     "headline": "US consumer confidence recovers in October as gas prices eased a bit"
-    },
-    {
-     "id": "815e0bd45d21",
-     "headline": "Social Security\u2019s 3.6% raise may finally match inflation"
-    },
-    {
-     "id": "6a2bfa0b3f76",
-     "headline": "US inflation rises more than expected - here's what is happening with prices"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "NKE",
-     "direction": 1
-    },
-    {
-     "ticker": "WMT",
-     "direction": 1
-    },
-    {
-     "ticker": "MCD",
-     "direction": 1
-    },
-    {
-     "ticker": "COST",
-     "direction": 1
-    },
-    {
-     "ticker": "TGT",
-     "direction": 1
-    },
-    {
-     "ticker": "V",
-     "direction": 1
-    }
-   ],
-   "reached": 37
-  },
-  {
-   "id": "16473523f9a8",
-   "headline": "Inflation surges, PCE shows. Fed pause on rate hikes unlikely to last long with prices still rising.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/inflation-surges-pce-shows-fed-pause-on-rate-hikes-unlikely-to-last-long-with-prices-still-rising-79128886?mod=mw_rss_topstories",
-   "published": 1793277360,
-   "traced_at": 1793280142,
-   "pick": {
-    "sources": [
-     "Interest_Rates"
-    ],
-    "direction": 1,
-    "how": "rule",
-    "matched": [
-     "\\bfed\\b.*\\b(hikes?|raises?)\\b.*\\brates?\\b|\\brate hike|higher for longer"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "0a13d221fed5",
-     "headline": "Dow Jones Futures Fall, Techs Rise As SK Hynix Crushes Views; Fed, Microsoft, Google On Deck"
-    },
-    {
-     "id": "a8428479ad63",
-     "headline": "Stock market today: Nasdaq wavers, S&P 500 and Dow climb as Fed votes to hold rates steady in 10-2 decision"
-    },
-    {
-     "id": "69ed1e0e42de",
-     "headline": "Wall Street ends higher as Fed holds key rate steady, focus turns to earnings"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "IBKR",
-     "direction": 1
-    },
-    {
-     "ticker": "TOL",
-     "direction": -1
-    },
-    {
-     "ticker": "NVR",
-     "direction": -1
-    },
-    {
-     "ticker": "LEN",
-     "direction": -1
-    },
-    {
-     "ticker": "DHI",
-     "direction": -1
-    },
-    {
-     "ticker": "PHM",
-     "direction": -1
-    }
-   ],
-   "reached": 35
-  },
-  {
-   "id": "f09c434e1860",
-   "headline": "Microsoft profits soar days after announcing thousands of layoffs",
-   "source": "BBC",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WazBfQWdQSG83ZVRWVzdsQ0pfOXFqWGFJbFM2alFtbFJ2cTE0X25fZnNqSC1peFg3dE8zbHppLUl6Zk5hY0E4NEtTSkFMcUN4TktNX19QOUR3WlE?oc=5",
-   "published": 1793237260,
-   "traced_at": 1793253785,
-   "pick": {
-    "sources": [
-     "Labor_Market"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "layoffs"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "14bc66c3cba0",
-     "headline": "Scripps Layoffs Continue With 431 Cuts As CEO Promises 100 New Jobs in \u2018Enterprise-Wide Transformation\u2019"
-    },
-    {
-     "id": "44d4d9d4c7fe",
-     "headline": "Jobless rate falls but small firms cut back hiring"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "ADP",
-     "direction": -1
-    },
-    {
-     "ticker": "MAN",
-     "direction": -1
-    },
-    {
-     "ticker": "RHI",
-     "direction": -1
-    },
-    {
-     "ticker": "PAYX",
-     "direction": -1
-    },
-    {
-     "ticker": "NKE",
-     "direction": -1
-    },
-    {
-     "ticker": "WMT",
-     "direction": -1
-    }
-   ],
-   "reached": 26
   }
  ],
- "total": 166,
+ "total": 172,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -4686,7 +4692,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 99
+  "waiting": 105
  },
  "checkup": {
   "at": 1792255747,
