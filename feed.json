@@ -1,6 +1,428 @@
 {
- "updated": 1793815623,
+ "updated": 1793836105,
  "items": [
+  {
+   "id": "fb6714695813",
+   "headline": "Housing stocks rally following midterm elections, Treasury yields dip lower",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNVhteHRoQ3ZOaDRCOWJpYTdZS3lBUmVUMllQU1JlUW04YlBMa0VpV3ZNUEEyTGpFM181RHBwMUtOZ1Q0eDltc0Y1dGRWSlB4UU9kdDJmU2xzcWtQU3Z4RFA2RGMyRFY5ZHl6dDF5X0RvZlQxMXJsa0Nod3J6RXFOUUpKanowSG1nX3h0YXhjOFVkNFZlY3dlcmpPTkxqT1BDMUJuTEVESXdiRXpUZEcxX0twc1lCSk40T0xPTkZVSHptRXROdUFiWkt1WQ?oc=5",
+   "published": 1793812777,
+   "traced_at": 1793836089,
+   "pick": {
+    "sources": [
+     "Interest_Rates"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "treasury yields"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "5804aad58ca8",
+     "headline": "Fed Wins Protection With Democrats Taking Control of the Senate"
+    },
+    {
+     "id": "565722491f9c",
+     "headline": "Treasury Yields Fall as Democrats Take Control of Congress"
+    },
+    {
+     "id": "4d94e05d2331",
+     "headline": "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": -1
+    },
+    {
+     "ticker": "TOL",
+     "direction": 1
+    },
+    {
+     "ticker": "NVR",
+     "direction": 1
+    },
+    {
+     "ticker": "LEN",
+     "direction": 1
+    },
+    {
+     "ticker": "DHI",
+     "direction": 1
+    },
+    {
+     "ticker": "PHM",
+     "direction": 1
+    }
+   ],
+   "reached": 35
+  },
+  {
+   "id": "12508d0f0c54",
+   "headline": "Treasury Yields Fall on Election Results, Cheaper Oil",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZ0dlOUVqNVVZdVdVN1Jjc2lBejJfdkkwdFpxRzlGUEJfYXBteU9CUC14V3NWZS0zcGNORHZac1NLTDNWWEZ1UGdhLWRjS1pOUi1jeDNzSHJubXl1NEtyYXQyVHRnYXRTUDFBQWdyV01TU3J2T0xZajNwMzVuQTRrdE1RcUhaSHdxY1ZYUmh3T0VjdmtzSHlj?oc=5",
+   "published": 1793825520,
+   "traced_at": 1793836089,
+   "pick": {
+    "sources": [
+     "Interest_Rates"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "treasury yields"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "5804aad58ca8",
+     "headline": "Fed Wins Protection With Democrats Taking Control of the Senate"
+    },
+    {
+     "id": "565722491f9c",
+     "headline": "Treasury Yields Fall as Democrats Take Control of Congress"
+    },
+    {
+     "id": "4d94e05d2331",
+     "headline": "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": -1
+    },
+    {
+     "ticker": "TOL",
+     "direction": 1
+    },
+    {
+     "ticker": "NVR",
+     "direction": 1
+    },
+    {
+     "ticker": "LEN",
+     "direction": 1
+    },
+    {
+     "ticker": "DHI",
+     "direction": 1
+    },
+    {
+     "ticker": "PHM",
+     "direction": 1
+    }
+   ],
+   "reached": 35
+  },
+  {
+   "id": "31379af817b9",
+   "headline": "AMD stock flat following strong Q3 earnings beat, as data center revenue climbs 97%",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZFRPNElwa3FUajNsNFhOR1NIWlNSZkhZcXN0a0ZydjJtQ0h0UFVTMzQ3TXFRcUhnUHJjTWVrSUNjTkc2cUhFaTRXWTREQVZCUUd3M2pDNVoyMHRxOXpCaWY0U0U3dXM3c1JkR0JpME15V2RXQlVVNF8tOEktS1QtMU50SEFwdFRyZUZTNVZEc0cyODA4djdEU3Y2MmppdklRbjBueDE4eGtPTDAzMWF2OXFCV0x1WFNXUXMxR05TQ182MFo3NDJrem1yRFVzdENTaHhYZllURDY?oc=5",
+   "published": 1793807359,
+   "traced_at": 1793836089,
+   "pick": {
+    "sources": [
+     "Data_Centers"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "data center"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "8e5292999c28",
+     "headline": "AMD beats Q3 earnings expectations, with data center revenue climbing 97%"
+    },
+    {
+     "id": "80748ccab936",
+     "headline": "Stock futures mixed as Democrats win big in midterms, traders bet they will slow data center buildout: Live updates"
+    },
+    {
+     "id": "f46ced58e18b",
+     "headline": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "GLEN.L",
+     "direction": 1
+    },
+    {
+     "ticker": "FCX",
+     "direction": 1
+    },
+    {
+     "ticker": "SCCO",
+     "direction": 1
+    },
+    {
+     "ticker": "GE",
+     "direction": 1
+    },
+    {
+     "ticker": "SCHN.PA",
+     "direction": 1
+    },
+    {
+     "ticker": "COPX",
+     "direction": 1
+    }
+   ],
+   "reached": 28
+  },
+  {
+   "id": "6f7f62c95312",
+   "headline": "Mortgage rates drop for the third straight week, but homebuyers are still leaving the market",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQUxNdUxRMl9pTHVUOEk1UHRWS1pBcW9uRE1Hc1hKWHhNTkNLOGIyYnk0aGJJUTlmTUE0aENMSEhUWGpoN2Q0OHZsNWtaSUZkYjloWk9HT3hmekV6VUk4QjhkQjdNbFZueVNBNDVNM0otUTVtVDN3OU94YWhEN09Hci1YNnFwZDNCV0IzUtIBkgFBVV95cUxPRXRHNnhlNm1mSjZYd08yMWdzcW5zYXRjenBYMXpBWTN2Vm1CRjY3RGpkenJESW1IUEVfUWFYZllhQ3JyWFpBZ2d5TmxDWWI0bHdieGdsb09WbGQtb01vQnR4UGFyVDc0a2RGcFdaeVJFaV8tMEY5MU45M3FKa2xIeFlJV0dXRjlJb1Y2Nk9yRUczdw?oc=5",
+   "published": 1793793601,
+   "traced_at": 1793836089,
+   "pick": {
+    "sources": [
+     "Housing_and_Homebuilders"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "mortgage rates"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "98dc4f3b4ed7",
+     "headline": "Mortgage rates drop for the first time in 2 months, but demand still falls further"
+    },
+    {
+     "id": "2844a8d28750",
+     "headline": "US pending home sales tumble to record low in September"
+    },
+    {
+     "id": "025d7dea3ef6",
+     "headline": "US single-family housing starts plunge; building permits hit 3-1/2-year low"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "TOL",
+     "direction": -1
+    },
+    {
+     "ticker": "NVR",
+     "direction": -1
+    },
+    {
+     "ticker": "LEN",
+     "direction": -1
+    },
+    {
+     "ticker": "DHI",
+     "direction": -1
+    },
+    {
+     "ticker": "PHM",
+     "direction": -1
+    },
+    {
+     "ticker": "XHB",
+     "direction": -1
+    }
+   ],
+   "reached": 1
+  },
+  {
+   "id": "d3855c0b7454",
+   "headline": "Arm Beats Quarterly Targets On Surging Data Center Business. But Arm Stock Falls.",
+   "source": "Investor's Business Daily",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVGNxaEpRaFFSUnh4TGN0dloydm1yM0dXTnFnUWIyc1RETmxsdzMta0VZT0F1SndkaHo0dWxmOFZ6LW80LVV0RndfeHlSV3dNRml6d3N0Zjhhbll2THpjazRuRXM3UHM4Q05KbHNwcU5EalFYeWFwWFZFN0hhSmFfWHFB?oc=5",
+   "published": 1793829180,
+   "traced_at": 1793836089,
+   "pick": {
+    "sources": [
+     "Data_Centers"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "data center"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "8e5292999c28",
+     "headline": "AMD beats Q3 earnings expectations, with data center revenue climbing 97%"
+    },
+    {
+     "id": "80748ccab936",
+     "headline": "Stock futures mixed as Democrats win big in midterms, traders bet they will slow data center buildout: Live updates"
+    },
+    {
+     "id": "f46ced58e18b",
+     "headline": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "GLEN.L",
+     "direction": 1
+    },
+    {
+     "ticker": "FCX",
+     "direction": 1
+    },
+    {
+     "ticker": "SCCO",
+     "direction": 1
+    },
+    {
+     "ticker": "GE",
+     "direction": 1
+    },
+    {
+     "ticker": "SCHN.PA",
+     "direction": 1
+    },
+    {
+     "ticker": "COPX",
+     "direction": 1
+    }
+   ],
+   "reached": 28
+  },
+  {
+   "id": "8690dc3644e9",
+   "headline": "Gold and silver prices jump, dollar dips as Democrats take control of Congress",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vZWlTQ2F2aWtGb012RVY2UHM5WlgtMDhpWU5FVFRtQTQ0Yld1NURka05Zd054LWFveWFJV3JwSThqNzg5NTR5Z0RhTUVDWkhQOXFNNVNJb29vSHFLMmZNUnB4TF9rVldRRG9VQ2MzTEJNRUdrcHZyN014aFNaZ9IBgwFBVV95cUxNUExBejVyMG8zamR1cjA4VXpSbkc1UE41dXMwd1JKLTVpSTRVNDJFUDRFWWc3U1FuT2tPV05qMUlMMDRUNnJwRlBxYXRHLVBLTW44RTc2Vzcta1BHZ19BWnNPY0kzcEp2LW5iMzN3ZUJKM19vRE8wZjVlUEgtb3ZaSENiNA?oc=5",
+   "published": 1793778223,
+   "traced_at": 1793836090,
+   "pick": {
+    "sources": [
+     "USD_Strength",
+     "Gold"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "dollar",
+     "gold"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "12247dbab07b",
+     "headline": "Gold, silver and precious metals prices jump, dollar dips as Democrats take control of Congress"
+    },
+    {
+     "id": "883d4bfccca1",
+     "headline": "Gold edges higher on softer oil prices; US midterms in focus"
+    },
+    {
+     "id": "cc8a09460f2b",
+     "headline": "Gold Rises, But Expectations of Tighter U.S. Monetary Policy Weigh"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "AEM",
+     "direction": 1
+    },
+    {
+     "ticker": "NEM",
+     "direction": 1
+    },
+    {
+     "ticker": "KGC",
+     "direction": 1
+    },
+    {
+     "ticker": "WPM",
+     "direction": 1
+    },
+    {
+     "ticker": "FNV",
+     "direction": 1
+    },
+    {
+     "ticker": "GOLD",
+     "direction": 1
+    }
+   ],
+   "reached": 4
+  },
+  {
+   "id": "e59337c43072",
+   "headline": "Swim and gym prices set to rise above inflation",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/c6pvgw8gz1k4o?at_medium=RSS&at_campaign=rss",
+   "published": 1793772799,
+   "traced_at": 1793836091,
+   "pick": {
+    "sources": [
+     "Inflation"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "inflation"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "160ea9699917",
+     "headline": "Australia hikes rates to 18-year high to fight inflation"
+    },
+    {
+     "id": "1c69ff6d8973",
+     "headline": "Kevin Warsh is managing US debt costs not inflation as interest rates risk topping GDP growth soon"
+    },
+    {
+     "id": "67dc8cece2ab",
+     "headline": "In Biden's First Halloween In Office, A 100-Piece Bag Of Candy Cost $9.91, A Study Found. This Year It's $16.96, And Government Data Shows Candy Prices Rose 7.7% In A Year, More Than Double Overall Inflation"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": 1
+    },
+    {
+     "ticker": "TOL",
+     "direction": -1
+    },
+    {
+     "ticker": "NVR",
+     "direction": -1
+    },
+    {
+     "ticker": "LEN",
+     "direction": -1
+    },
+    {
+     "ticker": "DHI",
+     "direction": -1
+    },
+    {
+     "ticker": "PHM",
+     "direction": -1
+    }
+   ],
+   "reached": 32
+  },
   {
    "id": "5804aad58ca8",
    "headline": "Fed Wins Protection With Democrats Taking Control of the Senate",
@@ -4276,441 +4698,9 @@
     }
    ],
    "reached": 2
-  },
-  {
-   "id": "2dc151f1b252",
-   "headline": "Exxon, Chevron profits beat forecasts, refining margins surge during wars",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON2JIcGhXLURlX1ZHUDVac0IwV1BuN1puU1ljMVFoMUJPNWtZQ2FFdEVMY1ZoZ3pENFUtZEpXZ0ZRU2ZLTFVobHd2XzRiaUxuRFRESXVYNm9zNUUxLWliR1A0RHpTUlNjSUxOazBFSzFvUS1HVWVJX1VGeU41WkxDSjlLTHlQX0dEd1NqUzNna0dkMEZBYmZEd1JZaHhuVElEZFBLZFR0YVQ4V3BxVkhLbGxOMzlRWjU1RmZzRA?oc=5",
-   "published": 1793385948,
-   "traced_at": 1793404519,
-   "pick": {
-    "sources": [
-     "Refining",
-     "Oil_and_Gas"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "refining margins",
-     "chevron",
-     "exxon"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "ed88a41eb115",
-     "headline": "Yemen\u2019s Houthis attack Saudi Arabia\u2019s largest oil refinery"
-    },
-    {
-     "id": "b20fd6ddd316",
-     "headline": "President Donald Trump Claims Gasoline Prices Will \"Drop Like a Rock\" When the Iran War Ends, but He's Completely Missed the Bigger Picture"
-    },
-    {
-     "id": "26604a401075",
-     "headline": "Exclusive | Diesel Prices Hold High Despite Efforts to Boost Global Supplies"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "MPC",
-     "direction": 1
-    },
-    {
-     "ticker": "XOM",
-     "direction": 1
-    },
-    {
-     "ticker": "PSX",
-     "direction": 1
-    },
-    {
-     "ticker": "DINO",
-     "direction": 1
-    },
-    {
-     "ticker": "VLO",
-     "direction": 1
-    },
-    {
-     "ticker": "BP",
-     "direction": 1
-    }
-   ],
-   "reached": 8
-  },
-  {
-   "id": "f842ddd53960",
-   "headline": "Gold prices plunge to one-year low below $3,900 as higher oil prices fuel fears of more pain ahead",
-   "source": "Kitco",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRUZmdmJRRFN3bUxiblBxRUVkd3o3SmRSRjd3ZUt3Rm5DVlNUQ201LW9BOHZyMnVBUEtZaGlNRFk5dTJKTzNHVjNkWGdWU3YtdVVPU0txb1pFZWJ5ZVhUaDRaTERzV2h5QzJzYWM3TExZRWRxQlNJbFlrWTQwbU8tbjA4Sm5JTWxqWVlFTUVZZjNvTVZXblN3SVVmMVVyVF9iQk5GS1RWcjRrRHdNRXRnV0VhYmtLRTE2?oc=5",
-   "published": 1793384281,
-   "traced_at": 1793404519,
-   "pick": {
-    "sources": [
-     "Oil_Price"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "oil prices"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "8d46adfaa860",
-     "headline": "Oil Prices Rise After Hormuz Tanker Attack, Houthi Claims Stoke Supply Fears"
-    },
-    {
-     "id": "ef6c76e9af92",
-     "headline": "Oil prices fall as peace hopes offset fears of growing Middle East conflict"
-    },
-    {
-     "id": "e2e78517fd47",
-     "headline": "Oil Prices Rise on Worries of Middle East Conflict Escalation"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "APA",
-     "direction": 1
-    },
-    {
-     "ticker": "OXY",
-     "direction": 1
-    },
-    {
-     "ticker": "COP",
-     "direction": 1
-    },
-    {
-     "ticker": "DVN",
-     "direction": 1
-    },
-    {
-     "ticker": "FANG",
-     "direction": 1
-    },
-    {
-     "ticker": "EOG",
-     "direction": 1
-    }
-   ],
-   "reached": 27
-  },
-  {
-   "id": "b28f3afbca3f",
-   "headline": "Oil Prices Rise as Middle East, Ukraine-Russia Conflict Fuel Supply Worries",
-   "source": "WSJ",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUnhpZVZHQUliUnJIQUJWb3JmbVl6VV9GZ3NJN0M3X0EzZU9pa2N4SEcybGNlakZkcmxyeVNqV0E5LWRxTU1VZUM4Uk9TdGZTS0RJLU1CZ1JVVFBlM0pTcWFPd2U0b1RFTkVyV2oxSzNwZzYzMjBwVmRtbUFvWUowS1RPSEQ3eE1Qa2ZQQVJ5SExsbzVXQTQtNlZYRC1Bbnh2YmpnZ2VGaHZLQlJDRWJRZEZOU2VCZ1hPcENQcTUtYw?oc=5",
-   "published": 1793391540,
-   "traced_at": 1793404519,
-   "pick": {
-    "sources": [
-     "Middle_East_Conflict",
-     "Oil_Price",
-     "Russia_Ukraine_War"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "middle east",
-     "oil prices",
-     "ukraine",
-     "russia"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "8d46adfaa860",
-     "headline": "Oil Prices Rise After Hormuz Tanker Attack, Houthi Claims Stoke Supply Fears"
-    },
-    {
-     "id": "ef6c76e9af92",
-     "headline": "Oil prices fall as peace hopes offset fears of growing Middle East conflict"
-    },
-    {
-     "id": "e2e78517fd47",
-     "headline": "Oil Prices Rise on Worries of Middle East Conflict Escalation"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "APA",
-     "direction": 1
-    },
-    {
-     "ticker": "OXY",
-     "direction": 1
-    },
-    {
-     "ticker": "COP",
-     "direction": 1
-    },
-    {
-     "ticker": "DVN",
-     "direction": 1
-    },
-    {
-     "ticker": "FANG",
-     "direction": 1
-    },
-    {
-     "ticker": "EOG",
-     "direction": 1
-    }
-   ],
-   "reached": 45
-  },
-  {
-   "id": "a94e61343d29",
-   "headline": "Why gold plunged to its lowest price in a year despite renewed Iran jitters",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/why-gold-plunged-to-its-lowest-price-in-a-year-despite-renewed-iran-jitters-365be0e2?mod=mw_rss_topstories",
-   "published": 1793395800,
-   "traced_at": 1793404520,
-   "pick": {
-    "sources": [
-     "Middle_East_Conflict",
-     "Gold"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "iran",
-     "gold"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "10f2949f5a09",
-     "headline": "Gold hits four-month low, silver falls below $50/oz on Fed hike fears"
-    },
-    {
-     "id": "a5555eeb0d78",
-     "headline": "Silver could see further losses against gold as physical market weakens - Metals Focus"
-    },
-    {
-     "id": "ef6c76e9af92",
-     "headline": "Oil prices fall as peace hopes offset fears of growing Middle East conflict"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "AEM",
-     "direction": -1
-    },
-    {
-     "ticker": "NEM",
-     "direction": -1
-    },
-    {
-     "ticker": "KGC",
-     "direction": -1
-    },
-    {
-     "ticker": "WPM",
-     "direction": -1
-    },
-    {
-     "ticker": "FNV",
-     "direction": -1
-    },
-    {
-     "ticker": "GOLD",
-     "direction": -1
-    }
-   ],
-   "reached": 23
-  },
-  {
-   "id": "75aa8892ad86",
-   "headline": "Binance Hack Sends Crypto Stocks Tumbling",
-   "source": "The New York Times",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLUZnMzhINTMxbHZoT05fMGhtNkJyUUl1TnJ2d1MxN0gzaE1xNWFNMXlzckNpbzhHbzVIR3N0Sllxby1XX3RyUVZObTR1Rm50a2NfcFhnaXQzdk0wUlVhWlRVNEdvUlhXbE1BQ29RZHVvNXo2MWZ1QXQ0OXN2dDBHZUkxMmU4ekJaQmFv?oc=5",
-   "published": 1793386828,
-   "traced_at": 1793388637,
-   "pick": {
-    "sources": [
-     "Cyber_Threats"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "hack"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "d9428c1e9724",
-     "headline": "The $6.3 Billion Binance Hack Was Pulled Off in Just 20 Minutes"
-    },
-    {
-     "id": "5f8b86b43af2",
-     "headline": "Here\u2019s when Binance plans to reopen after what\u2019s believed to be the largest-ever $6.3 billion hack"
-    },
-    {
-     "id": "55be6ac03693",
-     "headline": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "FTNT",
-     "direction": 1
-    },
-    {
-     "ticker": "CRWD",
-     "direction": 1
-    },
-    {
-     "ticker": "PANW",
-     "direction": 1
-    },
-    {
-     "ticker": "ZS",
-     "direction": 1
-    },
-    {
-     "ticker": "HACK",
-     "direction": 1
-    },
-    {
-     "ticker": "CIBR",
-     "direction": 1
-    }
-   ],
-   "reached": 2
-  },
-  {
-   "id": "8d46adfaa860",
-   "headline": "Oil Prices Rise After Hormuz Tanker Attack, Houthi Claims Stoke Supply Fears",
-   "source": "WSJ",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUnhpZVZHQUliUnJIQUJWb3JmbVl6VV9GZ3NJN0M3X0EzZU9pa2N4SEcybGNlakZkcmxyeVNqV0E5LWRxTU1VZUM4Uk9TdGZTS0RJLU1CZ1JVVFBlM0pTcWFPd2U0b1RFTkVyV2oxSzNwZzYzMjBwVmRtbUFvWUowS1RPSEQ3eE1Qa2ZQQVJ5SExsbzVXQTQtNlZYRC1Bbnh2YmpnZ2VGaHZLQlJDRWJRZEZOU2VCZ1hPcENQcTUtYw?oc=5",
-   "published": 1793366640,
-   "traced_at": 1793388637,
-   "pick": {
-    "sources": [
-     "Oil_Price",
-     "Maritime_Chokepoint_Disruption"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "oil prices",
-     "houthi"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "ef6c76e9af92",
-     "headline": "Oil prices fall as peace hopes offset fears of growing Middle East conflict"
-    },
-    {
-     "id": "e2e78517fd47",
-     "headline": "Oil Prices Rise on Worries of Middle East Conflict Escalation"
-    },
-    {
-     "id": "2dda0db1fd01",
-     "headline": "U.S. Crude Oil Stockpiles Fall More Than Expected"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "APA",
-     "direction": 1
-    },
-    {
-     "ticker": "OXY",
-     "direction": 1
-    },
-    {
-     "ticker": "COP",
-     "direction": 1
-    },
-    {
-     "ticker": "DVN",
-     "direction": 1
-    },
-    {
-     "ticker": "FANG",
-     "direction": 1
-    },
-    {
-     "ticker": "EOG",
-     "direction": 1
-    }
-   ],
-   "reached": 29
-  },
-  {
-   "id": "848a62c8c369",
-   "headline": "Is your crypto safe? What Binance\u2019s $6.3 billion hack means for bitcoin investors.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/heres-when-binance-plans-to-reopen-after-whats-believed-to-be-the-largest-ever-6-3-billion-hack-d3cb8154?mod=mw_rss_topstories",
-   "published": 1793386200,
-   "traced_at": 1793388637,
-   "pick": {
-    "sources": [
-     "Cyber_Threats"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "hack"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "d9428c1e9724",
-     "headline": "The $6.3 Billion Binance Hack Was Pulled Off in Just 20 Minutes"
-    },
-    {
-     "id": "5f8b86b43af2",
-     "headline": "Here\u2019s when Binance plans to reopen after what\u2019s believed to be the largest-ever $6.3 billion hack"
-    },
-    {
-     "id": "55be6ac03693",
-     "headline": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "FTNT",
-     "direction": 1
-    },
-    {
-     "ticker": "CRWD",
-     "direction": 1
-    },
-    {
-     "ticker": "PANW",
-     "direction": 1
-    },
-    {
-     "ticker": "ZS",
-     "direction": 1
-    },
-    {
-     "ticker": "HACK",
-     "direction": 1
-    },
-    {
-     "ticker": "CIBR",
-     "direction": 1
-    }
-   ],
-   "reached": 2
   }
  ],
- "total": 193,
+ "total": 200,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -4723,7 +4713,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 118
+  "waiting": 125
  },
  "checkup": {
   "at": 1792255747,
