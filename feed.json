@@ -1,6 +1,308 @@
 {
- "updated": 1793753009,
+ "updated": 1793784662,
  "items": [
+  {
+   "id": "80748ccab936",
+   "headline": "Stock futures mixed as Democrats win big in midterms, traders bet they will slow data center buildout: Live updates",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9nc2FkNktwbUVRcjhVVWhQaVRWeWpqX25tSHo3WWF1eW55OGZrb0ZpSHpNakQtaWRMZ0N1dXZRajEtby1lOHk2Vl9aZkdfZUc4Z1ZDYkNrZkpGSGZBT1hIdE5jZDhFNW1BU1hzdnBheTBPV0tmcjFB?oc=5",
+   "published": 1793783700,
+   "traced_at": 1793784651,
+   "pick": {
+    "sources": [
+     "Data_Centers"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "data center"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "f46ced58e18b",
+     "headline": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution"
+    },
+    {
+     "id": "22d0deff907f",
+     "headline": "Data center stocks remain under pressure after Korea IPO plunges 30%"
+    },
+    {
+     "id": "a8f4c0782308",
+     "headline": "Nextdc Shares Plunge 44% After Public Backlash Hits Data Center"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "GLEN.L",
+     "direction": -1
+    },
+    {
+     "ticker": "FCX",
+     "direction": -1
+    },
+    {
+     "ticker": "SCCO",
+     "direction": -1
+    },
+    {
+     "ticker": "GE",
+     "direction": -1
+    },
+    {
+     "ticker": "SCHN.PA",
+     "direction": -1
+    },
+    {
+     "ticker": "COPX",
+     "direction": -1
+    }
+   ],
+   "reached": 28
+  },
+  {
+   "id": "dc9386a1f133",
+   "headline": "Oil Prices Rise as Investors Weigh U.S. Midterm Results, Iran Risks",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVGZJRGVaVkdJaDR5b1REaE5CdWQtY2ZlczBhUXFWT253Vi0tMkNoUVhSNUI0Rzlqbnc5UnVVS0lqN1kwVzZ3eTJ6ODByNlc5ck5HYmlkMEVyRzlrVDNFdk8zQ2JuRWdQLUdYc3ozNUVCc3hRSGhDc0tKNW9QY1A2ZVpMZC1PNGxqUU81QkQyZms0R1VxWUUzbTRLSmYyUTRvM0ZHVmVjdTRpZ2NxLUJkcFlQZzY?oc=5",
+   "published": 1793778000,
+   "traced_at": 1793784651,
+   "pick": {
+    "sources": [
+     "Oil_Price",
+     "Middle_East_Conflict"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "oil prices",
+     "iran"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "79eb962f083c",
+     "headline": "Trump Bombs Iran, Talks Peace, and Sends Oil Prices Tumbling"
+    },
+    {
+     "id": "a2c7322a771f",
+     "headline": "Brent Flash Crashes $6 Before Rebounding Towards $104"
+    },
+    {
+     "id": "883d4bfccca1",
+     "headline": "Gold edges higher on softer oil prices; US midterms in focus"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": 1
+    },
+    {
+     "ticker": "OXY",
+     "direction": 1
+    },
+    {
+     "ticker": "COP",
+     "direction": 1
+    },
+    {
+     "ticker": "DVN",
+     "direction": 1
+    },
+    {
+     "ticker": "FANG",
+     "direction": 1
+    },
+    {
+     "ticker": "EOG",
+     "direction": 1
+    }
+   ],
+   "reached": 36
+  },
+  {
+   "id": "e5293af665d8",
+   "headline": "Supermarket Chain Thaw Massacre: Russia suspected in Europe\u2019s fridge attacks",
+   "source": "POLITICO.eu",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR2RhajVpVmF5MWlzSlJUeldmZ3RuMnQ0M19ucjZqSXE2OFRwOVZNUXFPUjNCcW1PblBBNGVMS1RWLTI4cFZtcncxeWJ2QVFxQXVfeU5RZXFPQVFfNUxaQ0E4SlNwZjRVQm9IaGMyZGdtdTNPRk5aTlJjb21WaVJXTkJpdGxlUHRCU1ZjekdNZ2M3c0d1MEgtSWt1cTJvVnJ4Ti1KOTdJMHhiMWJmRHc?oc=5",
+   "published": 1793761864,
+   "traced_at": 1793784651,
+   "pick": {
+    "sources": [
+     "Russia_Ukraine_War"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "russia"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "b28f3afbca3f",
+     "headline": "Oil Prices Rise as Middle East, Ukraine-Russia Conflict Fuel Supply Worries"
+    },
+    {
+     "id": "7d4470acbd43",
+     "headline": "Oil Futures Pull Back on Russia Sanctions Waiver"
+    },
+    {
+     "id": "b4ea96698396",
+     "headline": "Oil tumbles as Trump's Russia sanctions waiver may lead to more fuel supplies"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "LXU",
+     "direction": 1
+    },
+    {
+     "ticker": "MOS",
+     "direction": 1
+    },
+    {
+     "ticker": "IPI",
+     "direction": 1
+    },
+    {
+     "ticker": "NTR",
+     "direction": 1
+    },
+    {
+     "ticker": "CF",
+     "direction": 1
+    },
+    {
+     "ticker": "UREA",
+     "direction": 1
+    }
+   ],
+   "reached": 23
+  },
+  {
+   "id": "75f8f3467cc5",
+   "headline": "Oil Prices Fall as U.S. Midterm Results Unfold",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSFczakJMWVhKQllXMTgyNTdWZVRpT3g1R0hrUDROeF9Kb2xpanVpVWNFN21VdzRSZ2RYaTdZWjc2UlVwWHcwSzk4ZGZ1cUphNDVFOUFaZFZkVmFYMmIxRzB6MVF3R0tsdDNhT0hITUxsa0tORjZnTHVZdjk4ZnV4cUFaQnpZbEFVQVB2R2lPUkpvV185NnVGeFVKSGZNa09HeUJFXw?oc=5",
+   "published": 1793760292,
+   "traced_at": 1793784652,
+   "pick": {
+    "sources": [
+     "Oil_Price"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "oil prices"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "79eb962f083c",
+     "headline": "Trump Bombs Iran, Talks Peace, and Sends Oil Prices Tumbling"
+    },
+    {
+     "id": "a2c7322a771f",
+     "headline": "Brent Flash Crashes $6 Before Rebounding Towards $104"
+    },
+    {
+     "id": "883d4bfccca1",
+     "headline": "Gold edges higher on softer oil prices; US midterms in focus"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": -1
+    },
+    {
+     "ticker": "OXY",
+     "direction": -1
+    },
+    {
+     "ticker": "COP",
+     "direction": -1
+    },
+    {
+     "ticker": "DVN",
+     "direction": -1
+    },
+    {
+     "ticker": "FANG",
+     "direction": -1
+    },
+    {
+     "ticker": "EOG",
+     "direction": -1
+    }
+   ],
+   "reached": 27
+  },
+  {
+   "id": "4d94e05d2331",
+   "headline": "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
+   "published": 1793777268,
+   "traced_at": 1793784652,
+   "pick": {
+    "sources": [
+     "Interest_Rates"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "treasury yields"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "1c69ff6d8973",
+     "headline": "Kevin Warsh is managing US debt costs not inflation as interest rates risk topping GDP growth soon"
+    },
+    {
+     "id": "286dd8bc1f43",
+     "headline": "US Jobs Pickup May Keep Fed on Track to Hike Rates Again"
+    },
+    {
+     "id": "c59ca7698dda",
+     "headline": "Fed needs at least two more rate hikes, Logan says"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": -1
+    },
+    {
+     "ticker": "TOL",
+     "direction": 1
+    },
+    {
+     "ticker": "NVR",
+     "direction": 1
+    },
+    {
+     "ticker": "LEN",
+     "direction": 1
+    },
+    {
+     "ticker": "DHI",
+     "direction": 1
+    },
+    {
+     "ticker": "PHM",
+     "direction": 1
+    }
+   ],
+   "reached": 35
+  },
   {
    "id": "79eb962f083c",
    "headline": "Trump Bombs Iran, Talks Peace, and Sends Oil Prices Tumbling",
@@ -4401,283 +4703,9 @@
     }
    ],
    "reached": 3
-  },
-  {
-   "id": "663ad71bde66",
-   "headline": "Crypto giant Binance hit by 'largest hack in history'",
-   "source": "BBC",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ocUpaWWozVHpsR0I5N0xtb0dNdlFJUWRiWWJYN2xoY2NOS3E0MzJxdFpMS29xU20yd3Mtc0c2dmtfU1FTa3BBZF8zY3BvYndzRnBnY3NXSEl3d0U?oc=5",
-   "published": 1793335942,
-   "traced_at": 1793340226,
-   "pick": {
-    "sources": [
-     "Crypto_Assets",
-     "Cyber_Threats"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "crypto",
-     "hack"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "0c4bfcf86736",
-     "headline": "Polymarket Halted International Trading After Hackers Drained Accounts"
-    },
-    {
-     "id": "57731bade02c",
-     "headline": "Binance pauses withdrawals as hackers suspected of stealing billions in crypto"
-    },
-    {
-     "id": "b245b607544e",
-     "headline": "Boston Scientific cuts guidance in wake of cyberattack, sees rebuilding years ahead"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "MSTR",
-     "direction": -1
-    },
-    {
-     "ticker": "MARA",
-     "direction": -1
-    },
-    {
-     "ticker": "COIN",
-     "direction": -1
-    },
-    {
-     "ticker": "RIOT",
-     "direction": -1
-    },
-    {
-     "ticker": "HOOD",
-     "direction": -1
-    },
-    {
-     "ticker": "BITCOIN",
-     "direction": -1
-    }
-   ],
-   "reached": 3
-  },
-  {
-   "id": "b043d7102bcd",
-   "headline": "US economy grows at brisk 3.4% pace in third quarter on strong consumer spending and AI investment",
-   "source": "AP News",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYX1ZvM3RmNE1xbUFIc3MwZDVzVWVXa3NWdkF2cGVndGVuZjVyVDVBQ05nN2NlNFVsbkZabnBBU1JlREljc1VHczhVNmkybDc4cWNLQzVuMXRTLVJTSWVuLUJJUDFaZkhKeHI2NDFPMENNLWp2UWdOV3FSTQ?oc=5",
-   "published": 1793278500,
-   "traced_at": 1793340226,
-   "pick": {
-    "sources": [
-     "Consumer_Spending"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "consumer spending"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "e592ca352168",
-     "headline": "Consumer spending flattens out after inflation surge"
-    },
-    {
-     "id": "17c7f3109c83",
-     "headline": "US consumer confidence recovers in October as gas prices eased a bit"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "NKE",
-     "direction": 1
-    },
-    {
-     "ticker": "WMT",
-     "direction": 1
-    },
-    {
-     "ticker": "MCD",
-     "direction": 1
-    },
-    {
-     "ticker": "COST",
-     "direction": 1
-    },
-    {
-     "ticker": "TGT",
-     "direction": 1
-    },
-    {
-     "ticker": "V",
-     "direction": 1
-    }
-   ],
-   "reached": 13
-  },
-  {
-   "id": "de40bf71c413",
-   "headline": "Crypto giant Binance hit by hack suspected to be largest in history",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss",
-   "published": 1793337316,
-   "traced_at": 1793340226,
-   "pick": {
-    "sources": [
-     "Crypto_Assets",
-     "Cyber_Threats"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "crypto",
-     "hack"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "0c4bfcf86736",
-     "headline": "Polymarket Halted International Trading After Hackers Drained Accounts"
-    },
-    {
-     "id": "57731bade02c",
-     "headline": "Binance pauses withdrawals as hackers suspected of stealing billions in crypto"
-    },
-    {
-     "id": "b245b607544e",
-     "headline": "Boston Scientific cuts guidance in wake of cyberattack, sees rebuilding years ahead"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "MSTR",
-     "direction": -1
-    },
-    {
-     "ticker": "MARA",
-     "direction": -1
-    },
-    {
-     "ticker": "COIN",
-     "direction": -1
-    },
-    {
-     "ticker": "RIOT",
-     "direction": -1
-    },
-    {
-     "ticker": "HOOD",
-     "direction": -1
-    },
-    {
-     "ticker": "BITCOIN",
-     "direction": -1
-    }
-   ],
-   "reached": 3
-  },
-  {
-   "id": "03afd805296c",
-   "headline": "Amazon Stock Drops on Wall Street Miss, Despite Biggest Cloud Growth in Years",
-   "source": "WSJ",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVHZWSE5vTFZGTUM4YWNYVnpyc0hKUC1jbzN3c1g5c1BLTlRzcU9VdHlLOWI2eFdxWTJOVmc3YnNqUmhQeDM3V1dVdl9Pb190OThLWVRwLWJuUUpBVlRvQXZjcFV0YV9wTUhvZ2U2MDg5d0pNRlZ6bGowd2MtaVhGRQ?oc=5",
-   "published": 1793311980,
-   "traced_at": 1793318444,
-   "pick": {
-    "sources": [
-     "Cloud_Infrastructure"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "cloud growth"
-    ]
-   },
-   "earlier": [],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "QQQ",
-     "direction": -1
-    },
-    {
-     "ticker": "NOW",
-     "direction": -1
-    },
-    {
-     "ticker": "HUBS",
-     "direction": -1
-    },
-    {
-     "ticker": "INTU",
-     "direction": -1
-    },
-    {
-     "ticker": "CRM",
-     "direction": -1
-    },
-    {
-     "ticker": "ORCL",
-     "direction": -1
-    }
-   ],
-   "reached": 3
-  },
-  {
-   "id": "d1210d7c3e23",
-   "headline": "Wall Street ends lower as Alphabet revenue miss revives AI capex jitters",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd0tULWRvRHZoRUxrM1Z6NnVOUUo5LUJWRVo2Z05nbmhDSFhjRjgtb3ZJUzF1TXJzdWYxWG1Sa0EtcHl1Wmd5M09ZcWVORWpNQzNuX2FnRUoxcUVHbmlwYUNmTWtVMlQ4TC0xR1hQVmpvQU5PM2NtaG1jcmdvRE1xODdKWTFHcHplNGVKUVdXaUhtOTBLb2xIOHZUa2hJZW5EdGc?oc=5",
-   "published": 1793305787,
-   "traced_at": 1793318444,
-   "pick": {
-    "sources": [
-     "AI_Compute_Demand"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "ai capex"
-    ]
-   },
-   "earlier": [],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "TER",
-     "direction": -1
-    },
-    {
-     "ticker": "KLAC",
-     "direction": -1
-    },
-    {
-     "ticker": "LRCX",
-     "direction": -1
-    },
-    {
-     "ticker": "GLEN.L",
-     "direction": -1
-    },
-    {
-     "ticker": "FCX",
-     "direction": -1
-    },
-    {
-     "ticker": "SCCO",
-     "direction": -1
-    }
-   ],
-   "reached": 29
   }
  ],
- "total": 180,
+ "total": 185,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -4690,7 +4718,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 113
+  "waiting": 118
  },
  "checkup": {
   "at": 1792255747,
