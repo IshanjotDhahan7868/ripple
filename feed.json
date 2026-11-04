@@ -1,6 +1,485 @@
 {
- "updated": 1793784662,
+ "updated": 1793815623,
  "items": [
+  {
+   "id": "5804aad58ca8",
+   "headline": "Fed Wins Protection With Democrats Taking Control of the Senate",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSDcxTEtxUkRBRDdnOHA4d09seWthb0dBYzNuYjctTmRWZ2ZhRHd6dTdrdmREbS1BV1NuWXU5LTNLcklFUEdQMTRBeHpEU3J5U29tODFPbXVsY0laT0VxUTZJS2s4bC1WcS1odDlyYXBvYTF5TGNvWExlVXJ5enFmbzF0NUlVNXdUdlRKbkVHczYxcF9ZVVpyNllRZXhGYkxEQ291dzl3ZmNzeENqdHNnSVZVblY?oc=5",
+   "published": 1793801484,
+   "traced_at": 1793815607,
+   "pick": {
+    "sources": [
+     "Interest_Rates"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "fed"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "4d94e05d2331",
+     "headline": "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off"
+    },
+    {
+     "id": "1c69ff6d8973",
+     "headline": "Kevin Warsh is managing US debt costs not inflation as interest rates risk topping GDP growth soon"
+    },
+    {
+     "id": "286dd8bc1f43",
+     "headline": "US Jobs Pickup May Keep Fed on Track to Hike Rates Again"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": 1
+    },
+    {
+     "ticker": "TOL",
+     "direction": -1
+    },
+    {
+     "ticker": "NVR",
+     "direction": -1
+    },
+    {
+     "ticker": "LEN",
+     "direction": -1
+    },
+    {
+     "ticker": "DHI",
+     "direction": -1
+    },
+    {
+     "ticker": "PHM",
+     "direction": -1
+    }
+   ],
+   "reached": 35
+  },
+  {
+   "id": "8e5292999c28",
+   "headline": "AMD beats Q3 earnings expectations, with data center revenue climbing 97%",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbS05VlF0RDZLVm55T0hKQTFxNWR2MFV2ZlVGSUJzUldvSUZoc24zRmVDUUlKOWhmYk0xMWVIcWRWblpxYldud2xJQTFvb3NDVzJyM2Zrc3dDWjFKWGtsVE9iNjhUbUFQQTB4S2s2UFVEbElWOWVGMC03SF9RU3UxSDdvZG1aVUR1VTNwUkJ1ZVEtUnQtU0JhRU84SVFZRVJ5OVZEUzJiUzNVNkJWRmE3UTF3b1ktemVIdlJka2RGSzJsUUNwSlc5cWZPUQ?oc=5",
+   "published": 1793797015,
+   "traced_at": 1793815607,
+   "pick": {
+    "sources": [
+     "Data_Centers"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "data center"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "80748ccab936",
+     "headline": "Stock futures mixed as Democrats win big in midterms, traders bet they will slow data center buildout: Live updates"
+    },
+    {
+     "id": "f46ced58e18b",
+     "headline": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution"
+    },
+    {
+     "id": "22d0deff907f",
+     "headline": "Data center stocks remain under pressure after Korea IPO plunges 30%"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "GLEN.L",
+     "direction": 1
+    },
+    {
+     "ticker": "FCX",
+     "direction": 1
+    },
+    {
+     "ticker": "SCCO",
+     "direction": 1
+    },
+    {
+     "ticker": "GE",
+     "direction": 1
+    },
+    {
+     "ticker": "SCHN.PA",
+     "direction": 1
+    },
+    {
+     "ticker": "COPX",
+     "direction": 1
+    }
+   ],
+   "reached": 28
+  },
+  {
+   "id": "565722491f9c",
+   "headline": "Treasury Yields Fall as Democrats Take Control of Congress",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZ0dlOUVqNVVZdVdVN1Jjc2lBejJfdkkwdFpxRzlGUEJfYXBteU9CUC14V3NWZS0zcGNORHZac1NLTDNWWEZ1UGdhLWRjS1pOUi1jeDNzSHJubXl1NEtyYXQyVHRnYXRTUDFBQWdyV01TU3J2T0xZajNwMzVuQTRrdE1RcUhaSHdxY1ZYUmh3T0VjdmtzSHlj?oc=5",
+   "published": 1793804880,
+   "traced_at": 1793815607,
+   "pick": {
+    "sources": [
+     "Interest_Rates"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "treasury yields"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "4d94e05d2331",
+     "headline": "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off"
+    },
+    {
+     "id": "1c69ff6d8973",
+     "headline": "Kevin Warsh is managing US debt costs not inflation as interest rates risk topping GDP growth soon"
+    },
+    {
+     "id": "286dd8bc1f43",
+     "headline": "US Jobs Pickup May Keep Fed on Track to Hike Rates Again"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": -1
+    },
+    {
+     "ticker": "TOL",
+     "direction": 1
+    },
+    {
+     "ticker": "NVR",
+     "direction": 1
+    },
+    {
+     "ticker": "LEN",
+     "direction": 1
+    },
+    {
+     "ticker": "DHI",
+     "direction": 1
+    },
+    {
+     "ticker": "PHM",
+     "direction": 1
+    }
+   ],
+   "reached": 35
+  },
+  {
+   "id": "dfd5cd773837",
+   "headline": "Oil tumbles as investors weigh end to Iran war after US Democrats' midterm elections sweep",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQUEyU0pEVG8xTHJtT2xCU0ltcXVTalphM0RNTEZ0UVlCTW5Qbjg4cS1RQnh5QXZnVEZvdnBacmZRM2FhMWJLWXVjU08yNkpvOHZiLTUtSGN0Mk55NGFBNWdxTmR4b3ZBeGNlX3ptUGNaRVFzRzhyNDZodklncGFZaV96cUxHY1Q1ODZWdmpTVWlWRVp4bVdJb0Zrb1pLaXVsUFFySUd4cm40cFphNGZB?oc=5",
+   "published": 1793758200,
+   "traced_at": 1793815607,
+   "pick": {
+    "sources": [
+     "Middle_East_Conflict"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "iran"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "dc9386a1f133",
+     "headline": "Oil Prices Rise as Investors Weigh U.S. Midterm Results, Iran Risks"
+    },
+    {
+     "id": "79eb962f083c",
+     "headline": "Trump Bombs Iran, Talks Peace, and Sends Oil Prices Tumbling"
+    },
+    {
+     "id": "0b53704a67c9",
+     "headline": "Oil prices slide in biggest drop since July on hope for more Iran talks"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": -1
+    },
+    {
+     "ticker": "OXY",
+     "direction": -1
+    },
+    {
+     "ticker": "COP",
+     "direction": -1
+    },
+    {
+     "ticker": "DVN",
+     "direction": -1
+    },
+    {
+     "ticker": "FANG",
+     "direction": -1
+    },
+    {
+     "ticker": "EOG",
+     "direction": -1
+    }
+   ],
+   "reached": 23
+  },
+  {
+   "id": "12247dbab07b",
+   "headline": "Gold, silver and precious metals prices jump, dollar dips as Democrats take control of Congress",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vZWlTQ2F2aWtGb012RVY2UHM5WlgtMDhpWU5FVFRtQTQ0Yld1NURka05Zd054LWFveWFJV3JwSThqNzg5NTR5Z0RhTUVDWkhQOXFNNVNJb29vSHFLMmZNUnB4TF9rVldRRG9VQ2MzTEJNRUdrcHZyN014aFNaZ9IBgwFBVV95cUxNUExBejVyMG8zamR1cjA4VXpSbkc1UE41dXMwd1JKLTVpSTRVNDJFUDRFWWc3U1FuT2tPV05qMUlMMDRUNnJwRlBxYXRHLVBLTW44RTc2Vzcta1BHZ19BWnNPY0kzcEp2LW5iMzN3ZUJKM19vRE8wZjVlUEgtb3ZaSENiNA?oc=5",
+   "published": 1793778223,
+   "traced_at": 1793815607,
+   "pick": {
+    "sources": [
+     "Gold",
+     "USD_Strength"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "precious metals",
+     "dollar",
+     "gold"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "883d4bfccca1",
+     "headline": "Gold edges higher on softer oil prices; US midterms in focus"
+    },
+    {
+     "id": "cc8a09460f2b",
+     "headline": "Gold Rises, But Expectations of Tighter U.S. Monetary Policy Weigh"
+    },
+    {
+     "id": "893d7fc276d6",
+     "headline": "Perion to be acquired by India\u2019s Affle for $420 million, marking a steep fall for a once-billion-dollar Israeli company"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "AEM",
+     "direction": 1
+    },
+    {
+     "ticker": "NEM",
+     "direction": 1
+    },
+    {
+     "ticker": "KGC",
+     "direction": 1
+    },
+    {
+     "ticker": "WPM",
+     "direction": 1
+    },
+    {
+     "ticker": "FNV",
+     "direction": 1
+    },
+    {
+     "ticker": "GOLD",
+     "direction": 1
+    }
+   ],
+   "reached": 4
+  },
+  {
+   "id": "d03c95d648f8",
+   "headline": "'AI earthquake': Democrats eye a Silicon Valley reckoning",
+   "source": "Politico",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQam9BYnlkekhXbVVvWktfYnhhcmpwdEpHV2FMYm00MlZWc2R5WU1zVnFtbTNqSjV6XzJuYlNZVjByeVhQN2loUEdmUlNWenNNbVhXWVkzd01RUF9GTXFaUXZMYVNmSWdHLUFBbmpVdWZkRGh0N1ZjbE0zWnRvMkNUVXoycDlmalJDX19Fa1g2TlZ6QTJKWnZSbg?oc=5",
+   "published": 1793804760,
+   "traced_at": 1793815607,
+   "pick": {
+    "sources": [
+     "Natural_Disasters"
+    ],
+    "direction": 1,
+    "how": "rule",
+    "matched": [
+     "\\b(hurricane|wildfire|earthquake|flood|drought|heatwave)\\b"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "d69389a3aec0",
+     "headline": "Peptides Are About to Flood the Market. And Bro Science Is Coming for Us All"
+    },
+    {
+     "id": "0eb48084236e",
+     "headline": "AI Is Finding a Flood of Bugs, and Silicon Valley Is Rushing to Fix Them"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "LOW",
+     "direction": 1
+    },
+    {
+     "ticker": "GNRC",
+     "direction": 1
+    },
+    {
+     "ticker": "EG",
+     "direction": -1
+    },
+    {
+     "ticker": "ALL",
+     "direction": -1
+    },
+    {
+     "ticker": "CB",
+     "direction": -1
+    },
+    {
+     "ticker": "RNR",
+     "direction": -1
+    }
+   ],
+   "reached": 11
+  },
+  {
+   "id": "f508e1ff0083",
+   "headline": "Disney\u2019s Year Of Cuts Continues With Thousands More Layoffs Expected",
+   "source": "Cartoon Brew",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOV90VGM4M1FZSnJEM3N4V25RTGpqWUlHMnhTWHJpMUxpWDFGU0JtNmVjTFJjeGRZVmlucUMzUExtampTNFd1UkdRR3F1MXVGbEM5X2hfSFotVDNzRk1pSFplLWdtcWRjTkVhcGVHVzNPc1hlUmhPYkxaWXJDcndZSE5UU1RFSnBxdm1SdlJPLUVXazRpdkpocFEwSQ?oc=5",
+   "published": 1793720401,
+   "traced_at": 1793815608,
+   "pick": {
+    "sources": [
+     "Labor_Market"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "layoffs"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "bebab5bcfd5a",
+     "headline": "Disney plans several thousand layoffs, asks some managers to cut costs by up to 20%"
+    },
+    {
+     "id": "4beca7c871d8",
+     "headline": "US job openings jump in September; layoffs lowest in 1-1/2 years"
+    },
+    {
+     "id": "e9ab2be3e0cd",
+     "headline": "Disney Eyes Thousands of Layoffs, With Managers Asked to Cut 20%"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "ADP",
+     "direction": 1
+    },
+    {
+     "ticker": "MAN",
+     "direction": 1
+    },
+    {
+     "ticker": "RHI",
+     "direction": 1
+    },
+    {
+     "ticker": "PAYX",
+     "direction": 1
+    },
+    {
+     "ticker": "NKE",
+     "direction": 1
+    },
+    {
+     "ticker": "WMT",
+     "direction": 1
+    }
+   ],
+   "reached": 26
+  },
+  {
+   "id": "41235a8c2b60",
+   "headline": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
+   "published": 1793812260,
+   "traced_at": 1793815608,
+   "pick": {
+    "sources": [
+     "Oil_Price"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "oil prices"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "dc9386a1f133",
+     "headline": "Oil Prices Rise as Investors Weigh U.S. Midterm Results, Iran Risks"
+    },
+    {
+     "id": "75f8f3467cc5",
+     "headline": "Oil Prices Fall as U.S. Midterm Results Unfold"
+    },
+    {
+     "id": "79eb962f083c",
+     "headline": "Trump Bombs Iran, Talks Peace, and Sends Oil Prices Tumbling"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": -1
+    },
+    {
+     "ticker": "OXY",
+     "direction": -1
+    },
+    {
+     "ticker": "COP",
+     "direction": -1
+    },
+    {
+     "ticker": "DVN",
+     "direction": -1
+    },
+    {
+     "ticker": "FANG",
+     "direction": -1
+    },
+    {
+     "ticker": "EOG",
+     "direction": -1
+    }
+   ],
+   "reached": 27
+  },
   {
    "id": "80748ccab936",
    "headline": "Stock futures mixed as Democrats win big in midterms, traders bet they will slow data center buildout: Live updates",
@@ -4229,489 +4708,15 @@
     }
    ],
    "reached": 2
-  },
-  {
-   "id": "4a6966be6269",
-   "headline": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
-   "published": 1793381983,
-   "traced_at": 1793388638,
-   "pick": {
-    "sources": [
-     "Cyber_Threats"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "hack"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "d9428c1e9724",
-     "headline": "The $6.3 Billion Binance Hack Was Pulled Off in Just 20 Minutes"
-    },
-    {
-     "id": "5f8b86b43af2",
-     "headline": "Here\u2019s when Binance plans to reopen after what\u2019s believed to be the largest-ever $6.3 billion hack"
-    },
-    {
-     "id": "55be6ac03693",
-     "headline": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "FTNT",
-     "direction": 1
-    },
-    {
-     "ticker": "CRWD",
-     "direction": 1
-    },
-    {
-     "ticker": "PANW",
-     "direction": 1
-    },
-    {
-     "ticker": "ZS",
-     "direction": 1
-    },
-    {
-     "ticker": "HACK",
-     "direction": 1
-    },
-    {
-     "ticker": "CIBR",
-     "direction": 1
-    }
-   ],
-   "reached": 2
-  },
-  {
-   "id": "879d2da74374",
-   "headline": "What we know about Binance's $6.3bn hack",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss",
-   "published": 1793363248,
-   "traced_at": 1793388638,
-   "pick": {
-    "sources": [
-     "Cyber_Threats"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "hack"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "d9428c1e9724",
-     "headline": "The $6.3 Billion Binance Hack Was Pulled Off in Just 20 Minutes"
-    },
-    {
-     "id": "5f8b86b43af2",
-     "headline": "Here\u2019s when Binance plans to reopen after what\u2019s believed to be the largest-ever $6.3 billion hack"
-    },
-    {
-     "id": "55be6ac03693",
-     "headline": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "FTNT",
-     "direction": 1
-    },
-    {
-     "ticker": "CRWD",
-     "direction": 1
-    },
-    {
-     "ticker": "PANW",
-     "direction": 1
-    },
-    {
-     "ticker": "ZS",
-     "direction": 1
-    },
-    {
-     "ticker": "HACK",
-     "direction": 1
-    },
-    {
-     "ticker": "CIBR",
-     "direction": 1
-    }
-   ],
-   "reached": 2
-  },
-  {
-   "id": "0da0f4c8c73a",
-   "headline": "Binance's $6.3bn crypto hack biggest in history",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/videos/c6m2dpz0yxn8o?at_medium=RSS&at_campaign=rss",
-   "published": 1793382070,
-   "traced_at": 1793388638,
-   "pick": {
-    "sources": [
-     "Cyber_Threats"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "hack"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "d9428c1e9724",
-     "headline": "The $6.3 Billion Binance Hack Was Pulled Off in Just 20 Minutes"
-    },
-    {
-     "id": "5f8b86b43af2",
-     "headline": "Here\u2019s when Binance plans to reopen after what\u2019s believed to be the largest-ever $6.3 billion hack"
-    },
-    {
-     "id": "55be6ac03693",
-     "headline": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "FTNT",
-     "direction": 1
-    },
-    {
-     "ticker": "CRWD",
-     "direction": 1
-    },
-    {
-     "ticker": "PANW",
-     "direction": 1
-    },
-    {
-     "ticker": "ZS",
-     "direction": 1
-    },
-    {
-     "ticker": "HACK",
-     "direction": 1
-    },
-    {
-     "ticker": "CIBR",
-     "direction": 1
-    }
-   ],
-   "reached": 2
-  },
-  {
-   "id": "d9428c1e9724",
-   "headline": "The $6.3 Billion Binance Hack Was Pulled Off in Just 20 Minutes",
-   "source": "WIRED",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQkVIbVhnWHA3eGRIYTNNOEVDOVMyWDNsTkoxYkZNZWhaR1IzUEZxNUo2YlQ1VHJTdHYyZEVvU19ET0R0bEJZY20xUzViOGU5Q2tuXzM5VGdxRXE5bW5YeG1hYkllaTI1OXJMMUFKZDlqNFFTRFdlOTR2eVdnOUZ5VE1XS25ySmsyeEhBOWFZaXJKNjNkTEJQeHNiUEw?oc=5",
-   "published": 1793360160,
-   "traced_at": 1793365989,
-   "pick": {
-    "sources": [
-     "Cyber_Threats"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "hack"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "663ad71bde66",
-     "headline": "Crypto giant Binance hit by 'largest hack in history'"
-    },
-    {
-     "id": "de40bf71c413",
-     "headline": "Crypto giant Binance hit by hack suspected to be largest in history"
-    },
-    {
-     "id": "0c4bfcf86736",
-     "headline": "Polymarket Halted International Trading After Hackers Drained Accounts"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "FTNT",
-     "direction": 1
-    },
-    {
-     "ticker": "CRWD",
-     "direction": 1
-    },
-    {
-     "ticker": "PANW",
-     "direction": 1
-    },
-    {
-     "ticker": "ZS",
-     "direction": 1
-    },
-    {
-     "ticker": "HACK",
-     "direction": 1
-    },
-    {
-     "ticker": "CIBR",
-     "direction": 1
-    }
-   ],
-   "reached": 2
-  },
-  {
-   "id": "10f2949f5a09",
-   "headline": "Gold hits four-month low, silver falls below $50/oz on Fed hike fears",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMFY2WEZOWHhyVDVPMkM2ZVUxM01TR09lcUZ0RlBWNF96QkJzWXhUZWpIbmlRSUlxN3FiZ0pEYWVXOW1YcVBQcHQ4cjU1NFpCQVlnS3pneWlKeTZIRjJzWkJuek9OeDhNSGxTU1ozV1g0czltbldNNkJORWRWS0ZBU25WdURjNWNpREdpdmZoV1c2ZzBnUmM5cm5HTG16OFpEdVhLWC13RkxHM3IxX1E?oc=5",
-   "published": 1793330640,
-   "traced_at": 1793365989,
-   "pick": {
-    "sources": [
-     "Gold"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "gold"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "ad83af207a06",
-     "headline": "Gold Futures Slip As U.S. Dollar Gains, Yields Edge Up"
-    },
-    {
-     "id": "608ae9bb4ddf",
-     "headline": "Gold edges lower as firm dollar, elevated yields weigh"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "AEM",
-     "direction": -1
-    },
-    {
-     "ticker": "NEM",
-     "direction": -1
-    },
-    {
-     "ticker": "KGC",
-     "direction": -1
-    },
-    {
-     "ticker": "WPM",
-     "direction": -1
-    },
-    {
-     "ticker": "FNV",
-     "direction": -1
-    },
-    {
-     "ticker": "GOLD",
-     "direction": -1
-    }
-   ],
-   "reached": 1
-  },
-  {
-   "id": "a5555eeb0d78",
-   "headline": "Silver could see further losses against gold as physical market weakens - Metals Focus",
-   "source": "Kitco",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcGduS3IwamQyRnFfbTlpZ09EZlhmb2dHY0NnSVhIaDV5LWozMGhqVFI3Y0NhZW9kd3UyWUt5Mmc2NDQ1QUxnYzgxUEJMODZlMWlMbkFxSm5pRm9RU2NxTVR1eDN0MzRMenVQeVJtTEtHWXJUMEFZVzNPRGVjcm5WRG9GSk1aOG44SEVOLTVZOG04cUtMMnVJYm9hRHp5Xzh4ZWxVOC1lMUFqYlk2Tm40MHZZMkZTZFBldU9xM3R3?oc=5",
-   "published": 1793298901,
-   "traced_at": 1793365989,
-   "pick": {
-    "sources": [
-     "Gold"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "gold"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "ad83af207a06",
-     "headline": "Gold Futures Slip As U.S. Dollar Gains, Yields Edge Up"
-    },
-    {
-     "id": "608ae9bb4ddf",
-     "headline": "Gold edges lower as firm dollar, elevated yields weigh"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "AEM",
-     "direction": -1
-    },
-    {
-     "ticker": "NEM",
-     "direction": -1
-    },
-    {
-     "ticker": "KGC",
-     "direction": -1
-    },
-    {
-     "ticker": "WPM",
-     "direction": -1
-    },
-    {
-     "ticker": "FNV",
-     "direction": -1
-    },
-    {
-     "ticker": "GOLD",
-     "direction": -1
-    }
-   ],
-   "reached": 1
-  },
-  {
-   "id": "5f8b86b43af2",
-   "headline": "Here\u2019s when Binance plans to reopen after what\u2019s believed to be the largest-ever $6.3 billion hack",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/heres-when-binance-plans-to-reopen-after-whats-believed-to-be-the-largest-ever-6-3-billion-hack-d3cb8154?mod=mw_rss_topstories",
-   "published": 1793353800,
-   "traced_at": 1793365989,
-   "pick": {
-    "sources": [
-     "Cyber_Threats"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "hack"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "663ad71bde66",
-     "headline": "Crypto giant Binance hit by 'largest hack in history'"
-    },
-    {
-     "id": "de40bf71c413",
-     "headline": "Crypto giant Binance hit by hack suspected to be largest in history"
-    },
-    {
-     "id": "0c4bfcf86736",
-     "headline": "Polymarket Halted International Trading After Hackers Drained Accounts"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "FTNT",
-     "direction": 1
-    },
-    {
-     "ticker": "CRWD",
-     "direction": 1
-    },
-    {
-     "ticker": "PANW",
-     "direction": 1
-    },
-    {
-     "ticker": "ZS",
-     "direction": 1
-    },
-    {
-     "ticker": "HACK",
-     "direction": 1
-    },
-    {
-     "ticker": "CIBR",
-     "direction": 1
-    }
-   ],
-   "reached": 2
-  },
-  {
-   "id": "55be6ac03693",
-   "headline": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss",
-   "published": 1793352831,
-   "traced_at": 1793365989,
-   "pick": {
-    "sources": [
-     "Crypto_Assets",
-     "Cyber_Threats"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "crypto",
-     "hack"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "663ad71bde66",
-     "headline": "Crypto giant Binance hit by 'largest hack in history'"
-    },
-    {
-     "id": "de40bf71c413",
-     "headline": "Crypto giant Binance hit by hack suspected to be largest in history"
-    },
-    {
-     "id": "0c4bfcf86736",
-     "headline": "Polymarket Halted International Trading After Hackers Drained Accounts"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "MSTR",
-     "direction": -1
-    },
-    {
-     "ticker": "MARA",
-     "direction": -1
-    },
-    {
-     "ticker": "COIN",
-     "direction": -1
-    },
-    {
-     "ticker": "RIOT",
-     "direction": -1
-    },
-    {
-     "ticker": "HOOD",
-     "direction": -1
-    },
-    {
-     "ticker": "BITCOIN",
-     "direction": -1
-    }
-   ],
-   "reached": 3
   }
  ],
- "total": 185,
+ "total": 193,
  "withdrawn": 6,
  "score": {
   "5": {
-   "graded": 67,
-   "right": 37,
-   "avg_excess": 0.0079
+   "graded": 75,
+   "right": 40,
+   "avg_excess": 0.0067
   },
   "20": {
    "graded": 0,
