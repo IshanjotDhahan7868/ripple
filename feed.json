@@ -1,6 +1,476 @@
 {
- "updated": 1793836105,
+ "updated": 1793862179,
  "items": [
+  {
+   "id": "f62b25c6918b",
+   "headline": "Interest rates expected to rise for first time in over three years",
+   "source": "BBC",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jT1Z0bWhyd0xuUUt4WmhxUl9vdjZfaEo4WVJpZm5tMTRhTUpvQUZxaTVGQXozT1pyQXppckZ2RlFkV05nMTg1WnFSSkZtbXk3SGZieXhVcTc0akE?oc=5",
+   "published": 1793836809,
+   "traced_at": 1793862166,
+   "pick": {
+    "sources": [
+     "Interest_Rates"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "interest rates"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "fb6714695813",
+     "headline": "Housing stocks rally following midterm elections, Treasury yields dip lower"
+    },
+    {
+     "id": "12508d0f0c54",
+     "headline": "Treasury Yields Fall on Election Results, Cheaper Oil"
+    },
+    {
+     "id": "5804aad58ca8",
+     "headline": "Fed Wins Protection With Democrats Taking Control of the Senate"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": 1
+    },
+    {
+     "ticker": "TOL",
+     "direction": -1
+    },
+    {
+     "ticker": "NVR",
+     "direction": -1
+    },
+    {
+     "ticker": "LEN",
+     "direction": -1
+    },
+    {
+     "ticker": "DHI",
+     "direction": -1
+    },
+    {
+     "ticker": "PHM",
+     "direction": -1
+    }
+   ],
+   "reached": 35
+  },
+  {
+   "id": "63ba4c153156",
+   "headline": "Oil prices plunge after Vance post on Iran war",
+   "source": "Axios",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZVFrN1Z2RXhoZjZ0RFROeTFYTlk2VncxYjZJTUk4TlpmbWF1V2NBbEpxb3BjZFZ6dmNOZUNXM3NxSkFzWHRtXzNhc2twMXo3dWlnWUpnYnFMeU51ZGNRWFozOU1BMExoOFJTVXVhNHhwRjM4U21oNm5Ed2VZWjdCVDB6RXR2ZWM?oc=5",
+   "published": 1793822605,
+   "traced_at": 1793862166,
+   "pick": {
+    "sources": [
+     "Oil_Price",
+     "Middle_East_Conflict"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "oil prices",
+     "iran"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "dfd5cd773837",
+     "headline": "Oil tumbles as investors weigh end to Iran war after US Democrats' midterm elections sweep"
+    },
+    {
+     "id": "41235a8c2b60",
+     "headline": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop"
+    },
+    {
+     "id": "dc9386a1f133",
+     "headline": "Oil Prices Rise as Investors Weigh U.S. Midterm Results, Iran Risks"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": -1
+    },
+    {
+     "ticker": "OXY",
+     "direction": -1
+    },
+    {
+     "ticker": "COP",
+     "direction": -1
+    },
+    {
+     "ticker": "DVN",
+     "direction": -1
+    },
+    {
+     "ticker": "FANG",
+     "direction": -1
+    },
+    {
+     "ticker": "EOG",
+     "direction": -1
+    }
+   ],
+   "reached": 36
+  },
+  {
+   "id": "2dd56aa5f0b6",
+   "headline": "Democrats\u2019 Big Win Sets Up a Debt Ceiling Fight. What the Election Means for Bonds.",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPb1NZbGtSVng5d3MwWXhOM0EteElZUjZRZmNTc29LWHFMZU5JYUZ6NDRVRWduc0psMmZ3bTB5bWo3aTJaTGRxZDRqdGRuOEVqMFktVkVTNlhxMlZGa0RKZEFva3NsMGoyQkdmaWoyenBqV3lQUk1hTmJiRE8tVkFPakxaYi1ZNktnSldlYUxFdmIxRGs?oc=5",
+   "published": 1793818260,
+   "traced_at": 1793862166,
+   "pick": {
+    "sources": [
+     "Fiscal_Policy"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "debt ceiling"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "3327899dc5ef",
+     "headline": "The budget deficit swells, while the cost of debt rises"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "LDOS",
+     "direction": 1
+    },
+    {
+     "ticker": "BAH",
+     "direction": 1
+    },
+    {
+     "ticker": "SAIC",
+     "direction": 1
+    },
+    {
+     "ticker": "CACI",
+     "direction": 1
+    },
+    {
+     "ticker": "NSC",
+     "direction": 1
+    },
+    {
+     "ticker": "CSX",
+     "direction": 1
+    }
+   ],
+   "reached": 31
+  },
+  {
+   "id": "cec7070a43ee",
+   "headline": "Dollar edges lower as US election outcome spurs risk sentiment; sterling gains",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS3ZvRzF1aTlTZE9WT0NxYkU4TWFHTi04YnhEVXd1VTJRTXdibGtPdGZtTWkwZEVBLU0xNmtZaEc4R2lWZWVSdGJtY1FSdzhIazR5a2YwdDJoRzFFTHN1Z2FNb2l5b2x5SllyTE9sTTZTNkxFODFJVkhxOGhlblRTXzNiLTZpc3FKcXBqRzZUMjYtY3VXOHlnR0hPOFFYTldZaXpzSGNTbzlPNlhUdHF1amJTcFp1dw?oc=5",
+   "published": 1793840760,
+   "traced_at": 1793862166,
+   "pick": {
+    "sources": [
+     "USD_Strength"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "dollar"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "8690dc3644e9",
+     "headline": "Gold and silver prices jump, dollar dips as Democrats take control of Congress"
+    },
+    {
+     "id": "12247dbab07b",
+     "headline": "Gold, silver and precious metals prices jump, dollar dips as Democrats take control of Congress"
+    },
+    {
+     "id": "893d7fc276d6",
+     "headline": "Perion to be acquired by India\u2019s Affle for $420 million, marking a steep fall for a once-billion-dollar Israeli company"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "UUP",
+     "direction": -1
+    },
+    {
+     "ticker": "AEM",
+     "direction": 1
+    },
+    {
+     "ticker": "NEM",
+     "direction": 1
+    },
+    {
+     "ticker": "KGC",
+     "direction": 1
+    },
+    {
+     "ticker": "WPM",
+     "direction": 1
+    },
+    {
+     "ticker": "FNV",
+     "direction": 1
+    }
+   ],
+   "reached": 4
+  },
+  {
+   "id": "fb4a102a1eba",
+   "headline": "JetBlue raises baggage fees for a second time as jet fuel prices stay elevated",
+   "source": "AP News",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORTI3VmcwOERENVRybmRXbU1mdjg1a0NXWFFySFJkZkRrZmJ4U1VLMXJBMzBpTVRGUlJuWDdId1A3V3hYRG80ZjFVNHNYakYtSk5BMWRqWGYtS3QxYWdrSG9aZk5SYVA0MWxUMENqYjJOUzc5RWFZQkd1V1MwS3lrTEJxX0xSLWs?oc=5",
+   "published": 1793838060,
+   "traced_at": 1793862166,
+   "pick": {
+    "sources": [
+     "Refining"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "jet fuel"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "57584b4f8d2d",
+     "headline": "Trump promised to slash energy costs \u2014 but gasoline, diesel and jet fuel all soared instead"
+    },
+    {
+     "id": "2dc151f1b252",
+     "headline": "Exxon, Chevron profits beat forecasts, refining margins surge during wars"
+    },
+    {
+     "id": "ed88a41eb115",
+     "headline": "Yemen\u2019s Houthis attack Saudi Arabia\u2019s largest oil refinery"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "MPC",
+     "direction": 1
+    },
+    {
+     "ticker": "PSX",
+     "direction": 1
+    },
+    {
+     "ticker": "DINO",
+     "direction": 1
+    },
+    {
+     "ticker": "VLO",
+     "direction": 1
+    },
+    {
+     "ticker": "PBF",
+     "direction": 1
+    },
+    {
+     "ticker": "DK",
+     "direction": 1
+    }
+   ],
+   "reached": 6
+  },
+  {
+   "id": "2eb03134cb33",
+   "headline": "Gold Prices Are Above $4,000 After Democrats Win Big in Midterm Elections",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZzRvQUY2bjZ0RUJ0ZFBYeVlOMENhblZBWWNxRThLbnE2UG84aFNpcGdfMTYwaDJ0aTl3Z053UWxvVURod0ZHdzVQSE0wX0E3LXVnWUpQR1hIYUF5WFpoS2doUzVCcFFzN2ZuY1gwRGxidWwyR2MwVks0RkpsdUQwUFZqdjhUTzEwUkgyY3NEVmZQTTA?oc=5",
+   "published": 1793823780,
+   "traced_at": 1793862166,
+   "pick": {
+    "sources": [
+     "Gold"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "gold"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "8690dc3644e9",
+     "headline": "Gold and silver prices jump, dollar dips as Democrats take control of Congress"
+    },
+    {
+     "id": "12247dbab07b",
+     "headline": "Gold, silver and precious metals prices jump, dollar dips as Democrats take control of Congress"
+    },
+    {
+     "id": "883d4bfccca1",
+     "headline": "Gold edges higher on softer oil prices; US midterms in focus"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "AEM",
+     "direction": 1
+    },
+    {
+     "ticker": "NEM",
+     "direction": 1
+    },
+    {
+     "ticker": "KGC",
+     "direction": 1
+    },
+    {
+     "ticker": "WPM",
+     "direction": 1
+    },
+    {
+     "ticker": "FNV",
+     "direction": 1
+    },
+    {
+     "ticker": "GOLD",
+     "direction": 1
+    }
+   ],
+   "reached": 1
+  },
+  {
+   "id": "875771fc9ab3",
+   "headline": "Under Hinojosa, Texas data center approvals could stay paused",
+   "source": "The Texas Tribune",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSlZNQjY5Q3VyY0N4eVlCNVpyQ3FoRHdNdlFGZmlhQkFlbVpXdHlvVkZoNWdoaWtER0cwNjRIMm1DeHpSdlR5bWppRFJ1TjdFMm5CcU5VbEpyeHpBXzVNM2NCY3VhZ3RscmZWQ1M1NXZzZ1lWQVFlTVY5U0NEYTJpcjhYYUh5YWJXMTlIeWl2OXlORGotdjk1cVZwY2I?oc=5",
+   "published": 1793824894,
+   "traced_at": 1793862167,
+   "pick": {
+    "sources": [
+     "Data_Centers"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "data center"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "31379af817b9",
+     "headline": "AMD stock flat following strong Q3 earnings beat, as data center revenue climbs 97%"
+    },
+    {
+     "id": "d3855c0b7454",
+     "headline": "Arm Beats Quarterly Targets On Surging Data Center Business. But Arm Stock Falls."
+    },
+    {
+     "id": "8e5292999c28",
+     "headline": "AMD beats Q3 earnings expectations, with data center revenue climbing 97%"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "GLEN.L",
+     "direction": -1
+    },
+    {
+     "ticker": "FCX",
+     "direction": -1
+    },
+    {
+     "ticker": "SCCO",
+     "direction": -1
+    },
+    {
+     "ticker": "GE",
+     "direction": -1
+    },
+    {
+     "ticker": "SCHN.PA",
+     "direction": -1
+    },
+    {
+     "ticker": "COPX",
+     "direction": -1
+    }
+   ],
+   "reached": 28
+  },
+  {
+   "id": "f6d4ded14d77",
+   "headline": "Uber\u2019s Ride-Hail Bookings, Trips Miss on Overseas Driver Crunch",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaUhpdlA1UHhUT09CSmh6S3RUTF9pQkRRVDB0QWxqd09QbFRHRVZSTHpwZGhiWC12TFRfam9HNko2RnBYWGd0OGtXcTFCZHVtR0I2YzFJS1FQN211R1hvaDBxTzR6OEsxNTNzbldicHcteUQyZFRWUTZ6WjRRSTNvRnh6T2FYNFNLb0tjZms5enZnRzk5cnRpeDFoMkJHVjRnOVdaNjVzTEZHRzBwOXZucUxOOA?oc=5",
+   "published": 1793828107,
+   "traced_at": 1793862167,
+   "pick": {
+    "sources": [
+     "Tourism_and_Travel"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "bookings"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "63553768f0be",
+     "headline": "Chicago parking strike begins; disruptions possible at airports, hotels, major events"
+    },
+    {
+     "id": "66e6237a4a3c",
+     "headline": "California sisters among hundreds stranded in Asia after cruise ship halts operations over high fuel costs"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "EXPE",
+     "direction": -1
+    },
+    {
+     "ticker": "MAR",
+     "direction": -1
+    },
+    {
+     "ticker": "HLT",
+     "direction": -1
+    },
+    {
+     "ticker": "BKNG",
+     "direction": -1
+    },
+    {
+     "ticker": "RCL",
+     "direction": -1
+    },
+    {
+     "ticker": "ABNB",
+     "direction": -1
+    }
+   ],
+   "reached": 3
+  },
   {
    "id": "fb6714695813",
    "headline": "Housing stocks rally following midterm elections, Treasury yields dip lower",
@@ -4249,458 +4719,9 @@
     }
    ],
    "reached": 1
-  },
-  {
-   "id": "f6a5414c4e1b",
-   "headline": "Automakers like Rivian and Ford are \u2018democratizing 3D printing\u2019 to reduce costs and increase speed",
-   "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03VHpWQVNudE80cmxIdHllS2R0MzVjQmd0ekVWREJZYXlIYjNlMG4xU0FoV3J6aC1FZEZIWFpkbWhXUVZVR2JBMU1rVUYwOGU3MFRsQWpJYzJNd3hHeVZzN2FsVFoyT0pMRlM5UGxLRjNHeXVKS29HS0M4WmxPalHSAYQBQVVfeXFMUG84TU5ISlg2amdTb1dVSjR1cjM1TnlFSVFnMlFEdjlGQ1Q0T25YQkcwdTFFM2gtT1RkaHE3c1djcnJJTzhBVDh3WkpMbTJIUi1CUmhXTmhMc2NncElLS014ZmJhZE90akhCd1dtRTdtS2RZMk1iUWlvS1dFX3RnRUdjbm1O?oc=5",
-   "published": 1793448001,
-   "traced_at": 1793471980,
-   "pick": {
-    "sources": [
-     "Autos_and_Auto_Parts"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "automakers"
-    ]
-   },
-   "earlier": [],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "BWA",
-     "direction": -1
-    },
-    {
-     "ticker": "TM",
-     "direction": -1
-    },
-    {
-     "ticker": "STLA",
-     "direction": -1
-    },
-    {
-     "ticker": "APTV",
-     "direction": -1
-    },
-    {
-     "ticker": "CARZ",
-     "direction": -1
-    },
-    {
-     "ticker": "GM",
-     "direction": -1
-    }
-   ],
-   "reached": 1
-  },
-  {
-   "id": "c59ca7698dda",
-   "headline": "Fed needs at least two more rate hikes, Logan says",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPN0l1dXR6NGI2OV9OZGVkZHRFdzNqcVBnSGRFamxWZlNaZTNsQmdIbXRHVXc5VE9FZzcyWUI4YU5hai1VZlVtY2ZsQTh0VDgxYmtJT1V3X0NvUEZvRjBDT2VaQUdaeDdIWkZ5MlhraUdTVHJYSlM3RFVzU3lVNjctTzU2eFMzNk5kbDBIWlR2RWJ0NkQ2Znc?oc=5",
-   "published": 1793381743,
-   "traced_at": 1793471980,
-   "pick": {
-    "sources": [
-     "Interest_Rates"
-    ],
-    "direction": 1,
-    "how": "rule",
-    "matched": [
-     "\\bfed\\b.*\\b(hikes?|raises?)\\b.*\\brates?\\b|\\brate hike|higher for longer"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "8138569929ed",
-     "headline": "Fed\u2019s preferred inflation gauge rose in September as third-quarter GDP beats expectations"
-    },
-    {
-     "id": "b560c3af5b81",
-     "headline": "Fed Chair Kevin Warsh reveals October surprise inside interest-rate pause"
-    },
-    {
-     "id": "bf7440c98c11",
-     "headline": "Did the Fed make a mistake with its October rate pause? The Treasury could help save the day."
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "IBKR",
-     "direction": 1
-    },
-    {
-     "ticker": "TOL",
-     "direction": -1
-    },
-    {
-     "ticker": "NVR",
-     "direction": -1
-    },
-    {
-     "ticker": "LEN",
-     "direction": -1
-    },
-    {
-     "ticker": "DHI",
-     "direction": -1
-    },
-    {
-     "ticker": "PHM",
-     "direction": -1
-    }
-   ],
-   "reached": 35
-  },
-  {
-   "id": "57584b4f8d2d",
-   "headline": "Trump promised to slash energy costs \u2014 but gasoline, diesel and jet fuel all soared instead",
-   "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaVZRU2JRSWM2Ylo4a3NKR3RUdkVaX2JyeWZaU04zejZBRGFUVlk4VTU0MHVmYTVtWDZiNlAxZUNkcmRydmhyQkdQbDFyQm93MjZhZkF3MUw2eWE1ZjlmTk1uZXNNSlJDTURQSHQ0TVBEbF9kdDhoY2NuazlXb05VQVhn0gGHAUFVX3lxTE93THBWTXRfcWhNYmRfanNqbWdYbEdlazdoNFdqMWdnR3Rjd3pLTEJka24yakhNOXY3dmFGSWZDMUM0VV9SN09rOGxwUzZzWHE1QXdHVzRNQXlzeVJweTE2b1pycktiSjJpdzV1WUpmejk1S3ZvZ2FlYjhJZU5PMXVXTlVsb1BPbw?oc=5",
-   "published": 1793450998,
-   "traced_at": 1793471980,
-   "pick": {
-    "sources": [
-     "Refining"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "jet fuel",
-     "diesel"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "2dc151f1b252",
-     "headline": "Exxon, Chevron profits beat forecasts, refining margins surge during wars"
-    },
-    {
-     "id": "ed88a41eb115",
-     "headline": "Yemen\u2019s Houthis attack Saudi Arabia\u2019s largest oil refinery"
-    },
-    {
-     "id": "b20fd6ddd316",
-     "headline": "President Donald Trump Claims Gasoline Prices Will \"Drop Like a Rock\" When the Iran War Ends, but He's Completely Missed the Bigger Picture"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "MPC",
-     "direction": 1
-    },
-    {
-     "ticker": "PSX",
-     "direction": 1
-    },
-    {
-     "ticker": "DINO",
-     "direction": 1
-    },
-    {
-     "ticker": "VLO",
-     "direction": 1
-    },
-    {
-     "ticker": "PBF",
-     "direction": 1
-    },
-    {
-     "ticker": "DK",
-     "direction": 1
-    }
-   ],
-   "reached": 6
-  },
-  {
-   "id": "e6dcb837c1e9",
-   "headline": "Trump called out Big Oil profits. Here\u2019s how much their refining earnings have surged since",
-   "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1OUC1PMmdWalJDS0UtUEsyN0p6a0RTMURBRDEzdlNNMDFOeDNPRTlQbGl5b2FHMFlXWkJJaFFZZUhFYUdYSzVPakQyR1ZDemxFX2Y1QnFGTTJUREcyNGJ2ZFZteXB1LVk0YmRuajBoWkFCMDV3U2fSAXtBVV95cUxPeExBWDlUMDIxT1FHY1YzV3lDb3BVMTJUVFNQRVg4WEdaOHVNMFRUaDFkRExuTkVhd3F2ZHltYzU3Y2lyb1Z0MUJyZy1Xc2Z6dzhYZXpYZmY5eFl0b2VfSmlLbi1qY0FlNnVPYkppdG9wUWZnQWtjTk5IQ2s?oc=5",
-   "published": 1793426402,
-   "traced_at": 1793451010,
-   "pick": {
-    "sources": [
-     "Oil_and_Gas"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "big oil"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "2dc151f1b252",
-     "headline": "Exxon, Chevron profits beat forecasts, refining margins surge during wars"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "XOM",
-     "direction": 1
-    },
-    {
-     "ticker": "BP",
-     "direction": 1
-    },
-    {
-     "ticker": "CNQ",
-     "direction": 1
-    },
-    {
-     "ticker": "CVX",
-     "direction": 1
-    },
-    {
-     "ticker": "SHEL",
-     "direction": 1
-    },
-    {
-     "ticker": "IXC",
-     "direction": 1
-    }
-   ],
-   "reached": 2
-  },
-  {
-   "id": "7cf48bac8b65",
-   "headline": "Gold Just Hit a New Low. Here's Where Traders Are Finding Safety Instead.",
-   "source": "Barron's",
-   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPQnlFRUt0YXpUZTlQSFZUQnJRdEVNeFlLekVZX0RXQ00wQXZZZDZma0JSZEJCOGN6M2FIYzVnRzVtWWk0T2VxSVVMNUdNeHZyMjd4OGV4Yk1FN1NPaEp6V3lWb2JVRHd4TUtnMVV4MTJEM196NWN6MndRbWg5WlRiVlUwN0tSNmlzQmRPQ2U2Ukw1ejRRQ2Q5YXlkWk1fdG9udUtNOE1SN3V3a0F5SDVWQS00UFFQMDZrbXdMbFJyYmJQb3Y2RU1RaXJpTlRMdE5mUUxuSDhCU1k4Y01IR1VWNFNQeVBOTjFMakhTeTVwSXBPV3ZpaFBRRV9n?oc=5",
-   "published": 1793358060,
-   "traced_at": 1793451010,
-   "pick": {
-    "sources": [
-     "Gold"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "gold"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "671578d8ac1b",
-     "headline": "Gold sinks to one-year low, silver slips below $50 on inflation concerns, tech selloff"
-    },
-    {
-     "id": "a94e61343d29",
-     "headline": "Why gold plunged to its lowest price in a year despite renewed Iran jitters"
-    },
-    {
-     "id": "10f2949f5a09",
-     "headline": "Gold hits four-month low, silver falls below $50/oz on Fed hike fears"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "AEM",
-     "direction": -1
-    },
-    {
-     "ticker": "NEM",
-     "direction": -1
-    },
-    {
-     "ticker": "KGC",
-     "direction": -1
-    },
-    {
-     "ticker": "WPM",
-     "direction": -1
-    },
-    {
-     "ticker": "FNV",
-     "direction": -1
-    },
-    {
-     "ticker": "GOLD",
-     "direction": -1
-    }
-   ],
-   "reached": 1
-  },
-  {
-   "id": "671578d8ac1b",
-   "headline": "Gold sinks to one-year low, silver slips below $50 on inflation concerns, tech selloff",
-   "source": "Seeking Alpha",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMjlsWUMxUzl3ekFYUW9ON28wdURrNlZaTDJZS3p1cllobUVrY09kUHo4ZzlvMzY4RmZiVGdvTmluaDlZS0JHX2FDQkxJYXNiTmxOU2RsMDQzUnV5STN2WFFLNjRLdGdJVTlSRjJBUkhQTVpIMFRwd3FqbkVfdHhoR0Fqa3RpSU9sczYwcjNxTGUweVVGTzA3UDhoQTJTQ29yd0F1NlhMQWl3MFo1ZVMxd0tQVTh0dVVBUEItNXlB?oc=5",
-   "published": 1793397511,
-   "traced_at": 1793426324,
-   "pick": {
-    "sources": [
-     "Inflation",
-     "Gold"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "inflation",
-     "gold"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "a94e61343d29",
-     "headline": "Why gold plunged to its lowest price in a year despite renewed Iran jitters"
-    },
-    {
-     "id": "10f2949f5a09",
-     "headline": "Gold hits four-month low, silver falls below $50/oz on Fed hike fears"
-    },
-    {
-     "id": "a5555eeb0d78",
-     "headline": "Silver could see further losses against gold as physical market weakens - Metals Focus"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "AEM",
-     "direction": -1
-    },
-    {
-     "ticker": "NEM",
-     "direction": -1
-    },
-    {
-     "ticker": "KGC",
-     "direction": -1
-    },
-    {
-     "ticker": "WPM",
-     "direction": -1
-    },
-    {
-     "ticker": "FNV",
-     "direction": -1
-    },
-    {
-     "ticker": "GOLD",
-     "direction": -1
-    }
-   ],
-   "reached": 32
-  },
-  {
-   "id": "66e6237a4a3c",
-   "headline": "California sisters among hundreds stranded in Asia after cruise ship halts operations over high fuel costs",
-   "source": "Los Angeles Times",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaWNFUVlpM19oaWI1VWpCdGh5NWY0RzBoR202dlV2RlBOV0x4ZEs4a3lLSzQxQ1FYNEZMcTlTTkxUeFFHVm1ZTGJ0S2lVQnJXQlQySUNnTFNUYnIxT2Y4ZGp4T0o1T1ZBTkhYWjd2bE5XazFjN3huS0pWYW1LR20wdk5ib0hPaUxUNnFhU2luZEM3bzRSVGFZUk00VnFraHprUldjSDJVRHVHYkhBRTFQbTRxMlVQenppYS12YzBROERucEdhSHc?oc=5",
-   "published": 1793414340,
-   "traced_at": 1793426324,
-   "pick": {
-    "sources": [
-     "Tourism_and_Travel"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "cruise"
-    ]
-   },
-   "earlier": [],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "EXPE",
-     "direction": -1
-    },
-    {
-     "ticker": "MAR",
-     "direction": -1
-    },
-    {
-     "ticker": "HLT",
-     "direction": -1
-    },
-    {
-     "ticker": "BKNG",
-     "direction": -1
-    },
-    {
-     "ticker": "RCL",
-     "direction": -1
-    },
-    {
-     "ticker": "ABNB",
-     "direction": -1
-    }
-   ],
-   "reached": 3
-  },
-  {
-   "id": "96c6ad82db14",
-   "headline": "Binance says user funds are safe after thieves make off with billions in largest-ever crypto hack",
-   "source": "NBC News",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYlpKVXRGc1RtdzlUZXBLNzFtUGM2eS1zRE9BVW5ZaEZ5cklBa05NSXo3VUhuSjZjSUlVekdkRkFUM01jbkVzSU84Q2hRMWowckpKUjg3cHh1d0d3SGplWnpIeWpwdmJrS1laVHRBRlg4U1ZvN0JqVndyNmlNNTFsUEQtd0dyNDZhc2tfdlNMSVZFZVlLWXlla1Y4OGZIMklFUWhn?oc=5",
-   "published": 1793396184,
-   "traced_at": 1793404518,
-   "pick": {
-    "sources": [
-     "Cyber_Threats"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "hack"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "75aa8892ad86",
-     "headline": "Binance Hack Sends Crypto Stocks Tumbling"
-    },
-    {
-     "id": "848a62c8c369",
-     "headline": "Is your crypto safe? What Binance\u2019s $6.3 billion hack means for bitcoin investors."
-    },
-    {
-     "id": "4a6966be6269",
-     "headline": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "FTNT",
-     "direction": 1
-    },
-    {
-     "ticker": "CRWD",
-     "direction": 1
-    },
-    {
-     "ticker": "PANW",
-     "direction": 1
-    },
-    {
-     "ticker": "ZS",
-     "direction": 1
-    },
-    {
-     "ticker": "HACK",
-     "direction": 1
-    },
-    {
-     "ticker": "CIBR",
-     "direction": 1
-    }
-   ],
-   "reached": 2
   }
  ],
- "total": 200,
+ "total": 208,
  "withdrawn": 6,
  "score": {
   "5": {
@@ -4713,7 +4734,7 @@
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 125
+  "waiting": 133
  },
  "checkup": {
   "at": 1792255747,
