@@ -1,6 +1,470 @@
 {
- "updated": 1793862179,
+ "updated": 1793896493,
  "items": [
+  {
+   "id": "f8bc1a7be27d",
+   "headline": "Does the blue wave mean lower gasoline and diesel prices soon? Don\u2019t hold your breath",
+   "source": "NPR",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOekxPaHpZcmZobERCQUxZUFQ5Z1kwYzZDRklvZG1SMWtadnNuRXpzbUNZV0ZfNm1xU05Oa1JGblVBZE5aWUtxT3ctaVhJVUVhbEkzdU1sTGJyUGlqOUtLWUNWSXVVUFowUE9Qc0tldkNaME85YmpRVXVLaVlyNktmWkxoaGtoUQ?oc=5",
+   "published": 1793872800,
+   "traced_at": 1793896480,
+   "pick": {
+    "sources": [
+     "Refining"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "diesel"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "fb4a102a1eba",
+     "headline": "JetBlue raises baggage fees for a second time as jet fuel prices stay elevated"
+    },
+    {
+     "id": "57584b4f8d2d",
+     "headline": "Trump promised to slash energy costs \u2014 but gasoline, diesel and jet fuel all soared instead"
+    },
+    {
+     "id": "2dc151f1b252",
+     "headline": "Exxon, Chevron profits beat forecasts, refining margins surge during wars"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "MPC",
+     "direction": -1
+    },
+    {
+     "ticker": "PSX",
+     "direction": -1
+    },
+    {
+     "ticker": "DINO",
+     "direction": -1
+    },
+    {
+     "ticker": "VLO",
+     "direction": -1
+    },
+    {
+     "ticker": "PBF",
+     "direction": -1
+    },
+    {
+     "ticker": "DK",
+     "direction": -1
+    }
+   ],
+   "reached": 6
+  },
+  {
+   "id": "c3e9ddc22b8c",
+   "headline": "Consumers are spending on physical gifts even as travel tops wish lists, Visa survey finds",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTjdhRGRYcHVmV1E0ZnlyYmtIUDQ1V0cxSmZfUHNKeFpnQW5CWnpnb1k3eGl2TWFweVQ0ekhNSlVaaTMxTnczdUh4ZlFiNnJ1d3EzaTZVc254SjFuckZpMS1idTVONmVYaWh4ajVNZjZLMHRIYmFUT0lfNm9jZmVaQlVJb0dYdHfSAYwBQVVfeXFMTURGYUF3OUc2QXdWcGhXUW9ybld6eXJtSDVVUzJQNnF6MEZSRUZ0bTdIQndMUkphLXB6N3k0TVI1WEthbXhKRFgyRHc2bkRlVm51Z3c2VXdabG5yWE5CZTlfVy1pZ1c1YzdGLWpiX0ZTclN4ZWx5MW1wY043Mmt2RElrZV9pUkhLM2x1a2I?oc=5",
+   "published": 1793876401,
+   "traced_at": 1793896480,
+   "pick": {
+    "sources": [
+     "Payments_Networks"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "visa"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "1f862d53e9f7",
+     "headline": "Visa Posts Record Annual Revenue. The Focus Now Shifts to Reaching New Customers."
+    },
+    {
+     "id": "db90afcd58fb",
+     "headline": "\u00a330 rise in payments for crisis-hit households"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "V",
+     "direction": 1
+    },
+    {
+     "ticker": "MA",
+     "direction": 1
+    },
+    {
+     "ticker": "XYZ",
+     "direction": 1
+    },
+    {
+     "ticker": "AXP",
+     "direction": 1
+    },
+    {
+     "ticker": "IPAY",
+     "direction": 1
+    },
+    {
+     "ticker": "PYPL",
+     "direction": 1
+    }
+   ],
+   "reached": 1
+  },
+  {
+   "id": "06d9eaf00d66",
+   "headline": "US weekly jobless claims at 57-year lows amid low layoffs",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVkJ4Tk5TMHNXdXdXd1NqVXdxN3FZZ3dJZnVGTC1NdlBCUW0zVEZ4SUVHY0FMUWVYSWFFTVAydHB2Y2VIcUF3NkdtU0dOQW00VUxNVDBXbGFGVmVWNlhkaWJYeXZiQl9JLUdTQlBtMmpTV2c4M1FkeUEybS1PWjB3VXNPRS1xckFUd0NWRnBn?oc=5",
+   "published": 1793886045,
+   "traced_at": 1793896480,
+   "pick": {
+    "sources": [
+     "Labor_Market"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "jobless claims",
+     "layoffs"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "f508e1ff0083",
+     "headline": "Disney\u2019s Year Of Cuts Continues With Thousands More Layoffs Expected"
+    },
+    {
+     "id": "bebab5bcfd5a",
+     "headline": "Disney plans several thousand layoffs, asks some managers to cut costs by up to 20%"
+    },
+    {
+     "id": "4beca7c871d8",
+     "headline": "US job openings jump in September; layoffs lowest in 1-1/2 years"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "ADP",
+     "direction": 1
+    },
+    {
+     "ticker": "MAN",
+     "direction": 1
+    },
+    {
+     "ticker": "RHI",
+     "direction": 1
+    },
+    {
+     "ticker": "PAYX",
+     "direction": 1
+    },
+    {
+     "ticker": "NKE",
+     "direction": 1
+    },
+    {
+     "ticker": "WMT",
+     "direction": 1
+    }
+   ],
+   "reached": 26
+  },
+  {
+   "id": "1f65e1607203",
+   "headline": "Post-Election Hidden Gems: 3 Under-The-Radar Growth Stocks",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMU1qWDdqeXd4YXYxZmZUalZjeDhGbjhib0lJVGdwYU1Qa2JHSTJEckFPOWhxTU5VOTI5aHRqR1ROMnJoUlFwSnAwbmVTSUpZXzR2VFN5MUM4WGxVNXRBenFjMzJfQWJDR0lYZjg0RDNwbGpZVXVzX3lzR3ZsNEYtVm5xSkI3VWVadUJYQWVqcG93YjQtVFIwNUJTd2Y3WTg?oc=5",
+   "published": 1793880000,
+   "traced_at": 1793896481,
+   "pick": {
+    "sources": [
+     "Defense_Electronics"
+    ],
+    "direction": 1,
+    "how": "keywords",
+    "matched": [
+     "radar"
+    ]
+   },
+   "earlier": [],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "LHX",
+     "direction": 1
+    },
+    {
+     "ticker": "LMT",
+     "direction": 1
+    },
+    {
+     "ticker": "RTX",
+     "direction": 1
+    },
+    {
+     "ticker": "ITA",
+     "direction": 1
+    },
+    {
+     "ticker": "XAR",
+     "direction": 1
+    },
+    {
+     "ticker": "GFS",
+     "direction": 1
+    }
+   ],
+   "reached": 4
+  },
+  {
+   "id": "bab0a40caa56",
+   "headline": "Oil prices hit two-month low following decisive midterm election results",
+   "source": "The Washington Post",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbjRzOW02X1N3VzNXZG41a1RLTF9aWEkyYnFfZy1OLThNbjhFTXlHN3FRLVRPM0l1ZWJPSGdVUGk0YTZBRHREWXlNS1l0SXp6Z3VnX3ByUUZFeV91V1F3cE5QRnBUY3JUWlY0V25IbnNHRmlJQnRhZEVpRVgtZUk3cC1yZW9UWC1NTHh2UDVtbGNKeDEzaVdUMEdVNC15dkNjN21oaFVQaGx5OUJRUWtQNXZ2RmdodXZFdjE1ZDN4OU90Zw?oc=5",
+   "published": 1793892150,
+   "traced_at": 1793896481,
+   "pick": {
+    "sources": [
+     "Oil_Price"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "oil prices"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "63ba4c153156",
+     "headline": "Oil prices plunge after Vance post on Iran war"
+    },
+    {
+     "id": "41235a8c2b60",
+     "headline": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop"
+    },
+    {
+     "id": "dc9386a1f133",
+     "headline": "Oil Prices Rise as Investors Weigh U.S. Midterm Results, Iran Risks"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "APA",
+     "direction": -1
+    },
+    {
+     "ticker": "OXY",
+     "direction": -1
+    },
+    {
+     "ticker": "COP",
+     "direction": -1
+    },
+    {
+     "ticker": "DVN",
+     "direction": -1
+    },
+    {
+     "ticker": "FANG",
+     "direction": -1
+    },
+    {
+     "ticker": "EOG",
+     "direction": -1
+    }
+   ],
+   "reached": 27
+  },
+  {
+   "id": "f00fcc804e92",
+   "headline": "France blood bank cyberattack targets refrigeration systems as European supermarkets hit",
+   "source": "Fox Business",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMGwySzhQQ081dGZQMlpMc1Roc29xc2tXQUdqZi0zbzRLSjA4ajBZRFRlRjV5Q0VQSk1YdnM4bkxuLVc0RlhibWl5SEp2US1jdDFlMGVSWW5aR1I5bms3ajdBOF9MX3RfSnlMWjBfcnF6enhIWnNLdURZWXU4aG1ESVJpQ09hczVIUjJqREw2aGlzV21pY21raFNfSG4xUWZNMkotNngtVEtpdkZWbjY5RU9tRTZKb0E2cEQzbXVjcENHd9IBxwFBVV95cUxPLUFQQmpINm81V2tzNlJVOVZkV0xKV0NqX2ppRFBvMkhDalNIR2cwUFpNb29OR29oOHhhSlI0NndxZTEyOHZRaGp4c0NBN3hhZHJ4V0NTYWx4SkJuYTJXeEpOY01sNG5XNWRzUFZQUDZzX1MzNDdScW54UUVIWWlRRWFsS0NaT2hwTWdSS3NhaVcxeFpJbFNSZlVzZjY2TDYxb0JXVGROZ0NaR3RXWllxVjRveEN3Rk00aXBGWGFvc3JQalZJdWZR?oc=5",
+   "published": 1793863620,
+   "traced_at": 1793896481,
+   "pick": {
+    "sources": [
+     "Cyber_Threats"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "cyberattack"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "a38ccd2f8213",
+     "headline": "Binance says fake job interviews used as part of $6.3bn crypto hack"
+    },
+    {
+     "id": "46f090072b9a",
+     "headline": "Binance hackers used fake job interview in $6.3 billion attack"
+    },
+    {
+     "id": "8dcdca73f8e2",
+     "headline": "North Korea denies involvement in Binance hack and criticizes FBI probe as 'a trite provocation' - ABC News"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "FTNT",
+     "direction": -1
+    },
+    {
+     "ticker": "CRWD",
+     "direction": -1
+    },
+    {
+     "ticker": "PANW",
+     "direction": -1
+    },
+    {
+     "ticker": "ZS",
+     "direction": -1
+    },
+    {
+     "ticker": "HACK",
+     "direction": -1
+    },
+    {
+     "ticker": "CIBR",
+     "direction": -1
+    }
+   ],
+   "reached": 2
+  },
+  {
+   "id": "51711ad878a8",
+   "headline": "Nasdaq Futures Slip as Chip Stocks Extend Slide; Earnings and Fed Speak on Tap",
+   "source": "Barchart.com",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaURpY2VwV0xyc3Z4bnVmcHlaRUpadWFHMkNObW5lRkwycnhnOC1Gb2gyMWV3al93alEtRjdQM1hUclpUYi1zcWRhVUtsSE4taTBoR0VvaFNMZlJQSHRVdzUzRzhwVnMxd1BXdnRyWXZzUmZrNkhLNHVQaGkwVXhEV0xDSUlqRmR4ZGdSZl9TSUs1djA4Q0ZIZ1l5T0hCZ0RQYmV0VVAxT0FCNjBKb1dUZlV4elhDRHN0MHFnQU9n?oc=5",
+   "published": 1793877844,
+   "traced_at": 1793896481,
+   "pick": {
+    "sources": [
+     "Interest_Rates"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "fed"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "f62b25c6918b",
+     "headline": "Interest rates expected to rise for first time in over three years"
+    },
+    {
+     "id": "fb6714695813",
+     "headline": "Housing stocks rally following midterm elections, Treasury yields dip lower"
+    },
+    {
+     "id": "12508d0f0c54",
+     "headline": "Treasury Yields Fall on Election Results, Cheaper Oil"
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "IBKR",
+     "direction": -1
+    },
+    {
+     "ticker": "TOL",
+     "direction": 1
+    },
+    {
+     "ticker": "NVR",
+     "direction": 1
+    },
+    {
+     "ticker": "LEN",
+     "direction": 1
+    },
+    {
+     "ticker": "DHI",
+     "direction": 1
+    },
+    {
+     "ticker": "PHM",
+     "direction": 1
+    }
+   ],
+   "reached": 35
+  },
+  {
+   "id": "27f44ae503d7",
+   "headline": "Exclusive: Microsoft Lowered Data Center Spending Following Delays By Cloud Firm Iren",
+   "source": "The Information",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYVJ5WmdRNU81TGVkcGpRby1jRGx5QnV6ZVFUUTgxc1U1Q2JxOUFCYXNrQVhnTlZMRlhGdW80RUZObUVudjl6QTlNVlM4X2t4ek9KNkw1N3dyVG1jUUVuZFlyb0drYm55Z29DNVctWjVYQVJIVDVaeHZXR1Q4SkVHaW9aS2hYWWNEbGhrc1JNcjBQbXVDUjl4MEZIUFFYS1RHOFp1R0FFdDV2NjZJb1lVb05PTDZOTF81RWJhUGFESQ?oc=5",
+   "published": 1793826300,
+   "traced_at": 1793896481,
+   "pick": {
+    "sources": [
+     "Data_Centers"
+    ],
+    "direction": -1,
+    "how": "keywords",
+    "matched": [
+     "data center"
+    ]
+   },
+   "earlier": [
+    {
+     "id": "875771fc9ab3",
+     "headline": "Under Hinojosa, Texas data center approvals could stay paused"
+    },
+    {
+     "id": "31379af817b9",
+     "headline": "AMD stock flat following strong Q3 earnings beat, as data center revenue climbs 97%"
+    },
+    {
+     "id": "d3855c0b7454",
+     "headline": "Arm Beats Quarterly Targets On Surging Data Center Business. But Arm Stock Falls."
+    }
+   ],
+   "grade": {},
+   "top": [
+    {
+     "ticker": "GLEN.L",
+     "direction": -1
+    },
+    {
+     "ticker": "FCX",
+     "direction": -1
+    },
+    {
+     "ticker": "SCCO",
+     "direction": -1
+    },
+    {
+     "ticker": "GE",
+     "direction": -1
+    },
+    {
+     "ticker": "SCHN.PA",
+     "direction": -1
+    },
+    {
+     "ticker": "COPX",
+     "direction": -1
+    }
+   ],
+   "reached": 28
+  },
   {
    "id": "f62b25c6918b",
    "headline": "Interest rates expected to rise for first time in over three years",
@@ -4245,496 +4709,22 @@
     }
    ],
    "reached": 35
-  },
-  {
-   "id": "d406ebe721f4",
-   "headline": "Binance to Resume Customer Withdrawals in Phases After Hack",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNV2YyTGwzbUNaa2oxcUJoeDZoTTZOaDB0MENBc3Ewa2JURFRCVG00cDVxbW1BczVGNzBaa2hUUHFQSXlGaFl3WjdTUUUzbDJCUnZvdW9nZmczZVllNHV1QldfYnZjYVN2SU5wOXJqRVI4ejRYZUMteG1yWnUtMVdXbERMREh0bDIyTE9wTllxaGFGMWstM29NM3EtOGM0N1dObHBUQzMyWHVpZkNoSzlz?oc=5",
-   "published": 1793543682,
-   "traced_at": 1793546386,
-   "pick": {
-    "sources": [
-     "Cyber_Threats"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "hack"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "96c6ad82db14",
-     "headline": "Binance says user funds are safe after thieves make off with billions in largest-ever crypto hack"
-    },
-    {
-     "id": "75aa8892ad86",
-     "headline": "Binance Hack Sends Crypto Stocks Tumbling"
-    },
-    {
-     "id": "848a62c8c369",
-     "headline": "Is your crypto safe? What Binance\u2019s $6.3 billion hack means for bitcoin investors."
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "FTNT",
-     "direction": 1
-    },
-    {
-     "ticker": "CRWD",
-     "direction": 1
-    },
-    {
-     "ticker": "PANW",
-     "direction": 1
-    },
-    {
-     "ticker": "ZS",
-     "direction": 1
-    },
-    {
-     "ticker": "HACK",
-     "direction": 1
-    },
-    {
-     "ticker": "CIBR",
-     "direction": 1
-    }
-   ],
-   "reached": 2
-  },
-  {
-   "id": "67dc8cece2ab",
-   "headline": "In Biden's First Halloween In Office, A 100-Piece Bag Of Candy Cost $9.91, A Study Found. This Year It's $16.96, And Government Data Shows Candy Prices Rose 7.7% In A Year, More Than Double Overall Inflation",
-   "source": "24/7 Wall St.",
-   "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPQ29LSmhEYTdGR3VVOXFfY1dGVDB2SVBGb0dBN01QWk1oVXBOOUttV0piajI3S1pieXc5YWZPUm5HeUJuVzk2RDRaTXJpWkFSS2hJQzQwdTJoV0J6cWg0LU5fQ3hBTV9CREl1eDBJNUs0Q0tmODMtd1RzeGctV2VJTnRsLVNHVUsxeFpNaloyTEJfNy11T05GekI2dWljaTdWdjl3ekN5cml0VW41YVB0RjBLUkFNOWVUbm9kTm44NGpXT0J5cXFHU3Nyakx5UEo0TnRyRWV0V1c4eUYxWXB6UXpvT3F6MWpfc2h2RUZVaEwxanB4YVhiallFN25XSEdFZEtJT09RY1Bia3YxbVRlT1prZ0hkMEVhYjZUZTloMHhxMDRlbkpLTmNpMG5vU2FURnFHbUR3X2VPQ1VNU1dUMWhudklNMUpGSVlkazhOdVlURlU?oc=5",
-   "published": 1793438640,
-   "traced_at": 1793546386,
-   "pick": {
-    "sources": [
-     "Inflation"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "inflation"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "671578d8ac1b",
-     "headline": "Gold sinks to one-year low, silver slips below $50 on inflation concerns, tech selloff"
-    },
-    {
-     "id": "8138569929ed",
-     "headline": "Fed\u2019s preferred inflation gauge rose in September as third-quarter GDP beats expectations"
-    },
-    {
-     "id": "1b7ecc5560e8",
-     "headline": "U.S. futures remain lower after in-line report on Fed\u2019s favorite inflation gauge"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "IBKR",
-     "direction": 1
-    },
-    {
-     "ticker": "TOL",
-     "direction": -1
-    },
-    {
-     "ticker": "NVR",
-     "direction": -1
-    },
-    {
-     "ticker": "LEN",
-     "direction": -1
-    },
-    {
-     "ticker": "DHI",
-     "direction": -1
-    },
-    {
-     "ticker": "PHM",
-     "direction": -1
-    }
-   ],
-   "reached": 32
-  },
-  {
-   "id": "870677e09647",
-   "headline": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
-   "published": 1793538697,
-   "traced_at": 1793546387,
-   "pick": {
-    "sources": [
-     "Cyber_Threats"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "hack"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "96c6ad82db14",
-     "headline": "Binance says user funds are safe after thieves make off with billions in largest-ever crypto hack"
-    },
-    {
-     "id": "75aa8892ad86",
-     "headline": "Binance Hack Sends Crypto Stocks Tumbling"
-    },
-    {
-     "id": "848a62c8c369",
-     "headline": "Is your crypto safe? What Binance\u2019s $6.3 billion hack means for bitcoin investors."
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "FTNT",
-     "direction": 1
-    },
-    {
-     "ticker": "CRWD",
-     "direction": 1
-    },
-    {
-     "ticker": "PANW",
-     "direction": 1
-    },
-    {
-     "ticker": "ZS",
-     "direction": 1
-    },
-    {
-     "ticker": "HACK",
-     "direction": 1
-    },
-    {
-     "ticker": "CIBR",
-     "direction": 1
-    }
-   ],
-   "reached": 2
-  },
-  {
-   "id": "da4f869d03ef",
-   "headline": "FBI blames North Korea for record $6.3bn crypto heist from Binance",
-   "source": "Al Jazeera",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQU1Bma2xxdW43TWpaNFB0MnVLS3FVUGt4SVIxb1gyVzNHeFRWcWlhb19WdnRxTnF1eFl4ak1VMEJJQ2RadHdWOVI4Rk5NbHVPY2t1Z1U5M2FhLTF5bzVkYVg0bWRSVWd4UzBhY1lVcWdCR0d2Q2RBRFJNVTdkU2pZQng1Mm9vUU9WM2J0UzQ1eFRiWFN0WDkya9IBngFBVV95cUxNYXROV2xtZ2I2aWVDbnpuQVdtbkF6UXJfSVdpbkdkVmN2ZDd4dlBlYndDOTl3V2lDdGxvTDdRem9Ka0d2MEZtWF9kcTdRQ2dxckxLcGV2UmFGenpwTk1RWi1jYnJXR1ZfRXJiWHpuRXJRTmQ2X2NxNnB0aWJXeUZCXzVjQkdQSHhud1BuTG9mbHNiemlYVEF3Q0hOeGFRQQ?oc=5",
-   "published": 1793500806,
-   "traced_at": 1793514455,
-   "pick": {
-    "sources": [
-     "Crypto_Assets"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "crypto"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "bfb3186faa44",
-     "headline": "Crypto exchanges rush to tighten security after $6.3bn Binance heist"
-    },
-    {
-     "id": "55be6ac03693",
-     "headline": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history"
-    },
-    {
-     "id": "663ad71bde66",
-     "headline": "Crypto giant Binance hit by 'largest hack in history'"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "MSTR",
-     "direction": 1
-    },
-    {
-     "ticker": "MARA",
-     "direction": 1
-    },
-    {
-     "ticker": "COIN",
-     "direction": 1
-    },
-    {
-     "ticker": "RIOT",
-     "direction": 1
-    },
-    {
-     "ticker": "HOOD",
-     "direction": 1
-    },
-    {
-     "ticker": "BITCOIN",
-     "direction": 1
-    }
-   ],
-   "reached": 1
-  },
-  {
-   "id": "f77a7b9a925f",
-   "headline": "AI outlook: OpenAI cuts fundraising goal while Meta gets a credit warning on cash flow and spending",
-   "source": "Fortune",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOU1oQjF2YllOMmQxYnVkczh2Q0VZbzhsSHA3VkZjQkZYVmNqUm1MVVhwVHdyczFEOFZGb01BVHNzV2pxcjdFaXd2WHhSbGl5ZUpFSWFpTE1kWlhzMWpoTmE5M09TZm80RWR2cVdubnVIX29JMDQyRXBmTVRqdWt4R0EtQUUwVjNhZ2lpYWY4Z2JlV0I1emVJQ1JJcV9yNDY2a2lrTmphdVRBUQ?oc=5",
-   "published": 1793468460,
-   "traced_at": 1793514455,
-   "pick": {
-    "sources": [
-     "Alternative_Asset_Managers"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "fundraising"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "a4005d805556",
-     "headline": "EXCLUSIVE: OpenAI seeks to accelerate fundraising ahead of Anthropic IPO, sources say"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "BAM",
-     "direction": -1
-    },
-    {
-     "ticker": "APO",
-     "direction": -1
-    },
-    {
-     "ticker": "KKR",
-     "direction": -1
-    },
-    {
-     "ticker": "BX",
-     "direction": -1
-    },
-    {
-     "ticker": "BLK",
-     "direction": -1
-    },
-    {
-     "ticker": "XLF",
-     "direction": -1
-    }
-   ],
-   "reached": 1
-  },
-  {
-   "id": "f46ced58e18b",
-   "headline": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution",
-   "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONWZobnlmVnlwbk9rMk1yeUVabnE1QUdtdTVEWGR6UUkwYXEzWk9weVpLMWFtRWF2Ykd6SmpNalgtelBCZ0lBdkd6Vm1xcWhNNkNVM0ZKTW43TmZyUUtMb1pYZVY2V2VuaFh5dHdBakhBYllrQjY5bUhrOHpteVNRUWNaZFrSAYoBQVVfeXFMUHFJcmV4YzZNcTZ4dk5RX2YyQm1TWDhpSS1OemxNdFRkUHhFTEFDNHpueE1QejEzMGVQYUFwQXpNV2JaVmJzdlQ2TWFJNlJOYjFkckE3TFpHVHpMSWt4YlBzMkZUX0hSa295M2tHSkx5aUFDbjMwbDkxQlNhdnp1NlhYd21VOER5ZHZn?oc=5",
-   "published": 1793472981,
-   "traced_at": 1793489356,
-   "pick": {
-    "sources": [
-     "Data_Centers"
-    ],
-    "direction": -1,
-    "how": "keywords",
-    "matched": [
-     "data center"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "22d0deff907f",
-     "headline": "Data center stocks remain under pressure after Korea IPO plunges 30%"
-    },
-    {
-     "id": "a8f4c0782308",
-     "headline": "Nextdc Shares Plunge 44% After Public Backlash Hits Data Center"
-    },
-    {
-     "id": "ed6f1cdc926b",
-     "headline": "Dow Giant Jumps On AI Data Center Deal. No, Not That One."
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "GLEN.L",
-     "direction": -1
-    },
-    {
-     "ticker": "FCX",
-     "direction": -1
-    },
-    {
-     "ticker": "SCCO",
-     "direction": -1
-    },
-    {
-     "ticker": "GE",
-     "direction": -1
-    },
-    {
-     "ticker": "SCHN.PA",
-     "direction": -1
-    },
-    {
-     "ticker": "COPX",
-     "direction": -1
-    }
-   ],
-   "reached": 28
-  },
-  {
-   "id": "79f778829a14",
-   "headline": "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz",
-   "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTjZlVnBjQWc3TU0zdGE1QmhZOVdvZzhYSzZyci1hZE1scFJyY3hnaGUzSlpIZG1CcG5JVXhLQWxWaDRVS05UTUNYRkxSVEhGSW11SmhlMHBmM3FyZHhPWkJkeDJqS0ZDS2VsWWpRa3p6RFkyUTl5a0ZJYk90d1FvcVFsRdIBiAFBVV95cUxPV0ZFNlB2SnBqR1NCRWVlRTRmWkR0Z2ZyRmR6cUpPMjRtREFsb2RkRnBaTnRWVkVBRDM5QUJJa0lybXpRUzZQVFBnS3htaXdiTko3SzZJLUlUWDZacEpiSEJpdXlrVENkcjd5YVJZMTMwY05jR3BIbjROS00xMjVHQnh6Vmp4T0xG?oc=5",
-   "published": 1793380907,
-   "traced_at": 1793489356,
-   "pick": {
-    "sources": [
-     "Maritime_Chokepoint_Disruption",
-     "Oil_Price"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "strait of hormuz",
-     "crude oil"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "f842ddd53960",
-     "headline": "Gold prices plunge to one-year low below $3,900 as higher oil prices fuel fears of more pain ahead"
-    },
-    {
-     "id": "b28f3afbca3f",
-     "headline": "Oil Prices Rise as Middle East, Ukraine-Russia Conflict Fuel Supply Worries"
-    },
-    {
-     "id": "8d46adfaa860",
-     "headline": "Oil Prices Rise After Hormuz Tanker Attack, Houthi Claims Stoke Supply Fears"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "APA",
-     "direction": 1
-    },
-    {
-     "ticker": "OXY",
-     "direction": 1
-    },
-    {
-     "ticker": "COP",
-     "direction": 1
-    },
-    {
-     "ticker": "DVN",
-     "direction": 1
-    },
-    {
-     "ticker": "FANG",
-     "direction": 1
-    },
-    {
-     "ticker": "EOG",
-     "direction": 1
-    }
-   ],
-   "reached": 29
-  },
-  {
-   "id": "bfb3186faa44",
-   "headline": "Crypto exchanges rush to tighten security after $6.3bn Binance heist",
-   "source": "Financial Times",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMlhkZVRjcVo3aTIxVDNSSUp2NlJDWTdpbnJSWEpuLTU4dm5Qd3Y5VUJMNWpGVHB0R19VTW1BbzA5a2ZUaURtLUNLdGVnUVJRcHZCOUV0UWVyUnlSaDE0QkVqcXltY1hhbW1NZ2t1ZXV3TGxSNDdBVkFEWHRQbjRBczRULTI?oc=5",
-   "published": 1793443098,
-   "traced_at": 1793471980,
-   "pick": {
-    "sources": [
-     "Crypto_Assets"
-    ],
-    "direction": 1,
-    "how": "keywords",
-    "matched": [
-     "crypto"
-    ]
-   },
-   "earlier": [
-    {
-     "id": "55be6ac03693",
-     "headline": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history"
-    },
-    {
-     "id": "663ad71bde66",
-     "headline": "Crypto giant Binance hit by 'largest hack in history'"
-    },
-    {
-     "id": "de40bf71c413",
-     "headline": "Crypto giant Binance hit by hack suspected to be largest in history"
-    }
-   ],
-   "grade": {},
-   "top": [
-    {
-     "ticker": "MSTR",
-     "direction": 1
-    },
-    {
-     "ticker": "MARA",
-     "direction": 1
-    },
-    {
-     "ticker": "COIN",
-     "direction": 1
-    },
-    {
-     "ticker": "RIOT",
-     "direction": 1
-    },
-    {
-     "ticker": "HOOD",
-     "direction": 1
-    },
-    {
-     "ticker": "BITCOIN",
-     "direction": 1
-    }
-   ],
-   "reached": 1
   }
  ],
- "total": 208,
+ "total": 216,
  "withdrawn": 6,
  "score": {
   "5": {
-   "graded": 75,
-   "right": 40,
-   "avg_excess": 0.0067
+   "graded": 96,
+   "right": 48,
+   "avg_excess": 0.0019
   },
   "20": {
    "graded": 0,
    "right": 0,
    "avg_excess": null
   },
-  "waiting": 133
+  "waiting": 120
  },
  "checkup": {
   "at": 1792255747,
